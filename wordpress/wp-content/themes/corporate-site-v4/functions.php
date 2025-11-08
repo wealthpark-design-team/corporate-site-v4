@@ -175,3 +175,8 @@ function corporate_v4_get_blog_posts() {
 
     return $formatted_posts;
 }
+
+/**
+ * 管理バー（黒い帯）を非表示
+ */
+add_filter('show_admin_bar', '__return_false');

@@ -2,9 +2,20 @@
 
 WealthPark株式会社のコーポレートサイト（WordPress版）
 
+## 🚧 現在、移植作業中
+
+**プロジェクトの背景：**
+1. 本番サイト（https://wealth-park.com）をリニューアルするため、Next.js版を開発（`/Users/kaya.matsumoto/projects/wealthpark/web/company`）
+2. Next.jsは企画に合わないため、WordPress版へダウングレード
+3. **現在の作業：Next.js版のデザイン・機能をWordPress版に移植中**
+
+**重要：**
+- 参照すべきサイト：Next.js版（`/Users/kaya.matsumoto/projects/wealthpark/web/company`）
+- 本番サイト（https://wealth-park.com）は古いサイトのため参照しない
+
 ## 概要
 
-既存の技術スタック（WordPress + PHP）をそのまま活用し、サイトをリニューアルしました。
+Next.js版で作成したデザインをWordPressテーマとして再現しています。
 
 ## 開発プラン
 
