@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#f4f4f4;
+}
+.header {
+	background:#171920;
+	height:80px;
+	overflow:hidden;
+}
+.header-left {
+	float:left;
+}
+.header-right {
+	float:right;
+}
+.contents {
+	width:1260px;
+	margin:0 auto;
+}
+.footer {
+	background:#171920;
+}
+.footer .img {
+	width:1260px;
+	margin:0 auto;
+}
+
+.contact {
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+/*BackGround*/
+.index {
+	background:url(images/01_index_bg.png) top repeat-x;
+}
+.detail {
+	background:url(images/02_detail_bg.png) top repeat-x;
+}
+.list {
+	background:url(images/03_company_report_bg.png) top repeat-x;
+}
+.report {
+	background:url(images/03_company_report_bg.png) top repeat-x;
+}
+
+/*detail*/
+.detail .photo {
+	height:420px;
+	background:url(images/02_detail_ph.png) left;
+}
+
+/*nav*/
+.nav {
+	position:fixed;
+	right:80px;
+}
+.fixed {
+    position: absolute;
+}

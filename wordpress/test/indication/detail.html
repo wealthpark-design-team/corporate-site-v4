@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wealth Park Property Portal</title>
+<link href="common.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+ 
+	var nav = $(".nav");
+	
+	//navの位置	
+	var navTop = nav.offset().top;
+	
+	//スクロールをするたびに実行
+	$(window).scroll(function () {
+		var winTop = $(this).scrollTop();
+		nav.stop(); //これがないと連続して実行されたときに変な動きになります。
+		//スクロール位置がnavの位置より下だったらクラスfixedを追加
+		if (winTop >= navTop) {
+			nav.addClass('fixed');
+			nav.animate({top: winTop + "px"}, "slow");
+			
+		} else if (winTop <= navTop) {
+			nav.removeClass('fixed');
+		}
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="detail">
+<div class="header">
+<div class="header-left"><img src="images/header_left_detail.png" alt="" width="605" height="80" usemap="#Map"/>
+  <map name="Map">
+    <area shape="rect" coords="5,3,259,78" href="index.html">
+    <area shape="rect" coords="352,8,450,70" href="property_list.html">
+  </map>
+</div>
+<div class="header-right"><img src="images/header_right.png" width="387" height="80" alt=""/></div>
+</div>
+<div class="contents"><img src="images/02_detail_contents.png" width="1260" height="3026" alt=""/></div>
+</div>
+<div class="footer"><div class="img"><img src="images/footer.png" width="1260" height="72" alt=""/></div></div>
+</body>
+</html>

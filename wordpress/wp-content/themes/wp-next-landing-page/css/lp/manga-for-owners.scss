@@ -1,0 +1,186 @@
+.lp-road-to-dx {
+  .hero {
+    display: block;
+  }
+  .hero__inner {
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    @media only screen and (max-width: 959px) {
+      width: 90%;
+      max-width: 100%;
+      flex-direction: column-reverse;
+    }
+    .hero__button-box {
+      margin-bottom: 0;
+    }
+    .button--cv {
+      @media only screen and (max-width: 959px) {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+      }
+    }
+  }
+  &__brno {
+    @media only screen and (max-width: 959px) {
+      display: none;
+    }
+  }
+  // メインビジュアル
+  &__hero {
+    padding: 0;
+    background: url(../../business/img/lp/road-to-dx/road-to-dx_pic2.jpg)
+      no-repeat center / cover;
+    padding: 190px 0 126px;
+    @media screen and (min-width: 1440px) {
+      padding: 190px 0 126px;
+      height: auto;
+    }
+    @media only screen and (max-width: 959px) {
+      padding: 95px 0 63px;
+      height: auto;
+    }
+  }
+  &__inner {
+  }
+  &__title {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    line-height: 1.5;
+    @media only screen and (max-width: 959px) {
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+  }
+  &__mainVisualTxt {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 47px;
+    @media only screen and (max-width: 959px) {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  }
+  &__contents {
+    width: calc(475 / 1000 * 100%);
+    @media only screen and (max-width: 959px) {
+      width: 100%;
+    }
+  }
+  &__img {
+    width: calc(367 / 1000 * 100%);
+    @media only screen and (max-width: 959px) {
+      width: 70%;
+      margin: 0 auto 20px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__comics {
+    &Inner {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      @media only screen and (max-width: 959px) {
+        max-width: 100%;
+      }
+    }
+    &end {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(66, 126, 238, 0.8);
+      }
+    }
+    &Img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &Txt {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+      text-align: center;
+      margin: auto;
+      p {
+        span {
+          font-size: 30px;
+          color: #fff;
+          font-weight: 700;
+          position: relative;
+          z-index: 5;
+          @media only screen and (max-width: 959px) {
+            font-size: 18px;
+          }
+          &::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            left: -10%;
+            width: 34px;
+            height: 45px;
+            background: url(../../business/img/lp/road-to-dx/road-to-dx_pic8.svg)
+              no-repeat center / contain;
+            z-index: 5;
+            @media only screen and (max-width: 959px) {
+              display: block;
+              position: relative;
+              left: auto;
+              margin: auto;
+              width: 24px;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // form
+  &__form {
+    margin-bottom: 120px;
+    @media only screen and (max-width: 959px) {
+      margin-bottom: 80px;
+    }
+    &Inner {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      @media only screen and (max-width: 959px) {
+        max-width: 100%;
+      }
+    }
+    &Tit {
+      text-align: center;
+      color: #ff1414;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 50px;
+      @media only screen and (max-width: 959px) {
+        margin-bottom: 30px;
+      }
+    }
+    &Frame {
+      min-height: 1070px;
+    }
+  }
+}

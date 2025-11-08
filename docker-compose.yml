@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  db:
+    image: mysql:8.0
+    container_name: corporate-v4-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+    networks:
+      - wordpress-network
+
+  # WordPress
+  wordpress:
+    image: wordpress:php8.1-apache
+    container_name: corporate-v4-wordpress
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wordpress:/var/www/html
+    ports:
+      - "8080:80"
+    networks:
+      - wordpress-network
+
+  # WP-CLI (WordPress Command Line Interface)
+  wpcli:
+    image: wordpress:cli-php8.1
+    container_name: corporate-v4-wpcli
+    depends_on:
+      - db
+      - wordpress
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wordpress:/var/www/html
+    networks:
+      - wordpress-network
+    user: "33:33"
+    command: tail -f /dev/null
+
+volumes:
+  db_data:
+
+networks:
+  wordpress-network:
+    driver: bridge

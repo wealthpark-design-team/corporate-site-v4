@@ -1,0 +1,95 @@
+.navigation--business {
+  background: none; }
+  .navigation--business .menu-container--pc .menu ul .menu__lv1 .menu__lv1Parent {
+    color: white; }
+    .navigation--business .menu-container--pc .menu ul .menu__lv1 .menu__lv1Parent:hover {
+      background: none;
+      opacity: .8;
+      color: #fff; }
+  .navigation--business .menu-container--pc .menu ul .menu__lv1 .menu__lv1Parent--active {
+    background: none;
+    color: #fff;
+    opacity: .8; }
+  .navigation--business svg {
+    mix-blend-mode: exclusion; }
+
+@media screen and (max-width: 767px) {
+  .menu-container--sp .menu__nav .menu__hamburger span {
+    background: #fff; } }
+
+@media screen and (max-width: 767px) {
+  .menu-container--sp .menu__nav .menu__hamburger--active span {
+    background: #222; } }
+
+.lp-promise {
+  background-image: url("../../app/img/bg_device.jpg");
+  color: #fff;
+  padding: 0 15vw;
+  padding-bottom: 340px; }
+  @media screen and (max-width: 767px) {
+    .lp-promise {
+      padding: 0 30px;
+      padding-bottom: 100px; } }
+  .lp-promise__hero {
+    padding-top: 110px; }
+    .lp-promise__hero-title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 100px; }
+    .lp-promise__hero-header {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 90px; }
+    .lp-promise__hero-lead {
+      margin-bottom: 2rem;
+      line-height: 1.8; }
+    @media screen and (max-width: 767px) {
+      .lp-promise__hero {
+        padding-top: 50px; }
+        .lp-promise__hero-title {
+          margin-bottom: 50px;
+          font-size: 20px; }
+        .lp-promise__hero-header {
+          font-size: 30px;
+          margin-bottom: 50px;
+          line-height: 48px; } }
+  .lp-promise__block {
+    line-height: 1.6;
+    margin-bottom: 1rem; }
+    .lp-promise__block-title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 2rem; }
+    .lp-promise__block-text {
+      margin-bottom: 2rem;
+      line-height: 1.8; }
+    @media screen and (max-width: 767px) {
+      .lp-promise__block-title {
+        font-size: 20px; } }
+  .lp-promise__footer {
+    margin-top: 90px; }
+    .lp-promise__footer-text {
+      font-size: 28px;
+      line-height: 2;
+      margin-bottom: 100px; }
+      .lp-promise__footer-text--small {
+        font-size: 16px;
+        display: block; }
+    .lp-promise__footer-logo {
+      display: flex;
+      justify-content: flex-end; }
+      .lp-promise__footer-logo img {
+        width: 272px; }
+    @media screen and (max-width: 767px) {
+      .lp-promise__footer {
+        margin-top: 50px; }
+        .lp-promise__footer-text {
+          font-size: 20px;
+          margin-bottom: 50px; }
+          .lp-promise__footer-text--small {
+            font-size: 14px; }
+        .lp-promise__footer-logo img {
+          width: 150px; } }
+
+/*# sourceMappingURL=promise.css.map */

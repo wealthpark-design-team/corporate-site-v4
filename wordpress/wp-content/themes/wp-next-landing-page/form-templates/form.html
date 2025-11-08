@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function checkFormElement(){
+            var email = document.querySelector("input[type='email']");
+            var reg = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
+            if(!reg.test(email.value)){
+                alert("正しい名メールアドレスを入力してください。");
+                return false;
+            }
+
+            var req = document.querySelectorAll(".required input");
+            var check = true;
+            Array.from(req).forEach(function(item){
+                if(!item.value){
+                    alert("必須項目を入力してください。");
+                    check = false;
+                }
+            })
+
+            return check;
+        }
+    </script>
+</head>
+<body>
+    <form class="download-form" action="/" method="POST" accept-charset="UTF-8" onsubmit="return checkFormElement();">
+        <p class="download-form__item">
+            <label class="download-form__label" for="884073_4672pi_884073_4672">
+                <span>必須</span>姓
+            </label>
+            <input type="text" class="download-form__elem" id="884073_4672pi_884073_4672" name="884073_4672pi_884073_4672" placeholder="姓" />
+        </p>
+        <p class="download-form__item">
+            <label class="download-form__label" for="884073_4670pi_884073_4670">
+                <span>必須</span>名
+            </label>
+            <input type="text" class="download-form__elem" id="884073_4670pi_884073_4670" name="884073_4670pi_884073_4670" placeholder="名" />
+        </p>
+        <p class="download-form__item">
+            <label class="download-form__label" for="884073_4674pi_884073_4674">
+                <span>必須</span>貴社名
+            </label>
+            <input type="text" class="download-form__elem" id="884073_4674pi_884073_4674" name="884073_4674pi_884073_4674" placeholder="会社名を入力して下さい" />
+        </p>
+        <p class="download-form__note">
+            ※不動産オーナーの方は、その旨をご記入下さい。
+        </p>
+        <p class="download-form__item">
+            <label class="download-form__label" for="884073_4676pi_884073_4676">
+                <span>必須</span>Email
+            </label>
+            <input type="email" class="download-form__elem" id="884073_4676pi_884073_4676" name="884073_4676pi_884073_4676" placeholder="xxx@wealth-park.com" />
+        </p>
+        <p class="download-form__item">
+            <label class="download-form__label" for="884073_4678pi_884073_4678">
+                電話番号
+            </label>
+            <input type="tel" class="download-form__elem" id="884073_4678pi_884073_4678" name="884073_4678pi_884073_4678" placeholder="03-0000-0000"/>
+        </p>
+        <p class="download-form__agree">
+            <a href="/corporate/terms-of-use/">利用規約</a> /
+            <a href="/corporate/privacy-policy/">プライバシーポリシー</a>
+            に同意の上でお進みください。
+        </p>
+        <input class="download-form__btn" type="submit" value="送信する" />
+    </form>
+</body>
+</html>

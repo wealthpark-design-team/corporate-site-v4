@@ -1,0 +1,1553 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-11-18 01:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: news-summary.php:32 template-parts/content-page-news.php:57
+msgid "news_list_title"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management UK"
+msgstr ""
+
+#: page_asset_management_uk.php:15 page_asset_management_uk.php:17
+#: page_asset_management.php:14 page_asset_management.php:16
+msgid "am.meta-title"
+msgstr ""
+
+#: page_asset_management_uk.php:16 page_asset_management_uk.php:21
+#: page_corporate_contact.php:18 page_app.php:29 page_app.php:32
+#: page_asset_management.php:15 page_asset_management.php:20
+#: page_asset_management_lp-tb2c.php:37
+#: page_asset_management_lp-e-contract-001.php:37
+msgid "am.meta-description"
+msgstr ""
+
+#: page_asset_management_uk.php:58
+msgid "uk.hero-message"
+msgstr ""
+
+#: page_asset_management_uk.php:61
+msgid "uk.hero-message-txt"
+msgstr ""
+
+#: page_asset_management_uk.php:86
+msgid "uk.launch.category"
+msgstr ""
+
+#: page_asset_management_uk.php:87
+msgid "uk.launch.title"
+msgstr ""
+
+#: page_asset_management_uk.php:89
+msgid "uk.launch.copy.txt"
+msgstr ""
+
+#: page_asset_management_uk.php:96
+msgid "uk.service.category"
+msgstr ""
+
+#: page_asset_management_uk.php:97
+msgid "uk.service.title"
+msgstr ""
+
+#: page_asset_management_uk.php:102
+msgid "uk.service.001.title"
+msgstr ""
+
+#: page_asset_management_uk.php:103
+msgid "uk.service.001.description"
+msgstr ""
+
+#: page_asset_management_uk.php:111
+msgid "uk.service.002.title"
+msgstr ""
+
+#: page_asset_management_uk.php:112
+msgid "uk.service.002.description"
+msgstr ""
+
+#: page_asset_management_uk.php:125
+msgid "uk.feature.category"
+msgstr ""
+
+#: page_asset_management_uk.php:126
+msgid "uk.feature.title"
+msgstr ""
+
+#: page_asset_management_uk.php:127
+msgid "uk.feature.description"
+msgstr ""
+
+#: page_asset_management_uk.php:129
+msgid "uk.feature.features"
+msgstr ""
+
+#: page_asset_management_uk.php:135 page_asset_management.php:134
+msgid "am.voice.category"
+msgstr ""
+
+#: page_asset_management_uk.php:136 page_asset_management.php:135
+msgid "am.voice.title"
+msgstr ""
+
+#: page_asset_management_uk.php:138 page_asset_management.php:137
+msgid "am.voice.voices"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact"
+msgstr ""
+
+#: page_corporate_contact.php:14
+msgid "corporate.corporate.meta-title"
+msgstr ""
+
+#: page_corporate_contact.php:15
+msgid "corporate.corporate.meta-description"
+msgstr ""
+
+#: page_corporate_contact.php:17 page_app.php:26 page_app.php:28
+#: page_app.php:30 page_app.php:36
+msgid "app.meta_description"
+msgstr ""
+
+#: page_corporate_contact.php:49
+msgid "page-caption.contact"
+msgstr ""
+
+#: page_corporate_contact.php:60
+msgid "department.wp-business"
+msgstr ""
+
+#: page_corporate_contact.php:61
+msgid "department.description.wp-business"
+msgstr ""
+
+#: page_corporate_contact.php:64 page_corporate_contact.php:77
+#: page_corporate_contact.php:90 page_corporate_contact.php:103
+#: page_corporate_contact.php:116
+msgid "button.contact"
+msgstr ""
+
+#: page_corporate_contact.php:73
+msgid "department.wp-am"
+msgstr ""
+
+#: page_corporate_contact.php:74
+msgid "department.description.wp-am"
+msgstr ""
+
+#: page_corporate_contact.php:86
+msgid "department.wp-pm"
+msgstr ""
+
+#: page_corporate_contact.php:87
+msgid "department.description.wp-pm"
+msgstr ""
+
+#: page_corporate_contact.php:99
+msgid "department.recruit"
+msgstr ""
+
+#: page_corporate_contact.php:100
+msgid "department.description.wp-recruit"
+msgstr ""
+
+#: page_corporate_contact.php:112
+msgid "department.pr"
+msgstr ""
+
+#: page_corporate_contact.php:113
+msgid "department.description.wp-pr"
+msgstr ""
+
+#: archive-news.php:54
+msgid "news.all-news"
+msgstr ""
+
+#. Name of the template
+msgid "Blank Page"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Privacy Policy"
+msgstr ""
+
+#: page_corporate_privacy_policy.php:16
+msgid "corporate.meta-title.privacy-policy"
+msgstr ""
+
+#: page_corporate_privacy_policy.php:17
+msgid "corporate.meta-description.privacy-policy"
+msgstr ""
+
+#: page_corporate_privacy_policy.php:52
+msgid "page-caption.privacy-policy"
+msgstr ""
+
+#: page_corporate_privacy_policy.php:55
+msgid "corporate.privacy-policy.content"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: functions.php:96
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:98
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:442
+msgid "TOC_TITLE"
+msgstr ""
+
+#: header.php:63 footer-main.php:28 business-header-menu.php:23
+#: drawer-nav-corporate.php:4 header-top-with-news.php:81
+#: header-top-with-news.php:110 header-top-with-news.php:181
+#: header-top-with-news.php:210 template-parts/footer-main.php:55
+msgid "menu.news"
+msgstr ""
+
+#: header.php:66 drawer-nav-corporate.php:5 header-top-with-news.php:17
+#: header-top-with-news.php:21 header-top-with-news.php:28
+#: header-top-with-news.php:143 header-top-with-news.php:148
+msgid "menu.service"
+msgstr ""
+
+#: header.php:69 business-header-menu.php:20 header-top-with-news.php:63
+#: header-top-with-news.php:67 header-top-with-news.php:75
+#: header-top-with-news.php:169
+msgid "menu.company"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - chat"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event"
+msgstr ""
+
+#: page_app_event.php:50
+msgid "event.all-events"
+msgstr ""
+
+#: page_app_event.php:61
+msgid "event.where-2020"
+msgstr ""
+
+#: page_app_event.php:62
+msgid "event.description-2020"
+msgstr ""
+
+#: page_app_event.php:65 page_app_event.php:78 page_app_event.php:91
+msgid "event.learn-more"
+msgstr ""
+
+#: page_app_event.php:75
+msgid "event.description-2019"
+msgstr ""
+
+#: page_app_event.php:88
+msgid "event.description-2018"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice"
+msgstr ""
+
+#: index.php:49 index.php:407 page_corporate_old.php:152
+#: page_corporate_old.php:509
+msgid "news_list"
+msgstr ""
+
+#: index.php:58 page_corporate_old.php:85 page_corporate_old.php:87
+#: page_corporate_old.php:161
+msgid "WealthPark"
+msgstr ""
+
+#: index.php:59 page_corporate_old.php:162
+msgid "Manage your investment with ease."
+msgstr ""
+
+#: index.php:61 page_corporate_old.php:164
+msgid "banner.message"
+msgstr ""
+
+#: index.php:66
+msgid "corporate.v1.video"
+msgstr ""
+
+#: index.php:68 page_corporate_old.php:170
+msgid "section.service.type_name"
+msgstr ""
+
+#: index.php:69 page_corporate_old.php:171
+msgid "section.service.title.h2"
+msgstr ""
+
+#: index.php:71 page_corporate_old.php:173
+msgid "section.service.title.h3.f1"
+msgstr ""
+
+#: index.php:73 page_corporate_old.php:175
+msgid "section.service.list_items.f1"
+msgstr ""
+
+#: index.php:76 page_corporate_old.php:178
+msgid "section.service.title.h3.f2"
+msgstr ""
+
+#: index.php:78 page_corporate_old.php:180
+msgid "section.service.list_items.f2"
+msgstr ""
+
+#: index.php:83 page_corporate_old.php:185
+msgid "section.feature.type_name"
+msgstr ""
+
+#: index.php:84 page_corporate_old.php:186
+msgid "section.feature.title.h2"
+msgstr ""
+
+#: index.php:86 page_corporate_old.php:188
+msgid "section.feature.title.h3"
+msgstr ""
+
+#: index.php:89 page_corporate_old.php:191
+msgid "section.feature_point.f1.title"
+msgstr ""
+
+#: index.php:91 page_corporate_old.php:193
+msgid "section.feature_point.f1.items"
+msgstr ""
+
+#: index.php:95 page_corporate_old.php:197
+msgid "section.feature_point.f2.title"
+msgstr ""
+
+#: index.php:97 page_corporate_old.php:199
+msgid "section.feature_point.f2.items"
+msgstr ""
+
+#: index.php:101 page_corporate_old.php:203
+msgid "section.feature_point.f3.title"
+msgstr ""
+
+#: index.php:103 page_corporate_old.php:205
+msgid "section.feature_point.f3.items"
+msgstr ""
+
+#: index.php:109 page_corporate_old.php:211
+msgid "section.feature_point.f4.title"
+msgstr ""
+
+#: index.php:111 page_corporate_old.php:213
+msgid "section.feature_point.f4.items"
+msgstr ""
+
+#: index.php:115 page_corporate_old.php:217
+msgid "section.feature_point.f5.title"
+msgstr ""
+
+#: index.php:117 page_corporate_old.php:219
+msgid "section.feature_point.f5.items"
+msgstr ""
+
+#: index.php:124 page_corporate_old.php:226
+msgid "section.how.title.h2"
+msgstr ""
+
+#: index.php:125 page_corporate_old.php:227
+msgid "section.how.title.h3"
+msgstr ""
+
+#: index.php:130 page_corporate_old.php:232
+msgid "section.how.f1.track_title"
+msgstr ""
+
+#: index.php:134 page_corporate_old.php:236
+msgid "section.how.f2.track_title"
+msgstr ""
+
+#: index.php:138 page_corporate_old.php:240
+msgid "section.how.f3.track_title"
+msgstr ""
+
+#: index.php:142 page_corporate_old.php:244
+msgid "section.how.f4.track_title"
+msgstr ""
+
+#: index.php:146 page_corporate_old.php:248
+msgid "section.how.f5.track_title"
+msgstr ""
+
+#: index.php:153 page_corporate_old.php:255
+msgid "section.how.f1.title"
+msgstr ""
+
+#: index.php:154 page_corporate_old.php:256
+msgid "section.how.f1.content"
+msgstr ""
+
+#: index.php:165 page_corporate_old.php:267
+msgid "section.how.f2.title"
+msgstr ""
+
+#: index.php:166 page_corporate_old.php:268
+msgid "section.how.f2.content"
+msgstr ""
+
+#: index.php:177 page_corporate_old.php:279
+msgid "section.how.f3.title"
+msgstr ""
+
+#: index.php:178 page_corporate_old.php:280
+msgid "section.how.f3.content"
+msgstr ""
+
+#: index.php:189 page_corporate_old.php:291
+msgid "section.how.f4.title"
+msgstr ""
+
+#: index.php:190 page_corporate_old.php:292
+msgid "section.how.f4.content"
+msgstr ""
+
+#: index.php:201 page_corporate_old.php:303
+msgid "section.how.f5.title"
+msgstr ""
+
+#: index.php:202 page_corporate_old.php:304
+msgid "section.how.f5.content"
+msgstr ""
+
+#: index.php:220 page_corporate_old.php:322
+msgid "section.team.type_name"
+msgstr ""
+
+#: index.php:221 page_corporate_old.php:323
+msgid "section.team.title.h2"
+msgstr ""
+
+#: index.php:223 page_corporate_old.php:325
+msgid "section.team.title.h3"
+msgstr ""
+
+#: index.php:308 page_corporate_old.php:410
+msgid "section.team.button.more"
+msgstr ""
+
+#: index.php:317 page_corporate_old.php:419
+msgid "section.testimonials.type_name"
+msgstr ""
+
+#: index.php:318 page_corporate_old.php:420
+msgid "section.testimonials.title.h2"
+msgstr ""
+
+#: index.php:320 page_corporate_old.php:422
+msgid "section.testimonials.title.h3"
+msgstr ""
+
+#: index.php:348 page_corporate_old.php:450
+msgid "section.about.type_name"
+msgstr ""
+
+#: index.php:349 page_corporate_old.php:451
+msgid "section.about.title.h2"
+msgstr ""
+
+#: index.php:350 page_corporate_old.php:452
+msgid "section.about.message"
+msgstr ""
+
+#: index.php:354 page_corporate_corporate.php:63 page_corporate_old.php:456
+msgid "section.about.table.tr-1.th"
+msgstr ""
+
+#: index.php:355 page_corporate_corporate.php:66 page_corporate_old.php:457
+msgid "section.about.table.tr-1.td"
+msgstr ""
+
+#: index.php:358 page_corporate_corporate.php:71 page_corporate_old.php:460
+msgid "section.about.table.tr-2.th"
+msgstr ""
+
+#: index.php:359 page_corporate_corporate.php:74 page_corporate_old.php:461
+msgid "section.about.table.tr-2.td"
+msgstr ""
+
+#: index.php:362 page_corporate_corporate.php:79 page_corporate_old.php:464
+msgid "section.about.table.tr-3.th"
+msgstr ""
+
+#: index.php:363 page_corporate_corporate.php:82 page_corporate_old.php:465
+msgid "section.about.table.tr-3.td"
+msgstr ""
+
+#: index.php:366 page_corporate_corporate.php:87 page_corporate_old.php:468
+msgid "section.about.table.tr-4.th"
+msgstr ""
+
+#: index.php:367 page_corporate_corporate.php:90 page_corporate_old.php:469
+msgid "section.about.table.tr-4.td"
+msgstr ""
+
+#: index.php:370 page_corporate_corporate.php:95 page_corporate_old.php:472
+msgid "section.about.table.tr-5.th"
+msgstr ""
+
+#: index.php:371 page_corporate_corporate.php:98 page_corporate_old.php:473
+msgid "section.about.table.tr-5.td"
+msgstr ""
+
+#: index.php:374 page_corporate_corporate.php:103 page_corporate_old.php:476
+msgid "section.about.table.tr-6.th"
+msgstr ""
+
+#: index.php:375 page_corporate_corporate.php:106 page_corporate_old.php:477
+msgid "section.about.table.tr-6.td"
+msgstr ""
+
+#: index.php:378 page_corporate_corporate.php:111 page_corporate_old.php:480
+msgid "section.about.table.tr-7.th"
+msgstr ""
+
+#: index.php:379 page_corporate_corporate.php:114 page_corporate_old.php:481
+msgid "section.about.table.tr-7.td"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Service"
+msgstr ""
+
+#: page_corporate_service.php:14 page_corporate_service.php:17
+msgid "corporate.meta-title.service"
+msgstr ""
+
+#: page_corporate_service.php:15 page_corporate_service.php:18
+msgid "corporate.meta-description.service"
+msgstr ""
+
+#: page_corporate_service.php:49
+msgid "page-caption.service"
+msgstr ""
+
+#: page_corporate_service.php:58
+msgid "service.tagline.app"
+msgstr ""
+
+#: page_corporate_service.php:59 page_corporate.php:103
+msgid "service-description.app"
+msgstr ""
+
+#: page_corporate_service.php:61 page_corporate_service.php:76
+#: page_corporate_service.php:91 page_corporate.php:106 page_corporate.php:118
+#: page_corporate.php:130
+msgid "button.more"
+msgstr ""
+
+#: page_corporate_service.php:73
+msgid "service.tagline.wp-business"
+msgstr ""
+
+#: page_corporate_service.php:74 page_corporate.php:115
+#: header-top-with-news.php:39 header-top-with-news.php:154
+msgid "service-description.wp-business"
+msgstr ""
+
+#: page_corporate_service.php:88
+msgid "service.tagline.wp-am"
+msgstr ""
+
+#: page_corporate_service.php:89 page_corporate.php:127
+#: header-top-with-news.php:52 header-top-with-news.php:160
+msgid "service-description.wp-am"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App"
+msgstr ""
+
+#: page_app.php:25
+msgid "app.meta_title"
+msgstr ""
+
+#: page_app.php:80
+msgid "top.message.app"
+msgstr ""
+
+#: page_app.php:81
+msgid "top.message2.app"
+msgstr ""
+
+#: page_app.php:142
+msgid "video.nyc2019.content"
+msgstr ""
+
+#: page_app.php:145
+msgid "announcement.wp-nyc2019"
+msgstr ""
+
+#: page_app.php:152
+msgid "function.001.title"
+msgstr ""
+
+#: page_app.php:153
+msgid "function.001.content"
+msgstr ""
+
+#: page_app.php:164
+msgid "function.002.title"
+msgstr ""
+
+#: page_app.php:165
+msgid "function.002.content"
+msgstr ""
+
+#: page_app.php:176
+msgid "function.003.title"
+msgstr ""
+
+#: page_app.php:177
+msgid "function.003.content"
+msgstr ""
+
+#: page_app.php:189
+msgid "section.device.title2"
+msgstr ""
+
+#: page_app.php:190
+msgid "section.device.content"
+msgstr ""
+
+#: page_app.php:196
+msgid "section.device.demo"
+msgstr ""
+
+#: page_app.php:206 page_corporate_corporate.php:55 page_product_lp.php:431
+msgid "app.team.profile"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site"
+msgstr ""
+
+#: page_corporate.php:14 page_corporate.php:16 page_corporate_corporate.php:16
+msgid "corporate.meta-title.top"
+msgstr ""
+
+#: page_corporate.php:15 page_corporate.php:21 page_corporate_corporate.php:21
+msgid "corporate.meta-description.top"
+msgstr ""
+
+#: page_corporate.php:56
+msgid "corporate.hero-message"
+msgstr ""
+
+#: page_corporate.php:102
+msgid "service-name.app"
+msgstr ""
+
+#: page_corporate.php:114
+msgid "service-name.wp-business"
+msgstr ""
+
+#: page_corporate.php:126
+msgid "service-name.wp-am"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Corporate"
+msgstr ""
+
+#: page_corporate_corporate.php:14
+msgid "corporate.meta-title.corporate"
+msgstr ""
+
+#: page_corporate_corporate.php:15
+msgid "corporate.meta-description.corporate"
+msgstr ""
+
+#: page_corporate_corporate.php:52
+msgid "page-caption.corporate"
+msgstr ""
+
+#: page_corporate_corporate.php:119
+msgid "section.about.table.tr-9.th"
+msgstr ""
+
+#: page_corporate_corporate.php:122
+msgid "section.about.table.tr-9.td"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Security Policy"
+msgstr ""
+
+#: page_corporate_security_policy.php:14
+msgid "corporate.meta-title.security-policy"
+msgstr ""
+
+#: page_corporate_security_policy.php:15
+msgid "corporate.meta-description.security-policy"
+msgstr ""
+
+#: page_corporate_security_policy.php:46
+msgid "page-caption.security-policy"
+msgstr ""
+
+#: page_corporate_security_policy.php:55
+msgid "corporate.security-policy.content"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management"
+msgstr ""
+
+#: page_asset_management.php:53
+msgid "am.hero-message"
+msgstr ""
+
+#: page_asset_management.php:95
+msgid "am.service.category"
+msgstr ""
+
+#: page_asset_management.php:96
+msgid "am.service.title"
+msgstr ""
+
+#: page_asset_management.php:101
+msgid "am.service.001.title"
+msgstr ""
+
+#: page_asset_management.php:102
+msgid "am.service.001.description"
+msgstr ""
+
+#: page_asset_management.php:110
+msgid "am.service.002.title"
+msgstr ""
+
+#: page_asset_management.php:111
+msgid "am.service.002.description"
+msgstr ""
+
+#: page_asset_management.php:124
+msgid "am.feature.category"
+msgstr ""
+
+#: page_asset_management.php:125
+msgid "am.feature.title"
+msgstr ""
+
+#: page_asset_management.php:126
+msgid "am.feature.description"
+msgstr ""
+
+#: page_asset_management.php:128
+msgid "wp-am.features"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Form Template"
+msgstr ""
+
+#: footer-main.php:8 template-parts/footer-main.php:32
+msgid "footer.menu.service"
+msgstr ""
+
+#: footer-main.php:10 page_app_dev.php:258 business-header-menu.php:14
+#: drawer-wp_business.php:7 page_corporate_old.php:92
+msgid "menu.owner-app"
+msgstr ""
+
+#: footer-main.php:11 page_app_dev.php:259 business-header-menu.php:15
+#: drawer-wp_business.php:8 page_corporate_old.php:93
+#: header-top-with-news.php:35 header-top-with-news.php:38
+#: header-top-with-news.php:153 template-parts/footer-main.php:38
+msgid "menu.wp-business"
+msgstr ""
+
+#: footer-main.php:12 page_app_dev.php:260 business-header-menu.php:16
+#: drawer-wp_business.php:9 header-top-with-news.php:48
+#: header-top-with-news.php:51 header-top-with-news.php:159
+#: template-parts/footer-main.php:39
+msgid "menu.wp-am"
+msgstr ""
+
+#: footer-main.php:16 template-parts/footer-main.php:43
+msgid "footer.menu.product"
+msgstr ""
+
+#: footer-main.php:21 template-parts/footer-main.php:48
+msgid "footer.menu.demo"
+msgstr ""
+
+#: footer-main.php:25 template-parts/footer-main.php:52
+msgid "footer.menu.company"
+msgstr ""
+
+#: footer-main.php:27 drawer-nav-corporate.php:8 header-top-with-news.php:86
+#: header-top-with-news.php:175 header-top-with-news.php:186
+#: template-parts/footer-main.php:54
+msgid "menu.company-profile"
+msgstr ""
+
+#: footer-main.php:29 drawer-nav-corporate.php:6 header-top-with-news.php:113
+#: header-top-with-news.php:213 template-parts/footer-main.php:56
+msgid "menu.event"
+msgstr ""
+
+#: footer-main.php:30 drawer-nav-corporate.php:7 header-top-with-news.php:96
+#: header-top-with-news.php:196 template-parts/footer-main.php:57
+msgid "menu.careers"
+msgstr ""
+
+#: footer-main.php:32 page_app_dev.php:262 drawer-wp_business.php:12
+#: template-parts/footer-main.php:58
+msgid "footer.menu.contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - Promise"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Dev"
+msgstr ""
+
+#: page_app_dev.php:236 template-parts/footer-sub-app.php:6
+#: template-parts/footer-sub-business.php:6
+#: template-parts/footer-sub-corporate.php:6
+#: template-parts/footer-sub-wpam.php:6 template-parts/footer-main.php:59
+msgid "menu.terms"
+msgstr ""
+
+#: page_app_dev.php:237 template-parts/footer-sub-app.php:11
+#: template-parts/footer-sub-business.php:11
+#: template-parts/footer-sub-corporate.php:11
+#: template-parts/footer-sub-wpam.php:11 template-parts/footer-main.php:60
+msgid "menu.privacy"
+msgstr ""
+
+#: page_app_dev.php:238 template-parts/footer-sub-app.php:16
+#: template-parts/footer-sub-business.php:16
+#: template-parts/footer-sub-corporate.php:16
+#: template-parts/footer-sub-wpam.php:16 template-parts/footer-main.php:61
+msgid "menu.security"
+msgstr ""
+
+#: page_app_dev.php:241 template-parts/footer-sub-app.php:51
+msgid "footer.menu.language"
+msgstr ""
+
+#: page_app_dev.php:257 drawer-wp_business.php:10
+msgid "footer.menu.news"
+msgstr ""
+
+#: page_app_dev.php:261 drawer-wp_business.php:11
+msgid "footer.menu.company_profile"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - LP"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FAQ"
+msgstr ""
+
+#: business-header-menu.php:6 drawer-wp_business.php:5
+msgid "menu.faq"
+msgstr ""
+
+#: business-header-menu.php:9 drawer-wp_business.php:6
+msgid "menu.download"
+msgstr ""
+
+#: business-header-menu.php:12
+msgid "menu.product"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP PM"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:14
+#: page_corporate_contact_wp-business.php:16
+#: page_corporate_contact_recruit.php:14 page_corporate_contact_pr.php:14
+#: page_corporate_contact_wp-am.php:14
+#: page_corporate_contact_app-download.php:14
+msgid "corporate.meta-title.contact"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:15
+#: page_corporate_contact_wp-business.php:17
+#: page_corporate_contact_recruit.php:15 page_corporate_contact_pr.php:15
+#: page_corporate_contact_wp-am.php:15
+#: page_corporate_contact_app-download.php:15
+#: page_asset_management_contact_wp-am.php:15
+msgid "corporate.meta-description.contact"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:47
+msgid "page-caption.wp-pm"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:60 page_corporate_contact_recruit.php:58
+#: page_corporate_contact_pr.php:58 page_business_download_contact.php:220
+msgid "corporate.contact.rule"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Corporate - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Terms of Use"
+msgstr ""
+
+#: page_corporate_term_of_use.php:14
+msgid "corporate.meta-title.terms-of-use"
+msgstr ""
+
+#: page_corporate_term_of_use.php:15
+msgid "corporate.meta-description.terms-of-use"
+msgstr ""
+
+#: page_corporate_term_of_use.php:45
+msgid "page-caption.terms-of-use"
+msgstr ""
+
+#: page_corporate_term_of_use.php:48
+msgid "corporate.terms-of-use.content"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP Business"
+msgstr ""
+
+#: page_corporate_contact_wp-business.php:52
+msgid "page-caption.wp-business"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - Recruit"
+msgstr ""
+
+#: page_corporate_contact_recruit.php:44 page_corporate_contact_recruit.php:52
+msgid "page-caption.recruit"
+msgstr ""
+
+#: page_corporate_contact_recruit.php:55 page_corporate_contact_pr.php:55
+#: page_corporate_contact_wp-am.php:56
+#: page_corporate_contact_app-download.php:48
+#: page_asset_management_contact_wp-am.php:69
+msgid "contact.note"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - PR"
+msgstr ""
+
+#: page_corporate_contact_pr.php:44 page_corporate_contact_pr.php:52
+msgid "page-caption.contact-pr"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP AM"
+msgstr ""
+
+#: page_corporate_contact_wp-am.php:45 page_corporate_contact_wp-am.php:53
+msgid "page-caption.wp-am"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002"
+msgstr ""
+
+#: archive-wealthpark.php:100
+msgid "readmore"
+msgstr ""
+
+#: archive-wealthpark.php:136
+msgid "article.all-articles"
+msgstr ""
+
+#: drawer-nav-corporate.php:10 page_corporate_old.php:112
+#: header-top-with-news.php:101 header-top-with-news.php:201
+#: header-top-with-news.php:216
+msgid "menu.contact"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - App Download"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - nyc2019"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Dev"
+msgstr ""
+
+#: page_corporate_old.php:91
+msgid "News"
+msgstr ""
+
+#: page_corporate_old.php:114
+msgid "menu.demo_request"
+msgstr ""
+
+#: page_corporate_old.php:537
+msgid "footer.menu.terms"
+msgstr ""
+
+#: page_corporate_old.php:538
+msgid "footer.menu.privacy"
+msgstr ""
+
+#: page_corporate_old.php:539
+msgid "footer.menu.information"
+msgstr ""
+
+#: page_corporate_old.php:550 page_corporate_old.php:566
+msgid "section.contact.title.h2"
+msgstr ""
+
+#: page_corporate_old.php:551 page_corporate_old.php:567
+msgid "section.contact.title.h3"
+msgstr ""
+
+#: page_corporate_old.php:555 page_corporate_old.php:600
+msgid "section.contact_success.title.h2"
+msgstr ""
+
+#: page_corporate_old.php:556 page_corporate_old.php:601
+msgid "section.contact_success.title.h3"
+msgstr ""
+
+#: page_corporate_old.php:557 page_corporate_old.php:602
+msgid "section.form.button.back"
+msgstr ""
+
+#: page_corporate_old.php:570
+msgid "contac_type.label"
+msgstr ""
+
+#: page_corporate_old.php:573
+msgid "contac_type.saas"
+msgstr ""
+
+#: page_corporate_old.php:574
+msgid "contac_type.vertical"
+msgstr ""
+
+#: page_corporate_old.php:575
+msgid "contac_type.recruit"
+msgstr ""
+
+#: page_corporate_old.php:576
+msgid "contac_type.media"
+msgstr ""
+
+#: page_corporate_old.php:577
+msgid "contac_type.other"
+msgstr ""
+
+#: page_corporate_old.php:611
+msgid "section.demo.title.h2"
+msgstr ""
+
+#: page_corporate_old.php:612
+msgid "section.demo.title.h3"
+msgstr ""
+
+#: page_corporate_old.php:616
+msgid "section.demo_success.title.h2"
+msgstr ""
+
+#: page_corporate_old.php:617
+msgid "section.demo_success.title.h3"
+msgstr ""
+
+#: page_corporate_old.php:632
+msgid "page.term_of_use"
+msgstr ""
+
+#: page_corporate_old.php:642
+msgid "page.privacy_policy"
+msgstr ""
+
+#: page_corporate_old.php:652
+msgid "page.information_security_guidelines"
+msgstr ""
+
+#: page_corporate_old.php:731
+msgid "option.placeholder"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Careers"
+msgstr ""
+
+#: page_corporate_careers.php:17 page_corporate_careers.php:19
+msgid "corporate.meta-title.careers"
+msgstr ""
+
+#: page_corporate_careers.php:18 page_corporate_careers.php:24
+msgid "corporate.meta-description.careers"
+msgstr ""
+
+#: page_corporate_careers.php:55 page_corporate_careers.php:114
+#: template-parts/content-page-careers.php:44
+msgid "careers_list_title"
+msgstr ""
+
+#: page_corporate_careers.php:56 page_corporate_careers.php:115
+msgid "careers_list_caption"
+msgstr ""
+
+#: page_corporate_careers.php:180
+msgid "careers_list_title-positions"
+msgstr ""
+
+#: page_corporate_careers.php:181
+msgid "careers_list_caption-positions"
+msgstr ""
+
+#: page_corporate_careers.php:219
+msgid "careers_list_title-people"
+msgstr ""
+
+#: page_corporate_careers.php:220
+msgid "careers_list_caption-people"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - cv2020"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Blog - WealthPark"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:14
+msgid "corporate.meta-title.blog-wealthpark"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:15
+msgid "corporate.meta-description.blog-wealthpark"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:39
+#: template-parts/content-page-blog-wealthpark.php:40
+msgid "blog-wealthpark_list_title"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:40
+msgid "blog-wealthpark_list_caption"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact 001 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - cashflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - workflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - AI quotation"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - Multiple Language"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - document-storage"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - LP - Taiwan B2C"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page-  Asset Management Contact WP AM"
+msgstr ""
+
+#. Name of the template
+msgid "WealthPark Blog Archive"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - customer-success"
+msgstr ""
+
+#. Name of the template
+msgid ""
+"Service Page - Asset Management - LP - Digital Alternative Asset Platform"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - road-to-dx"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - security"
+msgstr ""
+
+#: header-top-with-news.php:91 header-top-with-news.php:116
+#: header-top-with-news.php:191
+msgid "menu.blog"
+msgstr ""
+
+#: header-top-with-news.php:120
+msgid "menu.sign-in"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content-news.php:51 template-parts/content-page-news.php:50
+#: template-parts/content-page.php:22 template-parts/content.php:38
+#: template-parts/content-page-careers.php:34
+#: template-parts/content-page-blog-wealthpark.php:34
+#: template-parts/content-page-help_owner.php:39
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content-page-news.php:43 template-parts/content.php:33
+#: template-parts/content-page-careers.php:27
+#: template-parts/content-page-blog-wealthpark.php:27
+#: template-parts/content-page-help_owner.php:32
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-page-careers.php:39
+msgid "button.apply"
+msgstr ""
+
+#: template-parts/footer-sub-app.php:23
+#: template-parts/footer-sub-business.php:23
+#: template-parts/footer-sub-corporate.php:23
+#: template-parts/footer-sub-wpam.php:23 template-parts/footer-main.php:74
+msgid "footer.facebook-link"
+msgstr ""
+
+#: template-parts/footer-sub-business.php:51
+#: template-parts/footer-sub-corporate.php:51
+#: template-parts/footer-sub-wpam.php:51
+msgid "menu.language"
+msgstr ""
+
+#: template-parts/footer-main.php:34
+msgid "footer.menu-owner-app"
+msgstr ""
+
+#: template-parts/partnerships-parts.php:7
+msgid "app.partnership_logo"
+msgstr ""
+
+#: template-parts/partnerships-parts.php:14
+msgid "logo.media"
+msgstr ""
+
+#. Author of the theme
+msgid "Anonymous"
+msgstr ""
+
+msgid "section.about.table.tr-8.th"
+msgstr ""
+
+msgid "section.about.table.tr-8.td"
+msgstr ""
+
+msgid "menu.region"
+msgstr ""
+
+msgid "menu.united_kingdom"
+msgstr ""
+
+msgid "menu.wp-am.description.japan"
+msgstr ""
+
+msgid "menu.wp-am.description.united_kingdom"
+msgstr ""
+
+msgid "menu.japan"
+msgstr ""
+
+msgid "footer.menu-wpb"
+msgstr ""
+
+msgid "footer.menu-wpam"
+msgstr ""
+
+msgid "footer.menu-lab"
+msgstr ""
+
+msgid "footer.menu-web-app"
+msgstr ""
+
+msgid "menu.event-report"
+msgstr ""
+
+msgid "menu.release-notes"
+msgstr ""
+
+msgid "menu.press-release"
+msgstr ""
+
+msgid "wp-am.hero-message"
+msgstr ""
+
+msgid "wp-am.hero-message-landlords"
+msgstr ""
+
+msgid "wp-am.page-links"
+msgstr ""
+
+msgid "wp-am.troubles"
+msgstr ""
+
+msgid "wp-am.about"
+msgstr ""
+
+msgid "wp-am.movie-message"
+msgstr ""
+
+msgid "wp-am.hosting"
+msgstr ""
+
+msgid "wp-am.hsforms"
+msgstr ""
+
+msgid "wp-am.estate-title"
+msgstr ""
+
+msgid "menu.wp-am.web-app-login"
+msgstr ""
+
+msgid "wp-am.movie-link"
+msgstr ""
+
+msgid "news.read_other_articles"
+msgstr ""
+
+msgid "corporate.privacy-policy.info-sharing.content"
+msgstr ""
+
+msgid "page-subtitle.privacy-policy.info-sharing"
+msgstr ""
+
+msgid "wp-am.owner-help.hero-message"
+msgstr ""
+
+msgid "owner-help.find-topics"
+msgstr ""
+
+msgid "owner-help.topic-variation-list-1"
+msgstr ""
+
+msgid "owner-help.topic-variation-list-2"
+msgstr ""
+
+msgid "owner-help.topic-variation-list-3"
+msgstr ""
+
+msgid "owner-help.topic-variation-list-4"
+msgstr ""
+
+msgid "owner-help.topic-variation-list-5"
+msgstr ""
+
+msgid "owner-help.topic-variation-link"
+msgstr ""
+
+msgid "owner-help.article-list-headline"
+msgstr ""
+
+msgid "owner-help.help-list__description.former"
+msgstr ""
+
+msgid "owner-help.help-list__description.latter"
+msgstr ""
+
+msgid "menu.support"
+msgstr ""
+
+msgid "wp-am.partnership"
+msgstr ""
+
+msgid "owner-help.footer.topic-variation-list-2"
+msgstr ""
+
+msgid "owner-help.footer.topic-variation-list-3"
+msgstr ""
+
+msgid "owner-help.footer.topic-variation-list-4"
+msgstr ""
+
+msgid "owner-help.footer.topic-variation-list-5"
+msgstr ""
+
+msgid "owner-help.footer.topic-variation-list-1"
+msgstr ""
+
+msgid "corporate.vision.description"
+msgstr ""
+
+msgid "corporate.mission.description"
+msgstr ""
+
+msgid "corporate.panel-banners"
+msgstr ""
+
+msgid "corporate.hero-message-v3"
+msgstr ""

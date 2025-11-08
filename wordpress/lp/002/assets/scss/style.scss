@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+Theme Name: WEBBY GO THEME
+Theme URI:
+Description: KEISUKE IGUCHI
+Version: 1.0.0
+Author:  KEISUKE IGUCHI
+Author URI:
+License: GPL
+License URI: license.txt
+Tags:
+*/
+//変数管理
+@import"_variable.scss";
+//共通テンプレート
+@import"_common.scss";
+//カラム・ボックス等
+@import"_grid.scss";
+@import"_animate.scss";
+//タイポグラフィ(見出し系)
+@import"_typography.scss";
+//テーブル類
+@import"_table.scss";
+//フォーム
+@import"_form.scss";
+
+//調整用CSS
+@import"_adjust.scss";
+//フッター
+@import"_footer.scss";
+
+//ヘッダー
+@import"_header.scss";
+
+
+//★★各ページ独自のCSSはこのファイルに追加★★
+@import"_top.scss";

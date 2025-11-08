@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★
+
+メディアクエリ数値設定
+
+★★★★★★★★★★★★★★★★★★★★★★★★*/
+
+//スマホのみ
+$SP: "only screen and (max-width:767px)";
+//タブレットのみ
+$TB: "only screen and (min-width:768px) and (max-width:1023px)";
+//PCのみ
+$PC: "only screen and (min-width:1024px)";
+$PC-S: "only screen and (min-width:1024px) and (max-width:1200px)";
+//スマホとタブレットに適用 (PC以外)
+$SP-TB: "only screen and (max-width:1023px)";
+//タブレットとPCに適用 (スマホ以外)
+$TB-PC: "only screen and (min-width:768px)";
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★
+
+カラー設定
+
+★★★★★★★★★★★★★★★★★★★★★★★★*/
+
+:root {
+    //フォント
+    --base-font: 'Noto Sans JP',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+        "ＭＳ Ｐゴシック", sans-serif;
+
+    //カラー
+
+
+    --gray-color1: #A0A0A0;
+    --gray-color2: #636363;
+    --gray-color3: #949494;
+    --gray-color4: #707070;
+    --black-color: #3b4043;
+    --white-color: #fff;
+    --header-height: 62px;
+    @media #{$SP} {
+    }
+}
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★
+
+scss mixin定義
+
+★★★★★★★★★★★★★★★★★★★★★★★★*/
+
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    filter: alpha(opacity=($opacity * 100));
+    -moz-opacity: opacity;
+}
+
+@mixin brightness($brightness) {
+    -webkit-filter: brightness($brightness);
+    -moz-filter: brightness($brightness);
+    -ms-filter: brightness($brightness);
+    filter: brightness($brightness);
+}
+
+@mixin saturate($saturate) {
+    -webkit-filter: saturate($saturate);
+    -moz-filter: saturate($saturate);
+    -ms-filter: saturate($saturate);
+    filter: saturate($saturate);
+}

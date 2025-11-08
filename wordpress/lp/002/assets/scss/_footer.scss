@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★
+
+footer
+
+★★★★★★★★★★★★★★★★★★★★★★★★*/
+.footer {
+    padding: 40px 0 100px;
+}
+.footer-logo {
+    margin-bottom: 20px;
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+        max-width: 230px;
+    }
+}
+.footer-copyright {
+    font-size: 12px;
+    letter-spacing: .2em;
+text-align: center;
+}

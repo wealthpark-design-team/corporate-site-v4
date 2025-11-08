@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+
+.inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.inner1080 {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner1024 {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner960 {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner900 {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner880 {
+    max-width: 880px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner800 {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner768 {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner740 {
+    max-width: 740px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner720 {
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner640 {
+    max-width: 640px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner560 {
+    max-width: 560px;
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .inner,
+    .inner1080,
+    .inner1024,
+    .inner960,
+    .inner900,
+    .inner880,
+    .inner800,
+    .inner768,
+    .inner740,
+    .inner720,
+    .inner640,
+    .inner560 {
+        width: 89%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media #{$SP} {
+    .inner,
+    .inner1080,
+    .inner1024,
+    .inner1000,
+    .inner960,
+    .inner900,
+    .inner880,
+    .inner800,
+    .inner768,
+    .inner760,
+    .inner740,
+    .inner720,
+    .inner640.inner560 {
+        width: 89%;
+    }
+}

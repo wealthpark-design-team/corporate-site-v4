@@ -1,0 +1,198 @@
+.header {
+    height: 64px;
+    width: 100%;
+    background: #fff;
+    // position: fixed;
+    position: relative;
+
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+
+    z-index: 999;
+
+    &_sticky {
+        transform: translateY(-100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 0.3s;
+        z-index: 900;
+
+        &_show {
+            transform: translateY(0);
+        }
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        @media #{$SP-TB} {
+            justify-content: center;
+        }
+    }
+}
+
+.header-left {
+    max-width: 220px;
+    @media #{$SP-TB} {
+        max-width: 178px;
+    }
+}
+
+.header-right {
+}
+
+.header-logo {
+}
+
+.header-nav {
+    @media #{$SP-TB} {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to bottom, #1b58a7, #00b7e3);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        z-index: 9999;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translateX(150%);
+        transition: .3s;
+    }
+
+    &_open {
+        @media #{$SP-TB} {
+        transform: translateX(0);
+        }
+    }
+
+    &__list {
+        display: flex;
+
+        @media #{$SP-TB} {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    &__item {
+        margin: 0 5px;
+
+        @media #{$SP-TB} {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__link {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #222222;
+        border-radius: 20px;
+        background: #f5f5f5;
+        padding: 10px 20px;
+
+        @media #{$SP-TB} {
+            max-width: 335px;
+            margin: 0 auto;
+            border: 2px solid #fff;
+            border-radius: 65px;
+            height: 65px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            box-sizing: border-box;
+        }
+    }
+}
+
+
+.header-hum-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 70000;
+    width: 24px;
+    height: 17px;
+    cursor: pointer;
+    @media #{$PC} {
+        display: none;
+    }
+    @media #{$SP-TB} {
+        right: 10px;
+    }
+
+    &.active {
+        position: fixed;
+            right: 10px;
+            top: 30px;
+    }
+    &__box {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    &__bar {
+        width: 100%;
+        height: 2px;
+        background: #000000;
+        transition: 0.3s;
+        &_expand {
+        }
+        &_top {
+            &_open {
+                transform: rotate(135deg);
+                animation-name: rotate-top;
+                background: var(--white-color);
+                position: absolute;
+                left: 0;
+                @keyframes rotate-bottom {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(135deg);
+                    }
+                }
+            }
+        }
+        &_middle {
+            margin: 5px 0;
+            &_open {
+                display: none;
+            }
+        }
+        &_bottom {
+            &_open {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                background: var(--white-color);
+                transform: rotate(-135deg);
+                animation-name: rotate-top;
+                @keyframes rotate-top {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(-135deg);
+                    }
+                }
+            }
+        }
+    }
+}

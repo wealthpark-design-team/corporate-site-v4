@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★
+
+PC・SP表示切り替え
+
+★★★★★★★★★★★★★★★★★★★★★★★★*/
+
+
+.pc{
+
+}
+
+.sp{
+	display: none!important;
+}
+
+@media #{$SP} {
+
+	.pc{
+		display: none!important;
+	}
+
+	.sp{
+		display:inherit!important;
+	}
+
+}
+
+.tb {
+	@media #{$PC} {
+	display: none;
+	}
+
+	@media #{$TB} {
+	display: inherit;
+	}
+
+	@media #{$SP} {
+	display: none;
+	}
+}

@@ -1,0 +1,998 @@
+/*
+- Name: megamenu.js - style.css
+- Version: 1.0
+- Latest update: 29.01.2016.
+- Author: Mario Loncarek
+- Author web site: http://marioloncarek.com
+*/
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+* {
+  box-sizing: border-box;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+// navigationの基本設定はここから
+
+.navigation--common {
+  opacity: 0.95 !important;
+  position: fixed !important;
+  width: 100%;
+  height: auto;
+  z-index: 150;
+  transition: all 0.7s;
+}
+.navigation--commonActive {
+  height: 100%;
+  overflow: auto;
+  background: #fff !important;
+  z-index: 150;
+}
+
+.menu-container--pc {
+  max-width: calc(1400 / 1440 * 100%);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menu-container--sp {
+  display: none;
+}
+
+.headerBg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.25);
+  display: none;
+  &--active {
+    display: block;
+  }
+}
+
+// navigationの基本設定はここまで
+
+// // navigationの各ページのレイアウトここから
+
+// app navスタイル
+.navigation--app {
+  background: #fff;
+  .menu-container--pc {
+    .menu {
+      display: flex;
+      // justify-content: space-between;
+      &__left {
+        margin: 0 auto 0 0;
+      }
+      &__right {
+        margin: 0;
+        justify-content: flex-end;
+        li {
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      ul {
+        &:first-child {
+          width: 200px;
+          margin: 0;
+        }
+        &:last-child {
+          margin: 0;
+        }
+      }
+      &__button {
+        width: 160px;
+
+        &:lang(ja) {
+          width: 250px;
+        }
+      }
+    }
+  }
+  .menu-container--sp {
+    .menu__hamburger {
+      span {
+        background: #000;
+      }
+    }
+  }
+}
+// business nav スタイル
+.navigation--business {
+  background: #fff;
+  .menu-container--pc {
+    .menu {
+      display: flex;
+      // justify-content: space-between;
+      &__logo {
+        transition: all 0.7s;
+        svg {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          path {
+            fill: #2b2b2b;
+          }
+        }
+      }
+      &__left {
+        width: 260px;
+        margin: 0 auto 0 0;
+      }
+      &__right {
+        margin: 0;
+        justify-content: flex-end;
+        li {
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      ul {
+        &::after,
+        &::before {
+          display: none;
+        }
+        .menu__lv1 {
+          margin-right: 5px;
+          &:last-child {
+            margin-right: 0;
+          }
+          .menu__lv1Parent {
+            color: #2b2b2b;
+            padding: 0 5px;
+            &:hover {
+              background: #f5f5f5;
+              color: #2b2b2b;
+            }
+            &--active {
+              background: #f5f5f5;
+              color: #2b2b2b;
+            }
+          }
+        }
+      }
+      &__button {
+        width: 120px;
+      }
+    }
+  }
+  .menu-container--sp {
+    .menu__logoSp {
+      width: 200px;
+      svg {
+        width: 100%;
+        path {
+          fill: #2b2b2b;
+        }
+      }
+    }
+    .menu__hamburger {
+      span {
+        background: #000;
+      }
+    }
+  }
+}
+// assetManagement navスタイル
+.navigation--assetManagement {
+  background: #fff;
+  .menu-container--pc {
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      &__logo {
+        transition: all 0.7s;
+        svg {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          path {
+            fill: #2b2b2b;
+          }
+        }
+      }
+      &__left {
+        width: 300px;
+        margin: 0 auto 0 0;
+      }
+      &__right {
+        width: 650px;
+        margin: 0;
+        justify-content: flex-end;
+        li {
+          margin-right: 10px;
+          a {
+            font-weight: 400;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      ul {
+        // &:first-child {
+        //     width: 300px;
+        //     margin: 0;
+        // }
+        // &:last-child {
+        //     width: 600px;
+        //     margin: 0;
+        // }
+      }
+      &__button {
+        width: 250px;
+        a {
+          color: #fff;
+          background: none;
+          border-color: #fff;
+        }
+      }
+    }
+  }
+  .menu-container--sp {
+    .menu__logoSp {
+      svg {
+        width: 100%;
+        path {
+          fill: #2b2b2b;
+        }
+      }
+    }
+    .menu__hamburger {
+      span {
+        background: #000;
+      }
+    }
+  }
+}
+
+.navigation--assetManagement--help {
+  .menu-container--pc {
+    .menu {
+      &__button {
+        a {
+          color: #2b2b2b;
+          border-color: #2b2b2b;
+        }
+      }
+    }
+  }
+}
+
+// scrollした際、各サービスのtopや会社内容のtopページの共通アニメーション
+.navigation--common {
+  &--top {
+    background: none;
+    .menu-container--pc {
+      .menu {
+        &__logo {
+          svg {
+            path {
+              fill: #fff;
+            }
+          }
+        }
+        ul {
+          .menu__lv1 {
+            .menu__lv1Parent {
+              color: #fff;
+              &:hover {
+                background: #f5f5f5;
+                color: #2b2b2b;
+              }
+              &--active {
+                background: #f5f5f5;
+                color: #2b2b2b;
+              }
+            }
+          }
+        }
+      }
+    }
+    .menu-container--sp {
+      .menu__logoSp {
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+      .menu__hamburger {
+        span {
+          background: #fff;
+        }
+      }
+    }
+  }
+}
+
+// scrollした際、クリックした際の変化
+.navigation--scroll,
+.navigation--commonActive {
+  background: #fff !important;
+  .menu-container--pc {
+    .menu {
+      &__logo {
+        svg {
+          path {
+            fill: #2b2b2b;
+          }
+        }
+      }
+      ul {
+        .menu__lv1 {
+          .menu__lv1Parent {
+            color: #2b2b2b;
+            &:hover {
+              background: #f5f5f5;
+            }
+            &--active {
+              background: #f5f5f5;
+            }
+          }
+        }
+      }
+      &__button {
+        .button--am {
+          a {
+            color: #2b2b2b;
+            background: none;
+            border-color: #2b2b2b;
+          }
+        }
+      }
+    }
+  }
+  .menu-container--sp {
+    .menu__logoSp {
+      svg {
+        path {
+          fill: #2b2b2b;
+        }
+      }
+    }
+    .menu__hamburger {
+      span {
+        background: #000;
+      }
+    }
+  }
+}
+// .navigation--common {
+//     .menu-container--pc {
+//         .menu {
+//             ul {
+//                 .menu__lv1 {
+//                     .menu__lv1Parent {
+//                         &--active {
+//                             position: relative;
+//                             z-index: 5;
+//                             &::before {
+//                                 content: "";
+//                                 position: fixed;
+//                                 left: 0;
+//                                 top: 0;
+//                                 width: 100%;
+//                                 height: 100%;
+//                                 background: rgba(0, 0, 0, .5);
+//                                 z-index: 1;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // navigationの各ページのレイアウトここまで
+
+// // menuのclassに対する基本レイアウト設定 ここから
+
+// navigation内のmenu-containerの全ページ共通部分
+.menu-container {
+  /* width: 80%;
+    margin: 0 auto;
+    background: #e9e9e9; */
+  // .menu__lv1 > dt > a {
+  //     &:hover {
+  //         background-color: #F5F5F5;
+  //     }
+  // }
+  .menu__lv1Parent {
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+  .menu__lv1 {
+    &::before,
+    &::after {
+      display: none !important;
+    }
+  }
+  .menu__lv1Parent--active {
+    background-color: #f5f5f5;
+  }
+  .menu__lv1Open {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: auto;
+    background-color: #f5f5f5;
+    z-index: 20;
+    width: 100%;
+  }
+  .menu__lv1Child {
+    display: flex;
+    .menu__lv1ChildTit {
+      max-width: 330px;
+      width: calc(330 / 1440 * 100%);
+      background-color: #2b2b2b;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        font-size: 14px;
+        font-weight: normal;
+        display: contents;
+      }
+    }
+    .menu__lv1ChildInner {
+      max-width: 1140px;
+      width: calc(1140 / 1440 * 100%);
+      padding: 50px;
+      box-sizing: border-box;
+      .menu__lv1ChildInnerTit {
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+      }
+      .menu__lv1ChildTeams {
+        display: flex;
+        margin-bottom: 30px;
+        li {
+          // width: 33.33%;
+          margin-right: 30px;
+          flex: 1;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            &:hover {
+              dd {
+                opacity: 0.7s;
+                color: #b8a86f;
+              }
+            }
+          }
+          dl {
+            display: flex;
+            // justify-content: space-between;
+            dt {
+              width: 65px;
+              margin-right: 30px;
+            }
+            dd {
+              font-size: 12px;
+              span {
+                font-size: 16px;
+              }
+              p {
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+
+        .menu__lv1ChildTeamsItem--shrink {
+          flex: 0 1 29%;
+        }
+      }
+      .menu__lv1ChildOthers {
+        display: flex;
+        li {
+          margin-right: 25px;
+          &:last-child {
+            margin-right: 0;
+          }
+          .material-icons {
+            margin-top: -2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu-mobile {
+  display: none;
+  // padding: 20px;
+}
+
+.menu-mobile:after {
+  content: '\e3c7';
+  font-family: 'Material Icons';
+  font-size: 2.5rem;
+  height: 25px;
+  line-height: 1;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  transform: translateY(-25%);
+}
+
+.menu-dropdown-icon:before {
+  content: '\e5c5';
+  font-family: 'Material Icons';
+  display: none;
+  cursor: pointer;
+  float: right;
+  padding: 1.5em 2em;
+  background: #fff;
+  color: #333;
+}
+
+.menu > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+  box-sizing: border-box;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+  content: '';
+  display: table;
+}
+
+.menu > ul:after {
+  clear: both;
+}
+
+.menu > ul > li {
+  /* float: left;
+    background: #e9e9e9; */
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+}
+
+.menu > ul > li > a {
+  display: block;
+  padding: 0px 10px;
+  text-decoration: none;
+  line-height: 70px;
+  color: #2b2b2b;
+}
+
+.menu > ul > li:hover {
+  /* background: #f0f0f0; */
+}
+
+.menu > ul > li > ul {
+  display: none;
+  width: 100%;
+  background: #000;
+  padding: 50px;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+  content: '';
+  display: table;
+}
+
+.menu > ul > li > ul:after {
+  clear: both;
+}
+
+.menu > ul > li > ul > li {
+  margin: 0 0 30px;
+  list-style: none;
+  width: 33.33%;
+  padding: 0 30px 0 0;
+  background: none;
+  float: left;
+}
+
+.menu > ul > li > ul > li:last-child {
+  padding: 0 0 0 0;
+}
+
+.menu > ul > li > ul > li a {
+  color: #fff;
+  padding: 0.2em 0;
+  width: 95%;
+  display: block;
+  border-bottom: 1px solid #fff;
+}
+
+.menu > ul > li > ul > li > ul {
+  display: block;
+  padding: 0;
+  margin: 15px 0 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+  content: '';
+  display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+  clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+  float: left;
+  width: 100%;
+  padding: 0 0 10px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.menu > ul > li > ul > li > ul > li a {
+  border: 0;
+}
+
+.menu > ul > li > ul.normal-sub {
+  width: 300px;
+  left: auto;
+  padding: 10px 20px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+  width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+  border: 0;
+  padding: 1em 0;
+}
+
+.menu {
+  &__logo {
+    // width: 15%;
+    img {
+      width: 100%;
+      vertical-align: middle;
+    }
+    a {
+      line-height: 0 !important;
+    }
+  }
+  &__button {
+    .button {
+      display: block;
+      height: auto;
+      a {
+        color: #fff;
+        height: auto;
+        line-height: normal;
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+.menu__lv2 > span {
+  display: block;
+  padding-bottom: 15px !important;
+  color: #fff;
+  border-bottom: 1px solid #2b2b2b;
+  font-weight: 700;
+}
+
+// menuのclassに対する基本レイアウト設定 ここまで
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's 959px以下のレイアウト
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 959px) {
+  .navigation--business {
+    position: fixed !important;
+  }
+  .menu-container {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .menu-container--pc {
+    display: none;
+  }
+  .menu-container--sp {
+    display: block;
+    .menu__nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .menu__logoSp {
+        width: 200px;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .menu__hamburger {
+        display: inline-block;
+        transition: all 0.5s;
+        box-sizing: border-box;
+        position: relative;
+        width: 33px;
+        height: 19px;
+        span {
+          display: inline-block;
+          transition: all 0.5s;
+          box-sizing: border-box;
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          // background: #000;
+          border-radius: 2px;
+          &:nth-of-type(1) {
+            top: 0;
+          }
+          &:nth-of-type(2) {
+            top: 8px;
+          }
+          &:nth-of-type(3) {
+            bottom: 0;
+          }
+        }
+      }
+      .menu__hamburger--active {
+        span {
+          &:nth-of-type(1) {
+            transform: translateY(8px) rotate(-45deg);
+          }
+          &:nth-of-type(2) {
+            opacity: 0;
+          }
+          &:nth-of-type(3) {
+            transform: translateY(-8px) rotate(45deg);
+          }
+        }
+      }
+    }
+    .menu__lv1 > a {
+      &:hover {
+        background: none;
+      }
+    }
+    .menu__lv1Parent {
+      &::before {
+        padding: 0;
+      }
+    }
+    .menu__lv1Parent--active {
+      transition: all 0.5s;
+      &::before {
+        transition: all 0.5s;
+        transform: rotateZ(180deg);
+      }
+    }
+    .menu__lv1Open {
+      position: relative;
+      .menu__lv1Child {
+        flex-direction: column;
+        .menu__lv1ChildInner {
+          width: 100%;
+          padding: 30px 25px;
+          .menu__lv1ChildInnerTit {
+            font-size: 13px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            .material-icons {
+              display: inline-block;
+            }
+            a {
+              padding: 0 5px;
+            }
+            &:nth-of-type(2) {
+              margin-top: 40px;
+            }
+          }
+          .menu__lv1ChildTeams {
+            flex-direction: column;
+            margin-bottom: 0;
+            li {
+              width: 100%;
+              font-size: 13px;
+              margin-right: 0;
+              margin-top: 10px;
+              &:first-child {
+                margin-top: 0;
+              }
+              a {
+                color: #000;
+                span {
+                  display: block;
+                  margin-bottom: 10px;
+                  font-weight: 700;
+                }
+                p {
+                  color: #666;
+                }
+              }
+            }
+          }
+          .menu__lv1ChildOthers {
+            flex-direction: column;
+            li {
+              font-size: 13px;
+              margin-right: 0;
+              margin-top: 10px;
+              &:first-child {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-dropdown-icon:before {
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .menu > ul {
+    display: none;
+    // max-height: 400px;
+    margin-top: 20px;
+    // overflow: scroll;
+  }
+  .menu > ul > li {
+    width: 100%;
+    clear: both;
+    display: block;
+  }
+  .menu > ul > li a {
+    width: 100%;
+    padding: 0 25px;
+    display: block;
+  }
+  .menu > ul > li > a {
+    line-height: 50px;
+  }
+  .menu > ul > li > ul {
+    position: relative;
+    padding: 30px;
+  }
+  .menu > ul > li > ul.normal-sub {
+    width: 100%;
+  }
+  .menu > ul > li > ul > li {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .menu > ul > li > ul > li a {
+    line-height: 40px;
+  }
+  .menu > ul > li > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul > li > ul > li {
+    float: none;
+    padding: 0;
+  }
+  .menu .show-on-mobile {
+    display: block;
+    height: 100vh;
+  }
+  .menu__logo {
+    display: none !important;
+  }
+  .menu-mobile-logo {
+    width: 200px;
+  }
+  .menu__button .button a {
+    display: block;
+    border-radius: initial;
+    width: initial;
+    height: initial;
+    line-height: 50px;
+    text-align: initial;
+    font-size: 100%;
+    font-weight: 600;
+    color: initial;
+    border: initial;
+    background-color: #fff;
+    padding: 5px 25px;
+  }
+  .menu__rightAngle {
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '\e315';
+      font-family: 'Material Icons';
+      font-size: 24px;
+    }
+  }
+}
+
+// .drawer--top {
+//     .menu-container {
+//         .menu__lv1ChildInnerTit {
+//             a {
+//                 color: #000;
+//             }
+//         }
+//         .menu__lv1ChildTeams {
+//             li {
+//                 a {
+//                     color: #000;
+//                 }
+//             }
+//         }
+//         .menu__lv1ChildOthers {
+//             li {
+//                 a {
+//                     color: #000;
+//                 }
+//             }
+//         }
+//     }
+// }

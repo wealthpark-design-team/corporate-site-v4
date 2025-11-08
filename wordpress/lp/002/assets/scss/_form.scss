@@ -1,0 +1,72 @@
+/*★★★★★★★★★★★★★★★
+
+フォームパーツ基本スタイル
+
+★★★★★★★★★★★★★★★*/
+
+%formstyle {
+	padding: 8px 10px;
+	font-size: 16px;
+	letter-spacing: 0.05rem;
+	border: 1px solid #ccc;
+}
+
+input:focus:not([type="submit"]),
+textarea:focus {
+	box-shadow: 0 0 6px #67ddff;
+	background: #f7f7f7;
+}
+
+input[type="text"],
+input[type="email"] {
+	@extend %formstyle;
+}
+
+textarea {
+	@extend %formstyle;
+	width: 90%;
+	height: 180px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 7px;
+}
+
+input[type="checkbox"] {
+	border: 2px solid #888;
+}
+
+select {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	width: 250px !important;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+
+	font-size: 14px;
+	line-height: 1.6;
+
+	@media #{$SP} {
+		width: 70%;
+	}
+}
+
+@mixin plh-txt {
+	color: #ddd;
+	font-size: 12px;
+}
+
+:-moz-placeholder {
+	@include plh-txt;
+}
+
+-ms-input-placeholder {
+	@include plh-txt;
+}
+
+::-webkit-input-placeholder {
+	@include plh-txt;
+}
+

@@ -1,0 +1,93 @@
+@mixin sp{
+    @media screen and (min-width:768px) {
+        @content;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.download-form{
+    background: #f5f5f5;
+    padding: 43px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    &__item{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+
+        &.required{
+            label::before{
+                content: "必須";
+                background: #1b1b1b;
+                color: #fff;
+                padding: 0 6px;
+                margin-right: 12px;
+                font-size: 12px;
+                line-height: 17.38px;
+            }
+        }
+    }
+    &__label{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    &__elem{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        height: 50px;
+        width: 100%;
+        display: block;
+        padding: 0 12px;
+    }
+
+    &__note{
+        color: #666;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+
+    }
+
+    &__agree{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        a{
+            color: #427EEE;
+            text-decoration: none;
+        }
+
+      }
+  
+      &__btn{
+        background: #427EEE;
+        color: #fff;
+        border-radius: 25px;
+        color: #fff;
+        line-height: 50px;
+        border: none;
+        font-size: 18px;
+        width: 100%;
+        cursor: pointer;
+
+        &:hover{
+            opacity: .8;
+        }
+      }
+  
+}
