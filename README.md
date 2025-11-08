@@ -4,10 +4,50 @@ WealthPark株式会社のコーポレートサイト（WordPress版）
 
 ## 概要
 
-サーバー制約により、Next.js版からWordPress密結合型にダウングレードしたプロジェクトです。
+既存の技術スタック（WordPress + PHP）をそのまま活用し、サイトをリニューアルしました。
 
-- **旧プロジェクト**: `/Users/kaya.matsumoto/projects/wealthpark/web/company` (Next.js + ヘッドレスCMS)
-- **本プロジェクト**: `/Users/kaya.matsumoto/projects/wealthpark/web/corporate-site-v4` (WordPress従来型)
+## 開発プラン
+
+### 移行方針: 全ページ一括作成 → テーマ切り替え
+
+**参考サイト:**
+- Next.js版: `/Users/kaya.matsumoto/projects/wealthpark/web/company`
+- このサイトのデザインをWordPressテーマとして再現
+
+**開発フロー:**
+```
+1. ローカル環境で新テーマ（corporate-site-v4）を完全に作成
+   ├── トップページ
+   ├── 会社概要ページ
+   ├── 採用ページ
+   ├── ブログ一覧/詳細
+   ├── ニュース一覧/詳細
+   └── その他全ページ
+
+2. dev環境（Kinsta）で徹底的にテスト
+   └── 全ページの動作確認
+
+3. Live環境にテーマをアップロード
+   └── この時点では本番サイトに影響なし（旧テーマのまま表示）
+
+4. 管理画面でテーマを切り替え
+   └── 外観 → テーマ → corporate-site-v4 → 有効化
+
+5. 問題があれば即座に切り戻し
+   └── 外観 → テーマ → wp-next-landing-page → 有効化
+```
+
+**メリット:**
+- ✅ 本番に影響を与えずに開発・アップロード可能
+- ✅ 切り替えは管理画面でボタン1つ（即座に反映）
+- ✅ 切り戻しも管理画面でボタン1つ（1秒で完了）
+- ✅ 新旧テーマが共存可能
+
+**注意点:**
+- データベースは新旧テーマで共通（投稿データ、ユーザー、設定は変わらない）
+- 完全にテストしてから本番切り替えを推奨
+
+---
 
 ## 技術スタック
 
@@ -55,7 +95,7 @@ corporate-site-v4/
 ├── docker-compose.yml      # Docker構成
 ├── wordpress/              # WordPressファイル
 │   ├── wp-content/
-│   │   ├── themes/        # テーマ（ここで新テーマを開発）
+│   │   ├── themes/        # テーマ（ここで開発）
 │   │   ├── plugins/       # プラグイン
 │   │   └── uploads/       # ⚠️ 除外済み（本番から表示）
 │   ├── wp-config.php      # WordPress設定
@@ -82,16 +122,32 @@ cd corporate-site-v4
 touch style.css index.php functions.php
 ```
 
-参考: Next.js版のデザイン → `/Users/kaya.matsumoto/projects/wealthpark/web/company`
+### 画像の扱い方
+
+ローカル環境には `uploads` ディレクトリがありません（容量削減のため）。
+画像は本番サーバーから自動的に読み込まれます。
+
+**重要**: テーマ開発時は必ずWordPressの標準関数を使用してください：
+
+```php
+// ✅ 良い例: WordPress標準関数を使う
+<?php the_post_thumbnail('full'); ?>
+<?php echo wp_get_attachment_image($attachment_id, 'large'); ?>
+
+// ❌ 悪い例: パスを直接指定
+<img src="/wp-content/uploads/2024/01/image.jpg">
+```
+
+**仕組み:**
+- `functions.php` で環境を自動判定（localhost判定）
+- ローカル環境: 本番サーバーの画像を読み込む
+- 本番環境: 通常通り動作（フィルター無効化）
 
 ## 便利なコマンド
 
 ### WP-CLI（WordPress CLI）
 
 ```bash
-# WP-CLIコンテナに入る
-docker exec -it corporate-v4-wpcli bash
-
 # プラグイン一覧
 docker exec corporate-v4-wpcli wp plugin list --allow-root
 
@@ -120,61 +176,253 @@ docker exec -i corporate-v4-db mysql -uwordpress -pwordpress wordpress < backup.
 
 ## デプロイフロー
 
-### 1. ローカル開発
+### 前提条件
+
+- Kinsta管理画面へのアクセス権限
+- SFTP/SSH接続情報（Kinsta管理画面から取得）
+
+---
+
+### ステップ1: ローカルで開発・テスト
 
 ```bash
-# 新テーマを開発
-wordpress/wp-content/themes/corporate-site-v4/
+# テーマファイルを開発
+cd wordpress/wp-content/themes/corporate-site-v4/
+
+# ローカル環境で動作確認
+# http://localhost:8080 にアクセス
 ```
 
-### 2. ステージング環境（Kinsta dev）へアップロード
+**確認項目:**
+- ✅ ページが正常に表示される
+- ✅ 画像が本番サーバーから読み込まれている
+- ✅ レイアウトが崩れていない
+- ✅ 多言語切り替えが動作する（/ja, /en）
 
-**SFTP経由:**
+---
+
+### ステップ2: Git管理
+
 ```bash
-# Kinsta管理画面 → dev環境 → SFTP/SSH タブから接続情報を取得
-# FileZillaやCyberduckで接続して、テーマディレクトリをアップロード
+# テーマファイルをコミット
+git add wordpress/wp-content/themes/corporate-site-v4/
+git commit -m "Update theme: [変更内容を記載]"
+git push
 ```
 
-**SSH + rsync経由（より高速）:**
+---
+
+### ステップ3: dev環境（ステージング）へアップロード
+
+#### 方法A: SFTP経由（GUI推奨）
+
+1. **Kinsta管理画面を開く**
+   - https://my.kinsta.com にログイン
+   - **WealthPark Inc., Ltd.** → **dev環境** を選択
+
+2. **SFTP接続情報を取得**
+   - 左メニュー → **情報** または **SFTP/SSH** タブ
+   - 以下の情報をコピー：
+     - **ホスト**: `xxx.kinsta.cloud`
+     - **ユーザー名**: `wealthpark-dev` など
+     - **ポート**: `8822`
+     - **パスワード**: 表示 or リセット
+
+3. **FileZilla/Cyberduckで接続**
+   - 上記の情報を入力して接続
+   - リモートパス: `/www/wealthparkincltd_xxx/public/wp-content/themes/`
+   - ローカルの `corporate-site-v4/` フォルダをドラッグ&ドロップ
+
+#### 方法B: SSH + rsync経由（コマンドライン）
+
 ```bash
+# Kinstaの接続情報を使用（ポート8822を指定）
 rsync -avz -e "ssh -p 8822" \
   ./wordpress/wp-content/themes/corporate-site-v4/ \
-  user@host:/www/xxx/public/wp-content/themes/corporate-site-v4/
+  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
+
+# 例:
+rsync -avz -e "ssh -p 8822" \
+  ./wordpress/wp-content/themes/corporate-site-v4/ \
+  wealthpark@xxx.kinsta.cloud:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
 ```
 
-### 3. dev環境でテーマを有効化
+---
 
-1. dev環境のWordPress管理画面にアクセス
-2. **外観** → **テーマ** → 新テーマを有効化
-3. 動作確認
+### ステップ4: dev環境で動作確認
 
-### 4. Live環境へプッシュ
+1. **dev環境のWordPress管理画面にアクセス**
+   - URL: Kinsta管理画面の「情報」タブに記載
+   - 本番環境と同じ管理者アカウントでログイン
 
-**方法A: Kinsta管理画面の「Push to Live」機能**
-1. Kinsta管理画面 → dev環境 → **Push to Live**
-2. **ファイルのみ**を選択（DBは選択しない）
-3. 実行
+2. **テーマを有効化**
+   - 管理画面 → **外観** → **テーマ**
+   - `corporate-site-v4` を見つけて **有効化**
 
-**方法B: 直接Live環境にアップロード**
-- SFTP/SSHでLive環境に直接アップロード
+3. **フロントエンドで確認**
+   - dev環境のURLにアクセス
+   - 以下を確認：
+     - ✅ デザインが正しく表示される
+     - ✅ 画像が本番サーバーから読み込まれている
+     - ✅ リンクが正常に動作する
+     - ✅ フォーム送信が動作する（Contact Form等）
 
-## ⚠️ 重要な注意点
+4. **関係者に確認依頼**
+   - dev環境のURLを共有
+   - デザイン・機能の承認を得る
 
-### 画像ファイル（uploads）について
+---
 
-- **ローカル環境にはuploadsディレクトリがありません**（容量削減のため）
-- 画像は本番サーバー（https://wealth-park.com/wp-content/uploads/...）から表示されます
-- テーマ開発時は、WordPressの標準関数（`wp_get_attachment_image()`, `the_post_thumbnail()`等）を使用してください
+### ステップ5: Live環境（本番）へデプロイ
 
-### デプロイ時の注意
+#### ⚠️ デプロイ前の必須作業
 
-- ✅ **テーマファイルのみ**をデプロイ
-- ❌ **データベースは触らない**（既存のコンテンツを保持）
-- ❌ **旧テーマを即座に削除しない**（切り戻しに備える）
+1. **Kinstaで手動バックアップを作成**
+   - Kinsta管理画面 → **Live環境** → **バックアップ**
+   - **今すぐバックアップ** をクリック
+   - 完了を待つ（数分かかる場合があります）
 
-### バックアップ
+#### 方法A: Kinsta「Push to Live」機能（推奨）
 
-デプロイ前に必ずKinstaで手動バックアップを作成してください。
+1. **Kinsta管理画面を開く**
+   - **dev環境** を選択
+
+2. **Push to Live を実行**
+   - 上部メニューまたは右上の **「Push to Live」** ボタンをクリック
+
+3. **プッシュ範囲を選択**
+   - ✅ **ファイル**: チェックを入れる
+   - ❌ **データベース**: **絶対にチェックを入れない**
+   - ⚠️ データベースをプッシュすると本番のコンテンツが消えます
+
+4. **実行**
+   - **Push to Live** ボタンをクリック
+   - 完了を待つ（数分〜10分程度）
+
+#### 方法B: 直接Live環境にアップロード
+
+dev環境と同じ手順で、Live環境のSFTP/SSH情報を使ってアップロード。
+
+```bash
+# SFTP経由
+# Kinsta管理画面 → Live環境 → SFTP/SSH タブから接続情報を取得
+# FileZillaで接続してアップロード
+
+# rsync経由
+rsync -avz -e "ssh -p 8822" \
+  ./wordpress/wp-content/themes/corporate-site-v4/ \
+  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
+```
+
+---
+
+### ステップ6: 本番環境で動作確認
+
+1. **本番環境のWordPress管理画面にアクセス**
+   - https://wealth-park.com/wp-admin
+
+2. **テーマを有効化**
+   - 管理画面 → **外観** → **テーマ**
+   - `corporate-site-v4` を **有効化**
+
+3. **フロントエンドで最終確認**
+   - https://wealth-park.com にアクセス
+   - 以下を確認：
+     - ✅ トップページが正常に表示される
+     - ✅ 全ページのレイアウトが正しい
+     - ✅ 画像が表示される（本番のuploadsから読み込み）
+     - ✅ フォームが動作する
+     - ✅ 多言語切り替えが動作する
+
+4. **問題がある場合の切り戻し**
+   - 管理画面 → **外観** → **テーマ**
+   - 旧テーマ（`wp-next-landing-page`）を **有効化**
+   - 即座に元の状態に戻ります
+
+---
+
+## デプロイ時の重要な注意点
+
+### ✅ やるべきこと
+
+- **テーマファイルのみ**をアップロード
+- デプロイ前に必ず **Kinstaでバックアップ作成**
+- dev環境で十分にテスト
+- 本番デプロイ後、すぐに動作確認
+- 旧テーマは残しておく（1ヶ月後に削除）
+
+### ❌ やってはいけないこと
+
+- ❌ **データベースをプッシュしない**（コンテンツが消える）
+- ❌ **Live環境で直接開発しない**（トラブル時にサイトが落ちる）
+- ❌ **旧テーマを即座に削除しない**（切り戻しができなくなる）
+- ❌ **バックアップなしでデプロイしない**
+
+### 画像URL自動切り替えの仕組み
+
+`functions.php` に以下のコードが含まれています：
+
+```php
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    add_filter('upload_dir', function($uploads) {
+        $uploads['baseurl'] = 'https://wealth-park.com/wp-content/uploads';
+        $uploads['url'] = 'https://wealth-park.com/wp-content/uploads' . $uploads['subdir'];
+        return $uploads;
+    }, 10, 1);
+}
+```
+
+**動作:**
+- **ローカル環境** (`localhost`): 本番サーバーの画像を読み込む
+- **本番環境** (`wealth-park.com`): フィルターが無効化され、通常動作
+
+**デプロイ前の修正は不要です。** そのままデプロイしてOKです。
+
+---
+
+## トラブルシューティング
+
+### ローカル環境でサイトにアクセスできない
+
+```bash
+# コンテナの状態を確認
+docker-compose ps
+
+# ログを確認
+docker-compose logs wordpress
+docker-compose logs db
+
+# コンテナを再起動
+docker-compose restart
+```
+
+### 画像が表示されない（ローカル）
+
+本番サーバー（https://wealth-park.com）が稼働しているか確認してください。
+ローカル環境は本番サーバーから画像を読み込んでいます。
+
+### データベース接続エラー
+
+```bash
+# コンテナを完全再構築
+docker-compose down -v
+docker-compose up -d
+```
+
+### パーミッションエラー
+
+```bash
+# WordPressディレクトリの権限を修正
+chmod -R 755 wordpress/
+```
+
+### 本番環境で画像が表示されない
+
+1. 画像URLが正しいか確認（ブラウザの開発者ツールで確認）
+2. `wp-content/uploads/` ディレクトリの権限を確認
+3. Kinstaのサポートに問い合わせ
+
+---
 
 ## 容量
 
@@ -188,50 +436,24 @@ cd ..
 rm -rf corporate-site-v4
 ```
 
+---
+
 ## Git管理
 
 ```bash
-# 初回コミット
-git add .
-git commit -m "Initial setup: WordPress development environment"
-git push -u origin main
-
-# テーマ開発後
+# 日常的な作業
 git add wordpress/wp-content/themes/corporate-site-v4/
-git commit -m "Add new theme"
+git commit -m "Update: [変更内容]"
 git push
+
+# 新しいブランチで作業する場合
+git checkout -b feature/new-design
+git add .
+git commit -m "Add: new design"
+git push -u origin feature/new-design
 ```
 
-## トラブルシューティング
-
-### サイトにアクセスできない
-
-```bash
-# コンテナの状態を確認
-docker-compose ps
-
-# ログを確認
-docker-compose logs wordpress
-docker-compose logs db
-```
-
-### データベース接続エラー
-
-```bash
-# コンテナを再起動
-docker-compose restart
-
-# それでもダメなら完全再構築
-docker-compose down -v
-docker-compose up -d
-```
-
-### パーミッションエラー
-
-```bash
-# WordPressディレクトリの権限を修正
-chmod -R 755 wordpress/
-```
+---
 
 ## ライセンス
 

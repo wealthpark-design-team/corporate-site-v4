@@ -609,3 +609,17 @@ function cleanPath() {
   }
   return $cleaned_path;
 }
+
+/**
+ * ローカル開発環境用: 画像を本番サーバーから読み込む
+ * uploadsディレクトリは軽量化のため除外しているため、本番サーバーのURLを使用
+ *
+ * 本番環境では自動的に無効化される（localhost以外では実行されない）
+ */
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    add_filter('upload_dir', function($uploads) {
+        $uploads['baseurl'] = 'https://wealth-park.com/wp-content/uploads';
+        $uploads['url'] = 'https://wealth-park.com/wp-content/uploads' . $uploads['subdir'];
+        return $uploads;
+    }, 10, 1);
+}
