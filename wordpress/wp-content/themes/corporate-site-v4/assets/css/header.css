@@ -1,0 +1,456 @@
+/**
+ * Header Styles
+ */
+
+/* ========================================
+   Base Header
+   ======================================== */
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+.site-header.menu-open {
+    height: 100vh;
+    background-color: #000000;
+}
+
+.header-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .header-nav {
+        padding: 0 2rem;
+    }
+}
+
+/* ========================================
+   Desktop Navigation
+   ======================================== */
+
+.desktop-nav {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .desktop-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 5.313rem; /* 85px */
+    }
+}
+
+.header-logo img {
+    height: 2rem;
+    width: auto;
+    transform: scale(1.1);
+}
+
+/* Nav Menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 0;
+    color: #111827;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+}
+
+.dropdown-icon {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s;
+}
+
+.has-dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    min-width: 280px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+    border: 1px solid #f3f4f6;
+    z-index: 100;
+    list-style: none;
+}
+
+.dropdown-menu-wide {
+    min-width: 320px;
+}
+
+.has-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: #374151;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f9fafb;
+}
+
+.dropdown-menu small {
+    display: block;
+    color: #6b7280;
+    font-size: 0.75rem;
+    margin-top: 0.125rem;
+}
+
+.dropdown-header {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #6b7280;
+    text-transform: uppercase;
+}
+
+.dropdown-divider {
+    height: 1px;
+    background-color: #e5e7eb;
+    margin: 0.5rem 0;
+}
+
+/* CTA Buttons */
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 9999px;
+    transition: all 0.2s;
+}
+
+.btn-outline {
+    border: 1px solid #d1d5db;
+    color: #111827;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #f9fafb;
+}
+
+.btn-solid {
+    background-color: #111827;
+    color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-solid:hover {
+    background-color: #1f2937;
+}
+
+/* ========================================
+   Mobile Navigation
+   ======================================== */
+
+.mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+@media (min-width: 1024px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
+.mobile-logo {}
+
+.mobile-logo img {
+    height: 1.75rem;
+    width: auto;
+    transition: filter 0.6s cubic-bezier(0.4, 0, 1, 1) 0.3s;
+}
+
+.site-header.menu-open .mobile-logo img {
+    filter: invert(1);
+    transition-delay: 0s;
+}
+
+/* Hamburger Button */
+.hamburger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+    margin-right: -0.75rem;
+}
+
+.hamburger span {
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: #111827;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    left: 8px;
+}
+
+.hamburger span:nth-child(1) {
+    top: 12px;
+}
+
+.hamburger span:nth-child(2) {
+    top: 19px;
+}
+
+.hamburger span:nth-child(3) {
+    top: 26px;
+}
+
+/* Hamburger Open State */
+.site-header.menu-open .hamburger span {
+    background-color: #ffffff;
+}
+
+.site-header.menu-open .hamburger span:nth-child(1) {
+    top: 19px;
+    transform: rotate(45deg);
+}
+
+.site-header.menu-open .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+.site-header.menu-open .hamburger span:nth-child(3) {
+    top: 19px;
+    transform: rotate(-45deg);
+}
+
+/* ========================================
+   Mobile Menu
+   ======================================== */
+
+.mobile-menu {
+    display: none;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.site-header.menu-open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
+.mobile-menu-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mobile-nav-list {
+    flex: 1;
+    padding: 2rem 1.5rem;
+    list-style: none;
+    margin: 0;
+}
+
+.mobile-nav-list > li {
+    margin-bottom: 0.25rem;
+}
+
+.mobile-nav-list > li > a {
+    display: block;
+    padding: 1rem 0;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.mobile-nav-list > li > a:hover {
+    color: #60a5fa;
+}
+
+/* Mobile Submenu */
+.submenu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.submenu-toggle:hover {
+    color: #60a5fa;
+}
+
+.submenu-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.has-submenu.open .submenu-icon {
+    transform: rotate(180deg);
+}
+
+.mobile-submenu {
+    display: none;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    list-style: none;
+    margin: 0;
+}
+
+.has-submenu.open .mobile-submenu {
+    display: block;
+}
+
+.mobile-submenu li {
+    margin: 0;
+}
+
+.mobile-submenu a {
+    display: block;
+    padding: 0.5rem 0;
+    color: #d1d5db;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.mobile-submenu a:hover {
+    color: #ffffff;
+}
+
+.mobile-submenu small {
+    display: block;
+    color: #9ca3af;
+    font-size: 0.75rem;
+    margin-top: 0.125rem;
+}
+
+.submenu-header {
+    padding: 0.25rem 0;
+    color: #9ca3af;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+.submenu-header:first-child {
+    margin-top: 0;
+}
+
+/* Mobile Menu Footer */
+.mobile-menu-footer {
+    border-top: 1px solid #374151;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn-outline-white {
+    border: 1px solid #4b5563;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn-outline-white:hover {
+    background-color: #1f2937;
+}
+
+.btn-solid-white {
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.btn-solid-white:hover {
+    background-color: #f3f4f6;
+}
+
+@media (min-width: 1024px) {
+    .mobile-menu {
+        display: none !important;
+    }
+}

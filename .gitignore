@@ -8,6 +8,7 @@ wp-content/backup-db/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache.php
+wp-content/wflogs/
 *.log
 
 # Database dumps

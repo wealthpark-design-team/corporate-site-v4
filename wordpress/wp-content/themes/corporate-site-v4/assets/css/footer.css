@@ -1,0 +1,255 @@
+/**
+ * Footer Styles
+ */
+
+/* ========================================
+   Main Footer
+   ======================================== */
+
+.footer-main {
+    position: relative;
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    overflow: hidden;
+}
+
+/* 背景装飾テキスト */
+.footer-bg-text {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    user-select: none;
+}
+
+.footer-bg-text p {
+    font-size: 400px;
+    font-weight: 700;
+    color: #efefef;
+    white-space: nowrap;
+    margin: 0;
+}
+
+/* Footer Container */
+.footer-container {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    z-index: 10;
+}
+
+/* ========================================
+   Footer Banners
+   ======================================== */
+
+.footer-banners {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .footer-banners {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-banners {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.footer-banner-item {
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.footer-banner-item:hover {
+    opacity: 0.9;
+}
+
+.footer-banner-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* ========================================
+   Footer Content
+   ======================================== */
+
+.footer-content {
+    padding: 3rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Footer Columns */
+.footer-col {}
+
+.footer-logo {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-heading {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1.25rem;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #1a1a1a;
+}
+
+.external-link {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.external-link svg {
+    flex-shrink: 0;
+}
+
+/* Last Column (Company Info + ISMS) */
+.footer-col-last {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-company-info {
+    margin-bottom: 2rem;
+}
+
+.footer-isms {
+    margin-top: auto;
+}
+
+.footer-isms img {
+    max-width: 110px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .footer-isms img {
+        max-width: 147px;
+    }
+}
+
+.footer-isms p {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+
+/* ========================================
+   Footer Bottom
+   ======================================== */
+
+.footer-bottom {
+    padding: 2rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-policies {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+    .footer-policies {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.footer-policies a {
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-policies a:hover {
+    color: #1a1a1a;
+}
+
+.footer-divider {
+    display: none;
+    color: #9ca3af;
+}
+
+@media (min-width: 768px) {
+    .footer-divider {
+        display: inline;
+    }
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    margin-left: auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #111827;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.scroll-to-top:hover {
+    background-color: #374151;
+}
+
+.scroll-to-top svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
