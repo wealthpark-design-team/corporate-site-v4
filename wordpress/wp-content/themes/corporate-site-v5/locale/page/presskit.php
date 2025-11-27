@@ -1,0 +1,88 @@
+<?php
+  declare(strict_types=1);
+  if($current_lang == 'ja') {
+    return [
+      "title" => 'プレスキット・<br class="visible-sp">素材ダウンロード',
+      "corporate_logo" => "Corporate Logo",
+      "corporate_logo_desc" => "WealthPark株式会社のコーポレートロゴをダウンロードいただけます。<br>利用については「ロゴガイドライン」をご確認ください。",
+      "download" => "ダウンロード",
+      "service_logo" => "Service Logo",
+      "service_logo_desc" => "WealthParkのサービスロゴ「WealthPark Business」を ダウンロードいただけます。",
+      "service_screenshots" => "Service Screenshots",
+      "service_screenshots_desc" => "プロダクトのスクリーンショットをダウンロードいただけます。",
+      "group_companies" => "Group Companies & Service Logo",
+      "group_companies_desc" => "WealthParkグループ会社、サービスのロゴをダウンロードいただけます。",
+      "wpai" => "WealthPark Alternative Investments",
+      "wpai_desc" => "WealthPark Alternative Investments株式会社のコーポレートロゴをダウンロードいただけます。",
+      "wpi_desc" => "WealthPark Alternative Investment のサービスロゴ「WealthPark Investment」 をダウンロードいただけます。",
+      "wpret" => "WealthPark RealEstate Technologies",
+      "wpret_desc" => "WealthPark RealEstate Technologies株式会社のコーポレートロゴ をダウンロードいただけます。",
+      "weifuda_desc" => "WealthPark RealEstate Technologiesの台湾支社「衛富達」のコーポレートロゴをダウンロードいただけます。",
+      "wplab" => "WealthPark Lab",
+      "wplab_desc" => "WealthPark Labのロゴをダウンロードいただけます。",
+    ];
+  } else if($current_lang == 'sc') {
+    return [
+      "title" => "Press Kit / Download Materials",
+      "corporate_logo" => "Corporate Logo",
+      "corporate_logo_desc" => '从本页可下载WealthPark株式会社的公司标志。<br>请查阅「标志使用指南」以了解使用条款。',
+      "download" => "Download",
+      "service_logo" => "Service Logo",
+      "service_logo_desc" => "从本页可下载WealthPark服务标志「WealthPark Business」。",
+      "service_screenshots" => "Service Screenshots",
+      "service_screenshots_desc" => "从本页可下载产品及服务截图。",
+      "group_companies" => "Group Companies & Service Logo",
+      "group_companies_desc" => "从本页可下载WealthPark集团公司和服务的标志。",
+      "wpai" => "WealthPark Alternative Investments",
+      "wpai_desc" => "从本页可下载WealthPark Alternative Investments株式会社的公司标志。",
+      "wpi_desc" => "从本页可下载WealthPark Alternative Investment的服务标志「WealthPark Investment」。",
+      "wpret" => "WealthPark RealEstate Technologies",
+      "wpret_desc" => "从本页可下载WealthPark RealEstate Technologies株式会社的公司标志。",
+      "weifuda_desc" => "从本页可下载 WealthPark RealEstate Technologies台湾子公司「卫富达」的公司标志。",
+      "wplab" => "WealthPark Lab",
+      "wplab_desc" => "从本页可下载WealthPark Lab的标志。",
+    ];
+  } else if($current_lang == 'tc') {
+    return [
+      "title" => "Press Kit / Download Materials",
+      "corporate_logo" => "Corporate Logo",
+      "corporate_logo_desc" => "從本頁可下載WealthPark株式會社的公司標誌。<br>請查閱「標誌使用指南」以瞭解使用條款。",
+      "download" => "Download",
+      "service_logo" => "Service Logo",
+      "service_logo_desc" => "從本頁可下載WealthPark服務標誌「WealthPark Business」。",
+      "service_screenshots" => "Service Screenshots",
+      "service_screenshots_desc" => "從本頁可下載產品及服務截圖。",
+      "group_companies" => "Group Companies & Service Logo",
+      "group_companies_desc" => "從本頁可下載WealthPark集團公司和服務的標誌。",
+      "wpai" => "WealthPark Alternative Investments",
+      "wpai_desc" => "從本頁可下載WealthPark Alternative Investments株式會社的公司標誌。",
+      "wpi_desc" => "從本頁可下載WealthPark Alternative Investment的服務標誌「WealthPark Investment」。",
+      "wpret" => "WealthPark RealEstate Technologies",
+      "wpret_desc" => "從本頁可下載WealthPark RealEstate Technologies株式會社的公司標誌。",
+      "weifuda_desc" => "從本頁可下載 WealthPark RealEstate Technologies台灣子公司「衛富達」的公司標誌。",
+      "wplab" => "WealthPark Lab",
+      "wplab_desc" => "從本頁可下載WealthPark Lab的標誌。",
+    ];
+  } else {
+    return [
+      "title" => "Press Kit / Download Materials",
+      "corporate_logo" => "Corporate Logo",
+      "corporate_logo_desc" => 'The corporate logo of WealthPark, Inc. is available for download. <br>Please refer to the "Logo Guidelines" for usage.',
+      "download" => "Download",
+      "service_logo" => "Service Logo",
+      "service_logo_desc" => 'WealthPark\'s service logo "WealthPark Business" is available for download.',
+      "service_screenshots" => "Service Screenshots",
+      "service_screenshots_desc" => "Screenshots of the product are available for download.",
+      "group_companies" => "Group Companies & Service Logo",
+      "group_companies_desc" => "Download logos of WealthPark Group companies and services.",
+      "wpai" => "WealthPark Alternative Investments",
+      "wpai_desc" => "Download the corporate logo of WealthPark Alternative Investments, Inc.",
+      "wpi_desc" => 'Download the WealthPark Alternative Investment service logo "WealthPark Investment".',
+      "wpret" => "WealthPark RealEstate Technologies",
+      "wpret_desc" => "Download the corporate logo for WealthPark RealEstate Technologies, Inc.",
+      "weifuda_desc" => 'Download the corporate logo of WealthPark RealEstate Technologies\' Taiwanese office "Weifuda".',
+      "wplab" => "WealthPark Lab",
+      "wplab_desc" => "Download the WealthPark Lab logo.",
+    ];
+  }
+?>

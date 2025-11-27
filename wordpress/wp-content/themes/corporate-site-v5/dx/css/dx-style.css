@@ -1,0 +1,405 @@
+/* ===================================
+   DX Consulting Page Styles
+   =================================== */
+
+/* Common */
+.dx-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dx-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dx-section-subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.dx-button {
+  display: inline-block;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.dx-button--primary {
+  background-color: #0066CC;
+  color: #fff;
+  border-color: #0066CC;
+}
+
+.dx-button--primary:hover {
+  background-color: #0052A3;
+  border-color: #0052A3;
+}
+
+.dx-button--secondary {
+  background-color: #fff;
+  color: #0066CC;
+  border-color: #0066CC;
+}
+
+.dx-button--secondary:hover {
+  background-color: #f5f5f5;
+}
+
+.dx-button--outline {
+  background-color: transparent;
+  color: #333;
+  border-color: #ddd;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.dx-button--outline:hover {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+/* Hero Section */
+.dx-hero {
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 100px 20px;
+  overflow: hidden;
+}
+
+.dx-hero__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.dx-hero__inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dx-hero__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.dx-hero__subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.dx-hero__buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Features Section */
+.dx-features {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.dx-features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.dx-feature {
+  text-align: center;
+}
+
+.dx-feature__image {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dx-feature__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dx-feature__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.dx-feature__description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* Case Studies Section */
+.dx-cases {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.dx-cases__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.dx-case {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dx-case:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dx-case__link-wrapper {
+  text-decoration: none;
+  display: block;
+}
+
+.dx-case__image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dx-case__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+.dx-case__title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 20px 10px;
+  color: #333;
+  line-height: 1.6;
+  min-height: 80px;
+}
+
+.dx-case__link {
+  display: block;
+  padding: 0 20px 20px;
+  font-size: 14px;
+  color: #0066CC;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dx-case__link-wrapper:hover .dx-case__link {
+  color: #0052A3;
+  text-decoration: underline;
+}
+
+/* Consultants Section */
+.dx-consultants-team {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.dx-consultants-team .dx-section-title {
+  margin-bottom: 20px;
+}
+
+.dx-consultants-team .dx-section-subtitle {
+  margin-bottom: 60px;
+}
+
+.dx-consultants-team .team-lists {
+  justify-content: center;
+}
+
+.dx-consultants-team .team-lists__person {
+  cursor: pointer;
+}
+
+/* Recruitment Section */
+.dx-recruitment {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.dx-recruitment__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+}
+
+.dx-job {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dx-job__tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.dx-job__tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #e3f2fd;
+  color: #0066CC;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.dx-job__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.dx-job__location {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.dx-job__description {
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.dx-job__description li {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.dx-job__buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dx-hero__title {
+    font-size: 32px;
+  }
+
+  .dx-hero__subtitle {
+    font-size: 16px;
+  }
+
+  .dx-hero__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dx-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .dx-section-title {
+    font-size: 28px;
+  }
+
+  .dx-features__grid,
+  .dx-cases__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dx-recruitment__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dx-job__buttons {
+    flex-direction: column;
+  }
+
+  .dx-button--outline {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .dx-hero {
+    min-height: 500px;
+    padding: 60px 20px;
+  }
+
+  .dx-hero__title {
+    font-size: 28px;
+  }
+
+  .dx-hero__subtitle {
+    font-size: 14px;
+  }
+
+  .dx-section-title {
+    font-size: 24px;
+  }
+
+  .dx-section-subtitle {
+    font-size: 14px;
+  }
+
+  .dx-features,
+  .dx-cases,
+  .dx-consultants-team,
+  .dx-recruitment {
+    padding: 60px 0;
+  }
+}

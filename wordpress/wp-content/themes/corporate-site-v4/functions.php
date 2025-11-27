@@ -9,9 +9,9 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * 画像URL自動切り替え（ローカル環境→本番サーバー参照）
+ * Image URL auto-switching (local → production server)
  */
-if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
     add_filter('upload_dir', function($uploads) {
         $uploads['baseurl'] = 'https://wealth-park.com/wp-content/uploads';
         $uploads['url'] = 'https://wealth-park.com/wp-content/uploads' . $uploads['subdir'];
@@ -43,10 +43,23 @@ function corporate_v4_theme_support() {
 add_action('after_setup_theme', 'corporate_v4_theme_support');
 
 /**
- * スクリプトとスタイルの読み込み
+ * Get file version based on last modified time
+ * File update = automatic cache busting
+ */
+function corporate_v4_get_file_version($file_path) {
+    $full_path = get_template_directory() . $file_path;
+    if (file_exists($full_path)) {
+        return filemtime($full_path);
+    }
+    return '1.0.0';
+}
+
+/**
+ * Load scripts and styles with automatic versioning
+ * Performance optimized with cache busting
  */
 function corporate_v4_enqueue_scripts() {
-    // Tailwind CSS (CDN版)
+    // Tailwind CSS (CDN)
     wp_enqueue_style(
         'tailwindcss',
         'https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css',
@@ -54,7 +67,7 @@ function corporate_v4_enqueue_scripts() {
         '3.4.1'
     );
 
-    // Three.js (Vanta.js用)
+    // Three.js (for Vanta.js)
     wp_enqueue_script(
         'threejs',
         'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js',
@@ -72,36 +85,36 @@ function corporate_v4_enqueue_scripts() {
         true
     );
 
-    // ヘッダースタイル
+    // Header styles - auto versioning
     wp_enqueue_style(
         'corporate-v4-header',
         get_template_directory_uri() . '/assets/css/header.css',
         array(),
-        '1.0.6'
+        corporate_v4_get_file_version('/assets/css/header.css')
     );
 
-    // フッタースタイル
+    // Footer styles - auto versioning
     wp_enqueue_style(
         'corporate-v4-footer',
         get_template_directory_uri() . '/assets/css/footer.css',
         array(),
-        '1.0.6'
+        corporate_v4_get_file_version('/assets/css/footer.css')
     );
 
-    // カスタムスタイル
+    // Custom styles - auto versioning
     wp_enqueue_style(
         'corporate-v4-custom',
         get_template_directory_uri() . '/assets/css/custom.css',
         array('corporate-v4-header', 'corporate-v4-footer'),
-        '1.0.6'
+        corporate_v4_get_file_version('/assets/css/custom.css')
     );
 
-    // カスタムスクリプト
+    // Main script - auto versioning
     wp_enqueue_script(
         'corporate-v4-main',
         get_template_directory_uri() . '/assets/js/main.js',
         array('vanta-fog'),
-        '1.0.6',
+        corporate_v4_get_file_version('/assets/js/main.js'),
         true
     );
 }
@@ -177,6 +190,20 @@ function corporate_v4_get_blog_posts() {
 }
 
 /**
- * 管理バー（黒い帯）を非表示
+ * Disable admin bar
  */
 add_filter('show_admin_bar', '__return_false');
+
+/**
+ * Disable browser cache for local development
+ * Ensures CSS/JS changes are reflected immediately
+ */
+if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    function corporate_v4_disable_cache_headers() {
+        header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+        header('Cache-Control: post-check=0, pre-check=0', false);
+        header('Pragma: no-cache');
+        header('Expires: 0');
+    }
+    add_action('send_headers', 'corporate_v4_disable_cache_headers');
+}

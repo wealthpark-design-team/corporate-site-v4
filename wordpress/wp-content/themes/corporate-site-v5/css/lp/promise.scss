@@ -1,0 +1,141 @@
+// headerのstyleを上書きする
+.navigation--business{
+    background: none;
+    .menu-container--pc .menu ul .menu__lv1 .menu__lv1Parent {
+        color: white;
+        &:hover{
+            background: none;
+            opacity: .8;
+            color: #fff;
+        }
+    }
+
+    .menu-container--pc .menu ul .menu__lv1 .menu__lv1Parent--active{
+        background: none;
+        color: #fff;
+        opacity: .8;
+    }
+    svg {
+        mix-blend-mode: exclusion;
+    }
+}
+
+.menu-container--sp .menu__nav .menu__hamburger span{
+    @media screen and(max-width: 767px){
+        background: #fff;
+    }
+}
+
+.menu-container--sp .menu__nav .menu__hamburger--active span{
+    @media screen and(max-width: 767px){
+        background: #222;
+    }
+}
+
+.lp-promise{
+    background-image: url('../../app/img/bg_device.jpg');
+    color: #fff;
+    padding: 0 15vw;
+    padding-bottom: 340px;
+    @media screen and(max-width: 767px){
+        padding: 0 30px;
+        padding-bottom: 100px;
+    }
+    &__hero{
+        padding-top: 180px;
+
+        &-title{
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 100px;
+        }
+
+        &-header{
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: 90px;
+        }
+
+        &-lead{
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        @media screen and(max-width: 767px) {
+            padding-top: 120px;
+
+            &-title{
+                margin-bottom: 50px;
+                font-size: 20px;
+            }
+
+            &-header{
+                font-size: 30px;
+                margin-bottom: 50px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    &__block{
+        line-height: 1.6;
+        margin-bottom: 1rem;
+
+        &-title{
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        &-text{
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        @media screen and(max-width: 767px){
+            &-title{
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__footer{
+        margin-top: 90px;
+        &-text{
+            font-size: 28px;
+            line-height: 2;
+            margin-bottom: 100px;
+            &--small{
+                font-size: 16px;
+                display: block;
+            }
+        }
+
+        &-logo{
+            display: flex;
+            justify-content: flex-end;
+
+            img{
+                width: 272px;
+            }
+        }
+        @media screen and(max-width: 767px){
+            margin-top: 50px;
+
+            &-text{
+                font-size: 20px;
+                margin-bottom: 50px;
+                &--small{
+                    font-size: 14px;
+                }
+            }
+
+            &-logo{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}

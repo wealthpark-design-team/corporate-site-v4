@@ -479,6 +479,14 @@ body {
 }
 
 /* ========================================
+   Links
+   ======================================== */
+
+a {
+    text-decoration: none;
+}
+
+/* ========================================
    Position
    ======================================== */
 
@@ -985,6 +993,10 @@ body {
     color: #ffffff;
 }
 
+.hover\:text-black:hover {
+    color: #000000;
+}
+
 .hover\:bg-gray-900:hover {
     background-color: #111827;
 }
@@ -1015,6 +1027,10 @@ body {
 
 .group:hover .group-hover\:bg-blue-600 {
     background-color: #2563eb;
+}
+
+.group:hover .group-hover\:scale-105 {
+    transform: scale(1.05);
 }
 
 /* ========================================
@@ -1113,7 +1129,7 @@ svg {
 
 .hero-title {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.3;
     margin: 0;
 }
@@ -1121,7 +1137,7 @@ svg {
 @media (min-width: 768px) {
     .hero-title {
         font-size: 3.75rem;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.3;
     }
 }

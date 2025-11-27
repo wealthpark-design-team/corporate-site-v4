@@ -1,0 +1,4088 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-11-08 07:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-11-04 08:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.32"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+"<section class=\"hsforms container\" id=\"hsforms\">\n"
+"  <div class=\"hsforms__inner container__inner\">\n"
+"    <h2 class=\"hsforms__tit section-name\">\n"
+"      Please Contact Us to Discuss Your Needs\n"
+"    </h2>\n"
+"    <p class=\"hsforms__copy\">Fill out the form below</p>\n"
+"    <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms."
+"net/forms/shell.js\"></script>\n"
+"    </script>\n"
+"<script>\n"
+"  hbspt.forms.create({\n"
+"\tregion: \"na1\",\n"
+"\tportalId: \"4797615\",\n"
+"\tformId: \"70db5b84-ed99-405a-8d23-62c51518f5af\"\n"
+"});\n"
+"</script>\n"
+"  </div>\n"
+"</section>"
+
+#: functions.php:98
+msgid "Add widgets here."
+msgstr ""
+
+#: page_asset_management.php:124
+msgid "am.feature.category"
+msgstr "FEATURES"
+
+#: page_asset_management.php:126
+msgid "am.feature.description"
+msgstr ""
+"Real-estate veterans with 100+ years’ experience bring local know-how and "
+"expertise to your property"
+
+#: page_asset_management.php:125
+msgid "am.feature.title"
+msgstr "What makes <br />WealthPark different?"
+
+#: page_asset_management.php:53
+msgid "am.hero-message"
+msgstr ""
+"Leader in Japan<br />Inbound Real Estate<br />Asset and Property Management"
+
+#: page_asset_management_uk.php:16 page_asset_management_uk.php:21
+#: page_corporate_contact.php:18 page_app.php:29 page_app.php:32
+#: page_asset_management.php:15 page_asset_management.php:20
+#: page_asset_management_lp-tb2c.php:37
+#: page_asset_management_lp-e-contract-001.php:37
+msgid "am.meta-description"
+msgstr "Leader in Japan Inbound Real Estate Asset Management"
+
+#: page_asset_management_uk.php:15 page_asset_management_uk.php:17
+#: page_asset_management.php:14 page_asset_management.php:16
+msgid "am.meta-title"
+msgstr ""
+"WealthPark Asset Management - Leader in Japan Inbound Real Estate Asset "
+"Management"
+
+#: page_asset_management.php:102
+msgid "am.service.001.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">Real-estate veterans with 100+ years’ experience bring "
+"local know-how and experience to your property.</li>\n"
+"  <li class=\"\">Wide network of property developers, brokers, property "
+"management firms, banks and insurance companies to collectively steward your "
+"assets.</li>\n"
+"  <li class=\"\">Offers reputable service at fair price with trusted vendors."
+"</li>\n"
+"</ul>"
+
+#: page_asset_management.php:101
+msgid "am.service.001.title"
+msgstr ""
+"Real-estate professionals delivering local property management expertise"
+
+#: page_asset_management.php:111
+msgid "am.service.002.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">Stay connected with your investment portfolio from anywhere,"
+" anytime</li>\n"
+"  <li class=\"\">Chat through App with your multi-lingual asset managers</li>"
+"\n"
+"  <li class=\"\">Get the latest market trends right in your palm</li>\n"
+"</ul>"
+
+#: page_asset_management.php:110
+msgid "am.service.002.title"
+msgstr "Re-inventing cross border investment"
+
+#: page_asset_management.php:95
+msgid "am.service.category"
+msgstr "SERVICES"
+
+#: page_asset_management.php:96
+msgid "am.service.title"
+msgstr "Real Estate × Tech"
+
+#: page_asset_management_uk.php:135 page_asset_management.php:134
+msgid "am.voice.category"
+msgstr "USER VOICES"
+
+#: page_asset_management_uk.php:136 page_asset_management.php:135
+msgid "am.voice.title"
+msgstr "Happy customers trust WealthPark. <br />You can too!"
+
+#: page_asset_management_uk.php:138 page_asset_management.php:137
+msgid "am.voice.voices"
+msgstr ""
+"<ul class=\"voice-section__voices\">\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">“WealthPark property managers "
+"provide real hands-on job. They helped to fix the running toilet in my "
+"property and calmed down the angry tenants in a very effective way. I just "
+"need to sit back and collect my rent.”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/wpam/user_voice_001.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— Investor on Tokyo Property,"
+"<br />Hong Kong, Male, 42 yrs old.</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">“Previously I talked with my "
+"property manager by email or over the phone. After using WealthPark, I can "
+"communicate by APP anytime and anywhere and get instant feedback. Important "
+"messages can always be pushed to my cell phone.”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/wpam/user_voice_002.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— Investor on Tokyo Property,"
+"<br />Taiwan，Female，35 yrs old</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">“Using WealthPark，my monthly "
+"income and cash flow is very clear at the click of a few buttons. The "
+"investment report is quite readable. It feels like using wealth management "
+"APP with an asset management advisor”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/wpam/user_voice_003.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— Investor on Tokyo Property,"
+"<br />Singapore，Female，43 yrs old.</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">“A HK broker took care of my "
+"property after I purchased it. Ever since I changed to WealthPark, which has "
+"a strong local Japanese team for property management, the management fee is "
+"lower and the service quality is better.”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/wpam/user_voice_004.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— Investor on Osaka Property,"
+"<br />Hong Kong，Male，47 yrs old.</p>\n"
+"  </li>\n"
+"</ul>\n"
+
+#: page_app.php:145
+msgid "announcement.wp-nyc2019"
+msgstr ""
+"<a href=\"https://wealth-park.com/app-event-cv2020/\" class=\"announcement\">"
+"\n"
+"  <p>Real Estate Tech Event &quot; CONNECT VALUE - WealthPark Tokyo 2020 - "
+"&quot; </p>\n"
+"  <div class=\"announcement__button\">\n"
+"    Learn more<i class=\"material-icons md-18\">trending_flat</i>\n"
+"  </div>\n"
+"</a>"
+
+#. Author of the theme
+msgid "Anonymous"
+msgstr ""
+
+#: page_corporate_contact.php:17 page_app.php:26 page_app.php:28
+#: page_app.php:30 page_app.php:36
+msgid "app.meta_description"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_app.php:25
+msgid "app.meta_title"
+msgstr "WealthPark - Manage your investment with ease."
+
+#: template-parts/partnerships-parts.php:7
+msgid "app.partnership_logo"
+msgstr ""
+"<ul class=\"logos--4column\">\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_asahikasei.png\" alt=\"Asahi Kasei\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"  <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_aozora_bank_en.png\" alt=\"aozora bank\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_chuo-nittochi.png\" alt=\"Chuo Nittochi\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_dg.png\" alt=\"Digital Garage\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_hanshin-hankyu.png\" alt=\"Hanshin Hankyu\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_hpm.png\" alt=\"HPM\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_hirota.png\" alt=\"Hirota\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"  <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_japan_post_capital_en.png\" alt=\"JAPAN POST CAPITAL\">"
+"\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_jfr_logo_eibun.png\" alt=\"J. Front Retailing\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_jic.png\" alt=\"jic\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_kochi-house.png\" alt=\"Kochi House\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_kosugi.png\" alt=\"Kosugi\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_life-produce.png\" alt=\"Life Produce\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/business/img/clients_mj-home-new.png\" alt=\"MJ Home\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_miyoshi.png\" alt=\"Miyoshi\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_mizuho_capital_en.png\" alt=\"Mizuho Capital\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_nihon-agant.png\" alt=\"Nihon Agent\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_nine-holdings.png\" alt=\"Nine Holdings\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_owl.png\" alt=\"OWL\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_sanwa.png\" alt=\"Sanwa\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_sbi_Investment.png\" alt=\"SBI Investment\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_takuto.png\" alt=\"Takuto\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_tokyo-kaizyo.png\" alt=\"Tokyo Kaizyo\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_TokyuFudousan.png\" alt=\"Tokyu Fudousan\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partner_hamagin.png\" alt=\"Yokohama Bank\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_visual-research.png\" alt=\"Visual Research\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/partnerships_watanabe.png\" alt=\"W Juken\">\n"
+"  </li>\n"
+"</ul>"
+
+#: page_app.php:206 page_corporate_corporate.php:55 page_product_lp.php:431
+msgid "app.team.profile"
+msgstr ""
+"<section class=\"container team\">\n"
+"<div class=\"container__inner team__inner\">\n"
+"    <div class=\"title-box\">\n"
+"      <ul class=\"team-lists\">\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-01\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_kawada.png\" alt=\"Ryuta Kawada\"></p>\n"
+"          <p class=\"team-lists__person-name\">Ryuta Kawada</p>\n"
+"          <p class=\"team-lists__person-role\">WealthPark<br>Founder & "
+"CEO<br> Representative Director of the Board &<br>\n"
+"            WealthPark Alternative Investments<br>CEO</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-06\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_tezuka.png\" alt=\"Kensuke Tezuka\"></p>\n"
+"            <p class=\"team-lists__person-name\">Kensuke Tezuka</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Vice President COO</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-04\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_shirasaki.png\" alt=\"Jumpei Shirasaki\"></p>\n"
+"        <p class=\"team-lists__person-name\">Jumpei Shirasaki</p>\n"
+"        <p class=\"team-lists__person-role\">WealthPark<br>Senior Managing "
+"Director CFO<br>Head of USA<br>&<br>WealthPark Alternative Investments<br>"
+"Director</p>\n"
+"        </li>\n"
+"        </ul>\n"
+"        <ul class=\"team-lists\">\n"
+"            <li class=\"team-lists__person modal-syncer\" data-"
+"target=\"modal-content-20\">\n"
+"                <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_takahiro_fujii.png\" alt=\"Takahiro Fujii\"></p>\n"
+"                <p class=\"team-lists__person-name\">Takahiro Fujii</p>\n"
+"                <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Officer CTO<br></p>\n"
+"            </li>\n"
+"            <li class=\"team-lists__person modal-syncer\" data-"
+"target=\"modal-content-33\">\n"
+"              <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/uploads/2024/06/team_ph_takeuchi."
+"jpg\" alt=\"Eriko Takeuchi\"></p>\n"
+"              <p class=\"team-lists__person-name\">Eriko Takeuchi</p>\n"
+"              <p class=\"team-lists__person-role\">WealthPark<br> Executive "
+"Officer<br> License Preparation Office <br>&<br> WealthPark Alternative "
+"Investments<br> Director</p>\n"
+"          </li>        \n"
+"            <li class=\"team-lists__person modal-syncer\" data-"
+"target=\"modal-content-22\">\n"
+"                <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yamaji.png\" alt=\"Sota Yamaji\"></p>\n"
+"                <p class=\"team-lists__person-name\">Sota Yamaji</p>\n"
+"                <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Officer<br>Head of Business Development<br>&<br>WealthPark RealEstate "
+"Technologies<br>Director</p>\n"
+"            </li>\n"
+"            <li class=\"team-lists__person modal-syncer\" data-"
+"target=\"modal-content-17\">\n"
+"                <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_toriya.png\" alt=\"Takuma Toriya\"></p>\n"
+"                  <p class=\"team-lists__person-name\">Takuma Toriya</p>\n"
+"                  <p class=\"team-lists__person-role\">WealthPark<br>"
+"Executive Officer<br>Head of Customer Success</p>\n"
+"            </li>\n"
+"<li class=\"team-lists__person modal-syncer\" data-target=\"modal-content-"
+"31\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_murakami.png\" alt=\"Tomokazu Murakami\"></p>\n"
+"          <p class=\"team-lists__person-name\">Tomokazu Murakami</p>\n"
+"          <p class=\"team-lists__person-role\">WealthPark<br>SVP of DX "
+"Consulting<br>Enterprise Division<br>DX Consulting Department</p>\n"
+"        </li>\n"
+"            <li class=\"team-lists__person modal-syncer\" data-"
+"target=\"modal-content-16\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_kan.png\" alt=\"Chunyi Kan\"></p>\n"
+"            <p class=\"team-lists__person-name\">Chunyi Kan</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Officer<br>WealthPark RealEstate Technologies<br>Executive Officer CEO</p>\n"
+"          </li>\n"
+"          <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-12\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_ishimura.png\" alt=\"Yuki Ishimura\"></p>\n"
+"            <p class=\"team-lists__person-name\">Yuki Ishimura</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Officer<br>WealthPark Alternative Investments Director</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-18\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshimoto.png\" alt=\"Yuki Yoshimoto\"></p>\n"
+"            <p class=\"team-lists__person-name\">Yuki Yoshimoto</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>Executive "
+"Officer CDO<br>WealthPark Alternative Investments Director</p>\n"
+"        </li>\n"
+"      </ul>\n"
+"      <ul class=\"team-lists\">\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-14\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_kato.png\" alt=\"Kosuke Kato\"></p>\n"
+"          <p class=\"team-lists__person-name\">Kosuke Kato</p>\n"
+"          <p class=\"team-lists__person-role\">WealthPark Lab<br>President / "
+"Investment Evangelist</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-21\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_torii.png\" alt=\"Shunji Torii\"></p>\n"
+"          <p class=\"team-lists__person-name\">Shunji Torii</p>\n"
+"          <p class=\"team-lists__person-role\">WealthPark<br>SVP of "
+"Product<br>Product Department</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-25\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_tomiyasu.png\" alt=\"Tatsuya Tomiyasu\"></p>\n"
+"            <p class=\"team-lists__person-name\">Tatsuya Tomiyasu</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>SVP<br>"
+"WealthPark RealEstate Technologies<br>Director</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-32\">\n"
+"            <p class=\"team-lists__person-photo\"><img class=\"\" "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_matsuzaki.png\" alt=\"Taro Matsuzaki\"></p>\n"
+"            <p class=\"team-lists__person-name\">Taro Matsuzaki</p>\n"
+"            <p class=\"team-lists__person-role\">WealthPark<br>SVP<br>"
+"WealthPark<br>RealEstate Technologies<br>Transaction<br>Transaction & "
+"Service Department<br>Executive Officer</p>\n"
+"          </li>\n"
+"      </ul>\n"
+"      <ul class=\"team-lists\">\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-27\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_horikoshi.png\" alt=\"堀越 友香\"></p>\n"
+"          <p class=\"team-lists__person-name\">Yuka Horikoshi</p>\n"
+"          <p class=\"team-lists__person-role\">Independent Director<br>Chuo "
+"Sogo Law Office, P. C.<br>Partner</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-28\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yonekura_002.png\" alt=\"米倉 稔\"></p>\n"
+"          <p class=\"team-lists__person-name\">Minoru Yonekura,</p>\n"
+"          <p class=\"team-lists__person-role\">Independent Director<br>Seven "
+"Seas Advisors Co., Ltd.<br>Co-Founder and CEO</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-30\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/uploads/2024/01/team_ph_nakae.jpg\" alt=\"中江 "
+"史人\"></p>\n"
+"          <p class=\"team-lists__person-name\">Fumito Nakae</p>\n"
+"          <p class=\"team-lists__person-role\">Auditor<br>Institution for a "
+"Global Society, Inc.<br>Director</p>\n"
+"        </li>\n"
+"      </ul>\n"
+"    </div>\n"
+"  </div>\n"
+"  </section>\n"
+"  <div id=\"modal-content-01\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-page/app/img/team_profile_kawada."
+"png\" alt=\"Ryuta Kawada\"></p>\n"
+"  <p class=\"team-lists__person-name\">Ryuta Kawada</p>\n"
+"  <p class=\"team-lists__person-role\">WealthPark<br>Founder & CEO<br> "
+"Representative Director of the Board &<br>\n"
+"    WealthPark Alternative Investments<br>CEO</p>\n"
+"  <p class=\"team-lists__person-description\">Ryuta is the founder and CEO "
+"of WealthPark, responsible for the company's business strategy. He held a "
+"management position at Fashionwalk, an IT venture company. Preceding that, "
+"he served as an investment banker in Mizuho Securities. He is highly "
+"experienced in management and has a broad network of domestic and foreign "
+"technology companies and high-net-worth individuals.<br/><br/>He holds a B.S."
+" in Management Science from Tokyo Institute of Technology.</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/ryuta.kawada.7\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    <a href=\"https://www.linkedin.com/in/ryuta-kawada-76a8b29a/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    <a href=\"https://www.instagram.com/kawadary/?hl=ja\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_instagram.png\" alt=\"instagram\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-06\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_tezuka.png\" alt=\"Kensuke Tezuka\"></p>\n"
+"    <p class=\"team-lists__person-name\">Kensuke Tezuka</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Vice "
+"President COO</p>\n"
+"    <p class=\"team-lists__person-description\">Kensuke is the Senior "
+"Managing Director of WealthPark, overseeing SaaS business, HR, and PR. "
+"Before joining WealthPark, Kensuke served domestic and global business "
+"development and business planning in Rakuten and Fujifilm. He is well "
+"experienced in planning and execution of marketing and business strategies."
+"<br /> <br /> He received his B.A. in Law and Political Science at Tokyo "
+"University and his M.B.A. at London Business School.</p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/kensuke.tezuka\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"      <a href=\"https://jp.linkedin.com/in/kensuke-tezuka-27182217\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-04\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_shirasaki.png\" alt=\"Jumpei Shirasaki\"></p>\n"
+"  <p class=\"team-lists__person-name\">Jumpei Shirasaki</p>\n"
+"  <p class=\"team-lists__person-role\">WealthPark<br>Senior Managing "
+"Director CFO<br>Head of USA<br>&<br>WealthPark Alternative Investments<br>"
+"Director</p>\n"
+"  <p class=\"team-lists__person-description\">Jumpei is the Senior Managing "
+"Director of WealthPark and leads the USA business. Prior to WealthPark, he "
+"worked at MSREF, a real-estate fund of Morgan Stanley,  serving the "
+"investment business in hard assets, operational assets, private equity, non-"
+"performing loans, etc. He is experienced in investment management and has a "
+"broad network in Japan and overseas.<br /><br />He received his B.A. in "
+"Policy Management from Keio University.</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.linkedin.com/in/jumpei-shirasaki-35b625150/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-16\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_kan."
+"png\" alt=\"Chunyi Kan\"></p>\n"
+"    <p class=\"team-lists__person-name\">Chunyi Kan</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer<br>"
+"WealthPark RealEstate Technologies<br>CEO</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/yuki.ishimura.754\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-25\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_tomiyasu.png\" alt=\"冨康 達矢\"></p>\n"
+"    <p class=\"team-lists__person-name\">Tatsuya Tomiyasu</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>SVP<br>WealthPark "
+"RealEstate Technologies<br>Director</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-18\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshimoto.png\" alt=\"Yuki Yoshimoto\"></p>\n"
+"    <p class=\"team-lists__person-name\">Yuki Yoshimoto</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer<br>"
+"CDO<br>WealthPark Alternative Investments Director</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/yuki.ishimura.754\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-12\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_ishimura.png\" alt=\"Yuki Ishimura\"></p>\n"
+"  <p class=\"team-lists__person-name\">Yuki Ishimura</p>\n"
+"  <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer<br>"
+"WealthPark Alternative Investments Director</p>\n"
+"  <p class=\"team-lists__person-description\">Yuki is responsible for sales "
+"of WealthPark Business, SaaS product for property managers. Prior to joining "
+"WealthPark, Yuki worked for Actcall inc. as sales director of call center "
+"services and business development director of overseas real estate franchise "
+"business.<br /> <br /> Yuki is also actively involved in the industry "
+"working group and promoting the digitization of property management.</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/yuki.ishimura.754\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-22\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yamaji.png\" alt=\"山地 壮太\"></p>\n"
+"    <p class=\"team-lists__person-name\">Sota Yamaji</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer<br>"
+"Head of Business Development<br>&<br>WealthPark RealEstate Technologies<br>"
+"Director</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/sohta.yamaji/\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"      <a href=\"https://www.linkedin.com/in/souta-yamaji-b33609177/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-17\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_toriya.png\" alt=\"Takuma Toriya\"></p>\n"
+"    <p class=\"team-lists__person-name\">Takuma Toriya</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer<br>"
+"Head of Customer Success</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/yuki.ishimura.754\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-14\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_kato.png\" alt=\"加藤 航介\"></p>\n"
+"    <p class=\"team-lists__person-name\">Kosuke Kato</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark Lab<br>President / "
+"Investment Evangelist</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"   <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.facebook.com/kosuke.kato.775\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"      <a href=\"https://www.linkedin.com/in/kay-kosuke-kato-b9767b28/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"     <a href=\"https://twitter.com/KayKato2\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_twitter.png\" alt=\"Twitter\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-33\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/uploads/2024/06/team_ph_takeuchi.jpg\" "
+"alt=\"Eriko Takeuchi\"></p>\n"
+"    <p class=\"team-lists__person-name\">Eriko Takeuchi</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br> Executive Officer<br>"
+" License Preparation Office <br>&<br> WealthPark Alternative Investments<br> "
+"Director</p>\n"
+"    <p class=\"team-lists__person-description\">Responsible for a wide range "
+"of legal and compliance work in the financial industry, including banks, "
+"card companies, and payment processing companies. Joined WealthPark in "
+"February 2024. Responsible for operations related to business licenses for "
+"the entire WealthPark group.<br><br>Graduated from the Faculty of Law, "
+"Ritsumeikan University.</p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-20\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_takahiro_fujii.png\" alt=\"藤井貴浩\"></p>\n"
+"    <p class=\"team-lists__person-name\">Takahiro Fujii</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>Executive Officer "
+"CTO</p>\n"
+"  <p class=\"team-lists__person-description\">With extensive experience as "
+"an Engineering Lead, Fujii served in his previous role as the Engineering "
+"Manager for various technical domains including front-end, back-end, and "
+"mobile at Rakuten Inc., where he managed global development teams. Fujii "
+"joined WealthPark in 2020 and took on the responsibility of overseeing the "
+"development organization. From 2023, Fujii has been focusing on cross-"
+"functional organizational management, as well as enhancing infrastructure "
+"and shared systems. Additionally, Fujii has been active in sharing knowledge "
+"through speaking engagements at technical conferences and hosting seminars "
+"related to ChatGPT, LLM, etc.<br><br>Tokyo University of Science<br>"
+"Mathematical information science(BS)</p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.linkedin.com/in/takahiro-fujii-221a7461/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"      <a href=\"https://note.com/takahirofujii\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_note.png\" alt=\"note\" /></a>\n"
+"      <a href=\"https://twitter.com/taka_ft\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_twitter.png\" alt=\"Twitter\" /></a>\n"
+"      <a href=\"https://takahirofujii.dev/\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_website.png\" alt=\"website\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-21\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_torii.png\" alt=\"鳥居 俊二\"></p>\n"
+"    <p class=\"team-lists__person-name\">Shunji Torii</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>SVP of Product<br>"
+"Product Department</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.linkedin.com/in/shunji-torii-6677ba97/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-31\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_murakami.png\" alt=\"村上 朝一\"></p>\n"
+"    <p class=\"team-lists__person-name\">Tomokazu Murakami</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>SVP of DX "
+"Consulting<br>Enterprise Division<br>DX Consulting Department</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-32\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_matsuzaki.png\" alt=\"松崎太郎\"></p>\n"
+"    <p class=\"team-lists__person-name\">Taro Matsuzaki</p>\n"
+"    <p class=\"team-lists__person-role\">WealthPark<br>SVP<br>WealthPark "
+"RealEstate Technologies<br>Transaction<br>Transaction & Service "
+"Department<br>Executive Officer</p>\n"
+"  <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-27\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_horikoshi.png\" alt=\"堀越 友香\"></p>\n"
+"    <p class=\"team-lists__person-name\">Yuka Horikoshi</p>\n"
+"    <p class=\"team-lists__person-role\">Independent Director<br>Chuo Sogo "
+"Law Office, P. C.<br>Partner</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-28\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yonekura_002.png\" alt=\"米倉 稔\"></p>\n"
+"    <p class=\"team-lists__person-name\">Minoru Yonekura,</p>\n"
+"    <p class=\"team-lists__person-role\">Independent Director<br>Seven Seas "
+"Advisors Co., Ltd.<br>Co-Founder and CEO</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-29\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_nakajima.png\" alt=\"中島 遼\"></p>\n"
+"    <p class=\"team-lists__person-name\">Ryo Nakashima</p>\n"
+"    <p class=\"team-lists__person-role\">Independent Director<br>SBI "
+"Investment Co., Ltd.<br>Manager</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <div class=\"team-lists__person-sns\">\n"
+"      <a href=\"https://www.linkedin.com/in/ryo-nakashima-0912/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    </div>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>\n"
+"  <div id=\"modal-content-30\" class=\"modal-content\">\n"
+"    <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/uploads/2024/01/team_ph_nakae.jpg\" alt=\"中江 "
+"史人\"></p>\n"
+"    <p class=\"team-lists__person-name\">Fumito Nakae</p>\n"
+"    <p class=\"team-lists__person-role\">Auditor<br>Institution for a Global "
+"Society, Inc.<br>Director</p>\n"
+"    <p class=\"team-lists__person-description\"></p>\n"
+"    <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"  </div>"
+
+#: archive-wealthpark.php:136
+msgid "article.all-articles"
+msgstr "All Articles"
+
+#: index.php:61 page_corporate_old.php:164
+msgid "banner.message"
+msgstr ""
+"Manage your real estate investments from the comfort of your sofa or on the "
+"go.<br/>\n"
+"Managing overseas property investment has never been this easy!"
+
+#. Name of the template
+msgid "Blank Page"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:40
+msgid "blog-wealthpark_list_caption"
+msgstr "Articles"
+
+#: page_corporate_blog_wealthpark.php:39
+#: template-parts/content-page-blog-wealthpark.php:40
+msgid "blog-wealthpark_list_title"
+msgstr "WealthPark Blog"
+
+#: template-parts/content-page-careers.php:39
+msgid "button.apply"
+msgstr "Apply"
+
+#: page_corporate_contact.php:64 page_corporate_contact.php:77
+#: page_corporate_contact.php:90 page_corporate_contact.php:103
+#: page_corporate_contact.php:116
+msgid "button.contact"
+msgstr "Contact"
+
+#: page_corporate_service.php:61 page_corporate_service.php:76
+#: page_corporate_service.php:91 page_corporate.php:106 page_corporate.php:118
+#: page_corporate.php:130
+msgid "button.more"
+msgstr "Learn More"
+
+#: page_corporate_careers.php:56 page_corporate_careers.php:115
+msgid "careers_list_caption"
+msgstr "Careers"
+
+#: page_corporate_careers.php:220
+msgid "careers_list_caption-people"
+msgstr "Employee Interview"
+
+#: page_corporate_careers.php:181
+msgid "careers_list_caption-positions"
+msgstr "Recruitment"
+
+#: page_corporate_careers.php:55 page_corporate_careers.php:114
+#: template-parts/content-page-careers.php:44
+msgid "careers_list_title"
+msgstr "Careers"
+
+#: page_corporate_careers.php:219
+msgid "careers_list_title-people"
+msgstr "People"
+
+#: page_corporate_careers.php:180
+msgid "careers_list_title-positions"
+msgstr "Open Positions"
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: page_corporate_old.php:570
+msgid "contac_type.label"
+msgstr "Category"
+
+#: page_corporate_old.php:576
+msgid "contac_type.media"
+msgstr "Public Relations, Interview, Media-Related"
+
+#: page_corporate_old.php:577
+msgid "contac_type.other"
+msgstr "Others"
+
+#: page_corporate_old.php:575
+msgid "contac_type.recruit"
+msgstr "Careers"
+
+#: page_corporate_old.php:573
+msgid "contac_type.saas"
+msgstr ""
+"WealthPark for Business (Enable property management companies customers "
+"manage their investments via mobile application）"
+
+#: page_corporate_old.php:574
+msgid "contac_type.vertical"
+msgstr "WealthPark for Japan Property Management "
+
+msgid "contact-owner.description"
+msgstr "Inquiry about the application"
+
+#: page_corporate_contact_recruit.php:55 page_corporate_contact_pr.php:55
+#: page_corporate_contact_wp-am.php:56
+#: page_corporate_contact_app-download.php:48
+#: page_asset_management_contact_wp-am.php:69
+msgid "contact.note"
+msgstr "Please fill in the form below and click the \"Send message\" button."
+
+msgid "contact.report-abuse"
+msgstr "Report Abuse"
+
+msgid "contact.report-abuse-content"
+msgstr ""
+"<h2>Report a Security Concern</h2>\n"
+"    <p>At WealthPark, we are committed to providing a safe and secure "
+"environment for our users. If you encounter any security issues, abuse, or "
+"misuse of our platform, please report them to us immediately.</p>\n"
+"    <h2>How to Report a Security Concern</h2>\n"
+"    <p>If you see or experience anything that seems wrong or harmful on our "
+"platform, please let us know. You can report these issues by emailing us at:"
+"</p>\n"
+"    <p>\n"
+"      <strong>Email:</strong> <a href=\"mailto:abuse@wealth-park.com\">"
+"abuse@wealth-park.com</a> \n"
+"      <span>(or submit the <a href=\"#form-abuse\">form</a> below)</span>\n"
+"    </p>\n"
+"    <p>\n"
+"      When you write to us, it will be helpful if you provide the following "
+"information. \n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>What happened?</li>\n"
+"      <li>When did it happen?</li>\n"
+"      <li>Where did it happen (specific part of the website or an email you "
+"received)?</li>\n"
+"      <li>Any other details that might help us understand your concern.</li>"
+"\n"
+"    </ul>\n"
+"    <h2 id=\"form-abuse\">\n"
+"      Our Commitment\n"
+"    </h2>\n"
+"    <p>We take all reports seriously and will work hard to investigate and "
+"resolve any issues. Your help in keeping our platform safe is very important "
+"to us.</p>\n"
+"    <p>Thank you for helping us maintain a secure and reliable service.</p>"
+
+msgid "contact.report-abuse-description"
+msgstr ""
+"At WealthPark, we are committed to providing a safe and secure environment "
+"for our users. If you encounter any security issues, abuse, or misuse of our "
+"platform, please report them to us immediately."
+
+msgid "contact.report-abuse-excerpt"
+msgstr ""
+"If you encounter any security issues, abuse, or misuse of our platform, "
+"please report them to us immediately."
+
+msgid "contact.report-abuse-list-title"
+msgstr "Report Abuse"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-page-news.php:43 template-parts/content.php:33
+#: template-parts/content-page-careers.php:27
+#: template-parts/content-page-blog-wealthpark.php:27
+#: template-parts/content-page-help_owner.php:32
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Blog - WealthPark"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Careers"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - App Download"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - PR"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - Recruit"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP AM"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP Business"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP PM"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Corporate"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Privacy Policy"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Security Policy"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Service"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Terms of Use"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:60 page_corporate_contact_recruit.php:58
+#: page_corporate_contact_pr.php:58 page_business_download_contact.php:220
+msgid "corporate.contact.rule"
+msgstr ""
+"Please agree to the <a href=\"https://wealth-park.com/en/corporate/terms-of-"
+"use/\">terms of use</a> / <a href=\"https://wealth-park."
+"com/en/corporate/privacy-policy/\">privacy policy</a>."
+
+#: page_corporate_contact.php:15
+msgid "corporate.corporate.meta-description"
+msgstr ""
+
+#: page_corporate_contact.php:14
+msgid "corporate.corporate.meta-title"
+msgstr "WealthPark - Manage your investment with ease."
+
+msgid "corporate.description.external-user-information"
+msgstr ""
+"WealthPark株式会社が提供する以下のサービスに関し、第三者が提供するツールや広告サービスのクッキー等(以下「外部送信ツール」といいます。)"
+"により取得する利用者の情報の取扱いについては、以下のとおりです。"
+
+msgid "corporate.external-user-information"
+msgstr "External Transmission of User Information"
+
+#: page_corporate.php:56
+msgid "corporate.hero-message"
+msgstr "Digital<br />Alternative Asset<br />Platform"
+
+msgid "corporate.hero-message-v3"
+msgstr ""
+"<h1 class=\"hero__title-transparent\">Democratize</h1>\n"
+"<h1 class=\"hero__title\">Alternative Investment<br>for Everyone</h1>\n"
+"<p class=\"hero__description\">Real Estate, Fine Art, Investment Wine, "
+"Private Equity, Infrastructure.<br>\n"
+"WealthPark is a global platform for modern investors to access restricted "
+"alternative asset classes.</p>\n"
+"<a class=\"hero__button\" href=\"https://wealth-park."
+"com/corporate/company/\">About WealthPark→</a>"
+
+#: page_corporate_blog_wealthpark.php:15
+msgid "corporate.meta-description.blog-wealthpark"
+msgstr "The Official WealthPark Blog"
+
+#: page_corporate_careers.php:18 page_corporate_careers.php:24
+msgid "corporate.meta-description.careers"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_contact_wp-pm.php:15
+#: page_corporate_contact_wp-business.php:17
+#: page_corporate_contact_recruit.php:15 page_corporate_contact_pr.php:15
+#: page_corporate_contact_wp-am.php:15
+#: page_corporate_contact_app-download.php:15
+#: page_asset_management_contact_wp-am.php:15
+msgid "corporate.meta-description.contact"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_corporate.php:15
+msgid "corporate.meta-description.corporate"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_privacy_policy.php:17
+msgid "corporate.meta-description.privacy-policy"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_security_policy.php:15
+msgid "corporate.meta-description.security-policy"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_service.php:15 page_corporate_service.php:18
+msgid "corporate.meta-description.service"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_term_of_use.php:15
+msgid "corporate.meta-description.terms-of-use"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate.php:15 page_corporate.php:21 page_corporate_corporate.php:21
+msgid "corporate.meta-description.top"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_blog_wealthpark.php:14
+msgid "corporate.meta-title.blog-wealthpark"
+msgstr "Articles | WealthPark Blog"
+
+#: page_corporate_careers.php:17 page_corporate_careers.php:19
+msgid "corporate.meta-title.careers"
+msgstr "Careers | WealthPark"
+
+#: page_corporate_contact_wp-pm.php:14
+#: page_corporate_contact_wp-business.php:16
+#: page_corporate_contact_recruit.php:14 page_corporate_contact_pr.php:14
+#: page_corporate_contact_wp-am.php:14
+#: page_corporate_contact_app-download.php:14
+msgid "corporate.meta-title.contact"
+msgstr "Contact | WealthPark"
+
+#: page_corporate_corporate.php:14
+msgid "corporate.meta-title.corporate"
+msgstr "Company Profile | WealthPark"
+
+#: page_corporate_privacy_policy.php:16
+msgid "corporate.meta-title.privacy-policy"
+msgstr "Privacy Policy | WealthPark"
+
+#: page_corporate_security_policy.php:14
+msgid "corporate.meta-title.security-policy"
+msgstr "Security policy | WealthPark"
+
+#: page_corporate_service.php:14 page_corporate_service.php:17
+msgid "corporate.meta-title.service"
+msgstr "Company Profile | WealthPark"
+
+#: page_corporate_term_of_use.php:14
+msgid "corporate.meta-title.terms-of-use"
+msgstr "Terms of Use | WealthPark"
+
+#: page_corporate.php:14 page_corporate.php:16 page_corporate_corporate.php:16
+msgid "corporate.meta-title.top"
+msgstr "WealthPark - Manage your investment with ease."
+
+msgid "corporate.mission.description"
+msgstr ""
+"        <p class=\"career-mission__title\">Democratize Alternative "
+"Investment for Everyone</p>\n"
+"        <p class=\"career-mission__txt\">\n"
+"          Alternative assets are categorized as financial assets which are "
+"not conventional such as public stocks and bonds. These include real estate, "
+"fine art, whiskies & wines, and private equities.<br>\n"
+"          Compared with traditional assets, alternative assets are analog in "
+"nature, lacking digital databases and often require support from asset "
+"management professionals.\n"
+"This is the status-quo of alternative assets that only limited investors are "
+"able to access this market.<br>\n"
+"          WealthPark aims to democratize alternative investment by creating "
+"a platform where everyone has equal access to investment opportunities.\n"
+"        </p>"
+
+msgid "corporate.panel-banners"
+msgstr "&nbsp;"
+
+#: page_corporate_privacy_policy.php:55
+msgid "corporate.privacy-policy.content"
+msgstr ""
+"<section class=\"container\">\n"
+"  <div class=\"container__inner\">\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 1. Purpose</h2>\n"
+"<p>This WealthPark Application Privacy Policy (this \"Privacy Policy\") sets "
+"forth the handling of the User's information in the WealthPark application "
+"for smartphones (the \"App\") and the service concerning the App (the "
+"\"Service\") provided by WealthPark Inc. (Address: 2F, MO Building, 3-14-15 "
+"Higashi, Shibuya-ku, Tokyo) (\"WealthPark\"). The User may use the App only "
+"if the User consents to the contents of this Privacy Policy.</p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 2. Definitions</h2>\n"
+"<p>The terms used in this Privacy Policy have the meanings set forth below:"
+"</p>\n"
+"<ul class=\"number\">\n"
+"<li>\"User\" means the user of the App and the Service.</li>\n"
+"<li>\"Owner\" means a person among the Users who has entrusted the services "
+"for managing real estate to WealthPark under the Asset Management Agreement."
+"</li>\n"
+"<li>\"Lessee\" means a person among the Users who is leasing real estate "
+"from an Owner under a Real Estate Lease Agreement.</li>\n"
+"<li>\"Asset Management Agreement\" means the agreement concerning the "
+"services for the management of real estate owned by an Owner that is "
+"executed between WealthPark and the Owner.</li>\n"
+"<li>\"Real Estate Lease Agreement\" means an agreement concerning the lease "
+"of real estate owned by an Owner that is executed between the Owner and a "
+"Lessee.</li>\n"
+"<li>\"User Information\" means the information collected by WealthPark from "
+"the Users under this Privacy Policy and other information concerning the "
+"Users.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 3. User Information Collected by "
+"WealthPark</h2>\n"
+"<p>The terms used in this Privacy Policy have the meanings set forth below:"
+"</p>\n"
+"<ul class=\"number\">\n"
+"<li>WealthPark will collect the following information as the User "
+"Information from all Users:\n"
+"<ul class=\"inside-number\">\n"
+"<li>Name, phone number and email address; and</li>\n"
+"<li>Usage history of the App and device-specific ID.</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>Of the Users, the User Information regarding the Owner or the Lessee "
+"will include (and is not limited to), in addition to the information in the "
+"preceding paragraph: (i) information that such person has provided to "
+"WealthPark under the Asset Management Agreement or the Real Estate Lease "
+"Agreement that such person has executed; (ii) information that WealthPark "
+"has independently collected through REINS Market Information ; (iii) "
+"information that is provided to WealthPark by the Owner or the Lessee, or "
+"another third party designated by such Owner or such Lessee; and (iv) "
+"contents of communications between WealthPark and the Owner or the Lessee, "
+"such as contents of the inquiries from the Owner or the Lessee to WealthPark,"
+" etc.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 4. Collection Method of the User "
+"Information</h2>\n"
+"<ul class=\"number\">\n"
+"<li>All Users will register the User Information set forth in Article 3.1(1) "
+"themselves the first time they start the App.</li>\n"
+"<li>Of the Users, those who are an Owner or a Lessee will register the User "
+"Information that will be required to use the App, by themselves or through "
+"WealthPark, after they first start the App.</li>\n"
+"<li>When providing the App and the Service, WealthPark will automatically "
+"collect through the App the information set forth in Article 3.1(2). "
+"Furthermore, there may be instances where WealthPark uses cookies in "
+"providing the Service.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 5. Purpose of Use of the User "
+"Information</h2>\n"
+"<p>WealthPark will use the User Information for the following purposes:</p>\n"
+"<ul class=\"number\">\n"
+"<li>Provision of the App and the Service;</li>\n"
+"<li>Entrusted services under the Asset Management Agreement;</li>\n"
+"<li>Execution and analysis of questionnaires for improving the App and the "
+"Service;</li>\n"
+"<li>Preparation of statistical data concerning the use of the App and the "
+"Service;</li>\n"
+"<li>Provision of information concerning real estate registered in the App;"
+"</li>\n"
+"<li>Provision of market information of the real estate market and other news;"
+"</li>\n"
+"<li>Research, statistics, analysis and preparation of reports on marketing "
+"data;</li>\n"
+"<li>Customization of offered advertisements, etc. based on User attributes;"
+"</li>\n"
+"<li>Response to inquiries from the Users;</li>\n"
+"<li>Other communications as may be necessary, such as important notices "
+"concerning the App and the Service; and</li>\n"
+"<li>Announcements of other WealthPark services.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 6. Provision of the User Information "
+"to Third Parties</h2>\n"
+"<ul class=\"number\">\n"
+"<li>When providing the App and the Service, WealthPark will provide the User "
+"Information to third parties as follows.\n"
+"<ul class=\"inside-number\">\n"
+"<li>WealthPark will provide the User Information of the Lessee to the Owner "
+"from whom such Lessee is leasing real estate.</li>\n"
+"<li>Among the User Information of the Owner, WealthPark will provide "
+"information to the Users, including the name, location and other information "
+"relating to the real estate owned by the Owner.</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>WealthPark will jointly utilize the User Information within the "
+"WealthPark Group. Please confirm the details of the joint use as set forth "
+"in the links below.<br>\n"
+"<a href=\"https://wealth-park.com/corporate/privacy-policy/info-sharing/\">"
+"https://wealth-park.com/corporate/privacy-policy/info-sharing/</a>\n"
+"</li>\n"
+"<li>Except as set forth in the preceding paragraphs, WealthPark will not, "
+"without the relevant User's consent, provide to any third party any User "
+"Information collected from the Users when providing the App and the Service, "
+"beyond the scope which is necessary to achieve the purposes of use "
+"stipulated in Article 5; provided, however, that this shall not apply in the "
+"following cases:\n"
+"<ul class=\"inside-number\">\n"
+"<li>Providing anonymized User Information to a third party wherein a "
+"specific individual cannot be identified;</li>\n"
+"<li>Pursuant to laws or regulations;</li>\n"
+"<li>Necessary in order to protect human life, body or property, and it is "
+"difficult to obtain consent from the relevant person;</li>\n"
+"<li>Particularly necessary for improvement of public health or for promoting "
+"sound growth of children, and it is difficult to obtain consent from the "
+"relevant person; or</li>\n"
+"<li>Required to cooperate with a government organization, local government "
+"or delegatee thereof for the performance of procedures stipulated by law and "
+"obtaining consent from the relevant person may interfere with the "
+"implementation of the said procedures.</li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 7. External Transmission</h2>\n"
+"<p>The User Information registered in the App will be forwarded to the "
+"server installed by a third party and be used within the purposes stipulated "
+"in Article 5.</p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 8. Use Outside of Japan</h2>\n"
+"<ul class=\"number\">\n"
+"<li>The User Information registered in the App regarding the Users using the "
+"App outside of Japan will be forwarded to the server in Japan and processed "
+"within Japan.</li>\n"
+"<li>Users acknowledge and agree that the laws and regulations of Japan will "
+"only be applied to the collection, use, provision, etc. of the User "
+"Information.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 9. Method for User Participation</h2>\n"
+"<p>In the Service, Users may cease collection, alter, delete or suspend use "
+"of all or part of the User Information by sending a request to WealthPark."
+"</p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 10. Termination of Service and "
+"Handling of Information</h2>\n"
+"<ul class=\"number\">\n"
+"<li>If the Users delete (uninstall) the App or if the Users do not use the "
+"App for more than 2 years (24 months), WealthPark shall deem that the Users "
+"have terminated the use of the App and the Service.</li>\n"
+"<li>In the case of the preceding paragraph, WealthPark will dispose of the "
+"User Information collected from the Users from the server for the Service "
+"during its periodic maintenance under appropriate administration.</li>\n"
+"<li>Notwithstanding the preceding paragraph, WealthPark will be able to "
+"retain the User Information collected from the Owner or the Lessee under the "
+"Asset Management Agreement or the Real Estate Lease Agreement pursuant to "
+"the laws and regulations or the terms and conditions set forth in these "
+"agreements.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 11. Link to Policy on the Protection "
+"of Personal Information</h2>\n"
+"<p>If there is any inconsistency or conflict between WealthPark's Policy on "
+"the Protection of Personal Information and this Privacy Policy, this Privacy "
+"Policy shall prevail. Please confirm the latest versions of the Policy on "
+"the Protection of Personal Information and this Privacy Policy at the below "
+"link.</p>\n"
+"<ul>\n"
+"<li>Privacy Policy :<br>\n"
+"<a href=\"https://wealth-park.com/corporate/privacy-policy\">https://wealth-"
+"park.com/corporate/privacy-policy</a></li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 12. Contact</h2>\n"
+"<p>Inquiries and consultations concerning the handling of the User "
+"Information in the App and the Service are accepted at the below:</p>\n"
+"<ul>\n"
+"<li>E-mail Address: <a href=\"mailto:app@wealth-park.com\">app@wealth-park."
+"com</a>&nbsp;(WealthPark Inc. Customer Service)</li>\n"
+"<li>Address: 2F, MO Building, 3-14-15 Higashi, Shibuya-ku, Tokyo</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 13. Amendments</h2>\n"
+"<ul class=\"number\">\n"
+"<li>This Privacy Policy may be amended.</li>\n"
+"<li>When the version of the App is upgraded, if there are changes or "
+"additions to the User Information that is collected or changes to the "
+"purpose of use, WealthPark will notify the Users prior to installation and "
+"will obtain consent once again with respect to material changes prior to "
+"installation or at the time of installation.</li>\n"
+"<li>If there are other changes or additions to the User Information that is "
+"collected, changes to the purpose of use, or third party provision, etc., "
+"WealthPark will notify the Users through the message function or the "
+"registered email address, as well as obtain consent once again with respect "
+"to material changes.</li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">Article 14. Language</h2>\n"
+"<p>This Privacy Policy is prepared in Japanese, English and Chinese. If "
+"there is any inconsistency or conflict between the Japanese, English and "
+"Chinese versions, the Japanese version shall prevail.</p>\n"
+"</section>\n"
+"</div>\n"
+"</section>"
+
+msgid "corporate.privacy-policy.info-sharing.content"
+msgstr ""
+"<section class=\"container\">\n"
+"  <div class=\"container__inner\">\n"
+"  <section class=\"section-container\">\n"
+"<p> WealthPark Inc. and its subsidiaries or affiliates (“WealthPark Group”) "
+"will jointly utilize the personal data of its customers to strengthen "
+"cooperation between its group companies to provide higher value-added "
+"services, and for the implementation of the business and risk management of "
+"the overall group.  </p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">1. Personal data that is jointly used</h2>\n"
+"<ul class=\"number\">\n"
+"<li> Information regarding the owners of real estate and alternative assets "
+"using the services and products provided by the WealthPark Group (“Services”)"
+" </li>\n"
+"<li> Information regarding business partners using the Services </li>\n"
+"<li> Information on alternative assets, including real estate, provided in "
+"connection with the Services </li>\n"
+"<li> Investment information, and income and expenditure information on "
+"alternative assets including real estate provided in connection with the "
+"Services </li>\n"
+"<li> Behavior data, usage status, inquiries, and communications of the "
+"customers with the WealthPark Group in relation to the Services </li>\n"
+"<li> Any other information regarding the users of the Services </li>\n"
+"<li> Information on real estate, receivables and alternative assets owned by "
+"the WealthPark Group </li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">2. Scope of joint users </h2>\n"
+"  <p>WealthPark Group <br>\n"
+"   <a href=\"https://wealth-park.com/corporate/company/\">https://wealth-"
+"park.com/corporate/company/</a>\n"
+"  </p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">3. Purpose of joint usage </h2>\n"
+"<ul class=\"number\">\n"
+"<li> For the provision and management of the Services </li>\n"
+"<li> For the development and improvement of the Services </li>\n"
+"<li> To ascertain the usage of the Services by customers </li>\n"
+"<li> For inquiry response </li>\n"
+"<li> For the conducting of questionnaires </li>\n"
+"<li> To provide customized services to customers </li>\n"
+"<li> For producing, using, disclosing, or providing statistical data on the "
+"use of services of WealthPark Group in a manner that does not identify "
+"individuals or particular users </li>\n"
+"<li> For creating, using, disclosing, or providing marketing materials after "
+"processing the data so that it does not identify individuals or particular "
+"users </li>\n"
+"<li> To provide information on real estate registered with the system of "
+"WealthPark Group and that of other alternative assets </li>\n"
+"<li> For providing news on the real estate market and project information, "
+"among others </li>\n"
+"<li> For the identification of the users </li>\n"
+"<li> To make important notices about services and for other necessary "
+"communications </li>\n"
+"<li> For other matters incidental or related to each of the foregoing items "
+"</li>\n"
+"</ul>\n"
+"</section>\n"
+"<section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">4. Entity responsible for managing personal "
+"data </h2>\n"
+"  <p> Name: WealthPark Inc. <br>\n"
+"Address: 2F, MO Building, 3-14-15 Higashi, Shibuya-ku, Tokyo <br>\n"
+"Representative: Ryuta Kawada\n"
+"  </p>\n"
+"</section>\n"
+"</div>\n"
+"</section>"
+
+#: page_corporate_security_policy.php:55
+msgid "corporate.security-policy.content"
+msgstr ""
+"  <section class=\"container\">\n"
+"    <div class=\"container__inner\">\n"
+"        <section class=\"section-container\">\n"
+"          <h2 class=\"section-title\">Information Security Guidelines</h2>\n"
+"          <p> Through WealthPark Business (property management SaaS solution)"
+" and WealthPark Asset Management (management services for international real "
+"estate investors) and alternative investments, WealthPark Co., Ltd. promotes "
+"business efficiency to Property Managers and provides a profitable and "
+"better experience to investors. We aim not only to create value by being a "
+"reliable and trustworthy company for customers, but everyone involved with "
+"our products and services. <br><br>\n"
+"          We recognize the risks of leakage, damage, loss, etc. to the "
+"information assets entrusted to us by our customers and employees, and have "
+"set sustaining policies and procedures to safeguard information security, "
+"including and not limited to confidentiality, integrity, and availability of "
+"information assets. </p>\n"
+"        </section>\n"
+"        <section class=\"section-container\">\n"
+"          <h2 class=\"section-title\">Behavioral Guidelines</h2>\n"
+"          <ul class=\"number\">\n"
+"            <li> We will take appropriate organizational and technical "
+"measures to ensure the confidentiality, integrity, and availability of our "
+"information assets, and respond to changing information technology and new "
+"threats. </li>\n"
+"            <li> We will provide all employees with information security "
+"training and ensure that all employees are aware of our policies in order to "
+"build up understanding  of their IT security role and responsibilities.\n"
+" </li>\n"
+"            <li> We will set objectives for management systems and "
+"information security, review them periodically, and implement and maintain "
+"continuous improvements.\n"
+" </li>\n"
+"            <li> By designing, developing, and provisioning cloud services, "
+"we will establish and build a management system to securely handle customer "
+"information, protect it from threats on the cloud, and achieve a reduction "
+"of risks.\n"
+" </li>\n"
+"            <li>We will use cloud services that align with an acceptable "
+"level of information security risk to the organization's information and "
+"other assets.\n"
+"</li>\n"
+"          </ul>\n"
+"          <p style=\"text-align: right;\">2018 May 1st published</p>\n"
+"          <p style=\"text-align: right;\">2025 Jul 10th revised</p>\n"
+"          <p>WealthPark Co., Ltd.<br /> Director and Chairman Ryuta Kawada "
+"</p>\n"
+"        </section>\n"
+"    </div>\n"
+"  </section>"
+
+#: page_corporate_term_of_use.php:48
+msgid "corporate.terms-of-use.content"
+msgstr ""
+"<section class=\"container\">\n"
+"    <div class=\"container__inner\">\n"
+"      <div class=\"lead\">\n"
+"        <p>These Terms of Use for WealthPark App (these “Terms”) set forth "
+"the conditions for the use of the smartphone application “WealthPark” (the "
+"“App”) and the App-related service (the “Service”) provided by WealthPark "
+"Inc. (Address: 2F, MO Building, 3-14-15 Higashi, Shibuya-ku, Tokyo) "
+"(“WealthPark”), as set forth between WealthPark and the users of the Service."
+" Users may use the App only if they provide their consent to the contents of "
+"these Terms.</p>\n"
+"      </div>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 1. Definitions</h2>\n"
+"      <p>The terms used in these Terms have the meanings set forth below:</p>"
+"\n"
+"      <ul class=\"number\">\n"
+"      <li>“User” means the user of the App and the Service.</li>\n"
+"      <li>“User Information” means the information collected by WealthPark "
+"from the Users under the Privacy Policy and other information concerning the "
+"Users.</li>\n"
+"      <li>“Privacy Policy” means the privacy policy pertaining to the App, "
+"which is posted on <a href=\"https://wealth-park.com/corporate/privacy-"
+"policy\">https://wealth-park.com/corporate/privacy-policy</a>.</li>\n"
+"      <li>“content(s)” means text, images, videos, software, programs, codes "
+"and other information.</li>\n"
+"      <li>“Content(s)” means content(s) that may be accessed through the "
+"Service.</li>\n"
+"      <li>“Submitted Content(s)” means content(s) that Users have submitted, "
+"transmitted or uploaded to the Service.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 2. Consent to These Terms</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>Users shall use the Service pursuant to the provisions of these "
+"Terms. Users may not use the Service unless they provide their valid and "
+"irrevocable consent to these Terms.</li>\n"
+"      <li>Minors may use the Service only with consent from their parents or "
+"legal guardian.</li>\n"
+"      <li>By actually using the Service, Users shall be deemed to have "
+"provided their valid and irrevocable consent to these Terms.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 3. Amendments to These Terms</h2>\n"
+"      <p>WealthPark may amend these Terms at any time as long as WealthPark "
+"deems it necessary. WealthPark shall notify Users of the contents of the "
+"amended Terms and the effective date of the amendment by disclosing them on "
+"the App or the website operated by WealthPark, or by notifying Users in a "
+"manner determined by WealthPark. The amended Terms shall take effect on the "
+"effective date.</p>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 4. Account</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>When a User registers User Information upon use of the Service, "
+"such User must provide genuine, accurate and complete information and shall "
+"modify such information to ensure that it is up-to-date at all times. Even "
+"if a User incurs any damage due to the content of the User Information "
+"entered by himself/herself or WealthPark being false or erroneous, "
+"WealthPark bears no liability whatsoever therefor, except in cases where "
+"WealthPark shall be liable according to Article 11, paragraph 2.</li>\n"
+"      <li>A User shall, at his/her responsibility, strictly manage his/her "
+"password issued by WealthPark upon use of the Service to ensure that such "
+"password is not subject to unauthorized use. WealthPark may deem any and all "
+"acts using the registered password as acts conducted by the User to whom "
+"such password has been issued.</li>\n"
+"      <li>A User who has registered with the Service may delete his/her "
+"account and withdraw from the Service by making a request to that effect to "
+"WealthPark.</li>\n"
+"      <li>When WealthPark acknowledges that a User has breached or is likely "
+"to breach these Terms, WealthPark may suspend or delete such User’s account "
+"without providing prior notice thereto.</li>\n"
+"      <li>All of the User’s rights to use the Service shall expire at the "
+"time of deletion of such User’s account, regardless of the reason for such "
+"deletion.</li>\n"
+"      <li>Users must not cause any third party to use their accounts in the "
+"Service and must not lend, assign, change the User name of, sell or purchase,"
+" etc. any of their accounts in the Service.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 5. Privacy</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>WealthPark will properly handle User Information in accordance "
+"with the Privacy Policy.</li>\n"
+"      <li>With regard to the handling of personal information under the "
+"Service, Users shall confirm the Privacy Policy. The Privacy Policy shall be "
+"incorporated into these Terms as a part of these Terms. By accepting these "
+"Terms, Users shall also provide their consent to the Privacy Policy.</li>\n"
+"      <li>WealthPark will jointly utilize User Information within the "
+"WealthPark group in accordance with the Privacy Policy. Users shall provide "
+"their consent without objection to the joint use.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 6. Provision of Service</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>Upon use of the Service, Users shall prepare necessary equipment "
+"and means of communication at their expense and responsibility.</li>\n"
+"      <li>When WealthPark deems it necessary, WealthPark may change or cease "
+"to provide all or any part of the Service at any time, without providing "
+"prior notice to Users.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 7. Use of App</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>The App shall solely be used for Users’ private purpose and may "
+"not be used for any non-private purpose, such as sale, distribution or "
+"development, etc.</li>\n"
+"      <li>Users shall use the App only in the conditions as provided by "
+"WealthPark and must not duplicate, modify, change, amend or adapt the App or "
+"otherwise engage in any other act similar thereto.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 8. Contents</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>WealthPark shall grant to Users the non-transferable, non-sub-"
+"licensable and non-exclusive right to use the Content(s) provided by "
+"WealthPark, only for the purpose of using the Service.</li>\n"
+"      <li>Users shall not use the Content(s) for acts such as copying, "
+"transmission, reproduction and/or alteration, which go beyond the scope of "
+"the intended use of the Content(s) in the Service.</li>\n"
+"      <li>Each User represents and warrants that (i) such User has "
+"legitimate rights to (a) submit, transmit, or upload the Submitted Content(s)"
+" or User Information to the Service by such User himself/herself or "
+"WealthPark (after having been provided by such User to WealthPark), and (b) "
+"to designate such Submitted Content(s) or User Information as a subject of "
+"the Service and to use the same in accordance with these Terms (including "
+"such User having obtained consent from a third party if such consent is "
+"required to carry out (a) and/or (b)), and that (ii) such Submitted "
+"Content(s) or User Information does not infringe on any third party’s "
+"intellectual property rights or any other third party rights.</li>\n"
+"      <li>Any copyrights in and to the Submitted Content(s) submitted by a "
+"User shall be reserved by the User who submitted the same and WealthPark "
+"shall not obtain the copyrights on such Submitted Content(s); provided, "
+"however, that such User shall grant a royalty-free, worldwide license for an "
+"indefinite period to use such Submitted Content(s) to the extent necessary: "
+"(i) for the provision, maintenance or improvement of the Service; or (ii) "
+"for any advertisement, endorsement or other promotional activities "
+"(regardless of whether or not they are related to the Service).</li>\n"
+"      <li>With regard to any Submitted Content(s) submitted by a User, such "
+"User shall neither exercise the moral rights of the author against "
+"WealthPark or a third party designated by WealthPark, nor cause a third "
+"party who has the moral rights of the author with regard to such Submitted "
+"Content(s) to exercise the moral rights of the author against WealthPark or "
+"a third party designated by WealthPark.</li>\n"
+"      <li>Users shall be responsible for backing up any Submitted Content(s) "
+"they have submitted and WealthPark shall not be obliged to back up such "
+"Submitted Content(s).</li>\n"
+"      <li>If WealthPark deems that any Submitted Content(s) have breached or "
+"are likely to breach the laws, regulations or these Terms, or if it is "
+"otherwise necessary under WealthPark’s business operations, WealthPark may "
+"restrict the use of the Submitted Content(s) in the Service such as by "
+"deleting such Submitted Content(s), without providing prior notice to Users."
+"</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 9. Prohibited Matters</h2>\n"
+"      <p>When using the Service, Users may not engage in any of the "
+"following:</p>\n"
+"      <ul class=\"number\">\n"
+"      <li>Acts that violate laws and regulations, court judgments, decisions "
+"or orders, or legally binding administrative measures;</li>\n"
+"      <li>Acts that may hinder public order or morals;</li>\n"
+"      <li>Acts that infringe on intellectual property such as copyrights, "
+"trademarks and patent rights, fame, privacy, or other rights of WealthPark "
+"or a third party granted under the laws, regulations or any contracts;</li>\n"
+"      <li>Acts of posting or transmitting excessively violent or sexually "
+"explicit expressions; expressions that lead to discrimination by race, "
+"national origin, creed, gender, social status, family origin, etc.; "
+"expressions that induce or encourage suicide, self-injurious behavior or "
+"drug abuse; or expressions that include anti-social content or provide "
+"discomfort to others;</li>\n"
+"      <li>Acts of impersonating WealthPark and/or a third party or of "
+"intentionally spreading false information;</li>\n"
+"      <li>Acts that use the Service for sales, marketing, advertisement, "
+"soliciting or other commercial purposes (except for those approved by "
+"WealthPark); acts that use the Service for the purpose of harassment or "
+"libelous attacks against other Users; or acts that use the Service for any "
+"purpose other than the intended purpose of use under the Service;</li>\n"
+"      <li>Acts that benefit or involve collaboration with anti-social forces;"
+"</li>\n"
+"      <li>Acts that are related to religious activities or solicitation to "
+"join religious groups;</li>\n"
+"      <li>Acts of improperly collecting, disclosing or providing others’ "
+"personal information, registered information, usage history information, etc."
+";</li>\n"
+"      <li>Acts that interfere with the servers and/or network systems of the "
+"Service; acts that improperly manipulate the Service by using bots, cheating "
+"tools or other technical measures; acts that intentionally take advantage of "
+"malfunctions of the Service; or acts that interfere with or obstruct "
+"WealthPark’s operation of the Service or Users’ use of the Service;</li>\n"
+"      <li>Acts that constitute disassembling, decompiling or reverse "
+"engineering of the App;</li>\n"
+"      <li>Acts that aid or encourage any of the acts specified in (1) "
+"through (11) above; or</li>\n"
+"      <li>Acts that are otherwise deemed by WealthPark to be inappropriate."
+"</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 10. Users’ Responsibility</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>Users shall use the Service at their responsibility and shall bear "
+"any and all responsibility for any acts carried out in the Service and any "
+"results thereof.</li>\n"
+"      <li>If WealthPark acknowledges that a User is using the Service in "
+"breach of these Terms, WealthPark will suspend such User’s account, delete "
+"his/her Submitted Content(s) and/or take other measures that WealthPark "
+"deems necessary and appropriate; provided, however, that WealthPark shall "
+"not be obliged to prevent or remedy such breach.</li>\n"
+"      <li>If WealthPark has directly or indirectly suffered any sort of "
+"damage (including attorneys’ fees) arising from the use of the Service by a "
+"User (including cases where WealthPark has received a complaint from a third "
+"party due to such use), such User shall immediately provide compensation for "
+"such damage pursuant to WealthPark’s request.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 11. WealthPark’s Exemption of "
+"Liability</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>WealthPark does not either expressly or impliedly guarantee that "
+"the Service (including the Contents) is free from de facto or legal flaws "
+"(including safety, reliability, accuracy, integrity, effectiveness, fitness "
+"for a particular purpose, security-related faults, errors, bugs or "
+"infringements on rights). WealthPark shall not be obliged to provide the "
+"Service with such flaws removed.</li>\n"
+"      <li>WealthPark bears no liability whatsoever for any damage incurred "
+"by Users arising from the Service. Notwithstanding this paragraph or other "
+"provisions exempting WealthPark from liability for damages, the scope of "
+"WealthPark's liability for damages, even where WealthPark bears liability "
+"for damages to Users (including cases where the Consumer Contract Act "
+"applies), is to be limited to the direct and ordinary damages which actually "
+"arose due to reasons attributable to WealthPark, and shall also be limited "
+"to the total amount of usage fees for the Service received from the User in "
+"the past one year, from the time when the cause of the damages occurred "
+"(excluding cases where the Consumer Contract Act applies and where "
+"WealthPark's default or tort involves either intent or gross negligence on "
+"the part of its representative or employees).</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 12. Method of Contact</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>WealthPark shall contact Users for matters regarding the Service "
+"by way of posting on the website operated by WealthPark or within the App or "
+"by way of other methods deemed appropriate by WealthPark.</li>\n"
+"      <li>Users shall contact WealthPark for matters regarding the Service "
+"by way of using the customer inquiry form available on the website operated "
+"by WealthPark or within the App or by way of other methods designated by "
+"WealthPark.</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 13. Severability</h2>\n"
+"      <p>Even if any part of these Terms has become invalid in accordance "
+"with the applicable mandatory laws, the foregoing will not affect the "
+"validity of the remainder of these Terms and these Terms shall remain in "
+"full force and effect except for such portion that has become invalid. If "
+"any part of these Terms is found to be invalid, WealthPark shall immediately "
+"replace the invalid provision(s) with valid provision(s).</p>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 14. Governing Law and "
+"Jurisdiction</h2>\n"
+"      <p>These Terms shall be governed by the laws of Japan. Any disputes "
+"which may arise between a User and WealthPark, out of or in relation to the "
+"Service shall be subject to the exclusive jurisdiction of the Tokyo District "
+"Court in the first instance.</p>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">Article 15. Language</h2>\n"
+"      <p>These Terms are prepared in Japanese, English and Chinese. If there "
+"is any inconsistency or conflict between the Japanese, English and Chinese "
+"versions, the Japanese version shall prevail.</p>\n"
+"      </section>\n"
+"    </div>\n"
+"  </section>\n"
+
+#: index.php:66
+msgid "corporate.v1.video"
+msgstr ""
+"<section id=\"section-video\">\n"
+"  <h4 class=\"section-name\">EVENT</h4>\n"
+"  <h2 class=\"section-title\">WealthPark NYC 2018</span></h2>\n"
+"  <h3>WealthPark’s first global PropTech event, “WealthPark NYC 2018”, was "
+"successfully held at New York in Nov. 2018.  Under the concept of ”Connect "
+"Value”, we created a community to connect business opportunities between "
+"global PropTech companies.</h3>\n"
+"  <video controls class=\"top-video\" poster=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/video/top-video-thumnail.jpg\">\n"
+"    <source src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/video/wpny_2018.mp4\" />\n"
+"  </video>\n"
+"  <h3>Voice of Conference Participants</h3>\n"
+"  <ul class=\"testimonials\">\n"
+"    <li>\n"
+"      <p class=\"testimonial-content\">I think this was the first time ever "
+"that Japanese company really met with PropTech.</p>\n"
+"      <div class=\"clearfix\">\n"
+"      <span class=\"testimonial-author\">MITSUBISHI ESTATE CO., LTD.</span>\n"
+"      </div>\n"
+"    </li>\n"
+"    <li>\n"
+"      <p class=\"testimonial-content\">I have learned a lot today. "
+"WealthPark has really assembled a great variety of speakers.</p>\n"
+"      <div class=\"clearfix\">\n"
+"        <span class=\"testimonial-author\">Compass</span>\n"
+"      </div>\n"
+"    </li>\n"
+"  </ul>\n"
+"</section>"
+
+msgid "corporate.vision.description"
+msgstr "ー Expand Your Freedom of Choice ー"
+
+#: page_corporate_contact.php:74
+msgid "department.description.wp-am"
+msgstr ""
+"Inquiry about WealthPark Asset Management service for Japan property "
+"investment"
+
+#: page_corporate_contact.php:61
+msgid "department.description.wp-business"
+msgstr "Inquiry about WealthPark Business for Property Managers"
+
+#: page_corporate_contact.php:87
+msgid "department.description.wp-pm"
+msgstr "Inquiry about properties managed by WealthPark"
+
+#: page_corporate_contact.php:113
+msgid "department.description.wp-pr"
+msgstr "Public Relations, Interview, Media-Related."
+
+#: page_corporate_contact.php:100
+msgid "department.description.wp-recruit"
+msgstr "Online Job Enquiry Form."
+
+#: page_corporate_contact.php:112
+msgid "department.pr"
+msgstr "PR"
+
+#: page_corporate_contact.php:99
+msgid "department.recruit"
+msgstr "Recruit"
+
+#: page_corporate_contact.php:73
+msgid "department.wp-am"
+msgstr "WealthPark Asset Management"
+
+#: page_corporate_contact.php:60
+msgid "department.wp-business"
+msgstr "WealthPark Business"
+
+#: page_corporate_contact.php:86
+msgid "department.wp-pm"
+msgstr "WealthPark Property Management"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: page_app_event.php:50
+msgid "event.all-events"
+msgstr "All Events"
+
+msgid "event.covid.note"
+msgstr ""
+"*Event is subject to cancellation or change due to Coronavirus Disease "
+"(COVID-19) in Japan and the U.S. In case of cancellation, an official "
+"announcement will be made by the end of September 2022.<br>\n"
+"*As of August 2022, all travelers to the U.S., except U.S. citizens, "
+"permanent residents and immigrant visa holders, will be required to provide "
+"proof of completed COVID-19 vaccination (minimum two doses are required for "
+"Pfizer and Moderna) before boarding a flight to the U.S..<br>\n"
+"*For more information, please check on the website of the airline or the U.S."
+" Embassy in your home countries."
+
+#: page_app_event.php:88
+msgid "event.description-2018"
+msgstr ""
+"We have held the conference \"WealthPark NYC 2018\" in New Work under the "
+"theme of \"Connect Value\" to promote exchanges about PropTech between Japan "
+"and the U.S. for new business creation."
+
+#: page_app_event.php:75
+msgid "event.description-2019"
+msgstr ""
+"NYC Real Estate Tech Week is hosted by Metaprop NYC, a global leader in "
+"PropTech venture investments. \"WealthPark NYC\" has been recognized as an "
+"official event since 2019."
+
+#: page_app_event.php:62
+msgid "event.description-2020"
+msgstr ""
+"Japan's largest conference about Global Real Estate x Technology. We invited "
+"overseas speakers to discuss the trends and development of PropTech in both "
+"Japan and the world."
+
+msgid "event.description.text"
+msgstr ""
+"“NYC Real Estate Tech Week” is the world’s largest real estate tech "
+"conference held in New York, USA every year in early November, with panel "
+"discussions and exhibitions featuring the real estate sector outlook and "
+"latest real estate tech trends over the course of a week.<br><br>\n"
+"In 2018 and 2019, WealthPark participated in this conference and hosted an "
+"event named “WealthPark NYC”. Under the theme of 'Connect Value', we invited "
+"leading Japanese and U.S. real estate companies, real estate tech companies, "
+"financial institutions, and investors to participate in the event, where "
+"they were able to learn and feel how the real estate industry is changing "
+"through attending a variety of presentations and sharing sessions. Our goal "
+"has been to create new value by connecting all industry participants with "
+"each other.<br><br>\n"
+"As life is slowly returning to pre-pandemic normal, we are happy to announce "
+"“WealthPark NYC 2022” to be held this year  after a two-year break. In "
+"addition to our one-day event, participants will also be able to attend a "
+"variety of events hosted by “NYC Real Estate Tech Week”, as well as "
+"networking opportunities with local companies and business tours to "
+"experience the global alternative asset trends.\n"
+"We sincerely look forward to meeting you all in New York."
+
+msgid "event.description.title"
+msgstr "The World’s Largest Real Estate Tech Conference"
+
+msgid "event.faq.content"
+msgstr ""
+"<p class=\"question\">Q: What are the COVID-19 vaccine requirements for "
+"travel to the U.S.?</p>\n"
+"    <p class=\"answer\">\n"
+"      A: As of September 2022, all travelers to the U.S., except U.S. "
+"citizens, U.S. permanent residents and immigrant visa holders, will be "
+"required to provide proof of completed COVID-19 vaccinations (minimum two "
+"doses required for Pfizer and Moderna) before boarding a flight to the U.S.."
+"<br>\n"
+"      <br>\n"
+"      If you have already been vaccinated, you must travel with a "
+"Certificate of Vaccination to be submitted to the airline prior to departure "
+"from the U.S.. The Certificate of Vaccination must be a paper or digital "
+"certificate issued by a public body that lists the traveler's name and date "
+"of birth, product names of vaccines, and vaccination dates.<br>\n"
+"      <br>\n"
+"      For more information, please check on the website of the airline or "
+"the U.S. Embassy in your home countries.<br>\n"
+"      <br>\n"
+"      In addition to the vaccination certificate, you will also need to "
+"obtain an Electronic System for Travel Authorization (ESTA).\n"
+"    </p>\n"
+"    <p class=\"question\">Q: Is negative proof of PCR required for entry "
+"into Japan from the U.S.?</p>\n"
+"    <p class=\"answer\">A: Starting from September 7, 2022, if you hold a "
+"valid vaccination certificate (3 or more vaccinations), you are NOT required "
+"to submit a negative proof of PCR. If you have been vaccinated two doses, "
+"you must be tested locally within 72 hours prior to departure and present a "
+"negative proof of PCR issued by a medical institution at the time of entry "
+"into Japan.</p>\n"
+"    <p class=\"question\">Q: Do I have any free time during the stay in New "
+"York?</p>\n"
+"    <p class=\"answer\">A: Yes, there will be some time for free activities "
+"during your stay. Also, during the Propel by MIPIM event(11/9-11/10), you "
+"can stay at the venue with us or have your own free time.</p>\n"
+"    <p class=\"question\">Q: Is it possible to only participate in some of "
+"the planned activities?</p>\n"
+"    <p class=\"answer\">A: Yes. Please consult with us for details.</p>\n"
+"    <p class=\"question\">Q: How can I apply?</p>\n"
+"    <p class=\"answer\">A: Please kindly contact us and then we will send "
+"you an application form.</p>"
+
+msgid "event.faq.title"
+msgstr "FAQ"
+
+msgid "event.hero.connect-value"
+msgstr "WealthPark NYC 2022"
+
+msgid "event.hero.contact"
+msgstr "Contact"
+
+msgid "event.hero.date"
+msgstr "November 11th, 2022"
+
+msgid "event.hero.description"
+msgstr ""
+"WealthPark is hosting an event at an international conference on the theme "
+"of \"Connect Value\" to create value by connecting Japanese and U.S. "
+"PropTech companies with each other.<br>\n"
+"Join us to find out the global major trends of real estate technology!"
+
+msgid "event.hero.title"
+msgstr "WealthPark Annual Tech Conference in NYC "
+
+#: page_app_event.php:65 page_app_event.php:78 page_app_event.php:91
+msgid "event.learn-more"
+msgstr "Learn More"
+
+msgid "event.outline.application.label"
+msgstr ""
+"Application <br>\n"
+"Closing Date"
+
+msgid "event.outline.application.value"
+msgstr ""
+"October 7, 2022 (Fri)\n"
+
+msgid "event.outline.content.label"
+msgstr "Content"
+
+msgid "event.outline.content.value"
+msgstr ""
+"Participation in key events of “NYC REAL ESTATE TECH WEEK”<br>\n"
+"(e.g. WealthPark NYC Event, events to be held by Propel by MIPIM NYC), \n"
+"local company visits, and networking events etc."
+
+msgid "event.outline.objective.label"
+msgstr "Objective"
+
+msgid "event.outline.objective.value"
+msgstr ""
+"To explore the state-of-the-art real estate innovations and build the "
+"network \n"
+"with global real estate tech industry leaders"
+
+msgid "event.outline.period.label"
+msgstr "Period"
+
+msgid "event.outline.period.value"
+msgstr ""
+"[5 nights 7 days] November 7, 2022 (Mon) - November 12, 2022 (Sat)<br>\n"
+"[WealthPark NYC Event day: November 11, 2022 (Fri)]<br>\n"
+"*Please feel free to contact us regarding the arrangement of your "
+"participation dates"
+
+msgid "event.outline.price.label"
+msgstr "Ticket"
+
+msgid "event.outline.price.value"
+msgstr "*Please contact us for more details"
+
+msgid "event.outline.title"
+msgstr "Event Outline"
+
+msgid "event.photos"
+msgstr "event_photos_en"
+
+msgid "event.previous2019.title"
+msgstr "Event Report"
+
+msgid "event.quote.andreajang"
+msgstr ""
+"“I definitely see that Japanese and American companies are going to continue "
+"to be able to forge a strong partnerships together.”"
+
+msgid "event.quote.currenmcckay"
+msgstr ""
+"“One of the biggest challenges of collaborating between Japan and US is to "
+"have partners on the ground.”"
+
+msgid "event.quote.kccleary"
+msgstr ""
+"“We absolutely believe there is an opportunity for Proptech firms across "
+"markets to collaborate.”"
+
+msgid "event.schedule.image"
+msgstr "event_timeline_en"
+
+msgid "event.schedule.title"
+msgstr "Schedule"
+
+msgid "event.top.hero.subtitle"
+msgstr ""
+"Joined us to find out the global major trends of real estate technology."
+
+msgid "event.video.caption"
+msgstr "*Company affiliations and titles are as of the time of the interview."
+
+#: page_app_event.php:61
+msgid "event.where-2020"
+msgstr "Otemachi Place Conference Center"
+
+#: template-parts/footer-sub-app.php:23
+#: template-parts/footer-sub-business.php:23
+#: template-parts/footer-sub-corporate.php:23
+#: template-parts/footer-sub-wpam.php:23 template-parts/footer-main.php:74
+msgid "footer.facebook-link"
+msgstr ""
+"https://www.facebook.com/WealthPark-Business-"
+"WealthPark%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A6%E3%82%A7%E3%83%AB%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE"
+"-2253775971335835/"
+
+msgid "footer.isms.certified-note"
+msgstr "Certified Organization: Head Office"
+
+msgid "footer.menu-lab"
+msgstr "WealthPark Lab"
+
+msgid "footer.menu-lab_002"
+msgstr ""
+"<a href=\"https://wealthpark-lab.com/\" target=\"blank\" rel=\"noopener "
+"noreferrer\">WealthPark Lab</a>"
+
+#: template-parts/footer-main.php:34
+msgid "footer.menu-owner-app"
+msgstr "App for Property Investors"
+
+msgid "footer.menu-web-app"
+msgstr "WealthPark Web"
+
+msgid "footer.menu-wpam"
+msgstr "WealthPark RealEstate Technologies"
+
+msgid "footer.menu-wpb"
+msgstr "WealthPark Business"
+
+#: footer-main.php:25 template-parts/footer-main.php:52
+msgid "footer.menu.company"
+msgstr "Company"
+
+#: page_app_dev.php:261 drawer-wp_business.php:11
+msgid "footer.menu.company_profile"
+msgstr "Company Profile"
+
+#: footer-main.php:32 page_app_dev.php:262 drawer-wp_business.php:12
+#: template-parts/footer-main.php:58
+msgid "footer.menu.contact"
+msgstr "Contact"
+
+#: footer-main.php:21 template-parts/footer-main.php:48
+msgid "footer.menu.demo"
+msgstr "Get a Demo Account"
+
+#: page_corporate_old.php:539
+msgid "footer.menu.information"
+msgstr "Information Security Guidelines"
+
+#: page_app_dev.php:241 template-parts/footer-sub-app.php:51
+msgid "footer.menu.language"
+msgstr "Language"
+
+#: page_app_dev.php:257 drawer-wp_business.php:10
+msgid "footer.menu.news"
+msgstr "News"
+
+#: page_corporate_old.php:538
+msgid "footer.menu.privacy"
+msgstr "Privacy Policy"
+
+#: footer-main.php:16 template-parts/footer-main.php:43
+msgid "footer.menu.product"
+msgstr "Products"
+
+#: footer-main.php:8 template-parts/footer-main.php:32
+msgid "footer.menu.service"
+msgstr "Service"
+
+#: page_corporate_old.php:537
+msgid "footer.menu.terms"
+msgstr "Terms of Use"
+
+msgid "footer_banner"
+msgstr ""
+"<div class=\"main-footer__contents\">\n"
+"  <ul class=\"main-footer__contents--list\">\n"
+"    <li>\n"
+"      <a href=\"https://wealth-park.com/corporate/careers/\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/banner_careers.jpg\" alt=\"Careers\" />\n"
+"      </a>\n"
+"    </li>\n"
+"    <li>\n"
+"      <a href=\"https://wealth-park.com/park\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/banner_footer_park.png\" alt=\"Park\" />\n"
+"      </a>\n"
+"    </li>\n"
+"    <li>\n"
+"      <a href=\"https://wealth-park.com/business/download/wpl-wp002-en/\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/wpl/GRPS_002_500x200.jpg\" alt=\"WealthPark Global Residential "
+"PropTech Study 2022 Vol.2\" />\n"
+"      </a>\n"
+"    </li>\n"
+"    <!-- <li>\n"
+"      <a href=\"https://wealth-park.com/business/\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/banner_wpb.jpg\" alt=\"オーナーアプリではじめよう、あたらしい不動産管理 WealthPark "
+"Business\" />\n"
+"      </a>\n"
+"    </li> -->\n"
+"    <li>\n"
+"      <a href=\"https://wealthpark-lab.com/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/banner_wp-lab_001.jpg\" "
+"alt=\"WealthPark Lab\" /></a>\n"
+"    </li>\n"
+"  </ul>\n"
+"</div>\n"
+
+#: page_app.php:153
+msgid "function.001.content"
+msgstr ""
+"<ul class=\"bullet-list en\">\n"
+"    <li>Easy to read asset financials.</li>\n"
+"    <li>Generate financial report with one tap.</li>\n"
+"</ul>"
+
+#: page_app.php:152
+msgid "function.001.title"
+msgstr "<span class=\"en\">Gain access to organized data.</span>"
+
+#: page_app.php:165
+msgid "function.002.content"
+msgstr ""
+"<ul class=\"bullet-list en\">\n"
+"    <li>Seamless and efficient communication.</li>\n"
+"</ul>"
+
+#: page_app.php:164
+msgid "function.002.title"
+msgstr "<span class=\"en\">Chat with your property manager.</span>"
+
+#: page_app.php:177
+msgid "function.003.content"
+msgstr ""
+"<ul class=\"bullet-list en\">\n"
+"    <li>Archive all documents digitally and become paperless. </li>\n"
+"    <li>Help you sort through all the property-related paperwork.</li>\n"
+"</ul>"
+
+#: page_app.php:176
+msgid "function.003.title"
+msgstr "<span class=\"en\">Save documents all in one place.</span>"
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-parts/partnerships-parts.php:14
+msgid "logo.media"
+msgstr ""
+" \n"
+"<ul class=\"logos--4column\">\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/app/media_logo_thebridge.png\" alt=\"THE BRIDGE\">\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/app/commercial_observer_jp.png\" alt=\"commercial observer\">\n"
+"      </li>\n"
+"       <li class=\"logos__logo\">\n"
+"        <a href=\"https://signal.diamond.jp/\" target=\"_blanc\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/app/media_logo_signal.png\" alt=\"signal\">\n"
+"        </a>\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <a href=\"https://jp.techcrunch.com/\" target=\"_blanc\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/app/media_logo_tc.png\" alt=\"techcrunch\">\n"
+"        </a>\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/app/media_logo_tokyomx.png\" alt=\"TOKYO MX\">\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/img/app/media_logo_chintaijyutakushinbun.png\" alt=\"全国賃貸住宅新聞\">\n"
+"      </li>\n"
+"    </ul>\n"
+
+#: index.php:59 page_corporate_old.php:162
+msgid "Manage your investment with ease."
+msgstr "Manage your investment with ease."
+
+msgid "menu.articles"
+msgstr "Articles"
+
+#: header-top-with-news.php:91 header-top-with-news.php:116
+#: header-top-with-news.php:191
+msgid "menu.blog"
+msgstr "Articles"
+
+#: footer-main.php:30 drawer-nav-corporate.php:7 header-top-with-news.php:96
+#: header-top-with-news.php:196 template-parts/footer-main.php:57
+msgid "menu.careers"
+msgstr "Careers"
+
+#: header.php:69 business-header-menu.php:20 header-top-with-news.php:63
+#: header-top-with-news.php:67 header-top-with-news.php:75
+#: header-top-with-news.php:169
+msgid "menu.company"
+msgstr "Company"
+
+#: footer-main.php:27 drawer-nav-corporate.php:8 header-top-with-news.php:86
+#: header-top-with-news.php:175 header-top-with-news.php:186
+#: template-parts/footer-main.php:54
+msgid "menu.company-profile"
+msgstr "Company Profile"
+
+#: drawer-nav-corporate.php:10 page_corporate_old.php:112
+#: header-top-with-news.php:101 header-top-with-news.php:201
+#: header-top-with-news.php:216
+msgid "menu.contact"
+msgstr "Contact"
+
+#: page_corporate_old.php:114
+msgid "menu.demo_request"
+msgstr "Get a Demo"
+
+#: business-header-menu.php:9 drawer-wp_business.php:6
+msgid "menu.download"
+msgstr "Download"
+
+#: footer-main.php:29 drawer-nav-corporate.php:6 header-top-with-news.php:113
+#: header-top-with-news.php:213 template-parts/footer-main.php:56
+msgid "menu.event"
+msgstr "Event"
+
+msgid "menu.event-report"
+msgstr "Event"
+
+#: business-header-menu.php:6 drawer-wp_business.php:5
+msgid "menu.faq"
+msgstr "FAQ"
+
+msgid "menu.interviews"
+msgstr "Interviews"
+
+msgid "menu.japan"
+msgstr "Japan"
+
+msgid "menu.kpv"
+msgstr "Key Person's Voice"
+
+#: template-parts/footer-sub-business.php:51
+#: template-parts/footer-sub-corporate.php:51
+#: template-parts/footer-sub-wpam.php:51
+msgid "menu.language"
+msgstr "Language"
+
+msgid "menu.media"
+msgstr "Media"
+
+msgid "menu.mid-recruitment"
+msgstr "Career"
+
+msgid "menu.newgrad-recruitment"
+msgstr "New Grads"
+
+#: header.php:63 footer-main.php:28 business-header-menu.php:23
+#: drawer-nav-corporate.php:4 header-top-with-news.php:81
+#: header-top-with-news.php:110 header-top-with-news.php:181
+#: header-top-with-news.php:210 template-parts/footer-main.php:55
+msgid "menu.news"
+msgstr "News"
+
+#: footer-main.php:10 page_app_dev.php:258 business-header-menu.php:14
+#: drawer-wp_business.php:7 page_corporate_old.php:92
+msgid "menu.owner-app"
+msgstr "Owner App"
+
+msgid "menu.press-kit"
+msgstr "Press Kit"
+
+msgid "menu.press-release"
+msgstr "Press Release"
+
+#: page_app_dev.php:237 template-parts/footer-sub-app.php:11
+#: template-parts/footer-sub-business.php:11
+#: template-parts/footer-sub-corporate.php:11
+#: template-parts/footer-sub-wpam.php:11 template-parts/footer-main.php:60
+msgid "menu.privacy"
+msgstr "Privacy Policy"
+
+#: business-header-menu.php:12
+msgid "menu.product"
+msgstr "Service"
+
+msgid "menu.region"
+msgstr "Region"
+
+msgid "menu.release-notes"
+msgstr "What's New"
+
+msgid "menu.ret-blog"
+msgstr "WealthPark RealEstate Technologies Blog"
+
+#: page_app_dev.php:238 template-parts/footer-sub-app.php:16
+#: template-parts/footer-sub-business.php:16
+#: template-parts/footer-sub-corporate.php:16
+#: template-parts/footer-sub-wpam.php:16 template-parts/footer-main.php:61
+msgid "menu.security"
+msgstr "Information Security"
+
+#: header.php:66 drawer-nav-corporate.php:5 header-top-with-news.php:17
+#: header-top-with-news.php:21 header-top-with-news.php:28
+#: header-top-with-news.php:143 header-top-with-news.php:148
+msgid "menu.service"
+msgstr "Service"
+
+#: header-top-with-news.php:120
+msgid "menu.sign-in"
+msgstr "Sign In"
+
+msgid "menu.special-feature"
+msgstr "Special feature"
+
+msgid "menu.support"
+msgstr "Support"
+
+#: page_app_dev.php:236 template-parts/footer-sub-app.php:6
+#: template-parts/footer-sub-business.php:6
+#: template-parts/footer-sub-corporate.php:6
+#: template-parts/footer-sub-wpam.php:6 template-parts/footer-main.php:59
+msgid "menu.terms"
+msgstr "Terms of Use"
+
+msgid "menu.united_kingdom"
+msgstr "United Kingdom"
+
+#: footer-main.php:12 page_app_dev.php:260 business-header-menu.php:16
+#: drawer-wp_business.php:9 header-top-with-news.php:48
+#: header-top-with-news.php:51 header-top-with-news.php:159
+#: template-parts/footer-main.php:39
+msgid "menu.wp-am"
+msgstr "WealthPark Asset Management"
+
+msgid "menu.wp-am-desc"
+msgstr ""
+"Leader in Japan Inbound Real Estate Asset and Property Management for "
+"Foreign Investors."
+
+msgid "menu.wp-am-title"
+msgstr "WealthPark RealEstate Technologies"
+
+msgid "menu.wp-am.description.japan"
+msgstr ""
+"Leader in Japan Inbound Real Estate Asset and Property Management for "
+"Foreign Investors."
+
+msgid "menu.wp-am.description.united_kingdom"
+msgstr "Manage your United Kingdom properties with ease."
+
+msgid "menu.wp-am.web-app-login"
+msgstr "Sign in"
+
+msgid "menu.wp-blog"
+msgstr "WealthPark Blog"
+
+#: footer-main.php:11 page_app_dev.php:259 business-header-menu.php:15
+#: drawer-wp_business.php:8 page_corporate_old.php:93
+#: header-top-with-news.php:35 header-top-with-news.php:38
+#: header-top-with-news.php:153 template-parts/footer-main.php:38
+msgid "menu.wp-business"
+msgstr "WealthPark Business"
+
+msgid "menu.wp-business-desc"
+msgstr "New synergy between property managers and investors."
+
+msgid "menu.wp-business-title"
+msgstr "WealthPark Business"
+
+msgid "menu.wpam.company-profile"
+msgstr "About WealthPark RealEstate Technologies"
+
+msgid "menu.wpl"
+msgstr "WealthPark Lab"
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: page_corporate_old.php:91
+msgid "News"
+msgstr "NEWS"
+
+#: archive-news.php:54
+msgid "news.all-news"
+msgstr "All News"
+
+msgid "news.read_other_articles"
+msgstr "READ MORE"
+
+#: index.php:49 index.php:407 page_corporate_old.php:152
+#: page_corporate_old.php:509
+msgid "news_list"
+msgstr ""
+
+#: news-summary.php:32 template-parts/content-page-news.php:57
+msgid "news_list_title"
+msgstr "NEWS"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: page_corporate_old.php:731
+msgid "option.placeholder"
+msgstr "Please select"
+
+msgid "owner-app"
+msgstr "Owner App"
+
+msgid "owner-app-desc"
+msgstr "Service For Real Estate Owners"
+
+msgid "owner-app-title"
+msgstr "WealthPark Owner App"
+
+msgid "owner-help.article-list-headline"
+msgstr "WealthPark Asset Management Support Content"
+
+msgid "owner-help.find-topics"
+msgstr "Find Topics"
+
+msgid "owner-help.footer.topic-variation-list-1"
+msgstr ""
+"<p class=\"help-footer__box-title\">Getting Started</p>\n"
+"<p class=\"help-footer__box-detail\">Basic Guide (What is WealthPark?/How do "
+"you login for the first time?)</p>"
+
+msgid "owner-help.footer.topic-variation-list-2"
+msgstr ""
+"<p class=\"help-footer__box-title\">Feature Guide</p>\n"
+"<p class=\"help-footer__box-detail\">AI Valuation Guide &emsp; &emsp; &emsp; "
+"&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; "
+"</p>"
+
+msgid "owner-help.footer.topic-variation-list-3"
+msgstr ""
+"<p class=\"help-footer__box-title\">FAQ</p>\n"
+"<p class=\"help-footer__box-detail\">Login, chat and other troubleshooting "
+"issues &emsp; &emsp; &emsp; &emsp; </p>"
+
+msgid "owner-help.footer.topic-variation-list-4"
+msgstr ""
+"<p class=\"help-footer__box-title\">WealthPark App User Guide (Mobile)</p>\n"
+"<p class=\"help-footer__box-detail\">What's on the mobile main page, how to "
+"monitor cash flow etc.</p>"
+
+msgid "owner-help.footer.topic-variation-list-5"
+msgstr ""
+"<p class=\"help-footer__box-title\">WealthPark App User Guide (Web)</p>\n"
+"<p class=\"help-footer__box-detail\">What's on the web main page, how to "
+"monitor cash flow etc.</p>"
+
+msgid "owner-help.help-list__description.former"
+msgstr "The WealthPark Asset Management support content related to"
+
+msgid "owner-help.help-list__description.latter"
+msgstr " is listed below."
+
+msgid "owner-help.topic-variation-link"
+msgstr "See More"
+
+msgid "owner-help.topic-variation-list-1"
+msgstr ""
+"<dt class=\"topic__variationName\">Getting Started</dt>\n"
+"<dd class=\"topic__variationDetail\">Basic Guide (What is WealthPark?/How do "
+"you login for the first time?)</dd>"
+
+msgid "owner-help.topic-variation-list-2"
+msgstr ""
+"<dt class=\"topic__variationName\">Feature Guide</dt>\n"
+"<dd class=\"topic__variationDetail\">AI Valuation Guide<br>&nbsp;</dd>"
+
+msgid "owner-help.topic-variation-list-3"
+msgstr ""
+"<dt class=\"topic__variationName\">FAQ</dt>\n"
+"<dd class=\"topic__variationDetail\">Login, chat and other troubleshooting "
+"issues</dd>"
+
+msgid "owner-help.topic-variation-list-4"
+msgstr ""
+"<dt class=\"topic__variationName\">WealthPark App User Guide (Mobile)</dt>\n"
+"<dd class=\"topic__variationDetail\">What's on the mobile main page, how to "
+"monitor cash flow etc.</dd>"
+
+msgid "owner-help.topic-variation-list-5"
+msgstr ""
+"<dt class=\"topic__variationName\">WealthPark App User Guide (Web)</dt>\n"
+"<dd class=\"topic__variationDetail\">What's on the web main page, how to "
+"monitor cash flow etc.</dd>"
+
+#: page_corporate_contact.php:49
+msgid "page-caption.contact"
+msgstr "Contact List"
+
+#: page_corporate_contact_pr.php:44 page_corporate_contact_pr.php:52
+msgid "page-caption.contact-pr"
+msgstr "PR"
+
+#: page_corporate_corporate.php:52
+msgid "page-caption.corporate"
+msgstr "Company Profile"
+
+#: page_corporate_privacy_policy.php:52
+msgid "page-caption.privacy-policy"
+msgstr "Privacy Policy"
+
+#: page_corporate_contact_recruit.php:44 page_corporate_contact_recruit.php:52
+msgid "page-caption.recruit"
+msgstr "Recruit"
+
+#: page_corporate_security_policy.php:46
+msgid "page-caption.security-policy"
+msgstr "Security Policy"
+
+#: page_corporate_service.php:49
+msgid "page-caption.service"
+msgstr "Our Services"
+
+#: page_corporate_term_of_use.php:45
+msgid "page-caption.terms-of-use"
+msgstr "Terms of Use"
+
+#: page_corporate_contact_wp-am.php:45 page_corporate_contact_wp-am.php:53
+msgid "page-caption.wp-am"
+msgstr "About WealthPark Asset Management"
+
+#: page_corporate_contact_wp-business.php:52
+msgid "page-caption.wp-business"
+msgstr "WealthPark Business"
+
+#: page_corporate_contact_wp-pm.php:47
+msgid "page-caption.wp-pm"
+msgstr ""
+
+msgid "page-subtitle.privacy-policy.info-sharing"
+msgstr "Joint Use of Personal Data within the WealthPark Group"
+
+msgid "page-title.contact-owner"
+msgstr "Inquiry about the application"
+
+#: page_corporate_old.php:652
+msgid "page.information_security_guidelines"
+msgstr "Information Security Guidelines"
+
+#: page_corporate_old.php:642
+msgid "page.privacy_policy"
+msgstr "Privacy Policy"
+
+#: page_corporate_old.php:632
+msgid "page.term_of_use"
+msgstr "Terms of Use"
+
+#: template-parts/content-news.php:51 template-parts/content-page-news.php:50
+#: template-parts/content-page.php:22 template-parts/content.php:38
+#: template-parts/content-page-careers.php:34
+#: template-parts/content-page-blog-wealthpark.php:34
+#: template-parts/content-page-help_owner.php:39
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - cv2020"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - nyc2019"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - LP"
+msgstr ""
+
+#: archive-wealthpark.php:100
+msgid "readmore"
+msgstr "READ MORE"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: index.php:350 page_corporate_old.php:452
+msgid "section.about.message"
+msgstr ""
+"WealthPark is a Japanese company located in Ebisu, Tokyo. WealthPark is "
+"fully-licensed in real estate industry and brings together the industry’s "
+"top talents who have 100 years of property management experience and "
+"collectively speak at least 5 different native languages. Wealthpark is "
+"committed to combine real estate and technology together and deliver one of "
+"the smartest property management experience for Asian & other overseas "
+"investors. "
+
+#: index.php:355 page_corporate_corporate.php:66 page_corporate_old.php:457
+msgid "section.about.table.tr-1.td"
+msgstr "WealthPark Co., Ltd."
+
+#: index.php:354 page_corporate_corporate.php:63 page_corporate_old.php:456
+msgid "section.about.table.tr-1.th"
+msgstr "Company Name"
+
+msgid "section.about.table.tr-10.td"
+msgstr "Tohoku Sales Office, Kansai Sales Office, Kyushu Sales Office"
+
+msgid "section.about.table.tr-10.th"
+msgstr "Sales Office"
+
+#: index.php:359 page_corporate_corporate.php:74 page_corporate_old.php:461
+msgid "section.about.table.tr-2.td"
+msgstr "JPY 100,000,000 (As of December 31, 2024)"
+
+#: index.php:358 page_corporate_corporate.php:71 page_corporate_old.php:460
+msgid "section.about.table.tr-2.th"
+msgstr "Capital"
+
+#: index.php:363 page_corporate_corporate.php:82 page_corporate_old.php:465
+msgid "section.about.table.tr-3.td"
+msgstr "Ryuta Kawada (Director and Chairman)"
+
+#: index.php:362 page_corporate_corporate.php:79 page_corporate_old.php:464
+msgid "section.about.table.tr-3.th"
+msgstr "Representative"
+
+#: index.php:367 page_corporate_corporate.php:90 page_corporate_old.php:469
+msgid "section.about.table.tr-4.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>Anderson Mori & Tomotsune</li>\n"
+"</ul>"
+
+#: index.php:366 page_corporate_corporate.php:87 page_corporate_old.php:468
+msgid "section.about.table.tr-4.th"
+msgstr "Legal Advisers"
+
+#: index.php:371 page_corporate_corporate.php:98 page_corporate_old.php:473
+msgid "section.about.table.tr-5.td"
+msgstr "148 (As of November 2025)"
+
+#: index.php:370 page_corporate_corporate.php:95 page_corporate_old.php:472
+msgid "section.about.table.tr-5.th"
+msgstr "Number of Employees"
+
+#: index.php:375 page_corporate_corporate.php:106 page_corporate_old.php:477
+msgid "section.about.table.tr-6.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>Real Estate Trader, Tokyo Governor (2) 95844</li>\n"
+"    <li>Condominium Management Provider, Ministry of Land, Infrastructure, "
+"Transport and Tourism (2) 033999</li>\n"
+"    <li>Property Management Provider, Ministry of Land, Infrastructure, "
+"Transport and Tourism (2) 2933</li>\n"
+"</ul>"
+
+#: index.php:374 page_corporate_corporate.php:103 page_corporate_old.php:476
+msgid "section.about.table.tr-6.th"
+msgstr "Certifications"
+
+#: index.php:379 page_corporate_corporate.php:114 page_corporate_old.php:481
+msgid "section.about.table.tr-7.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>2F, MO Building, 3-14-15 Higashi, Shibuya-ku, Tokyo 150-0011, "
+"Japan<br><a href=\"https://maps.app.goo.gl/nQji5kqP8FM6pQrm6\" "
+"target=\"_blank\">View Map</a></li>\n"
+"</ul>"
+
+#: index.php:378 page_corporate_corporate.php:111 page_corporate_old.php:480
+msgid "section.about.table.tr-7.th"
+msgstr "Head Office Location"
+
+msgid "section.about.table.tr-8.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>Hong Kong / New York / Taipei</li>\n"
+"</ul>"
+
+msgid "section.about.table.tr-8.th"
+msgstr "Branch Offices"
+
+#: page_corporate_corporate.php:122
+msgid "section.about.table.tr-9.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li><a href=\"https://wealthpark-ret.com/\" target=\"_blank\">WealthPark "
+"RealEstate Technologies, Inc.</a></li>\n"
+"    <li><a href=\"https://weifuda.tw/\" target=\"_blank\">WealthPark "
+"RealEstate Technologies Taiwan Co., Ltd. [Taiwan subsidiary]</a></li>\n"
+"    <li>WealthPark Capital, Inc.</li>\n"
+"    <li>WealthPark, Inc.　[US subsidiary]</li>\n"
+"    <li>WealthPark (HONG KONG) LIMITED　[Hong Kong subsidiary]</li>\n"
+"    <li>\n"
+"        <a href=\"https://wealthpark-alt.com/\" target=\"_blank\">WealthPark "
+"Alternative Investments, Inc.</a>\n"
+"    </li>\n"
+"</ul>"
+
+#: page_corporate_corporate.php:119
+msgid "section.about.table.tr-9.th"
+msgstr "Group Companies"
+
+#: index.php:349 page_corporate_old.php:451
+msgid "section.about.title.h2"
+msgstr "Professional team with diverse background"
+
+#: index.php:348 page_corporate_old.php:450
+msgid "section.about.type_name"
+msgstr "About us"
+
+#: page_corporate_old.php:550 page_corporate_old.php:566
+msgid "section.contact.title.h2"
+msgstr "Contact"
+
+#: page_corporate_old.php:551 page_corporate_old.php:567
+msgid "section.contact.title.h3"
+msgstr ""
+"\vPlease according to your inquiry, select an item from the followings."
+
+#: page_corporate_old.php:555 page_corporate_old.php:600
+msgid "section.contact_success.title.h2"
+msgstr "Thank You"
+
+#: page_corporate_old.php:556 page_corporate_old.php:601
+msgid "section.contact_success.title.h3"
+msgstr ""
+"Your message has been sent to us successfully. <br/> Our members will "
+"contact you soon."
+
+#: page_corporate_old.php:611
+msgid "section.demo.title.h2"
+msgstr "Request a Demo"
+
+#: page_corporate_old.php:612
+msgid "section.demo.title.h3"
+msgstr "Please enter your contact information and try WealthPark right away"
+
+#: page_corporate_old.php:616
+msgid "section.demo_success.title.h2"
+msgstr "Thank You"
+
+#: page_corporate_old.php:617
+msgid "section.demo_success.title.h3"
+msgstr ""
+"To try the demo, download the WealthPark app and sign in with the "
+"information that has been sent to your email."
+
+#: page_app.php:190
+msgid "section.device.content"
+msgstr ""
+"<ul class=\"bullet-list en\">\n"
+"  <li>Check your asset financials anytime, anywhere with the mobile app. Web "
+"version is also available.</li>\n"
+"  <li>Find monthly / yearly cash flow data on a larger display when using "
+"the web version. Simple to   publish tax returns and analyze P/L statements "
+"via the web.</li>\n"
+"</ul>"
+
+#: page_app.php:196
+msgid "section.device.demo"
+msgstr "Get a Demo Account"
+
+#: page_app.php:189
+msgid "section.device.title2"
+msgstr "<span class=\"en\">Anytime, <br>Anywhere</span>"
+
+#: index.php:84 page_corporate_old.php:186
+msgid "section.feature.title.h2"
+msgstr "What makes WealthPark different?"
+
+#: index.php:86 page_corporate_old.php:188
+msgid "section.feature.title.h3"
+msgstr ""
+"Real-estate veterans with 100+ years’ experience bring local know-how and "
+"expertise to your property"
+
+#: index.php:83 page_corporate_old.php:185
+msgid "section.feature.type_name"
+msgstr "Features"
+
+#: index.php:91 page_corporate_old.php:193
+msgid "section.feature_point.f1.items"
+msgstr ""
+"<li>Rent Research to maximize your return</li>\n"
+"<li>Tighter rent collection</li>\n"
+"<li>Tax savings and consultation</li>\n"
+"<li>Reputable service at fair price</li>\n"
+
+#: index.php:89 page_corporate_old.php:191
+msgid "section.feature_point.f1.title"
+msgstr "Increase Returns"
+
+#: index.php:97 page_corporate_old.php:199
+msgid "section.feature_point.f2.items"
+msgstr ""
+"<li>Tenant Screening</li>\n"
+"<li>Timely and responsive repair & maintenance</li>\n"
+"<li>Deal with tenant complaints and disputes</li>\n"
+
+#: index.php:95 page_corporate_old.php:197
+msgid "section.feature_point.f2.title"
+msgstr "Avoid Risk"
+
+#: index.php:103 page_corporate_old.php:205
+msgid "section.feature_point.f3.items"
+msgstr ""
+"<li>Regular Real estate market reports</li>\n"
+"<li>Japan Macroeconomic Trends</li>\n"
+"<li>Market Insights by real estate expertise</li>\n"
+
+#: index.php:101 page_corporate_old.php:203
+msgid "section.feature_point.f3.title"
+msgstr "Marketing Intelligence"
+
+#: index.php:111 page_corporate_old.php:213
+msgid "section.feature_point.f4.items"
+msgstr ""
+"<li>Manage everything in mobile App</li>\n"
+"<li>Real-time access to your portfolio status</li>\n"
+"<li>Handle maintenance requests directly on your mobile</li>\n"
+
+#: index.php:109 page_corporate_old.php:211
+msgid "section.feature_point.f4.title"
+msgstr "Time-saving"
+
+#: index.php:117 page_corporate_old.php:219
+msgid "section.feature_point.f5.items"
+msgstr ""
+"<li>Designated property manager</li>\n"
+"<li>Multi-lingual and barrier-free communication</li>\n"
+
+#: index.php:115 page_corporate_old.php:217
+msgid "section.feature_point.f5.title"
+msgstr "Premium Customer Services"
+
+#: page_corporate_old.php:557 page_corporate_old.php:602
+msgid "section.form.button.back"
+msgstr "Back to Home"
+
+#: index.php:154 page_corporate_old.php:256
+msgid "section.how.f1.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>Manage your entire portfolio with visibility and timeliness.</li>\n"
+"    <li>Keep updated with the latest leasing progress.</li>\n"
+"</ul>\n"
+
+#: index.php:153 page_corporate_old.php:255
+msgid "section.how.f1.title"
+msgstr "Entire Portfolio at a glance"
+
+#: index.php:130 page_corporate_old.php:232
+msgid "section.how.f1.track_title"
+msgstr "Entire portfolio"
+
+#: index.php:166 page_corporate_old.php:268
+msgid "section.how.f2.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>Get to know the financials of your leasing business through "
+"transparent monthly Cash Flow Statement.</li>\n"
+"    <li>With just one click, automatically generate financial report that "
+"can be shared by email.</li>\n"
+"</ul>\n"
+
+#: index.php:165 page_corporate_old.php:267
+msgid "section.how.f2.title"
+msgstr "Timely, easy-to-read financials"
+
+#: index.php:134 page_corporate_old.php:236
+msgid "section.how.f2.track_title"
+msgstr "Cash flow"
+
+#: index.php:178 page_corporate_old.php:280
+msgid "section.how.f3.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>Barrier-free communication with multi-lingual asset manager.</li>\n"
+"    <li>Be more efficient to resolve issues fast. </li>\n"
+"</ul>\n"
+
+#: index.php:177 page_corporate_old.php:279
+msgid "section.how.f3.title"
+msgstr "Chat with your Personal Property Manager"
+
+#: index.php:138 page_corporate_old.php:240
+msgid "section.how.f3.track_title"
+msgstr "Chat message"
+
+#: index.php:190 page_corporate_old.php:292
+msgid "section.how.f4.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>Get market intelligence with abundant market reports and news. </li>"
+"\n"
+"    <li>Exposed to fresh and valuable resources in real-estate investment. "
+"</li>\n"
+"</ul>\n"
+
+#: index.php:189 page_corporate_old.php:291
+msgid "section.how.f4.title"
+msgstr "Keep updated with market trends"
+
+#: index.php:142 page_corporate_old.php:244
+msgid "section.how.f4.track_title"
+msgstr "Market trends"
+
+#: index.php:202 page_corporate_old.php:304
+msgid "section.how.f5.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>Archive your deal contracts, leasing contracts, loan materials, tax "
+"filing in an easy-to-retrieve way. </li>\n"
+"    <li>Help you sort through all the property-related paperwork.</li>\n"
+"</ul>\n"
+
+#: index.php:201 page_corporate_old.php:303
+msgid "section.how.f5.title"
+msgstr "Save Documents all in one place"
+
+#: index.php:146 page_corporate_old.php:248
+msgid "section.how.f5.track_title"
+msgstr "Documents"
+
+#: index.php:124 page_corporate_old.php:226
+msgid "section.how.title.h2"
+msgstr "How does WealthPark work?"
+
+#: index.php:125 page_corporate_old.php:227
+msgid "section.how.title.h3"
+msgstr "Quality and timely service with mobile application"
+
+#: index.php:73 page_corporate_old.php:175
+msgid "section.service.list_items.f1"
+msgstr ""
+"<li>Real-estate veterans with 100+ years’ experience bring local know-how "
+"and experience to your property.</li>\n"
+"<li>Wide network of property developers, brokers, property management firms, "
+"banks and insurance companies to collectively steward your assets.</li>\n"
+"<li>Offers reputable service at fair price with trusted vendors.</li>\n"
+
+#: index.php:78 page_corporate_old.php:180
+msgid "section.service.list_items.f2"
+msgstr ""
+"<li>Stay connected with your investment portfolio from anywhere, anytime</li>"
+"\n"
+"<li>Chat through App with your multi-lingual asset managers</li>\n"
+"<li>Get the latest market trends right in your palm</li>\n"
+
+#: index.php:69 page_corporate_old.php:171
+msgid "section.service.title.h2"
+msgstr "Real Estate × Tech"
+
+#: index.php:71 page_corporate_old.php:173
+msgid "section.service.title.h3.f1"
+msgstr ""
+"Real-estate professionals delivering local property management expertise"
+
+#: index.php:76 page_corporate_old.php:178
+msgid "section.service.title.h3.f2"
+msgstr "Reinventing cross-border investment"
+
+#: index.php:68 page_corporate_old.php:170
+msgid "section.service.type_name"
+msgstr "Services"
+
+#: index.php:308 page_corporate_old.php:410
+msgid "section.team.button.more"
+msgstr "More"
+
+#: index.php:221 page_corporate_old.php:323
+msgid "section.team.title.h2"
+msgstr "We combine talents with diversified experience and backgrounds"
+
+#: index.php:223 page_corporate_old.php:325
+msgid "section.team.title.h3"
+msgstr ""
+"Diversity works well for the team to achieve a common goal – To make "
+"WealthPark the most preferred wealth management tool for the global investor."
+
+#: index.php:220 page_corporate_old.php:322
+msgid "section.team.type_name"
+msgstr "Team"
+
+#: index.php:318 page_corporate_old.php:420
+msgid "section.testimonials.title.h2"
+msgstr ""
+"Happy customers trust WealthPark. You can too!\n"
+
+#: index.php:320 page_corporate_old.php:422
+msgid "section.testimonials.title.h3"
+msgstr "See what our customers say about us"
+
+#: index.php:317 page_corporate_old.php:419
+msgid "section.testimonials.type_name"
+msgstr "Testimonials"
+
+#. Name of the template
+msgid "Service Page - Asset Management"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - Dev"
+msgstr ""
+
+#. Name of the template
+msgid ""
+"Service Page - Asset Management - LP - Digital Alternative Asset Platform"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - LP - Taiwan B2C"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management UK"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - customer-success"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact 001 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Form Template"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FAQ"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - AI quotation"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - cashflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - chat"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - document-storage"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - Multiple Language"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - security"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - workflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - Promise"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - road-to-dx"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Corporate - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page-  Asset Management Contact WP AM"
+msgstr ""
+
+#: page_corporate_service.php:59 page_corporate.php:103
+msgid "service-description.app"
+msgstr "Anytime, Anywhere. Real Estate Management at Your Fingertips."
+
+msgid "service-description.ret-blog"
+msgstr "All articles related to WealthPark RealEstate Technologies."
+
+#: page_corporate_service.php:89 page_corporate.php:127
+#: header-top-with-news.php:52 header-top-with-news.php:160
+msgid "service-description.wp-am"
+msgstr ""
+"Leader in Japan Inbound Real Estate Asset and Property Management for "
+"Foreign Investors."
+
+msgid "service-description.wp-blog"
+msgstr "All articles related to WealthPark."
+
+#: page_corporate_service.php:74 page_corporate.php:115
+#: header-top-with-news.php:39 header-top-with-news.php:154
+msgid "service-description.wp-business"
+msgstr ""
+"New Synergy Between Property Managers and Investors. (available in Japanese "
+"only)"
+
+msgid "service-description.wpl"
+msgstr ""
+"WealthPark Lab shares information on the essence of investment that has been "
+"left undiscussed until now."
+
+#: page_corporate.php:102
+msgid "service-name.app"
+msgstr "App<br />for Owner"
+
+#: page_corporate.php:126
+msgid "service-name.wp-am"
+msgstr "WealthPark<br />Asset Management"
+
+#: page_corporate.php:114
+msgid "service-name.wp-business"
+msgstr "WealthPark<br />Business"
+
+#: page_corporate_service.php:58
+msgid "service.tagline.app"
+msgstr "Manage<br />your<br />investments<br />with ease."
+
+#: page_corporate_service.php:88
+msgid "service.tagline.wp-am"
+msgstr "Real Estate × Tech"
+
+#: page_corporate_service.php:73
+msgid "service.tagline.wp-business"
+msgstr "Bring<br />property management<br />to the next level"
+
+#: functions.php:96
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: functions.php:442
+msgid "TOC_TITLE"
+msgstr "TOC"
+
+#: page_app.php:80
+msgid "top.message.app"
+msgstr "<span class=\"en\">Manage<br />your investments<br />with ease.</span>"
+
+#: page_app.php:81
+msgid "top.message2.app"
+msgstr "<span class=\"en\">Real Estate management at your fingertips.</span>"
+
+#: page_asset_management_uk.php:125
+msgid "uk.feature.category"
+msgstr "FEATURES"
+
+#: page_asset_management_uk.php:127
+msgid "uk.feature.description"
+msgstr ""
+"Real-estate veterans with 100+ years’ experience <br>\n"
+"bring local know-how and expertise to your property"
+
+#: page_asset_management_uk.php:129
+msgid "uk.feature.features"
+msgstr ""
+"    <ul class=\"feature-section__features\">\n"
+"      <li class=\"feature-section__feature\">\n"
+"        <h3 class=\"feature-section__feature-title\">Increase Returns</h3>\n"
+"        <figure class=\"feature-section__feature-image\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_001.png\" alt=\"\" />\n"
+"        </figure>\n"
+"        <ul class=\"feature-section__feature-description\">\n"
+"          <li>Rent Research to maximize your return</li>\n"
+"          <li>Tighter rent collection</li>\n"
+"          <li>Tax savings and consultation</li>\n"
+"          <li>Reputable service at fair price</li>\n"
+"        </ul>\n"
+"      </li>\n"
+"      <li class=\"feature-section__feature\">\n"
+"        <h3 class=\"feature-section__feature-title\">Avoid Risk</h3>\n"
+"        <figure class=\"feature-section__feature-image\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_002.png\" alt=\"\" />\n"
+"        </figure>\n"
+"        <ul class=\"feature-section__feature-description\">\n"
+"          <li>Tenant Screening</li>\n"
+"          <li>Timely and responsive repair & maintenance</li>\n"
+"          <li>Deal with tenant complaints and disputes</li>\n"
+"        </ul>\n"
+"      </li>\n"
+"      <li class=\"feature-section__feature\">\n"
+"        <h3 class=\"feature-section__feature-title\">Marketing<br />"
+"Intelligence</h3>\n"
+"        <figure class=\"feature-section__feature-image\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_003.png\" alt=\"\" />\n"
+"        </figure>\n"
+"        <ul class=\"feature-section__feature-description\">\n"
+"          <li>Regular Real estate market reports</li>\n"
+"          <li>Japan Macroeconomic Trends</li>\n"
+"          <li>Market Insights by real estate expertise</li>\n"
+"        </ul>\n"
+"      </li>\n"
+"      <li class=\"feature-section__feature\">\n"
+"        <h3 class=\"feature-section__feature-title\">Time-saving</h3>\n"
+"        <figure class=\"feature-section__feature-image\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_004.png\" alt=\"\" />\n"
+"        </figure>\n"
+"        <ul class=\"feature-section__feature-description\">\n"
+"          <li>Manage everything in mobile App</li>\n"
+"          <li>Real-time access to your portfolio status</li>\n"
+"          <li>Handle maintenance requests directly on your mobile</li>\n"
+"        </ul>\n"
+"      </li>\n"
+"      <li class=\"feature-section__feature\">\n"
+"        <h3 class=\"feature-section__feature-title\">Premium<br />Customer "
+"Services</h3>\n"
+"        <figure class=\"feature-section__feature-image\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_005.png\" alt=\"\" />\n"
+"        </figure>\n"
+"        <ul class=\"feature-section__feature-description\">\n"
+"          <li>Designated property manager</li>\n"
+"          <li>Multi-lingual and barrier-free communication</li>\n"
+"        </ul>\n"
+"      </li>\n"
+"    </ul>"
+
+#: page_asset_management_uk.php:126
+msgid "uk.feature.title"
+msgstr ""
+"What makes <br>\n"
+"WealthPark different?"
+
+#: page_asset_management_uk.php:58
+msgid "uk.hero-message"
+msgstr ""
+"Manage your <br>\n"
+"United Kingdom <br>\n"
+"properties <br>\n"
+"with ease.\n"
+
+#: page_asset_management_uk.php:61
+msgid "uk.hero-message-txt"
+msgstr "Your favourite Japanese Property Management App. In UK."
+
+#: page_asset_management_uk.php:86
+msgid "uk.launch.category"
+msgstr "Launch Promotion"
+
+#: page_asset_management_uk.php:89
+msgid "uk.launch.copy.txt"
+msgstr ""
+"      <p class=\"launch-section__copy\">\n"
+"        <span>7% + VAT*</span>\n"
+"        *Prices subject to VAT (3% on Japanese VAT & 4% on UK VAT)\n"
+"      </p>\n"
+"      <p class=\"launch-section__txt\">\n"
+"          - Manage your United Kingdom portfolio with the same Owner App <br>"
+"\n"
+"          - Chat with WealthPark’s multi-lingual UK asset managers <br>\n"
+"          - Lockdown the promotional pricing for multiple years <br>\n"
+"          - Opt to offset your management fee with your Japanese rental "
+"income\n"
+"      </p>\n"
+
+#: page_asset_management_uk.php:87
+msgid "uk.launch.title"
+msgstr ""
+"Full-Service Asset and <br>\n"
+"Property Management Service"
+
+#: page_asset_management_uk.php:103
+msgid "uk.service.001.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">Real-estate veterans with 100+ years’ experience bring "
+"local know-how and experience to your property.</li>\n"
+"  <li class=\"\">Wide network of property developers, brokers, property "
+"management firms, banks and insurance companies to collectively steward your "
+"assets.</li>\n"
+"  <li class=\"\">Offers reputable service at fair price with trusted vendors."
+"</li>\n"
+"</ul>"
+
+#: page_asset_management_uk.php:102
+msgid "uk.service.001.title"
+msgstr "Tenant Find"
+
+#: page_asset_management_uk.php:112
+msgid "uk.service.002.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">New development transaction delivery</li>\n"
+"  <li class=\"\">Property Protect Services: no deposit, rent & legal, and "
+"property damage protection</li>\n"
+"  <li class=\"\">HMO management</li>\n"
+"</ul>"
+
+#: page_asset_management_uk.php:111
+msgid "uk.service.002.title"
+msgstr "Other Services"
+
+#: page_asset_management_uk.php:96
+msgid "uk.service.category"
+msgstr "Additional Services"
+
+#: page_asset_management_uk.php:97
+msgid "uk.service.title"
+msgstr ""
+
+#: page_app.php:142
+msgid "video.nyc2019.content"
+msgstr ""
+"<div class=\"message__text\">\n"
+"<span class=\"en\">MetaProp is the world's leader in PropTech venture "
+"investments. WealthPark NYC has been recognized as an official event of NYC "
+"Real Estate Tech Week hosted by MetaProp.</span>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">“We absolutely believe there is an "
+"opportunity for Proptech firms across markets to collaborate.”</p>\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>K.C. Cleary / Fifth Wall (Partner)</span>\n"
+"    </div>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">“One of the biggest challenges of "
+"collaborating between Japan and US is to find partners on the ground.”</p>\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>Curren McKay / AskPorter (CCO)</span>\n"
+"    </div>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">“I definitely see Japanese and "
+"American companies forging strong partnerships together.”</p>\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>Andrea Jang / JJL Spark (Growth Lead)</span>\n"
+"    </div>\n"
+"</div>"
+
+#: index.php:58 page_corporate_old.php:85 page_corporate_old.php:87
+#: page_corporate_old.php:161
+msgid "WealthPark"
+msgstr ""
+
+#. Name of the template
+msgid "WealthPark Blog Archive"
+msgstr ""
+
+msgid "wp-am.about"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      About Us\n"
+"    </h2>\n"
+"    <p class=\"about__copy\">Re-invent Cross-border Asset Management</p>\n"
+"    <p class=\"about__txt\">\n"
+"      WealthPark was established by real estate professionals to provide "
+"overseas investors with property management expertise via the WealthPark App "
+"and web portal. In addition, WealthPark allows investors to effectively "
+"monitor their overseas asset portfolios and contact their dedicated Asset "
+"Managers at any time.<br><br>\n"
+"      WealthPark’s services have been widely adopted by more than 50,000 "
+"investors in Hong Kong, Taiwan, China, and other parts of the world. A wide "
+"network of property developers, brokers, building management companies, "
+"financial institutions, and insurers reinforces us to provide overseas "
+"investors a comprehensive asset management solution from asset management, "
+"rent guarantee to buy-and-sell, and tax consultation.</p>"
+
+msgid "wp-am.estate-title"
+msgstr "Articles about Japan’s Real Estate Market"
+
+#: page_asset_management.php:128
+msgid "wp-am.features"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      Features\n"
+"    </h2>\n"
+"    <ul class=\"feature__list\">\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">Barrier-Free<br>Communication<br>&nbsp;"
+"</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic1.png\" "
+"alt=\"Barrier-Free Communication\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Asset Managers fluent in English, Cantonese, and Mandarin are "
+"ready at your fingertips</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">Real Estate<br>Portfolio<br>Tracker</p>"
+"\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic2.png\" alt=\"Real-"
+"Estate Portfolio Tracker\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>View the asset value, return, and rental status of your "
+"portfolio anytime, anywhere</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">Digitized<br>Financial<br>"
+"Statements</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic3.png\" "
+"alt=\"Digitized Financial Statements\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Receive monthly financial reports and find all your documents "
+"digitally stored</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">AI-Powered<br>Property<br>Valuation</p>"
+"\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic4.png\" "
+"alt=\"無法得知目前的市價\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Formulate strategies to optimize returns with real-time "
+"property valuations*</p>\n"
+"            <ul>\n"
+"              <li>*Provided by PriceHubble AG</li>\n"
+"              <li>*The scope of services varies by region</li>\n"
+"            </ul>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"    </ul>"
+
+msgid "wp-am.hero-image"
+msgstr ""
+"<img loading='lazy' src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/hero_image_en.png\" alt=\"example_image \" />"
+
+msgid "wp-am.hero-message"
+msgstr ""
+"<h1 class=\"hero__massage-title\">Property Management × Technology</h1>\n"
+"<p class=\"hero__massage-copy\">50,000+* investors use WealthPark to manage "
+"overseas properties</p>\n"
+"<ul class=\"hero__massage-teams\">\n"
+"  <li>・Complimentary app to manage properties in all major cities of Japan & "
+"England</li>\n"
+"  <li>・Manage financials and store digitized documents in the palm of your "
+"hand</li>\n"
+"  <li>・Team of multilingual asset management experts ready to assist you</li>"
+"\n"
+"</ul>\n"
+"<div class=\"hero__massage-button button\">\n"
+"  <a href=\"#hsforms\">Leave a Message</a>\n"
+"</div>\n"
+"<p class=\"hero__massage-txt\">Download the app to demo the WealthPark "
+"experience now</p>"
+
+msgid "wp-am.hero-message-landlords"
+msgstr "*including domestic and overseas property investors"
+
+msgid "wp-am.hosting"
+msgstr ""
+"    <h2 class=\"hosting__tit section-name\">\n"
+"      WealthPark Is Your Top Choice for Overseas Property Management\n"
+"    </h2>\n"
+"    <dl class=\"hosting__list\">\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/hosting_pic1.svg\" alt=\"I want someone who can speak "
+"English to help me manage my properties in Japan.\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“I want someone who can speak English to help me manage my "
+"properties in Japan.”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/hosting_pic2.svg\" alt=\"It’s difficult to keep track "
+"of all the documents. I need a centralized document management system.\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“It’s difficult to keep track of all the documents. I need a "
+"centralized document management system.”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/hosting_pic3.svg\" alt=\"I can no longer contact my "
+"current Property Manager. I need a new Property Manager to take over as soon "
+"as possible.\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“I can no longer contact my current Property Manager. I need a "
+"new Property Manager to take over as soon as possible.”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/hosting_pic4.svg\" alt=\"I want an online platform to "
+"track my overseas Real-Estate portfolio performance easily as I am living "
+"outside Japan. \">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“I want an online platform to track my overseas Real Estate "
+"portfolio performance easily as I am living outside Japan. ”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"    <dl>\n"
+
+msgid "wp-am.hsforms"
+msgstr ""
+"<section class=\"hsforms container\" id=\"hsforms\">\n"
+"  <div class=\"hsforms__inner container__inner\">\n"
+"    <h2 class=\"hsforms__tit section-name\">\n"
+"      Please Contact Us to Discuss Your Needs\n"
+"    </h2>\n"
+"    <p class=\"hsforms__copy\">Fill out the form below</p>\n"
+"    <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms."
+"net/forms/shell.js\"></script>\n"
+"    </script>\n"
+"<script>\n"
+"  hbspt.forms.create({\n"
+"\tregion: \"na1\",\n"
+"\tportalId: \"4797615\",\n"
+"\tformId: \"70db5b84-ed99-405a-8d23-62c51518f5af\"\n"
+"});\n"
+"</script>\n"
+"  </div>\n"
+"</section>"
+
+msgid "wp-am.movie-link"
+msgstr ""
+"<iframe width=\"100%\" height=\"270\" src=\"https://www.youtube."
+"com/embed/StqqXOh-r5I\" title=\"YouTube video player\" frameborder=\"0\" "
+"allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-"
+"picture\" allowfullscreen></iframe>"
+
+msgid "wp-am.movie-message"
+msgstr ""
+"        <h2 class=\"movie__listTit\">Video | Real Estate × Technology</h2>\n"
+"        <p>\n"
+"          WealthPark is a leading real estate technology company that "
+"provides modern wealth management tools for overseas asset investors.<br>\n"
+"          Over 50,000 investors are using WealthPark to manage their "
+"overseas properties.\n"
+"        </p>"
+
+msgid "wp-am.owner-help.hero-message"
+msgstr ""
+"<h1 class=\"help__understandTxt\">\n"
+"\tWealthPark Asset Management Support\n"
+"</h1>\n"
+"<p class=\"help__understandDetail\">\n"
+"\tThis is the support page for asset management (iOS/Android/Web) investors. "
+"Please consult this page if you have any questions.\n"
+"</p>"
+
+msgid "wp-am.owner-help.read-all"
+msgstr "Read All"
+
+msgid "wp-am.owner-help.whats-new"
+msgstr "What's New"
+
+msgid "wp-am.page-links"
+msgstr ""
+"      <li>\n"
+"        <a href=\"#feature\">Features</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#hosting\">Who We Serve</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#hsforms\">Leave a Message</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#estate\">WealthPark Blog</a>\n"
+"      </li>"
+
+msgid "wp-am.partnership"
+msgstr ""
+"    <h2 class=\"partnership__tit section-name\">\n"
+"      Partners\n"
+"    </h2>"
+
+msgid "wp-am.troubles"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      Do You Encounter These Issues When Investing in Overseas Real Estate?\n"
+"    </h2>\n"
+"    <ul class=\"troubles__list\">\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">I don’t speak Japanese, but I need to "
+"...</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic1.png\" alt=\"I am "
+"not able to speak Japanese, but I want to ...\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Check rental status</p>\n"
+"            <p>Monitor cash flows</p>\n"
+"            <p>Confirm repair costs</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">In real-time, I  want to monitor ..."
+"<br>&nbsp;</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic2.png\" alt=\"In "
+"real-time, I  want to monitor ...\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Portfolio performance</p>\n"
+"            <p>Holding level</p>\n"
+"            <p>All financials</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">I want to centralize my documents "
+"such as the ...</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic3.png\" alt=\"I "
+"want to centralize my documents such as the ...\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Sales Agreements</p>\n"
+"            <p>Management Contracts</p>\n"
+"            <p>Lease Agreements</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">I want to be informed about ...<br>"
+"&nbsp;</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic4.png\" alt=\"I "
+"want to grasp the current market situation ...\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>Current market situation</p>\n"
+"            <p>Appreciation potentials</p>\n"
+"            <p>Investment appraisals</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"    </ul>"
+
+msgid "WPAM.company_profile.address-label"
+msgstr "Address"
+
+msgid "WPAM.company_profile.address-value"
+msgstr "16F, No. 62, Nanjing West Road, Datong District, Taipei, Taiwan"
+
+msgid "WPAM.company_profile.capital-label"
+msgstr "Capital"
+
+msgid "WPAM.company_profile.capital-value"
+msgstr "JPY9.99 million"
+
+msgid "WPAM.company_profile.capital-value-tw"
+msgstr "TWD500,000"
+
+msgid "WPAM.company_profile.comp-name-label"
+msgstr "Company Name"
+
+msgid "WPAM.company_profile.comp-name-value"
+msgstr "WealthPark RealEstate Technologies, Inc."
+
+msgid "WPAM.company_profile.comp-name-value-tw"
+msgstr "WealthPark RealEstate Technologies Taiwan Co., Ltd."
+
+msgid "WPAM.company_profile.head-office-loc-label"
+msgstr "Head Office"
+
+msgid "WPAM.company_profile.head-office-loc-value"
+msgstr "2F, MO Building, 3-14-15 Higashi, Shibuya-ku, Tokyo 150-0011, Japan"
+
+msgid "WPAM.company_profile.head-office-loc-value-tw"
+msgstr "16F, No. 62, Nanjing West Road, Datong District, Taipei, Taiwan"
+
+msgid "WPAM.company_profile.num-employees-label"
+msgstr "Number of Employees"
+
+msgid "WPAM.company_profile.num-employees-value"
+msgstr "48（as of July 1st, 2024）"
+
+msgid "WPAM.company_profile.representative-label"
+msgstr "Representative"
+
+msgid "WPAM.company_profile.representative-value"
+msgstr "Chunyi Kan"
+
+msgid "WPAM.company_profile.representative-value-tw"
+msgstr "Tatsuya Tomiyasu"
+
+msgid "WPAM.company_profile.year-established-label"
+msgstr "Established"
+
+msgid "WPAM.company_profile.year-established-value"
+msgstr "October 2020"
+
+msgid "WPAM.company_profile.year-established-value-tw"
+msgstr "August 24, 2022"
+
+msgid "wpb_dl-form_item_comment"
+msgstr "Comment"
+
+msgid "wpb_dl-form_item_company"
+msgstr "Company"
+
+msgid "wpb_dl-form_item_details-of-company"
+msgstr "Details of company"
+
+msgid "wpb_dl-form_item_email"
+msgstr "E-mail"
+
+msgid "wpb_dl-form_item_first-name"
+msgstr "First name"
+
+msgid "wpb_dl-form_item_last-name"
+msgstr "Last name"
+
+msgid "wpb_dl-form_item_other"
+msgstr "Media, Other"
+
+msgid "wpb_dl-form_item_owner"
+msgstr "Real estate owner"
+
+msgid "wpb_dl-form_item_PM-1-999"
+msgstr "Property management company(The number of rooms: 1-999)"
+
+msgid "wpb_dl-form_item_PM-1000-9999"
+msgstr "Property management company(The number of rooms: 1,000-9,999)"
+
+msgid "wpb_dl-form_item_PM-10000"
+msgstr "Property management company(The number of rooms: 10,000 or more)"
+
+msgid "wpb_dl-form_item_telephone-number"
+msgstr "Telephone number"
+
+msgid "wpb_dl-form_mandatory"
+msgstr "Required"
+
+msgid "wpb_dl-form_meta-description"
+msgstr ""
+"We provide some documents which is related to PropTech industry. You can "
+"download some resources after submitting following application form."
+
+msgid "wpb_dl-form_msg"
+msgstr "You will receive an E-mail with download link."
+
+msgid "wpb_dl-form_submit"
+msgstr "Submit"
+
+msgid "wpl_dl-completed_body"
+msgstr ""
+"Your message has been sent.<br>You will receive an E-mail with download link."
+
+msgid "wpl_dl-completed_meta-title"
+msgstr "Your message has been sent."
+
+msgid "wpl_dl-completed_title"
+msgstr "Thank you."

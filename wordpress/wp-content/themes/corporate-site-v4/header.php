@@ -66,7 +66,7 @@
 
                 <!-- 会社概要 -->
                 <li class="nav-item">
-                    <a href="<?php echo esc_url(home_url('/corporate/company')); ?>" class="nav-link">会社概要</a>
+                    <a href="<?php echo esc_url(home_url('/corporate/company')); ?>" class="nav-link nav-link-no-dropdown">会社概要</a>
                 </li>
 
                 <!-- 採用 -->
@@ -103,7 +103,7 @@
                 <!-- CTAボタン -->
                 <li class="nav-item nav-cta">
                     <a href="<?php echo esc_url(home_url('/business')); ?>" class="btn btn-outline">不動産管理会社の方</a>
-                    <a href="https://owner.wealth-park.com/" target="_blank" class="btn btn-solid">パソコン版</a>
+                    <a href="https://owner.wealth-park.com/" target="_blank" class="btn btn-solid">パソコン版WealthPark</a>
                 </li>
             </ul>
         </div>

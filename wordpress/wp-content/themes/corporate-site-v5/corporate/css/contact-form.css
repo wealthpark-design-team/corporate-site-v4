@@ -1,0 +1,69 @@
+.button--black {
+  position: relative;
+}
+div.wpcf7 .ajax-loader {
+  visibility: hidden;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+div.wpcf7 .ajax-loader.is-active {
+  visibility: visible;
+}
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 
+
+/* abuse form */
+.abuse-form-info {
+  padding-bottom: 65px;
+}
+.abuse-form-info h2 {
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.abuse-form-info h2:first-child {
+  padding-top: 0px;
+}
+.abuse-form-info p,
+.abuse-form-info ul {
+  margin-bottom: 15px;
+}
+.abuse-form-info h2,
+.abuse-form-info h3,
+.abuse-form-info strong {
+  font-weight: bold;
+}
+.abuse-form-info h2 {
+  font-size: 20px;
+}
+.abuse-form-info h3 {
+  font-size: 18px;
+}
+.abuse-form-info ul {
+  padding-left: 30px;
+}
+.abuse-form-info ul li{
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px){
+  .abuse-form-info {
+    padding-bottom: 35px;
+  } 
+}

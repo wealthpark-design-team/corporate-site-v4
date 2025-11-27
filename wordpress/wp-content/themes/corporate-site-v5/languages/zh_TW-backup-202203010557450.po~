@@ -1,0 +1,2926 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-11-08 07:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-02-04 07:04+0000\n"
+"Last-Translator: Kaya Matsumoto\n"
+"Language-Team: Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Template: languages/zh_CN.po\n"
+"X-Loco-Version: 2.5.5; wp-4.9.19"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr "新聞列表"
+
+#: functions.php:98
+msgid "Add widgets here."
+msgstr "app.team.profile"
+
+#: page_asset_management.php:124
+msgid "am.feature.category"
+msgstr "特色"
+
+#: page_asset_management.php:126
+msgid "am.feature.description"
+msgstr "房地產專家藉助IT科技，帶來專業知識和透明化管理，使您投資更明智"
+
+#: page_asset_management.php:125
+msgid "am.feature.title"
+msgstr "WealthPark如何與眾不同"
+
+#: page_asset_management.php:53
+msgid "am.hero-message"
+msgstr ""
+"Leader in Japan<br />Inbound Real Estate<br />Asset and Property Management"
+
+#: page_asset_management_uk.php:16 page_asset_management_uk.php:21
+#: page_corporate_contact.php:18 page_app.php:29 page_app.php:32
+#: page_asset_management.php:15 page_asset_management.php:20
+#: page_asset_management_lp-tb2c.php:37
+#: page_asset_management_lp-e-contract-001.php:37
+msgid "am.meta-description"
+msgstr "Leader in Japan Inbound Real Estate Asset Management"
+
+#: page_asset_management_uk.php:15 page_asset_management_uk.php:17
+#: page_asset_management.php:14 page_asset_management.php:16
+msgid "am.meta-title"
+msgstr ""
+"WealthPark Asset Management - Leader in Japan Inbound Real Estate Asset "
+"Management"
+
+#: page_asset_management.php:102
+msgid "am.service.001.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">擁有100年以上豐富經驗的房地產專家為您帶來物業管理專業秘訣</li>\n"
+"  <li class=\"\">與房地產開發商、仲介公司、大廈管理、銀行與保險公司建立廣泛網絡，共同為您的房地產投資護航</li>\n"
+"  <li class=\"\">為您匹配最優質的供應商，與高性價比的服務</li>\n"
+"</ul>"
+
+#: page_asset_management.php:101
+msgid "am.service.001.title"
+msgstr "提供租賃管理專業服務的本地房地產專家"
+
+#: page_asset_management.php:111
+msgid "am.service.002.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">隨時隨地密切管理您的房地產投資組合</li>\n"
+"  <li class=\"\">能說中英日語的專業人士解答各種投資難題</li>\n"
+"  <li class=\"\">一手｢掌握｣最新市場趨勢</li>\n"
+"</ul>"
+
+#: page_asset_management.php:110
+msgid "am.service.002.title"
+msgstr "重新定義越洋房地產投資管理"
+
+#: page_asset_management.php:95
+msgid "am.service.category"
+msgstr "服務"
+
+#: page_asset_management.php:96
+msgid "am.service.title"
+msgstr "房地產×科技"
+
+#: page_asset_management_uk.php:135 page_asset_management.php:134
+msgid "am.voice.category"
+msgstr "客戶評價"
+
+#: page_asset_management_uk.php:136 page_asset_management.php:135
+msgid "am.voice.title"
+msgstr "我們有一群信任我們的忠實客戶。"
+
+#: page_asset_management_uk.php:138 page_asset_management.php:137
+msgid "am.voice.voices"
+msgstr ""
+"<ul class=\"voice-section__voices\">\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">"
+"“WealthPark物業經理提供真正親力親為的服務。他們幫助我迅速修好了房間裡的廁所並安撫了租客的情緒。我只需要收租金就可以了。”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/user_voice_001.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— 東京房產投資者<br />香港，男，42歲</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">"
+"“以前需要通過Email和電話與房屋託管公司溝通。移交用WealthPark之後，可以用APP隨時和客服聊天，回復速度快，各種通知比較及時。”</p>\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/user_voice_002.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— 東京房產投資者<br />臺灣，女，35歲</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">"
+"“使用WealthPark，每月現金流和匯款通知變得相對更一目了然，房產的市場估值和投資報告做的比較容易看懂。感覺像在使用理財公司的財富管理軟體。”</p"
+">\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/user_voice_003.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— 東京房產投資者<br />新加坡，女，43歲</p>\n"
+"  </li>\n"
+"  <li class=\"voice-section__voice\">\n"
+"    <p class=\"voice-section__voice-text\">"
+"“在日本買房後一直在用香港當地仲介做房屋託管服務。自從使用WealthPark後直接採用日本公司當地的管理服務，手續費更便宜了，日本服務品質也比較好。”</p"
+">\n"
+"    <div class=\"voice-section__voice-avatar\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/user_voice_004.png\" alt=\"\" />\n"
+"    </div>\n"
+"    <p class=\"voice-section__voice-profile\">— 大阪房產投資者<br />香港，男，47歲</p>\n"
+"  </li>\n"
+"</ul>\n"
+
+#: page_app.php:145
+msgid "announcement.wp-nyc2019"
+msgstr ""
+"<a href=\"https://wealth-park.com/app-event-cv2020/\" class=\"announcement\">"
+"\n"
+"  <p>Real Estate Tech Event &quot; CONNECT VALUE - WealthPark Tokyo 2020 - "
+"&quot; </p>\n"
+"  <div class=\"announcement__button\">\n"
+"    Learn more<i class=\"material-icons md-18\">trending_flat</i>\n"
+"  </div>\n"
+"</a>"
+
+#. Author of the theme
+msgid "Anonymous"
+msgstr ""
+
+#: page_corporate_contact.php:17 page_app.php:26 page_app.php:28
+#: page_app.php:30 page_app.php:36
+msgid "app.meta_description"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_app.php:25
+msgid "app.meta_title"
+msgstr "WealthPark - Manage your investment with ease."
+
+#: template-parts/partnerships-parts.php:7
+msgid "app.partnership_logo"
+msgstr ""
+"<ul class=\"logos--4column\">\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_aozora_bank_en.png\" alt=\"aozora bank\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_dg.png\" alt=\"Digital Garage\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_japan_post_capital_en.png\" alt=\"JAPAN POST "
+"CAPITAL\">\n"
+"  </li>\n"
+"   <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_jic.png\" alt=\"jic\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_mizuho_capital_en.png\" alt=\"Mizuho Capital \">"
+"\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_sbi_Investment.png\" alt=\"SBI Investment\">\n"
+"  </li>\n"
+"  <li class=\"logos__logo\">\n"
+"    <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/app/img/partner_hamagin.png\" alt=\"Yokohama Bank\">\n"
+"  </li>\n"
+"</ul>"
+
+# 在Actcall inc.從事銷售管理和海外房地產加盟經營總部的業務拓展。在 WealthPark，他是 WealthPark 業務的銷售經理。
+# 參與業界相關團體，從推動房地產管理公司科技化切入，為業界發展做出貢獻。
+#: page_app.php:206 page_corporate_corporate.php:55 page_product_lp.php:431
+msgid "app.team.profile"
+msgstr ""
+"<section class=\"container team\">\n"
+"  <div class=\"container__inner team__inner\">\n"
+"    <div class=\"team\">\n"
+"      <ul class=\"team-lists\">\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-01\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_kawada.png\" alt=\"川田 隆太\"></p>\n"
+"          <p class=\"team-lists__person-name\">川田 隆太</p>\n"
+"          <p class=\"team-lists__person-role\">創始人兼CEO<br />代表董事</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-02\">\n"
+"          <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_mase.png\" alt=\"間瀬 裕介\"></p>\n"
+"          <p class=\"team-lists__person-name\">間瀬 裕介</p>\n"
+"          <p class=\"team-lists__person-role\">副社長,COO, CPO<br />"
+"全公司戰略・客戶關係・產品負責人</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-04\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_shirasaki.png\" alt=\"白崎 純平\"></p>\n"
+"        <p class=\"team-lists__person-name\">白崎 純平</p>\n"
+"        <p class=\"team-lists__person-role\">董事,CFO, 美國事業負責人<br />經營管理負責人</p>"
+"\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-06\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_tezuka.png\" alt=\"手塚 健介\"></p>\n"
+"        <p class=\"team-lists__person-name\">手塚 健介</p>\n"
+"        <p class=\"team-lists__person-role\">董事,CBO<br />"
+"Saas事業・人事企劃・PR負責人</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-12\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_ishimura.png\" alt=\"石村 裕樹\"></p>\n"
+"          <p class=\"team-lists__person-name\">石村 裕樹</p>\n"
+"          <p class=\"team-lists__person-role\">執行董事<br />SaaS事業部 執行部長</p>\n"
+"        </li>\n"
+"        <!--\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-10\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_suzuki.png\" alt=\"Yoshikazu Suzuki\"></p>\n"
+"        <p class=\"team-lists__person-name\">Yoshikazu Suzuki</p>\n"
+"        <p class=\"team-lists__person-role\">CIO<br />Executive Officer</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-07\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshimoto.png\" alt=\"吉本 祐貴\"></p>\n"
+"        <p class=\"team-lists__person-name\">吉本 祐貴</p>\n"
+"        <p class=\"team-lists__person-role\">VP of Design</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-08\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshiwara.png\" alt=\"吉原 謙太平\"></p>\n"
+"        <p class=\"team-lists__person-name\">吉原 謙太</p>\n"
+"        <p class=\"team-lists__person-role\">VP of Operation</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-09\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_seth.png\" alt=\"Luan Seth\"></p>\n"
+"        <p class=\"team-lists__person-name\">Luan Seth</p>\n"
+"        <p class=\"team-lists__person-role\">VP of Product</p>\n"
+"        </li>\n"
+"        <li class=\"team-lists__person modal-syncer\" data-target=\"modal-"
+"content-11\">\n"
+"        <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https:"
+"//wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_takahiro_fujii.png\" alt=\"Takahiro Fujii\"></p>\n"
+"        <p class=\"team-lists__person-name\">Takahiro Fujii</p>\n"
+"        <p class=\"team-lists__person-role\">VP of Engineering</p>\n"
+"        </li>\n"
+"        -->\n"
+"      </ul>\n"
+"    </div>\n"
+"  </div>\n"
+"</section>\n"
+"<div id=\"modal-content-01\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_kawada.png\" alt=\"川田 隆太\"></p>\n"
+"  <p class=\"team-lists__person-name\">川田 隆太</p>\n"
+"  <p class=\"team-lists__person-role\">創始人兼CEO<br />代表董事</p>\n"
+"  <p class=\"team-lists__person-description\">創辦WealthPark、主要負責制訂企業戰略。<br /> "
+"<br /> 有著瑞穗證券・FASHION "
+"WALKER的經歷，曾就職於投資銀行，在新創IT公司有著豐富的管理經驗，並擁有許多國內外科技公司和富裕層的廣大人脈。<br /> <br /> "
+"東京工業大學經營工學部畢業</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/ryuta.kawada.7\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    <a href=\"https://www.linkedin.com/in/ryuta-kawada-76a8b29a/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"    <a href=\"https://www.instagram.com/kawadary/?hl=ja\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_instagram.png\" alt=\"instagram\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-02\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_mase.png\" alt=\"間瀬 裕介\"></p>\n"
+"  <p class=\"team-lists__person-name\">間瀬 裕介</p>\n"
+"  <p class=\"team-lists__person-role\">副社長,COO, CPO<br />全公司戰略・客戶關係・產品負責人</p>"
+"\n"
+"  <p class=\"team-lists__person-description\">在瑞穗證券從事結構融資和併購業務後，在凱雷集團和位於西雅圖的 "
+"Taiyo Pacific Partners 從事私募股權對沖基金業務。 在製定經營/財務戰略、和執行・募集資金・併購等方面有著豐富的經驗。<br /> "
+"<br /> 倫敦商學院MBA<br />東京工業大學商業工學研究院<br />東京工業大學情報科學</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/yusuke.mase.7\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    <a href=\"https://www.linkedin.com/in/yusuke-mase-a3a41440\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-04\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_shirasaki.png\" alt=\"白崎 純平\"></p>\n"
+"  <p class=\"team-lists__person-name\">白崎 純平</p>\n"
+"  <p class=\"team-lists__person-role\">董事,CFO, 美國事業負責人<br />經營管理負責人</p>\n"
+"  <p class=\"team-lists__person-description\">"
+"在摩根史坦利的房地產基金MSREF，從事硬資產、資產管理、私募股權、不良債權等的投資業務，並參與事業開發。 "
+"在日本和海外持有廣泛的人脈，並擁有豐富的投資管理經驗。<br /> <br />慶應義塾大學政策學部畢業</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.linkedin.com/in/jumpei-shirasaki-35b625150/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-06\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_profile_tezuka.png\" alt=\"手塚 健介\"></p>\n"
+"  <p class=\"team-lists__person-name\">手塚 健介</p>\n"
+"  <p class=\"team-lists__person-role\">董事,CBO<br />Saas事業・人事企劃・PR負責人</p>\n"
+"  <p class=\"team-lists__person-description\">"
+"在日本樂天和富士底片從事日本和海外的業務規劃・事業開發等業務。 在規劃和執行商業和營銷戰略方面具有豐富的經驗。 <br /> <br />"
+"倫敦商學院MBA<br />東京大學法學部畢業</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/kensuke.tezuka\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"    <a href=\"https://jp.linkedin.com/in/kensuke-tezuka-27182217\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-12\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_ishimura.png\" alt=\"石村 裕樹\"></p>\n"
+"  <p class=\"team-lists__person-name\">石村 裕樹</p>\n"
+"  <p class=\"team-lists__person-role\">執行董事<br />SaaS事業部 執行部長</p>\n"
+"  <p class=\"team-lists__person-description\">在 Actcall inc. "
+"從事銷售管理和海外房地產加盟經營總部的業務拓展。在 WealthPark，他是 WealthPark 業務的銷售經理。<br /> <br /> "
+"參與業界相關團體，從推動房地產管理公司科技化切入，為業界發展做出貢獻。</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/yuki.ishimura.754\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-10\" class=\"modal-content\">\n"
+"<p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_suzuki.png\" alt=\"Yoshikazu Suzuki\"></p>\n"
+"<p class=\"team-lists__person-name\">Yoshikazu Suzuki</p>\n"
+"<p class=\"team-lists__person-role\">CIO<br />Executive Officer</p>\n"
+"  <p class=\"team-lists__person-description\">Yoshikazu is CIO of Wealth "
+"Park. He is in charge of investment business at Wealth Park.<br> <br> \n"
+"Before joining Wealth Park, he engaged in private equity investment and "
+"worked as a board of director of invested company. His experience includes "
+"growth capital investment outside Japan and cross-border M&A advisory at "
+"Investment Bank.<br> <br> \n"
+"Yoshikazu holds M.S. in Science & Technology at Graduate School of Keio "
+"University and B.S. in Science and Technology at Keio University.</p>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-07\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshimoto.png\" alt=\"吉本 祐貴\"></p>\n"
+"  <p class=\"team-lists__person-name\">吉本 祐貴</p>\n"
+"  <p class=\"team-lists__person-role\">VP of Design</p>\n"
+"  <p class=\"team-lists__person-description\">Wealth "
+"Park的創意總監。主要職責包括設計及管理品牌，主導Wealth Park的創意設計。 <br> <br> "
+"吉本在創意設計方面具有近10年的經驗，當中包括企業及品牌網站、推廣活動網站、包裝設計及產品設計等。 <br> <br> "
+"持有日本東京城市大學的資訊系統理學士學位。</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.linkedin.com/in/yukiyoshimoto/\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_linkedin.png\" alt=\"LinkedIn\" /></a>\n"
+"    <a href=\"https://www.behance.net/yukiyoshimoto\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_behance.png\" alt=\"Behance\" class=\"behance\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-08\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_yoshiwara.png\" alt=\"吉原 謙太平\"></p>\n"
+"  <p class=\"team-lists__person-name\">吉原 謙太</p>\n"
+"  <p class=\"team-lists__person-role\">VP of Operation</p>\n"
+"  <p class=\"team-lists__person-description\">"
+"負責WealthPark跨公司項目與整體運營業務的統籌。<br> <br> "
+"加入WealthPark前，吉原從事財務顧問公司的併購，內部統合，估值等各種財務顧問服務，以及回收基金的投資/ "
+"PMI業務。也負責過手機遊戲公司的財務戰略，併購，業務發展等。<br> <br> 持有普渡大學工商管理碩士學位與學習院大學法學學士學位。</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.facebook.com/yoshihara.kenta.7\" target=\"_blank\">"
+"<img src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_facebook.png\" alt=\"Facebook\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-09\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_seth."
+"png\" alt=\"Luan Seth\"></p>\n"
+"  <p class=\"team-lists__person-name\">Luan Seth</p>\n"
+"  <p class=\"team-lists__person-role\">VP of Product</p>\n"
+"  <p class=\"team-lists__person-description\">Seth is the VP of Products of "
+"WealthPark.<br> <br> Before joining the team he has had 10+ years of "
+"Technical and Product leadership experience in Sony and Rakuten in addition "
+"to starting his own digital service company.<br> <br> An active AngelList "
+"investor and Kyoto hotels owner, Seth holds a Master of Electrical "
+"Engineering degree from the University of Southern California. </p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://www.linkedin.com/in/seth-luan-62110912/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>\n"
+"<div id=\"modal-content-11\" class=\"modal-content\">\n"
+"  <p class=\"team-lists__person-photo\"><img class=\"\" src=\"https://wealth-"
+"park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/team_ph_takahiro_fujii.png\" alt=\"Takahiro Fujii\"></p>\n"
+"  <p class=\"team-lists__person-name\">Takahiro Fujii</p>\n"
+"  <p class=\"team-lists__person-role\">VP of Engineering</p>\n"
+"  <p class=\"team-lists__person-description\">Fujii is the VP of Engineering "
+"of WealthPark.<br> <br>As VPoE, to lead international engineering "
+"organization and developments.<br>Also as a FrontEnd engineer, Fujii is "
+"working as individual contributor. <br>Fujii has experience to lead "
+"international organization and FrontEnd/BackEnd/Mobile/FujiiStack "
+"organization.<br>Before joining WealthPark, Fujii worked as Engineering "
+"Manager in Rakuten for OTA(Online Travel Agency) service.<br> <br>Fujii "
+"holds B.S in Mathematical information science of Tokyo University of "
+"Science</p>\n"
+"  <div class=\"team-lists__person-sns\">\n"
+"    <a href=\"https://twitter.com/taka_ft\" target=\"_blank\"><img "
+"src=\"https://wealth-park.com/wp-content/themes/wp-next-landing-"
+"page/app/img/ic_twitter.png\" alt=\"Twitter\" /></a>\n"
+"    <a href=\"https://www.linkedin.com/in/takahiro-fujii-221a7461/\" "
+"target=\"_blank\"><img src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/app/img/ic_linkedin.png\" "
+"alt=\"LinkedIn\" /></a>\n"
+"  </div>\n"
+"  <p><a id=\"modal-close\" class=\"modal-content__button--close\"><i "
+"class=\"material-icons\">close</i></a></p>\n"
+"</div>"
+
+#: archive-wealthpark.php:136
+msgid "article.all-articles"
+msgstr "全部文章"
+
+#: index.php:61 page_corporate_old.php:164
+msgid "banner.message"
+msgstr ""
+"只需動動您的手指，竟可越洋管理物業。<br/>\n"
+"海外房地產投資從未如此輕鬆!\n"
+
+#. Name of the template
+msgid "Blank Page"
+msgstr ""
+
+#: page_corporate_blog_wealthpark.php:40
+msgid "blog-wealthpark_list_caption"
+msgstr "Articles"
+
+#: page_corporate_blog_wealthpark.php:39
+#: template-parts/content-page-blog-wealthpark.php:40
+msgid "blog-wealthpark_list_title"
+msgstr "網誌"
+
+#: template-parts/content-page-careers.php:39
+msgid "button.apply"
+msgstr "Apply"
+
+#: page_corporate_contact.php:64 page_corporate_contact.php:77
+#: page_corporate_contact.php:90 page_corporate_contact.php:103
+#: page_corporate_contact.php:116
+msgid "button.contact"
+msgstr "Contact"
+
+#: page_corporate_service.php:61 page_corporate_service.php:76
+#: page_corporate_service.php:91 page_corporate.php:106 page_corporate.php:118
+#: page_corporate.php:130
+msgid "button.more"
+msgstr "Learn More"
+
+#: page_corporate_careers.php:56 page_corporate_careers.php:115
+msgid "careers_list_caption"
+msgstr "Careers"
+
+#: page_corporate_careers.php:220
+msgid "careers_list_caption-people"
+msgstr "Employee Interview"
+
+#: page_corporate_careers.php:181
+msgid "careers_list_caption-positions"
+msgstr "Recruitment"
+
+#: page_corporate_careers.php:55 page_corporate_careers.php:114
+#: template-parts/content-page-careers.php:44
+msgid "careers_list_title"
+msgstr "加入我們"
+
+#: page_corporate_careers.php:219
+msgid "careers_list_title-people"
+msgstr "People"
+
+#: page_corporate_careers.php:180
+msgid "careers_list_title-positions"
+msgstr "Open Positions"
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: page_corporate_old.php:570
+msgid "contac_type.label"
+msgstr "選項"
+
+#: page_corporate_old.php:576
+msgid "contac_type.media"
+msgstr "媒體採訪聯繫"
+
+#: page_corporate_old.php:577
+msgid "contac_type.other"
+msgstr ""
+"其他諮詢\n"
+
+#: page_corporate_old.php:575
+msgid "contac_type.recruit"
+msgstr "招聘聯繫"
+
+#: page_corporate_old.php:573
+msgid "contac_type.saas"
+msgstr "關於WealthPark for Business（面向不動產管理公司的業主APP管理工具）"
+
+#: page_corporate_old.php:574
+msgid "contac_type.vertical"
+msgstr "關於WealthPark房地產管理服務"
+
+#: page_corporate_contact_recruit.php:55 page_corporate_contact_pr.php:55
+#: page_corporate_contact_wp-am.php:56
+#: page_corporate_contact_app-download.php:48
+#: page_asset_management_contact_wp-am.php:69
+msgid "contact.note"
+msgstr "請填寫下面的表格，然後點擊“發送信息”按鈕。"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-page-news.php:43 template-parts/content.php:33
+#: template-parts/content-page-careers.php:27
+#: template-parts/content-page-blog-wealthpark.php:27
+#: template-parts/content-page-help_owner.php:32
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Blog - WealthPark"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Careers"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - App Download"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - PR"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - Recruit"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP AM"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP Business"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Contact - WP PM"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Corporate"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Privacy Policy"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Security Policy"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Service"
+msgstr ""
+
+#. Name of the template
+msgid "Corporate Site - Terms of Use"
+msgstr ""
+
+#: page_corporate_contact_wp-pm.php:60 page_corporate_contact_recruit.php:58
+#: page_corporate_contact_pr.php:58 page_business_download_contact.php:220
+msgid "corporate.contact.rule"
+msgstr ""
+"請同意 <a href=\"https://wealth-park.com/tc/corporate/terms-of-use/\">使用條款</a> "
+"/ <a href=\"https://wealth-park.com/tc/corporate/privacy-policy/\">隱私政策</a>。"
+
+#: page_corporate_contact.php:15
+msgid "corporate.corporate.meta-description"
+msgstr "The Official WealthPark Blog"
+
+#: page_corporate_contact.php:14
+msgid "corporate.corporate.meta-title"
+msgstr "WealthPark - Manage your investment with ease."
+
+#: page_corporate.php:56
+msgid "corporate.hero-message"
+msgstr "Digital<br />Alternative Asset<br />Platform"
+
+msgid "corporate.hero-message-v3"
+msgstr ""
+"<h1 class=\"hero__title-transparent\">提供所有人</h1>\n"
+"<h1 class=\"hero__title\">另類資產的投資機會</h1>\n"
+"<p class=\"hero__description\">房地產、藝術品、葡萄酒、私募股權、基礎建設。<br>\n"
+"受法規及技術限制，另類資產投資只限於一部分人，一般大眾未能參與。<br>\n"
+"WealthPark創建一個全球平台，實現讓所有人在另類資產上擁有平等投資機會的社會。</p>\n"
+"<a class=\"hero__button\" href=\"https://wealth-park."
+"com/corporate/company/\">關於WealthPark→</a>"
+
+#: page_corporate_blog_wealthpark.php:15
+msgid "corporate.meta-description.blog-wealthpark"
+msgstr "The Official WealthPark Blog"
+
+#: page_corporate_careers.php:18 page_corporate_careers.php:24
+msgid "corporate.meta-description.careers"
+msgstr ""
+"Manage your investment with ease. Real Estate management with your "
+"fingertips."
+
+#: page_corporate_contact_wp-pm.php:15
+#: page_corporate_contact_wp-business.php:17
+#: page_corporate_contact_recruit.php:15 page_corporate_contact_pr.php:15
+#: page_corporate_contact_wp-am.php:15
+#: page_corporate_contact_app-download.php:15
+#: page_asset_management_contact_wp-am.php:15
+msgid "corporate.meta-description.contact"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_corporate.php:15
+msgid "corporate.meta-description.corporate"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_privacy_policy.php:17
+msgid "corporate.meta-description.privacy-policy"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_security_policy.php:15
+msgid "corporate.meta-description.security-policy"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_service.php:15 page_corporate_service.php:18
+msgid "corporate.meta-description.service"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_term_of_use.php:15
+msgid "corporate.meta-description.terms-of-use"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate.php:15 page_corporate.php:21 page_corporate_corporate.php:21
+msgid "corporate.meta-description.top"
+msgstr "Digital Alternative Asset Platform, WealthPark."
+
+#: page_corporate_blog_wealthpark.php:14
+msgid "corporate.meta-title.blog-wealthpark"
+msgstr "網誌 | WealthPark Blog"
+
+#: page_corporate_careers.php:17 page_corporate_careers.php:19
+msgid "corporate.meta-title.careers"
+msgstr "加入我們 | WealthPark"
+
+#: page_corporate_contact_wp-pm.php:14
+#: page_corporate_contact_wp-business.php:16
+#: page_corporate_contact_recruit.php:14 page_corporate_contact_pr.php:14
+#: page_corporate_contact_wp-am.php:14
+#: page_corporate_contact_app-download.php:14
+msgid "corporate.meta-title.contact"
+msgstr "Contact Service | WealthPark"
+
+#: page_corporate_corporate.php:14
+msgid "corporate.meta-title.corporate"
+msgstr "關於我們 | WealthPark"
+
+#: page_corporate_privacy_policy.php:16
+msgid "corporate.meta-title.privacy-policy"
+msgstr "私隱政策 | WealthPark"
+
+#: page_corporate_security_policy.php:14
+msgid "corporate.meta-title.security-policy"
+msgstr "信息安全政策 | WealthPark"
+
+#: page_corporate_service.php:14 page_corporate_service.php:17
+msgid "corporate.meta-title.service"
+msgstr "Service | WealthPark"
+
+#: page_corporate_term_of_use.php:14
+msgid "corporate.meta-title.terms-of-use"
+msgstr "網站使用條款 | WealthPark"
+
+#: page_corporate.php:14 page_corporate.php:16 page_corporate_corporate.php:16
+msgid "corporate.meta-title.top"
+msgstr "WealthPark | Digital Alternative Asset Platform"
+
+msgid "corporate.mission.description"
+msgstr ""
+"        <p class=\"career-mission__title\">提供所有人另類資產的投資機會</p>\n"
+"        <p class=\"career-mission__txt\">\n"
+"          另類資產是指上市股票、債券等傳統資產以外的投資標的和投資方式。例如房地產、藝術品、威士忌、葡萄酒、私募股權等。<br>\n"
+"          "
+"相較於傳統資產，另類資產沒有通用的數據基礎，且在持有期間中需要實際管理，存在著很多不確定的因素，因此從以前開始就存在另類資產投資只限於一部分人的狀況。<br"
+">\n"
+"          WealthPark正在透過科技為另類資產創建一個平台，挑戰實現另類投資民主化，建立一個所有人都有平等投資機會的社會。\n"
+"        </p>"
+
+msgid "corporate.panel-banners"
+msgstr ""
+"  <div>\n"
+"    <ul class=\"main-footer__contents--three-panels\">\n"
+"      <li>\n"
+"        <a href=\"https://wealth-park.com/asset-management/\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/banner_wpam_ch_001.jpg\" alt=\"WP Asset Management\" />"
+"\n"
+"        </a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"https://wealth-park.com/tag/propertymarket/\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/banner_property-market-blog_ch_001.jpg\" "
+"alt=\"property_market_blog\" />\n"
+"        </a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"https://medium.com/wealthpark-laboratory\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/banner_wp-lab_ch_001.jpg\" alt=\"wp_lab\" />\n"
+"        </a>\n"
+"      </li>\n"
+"    </ul>\n"
+"  </div>"
+
+#: page_corporate_privacy_policy.php:55
+msgid "corporate.privacy-policy.content"
+msgstr ""
+"<section class=\"container\">\n"
+"  <div class=\"container__inner\">\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第1條 （目的）</h2>\n"
+"  <p>本WealthPark應用軟件及個人隱私保護對策（以下稱\"本個人隱私保護對策\"。）就株式會社WealthPark "
+"（地址：東京都澀谷區惠比壽1-20-"
+"18　三富大樓3F）（以下稱\"本公司\"。）所提供的智能手機應用軟件\"WealthPark\"（以下稱\"本應用軟件\"。）及本應用軟件有關服務（以下稱\"本服務\"。）使用者的信息相關事宜作出規定。使用者只有同意本個人隱私保護對策的內容，方可使用本應用軟件。</p"
+">\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第2條 （定義）</h2>\n"
+"  <p>本個人隱私保護對策中使用的用語，具有以下各項所規定的含義。</p>\n"
+"  <ul class=\"number\">\n"
+"  <li>\"使用者\"是指本應用軟件及本服務的使用者。</li>\n"
+"  <li>\"所有者\"是指使用者中根據資產管理合同委托本公司實施不動產管理業務者。</li>\n"
+"  <li>\"承租人\"是指使用者中根據不動產租賃合同向所有者承租不動產者。</li>\n"
+"  <li>\"資產管理合同\"是指本公司與所有者之間簽訂的關於所有者所有不動產的管理業務的合同。</li>\n"
+"  <li>\"不動產租賃合同\"是指所有者與承租人之間簽訂的關於所有者所有不動產的租賃合同。</li>\n"
+"  <li>\"使用者信息\"是指本公司根據本個人隱私保護對策從使用者處取得的信息及其他與使用者有關的信息。</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第3條 （本公司取得的使用者信息）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>作為使用者信息，本公司從所有使用者處取得以下信息:\n"
+"  <ul class=\"inside-number\">\n"
+"  <li>姓名、電話號碼及郵箱地址;</li>\n"
+"  <li>本應用軟件的使用痕跡及終端固有ID。</li>\n"
+"  </ul>\n"
+"  </li>\n"
+"  <li>使用者系所有者或承租人的，其使用者信息除前款的信息外，還包括(i)根據其簽訂的資產管理合同或不動產租賃合同，其向本公司提供的信息；及(ii)"
+"本公司通過REINS Market "
+"Information等獨自取得的信息；（iii）所有者、承租人或其指定的第三方向本公司提供的信息；以及（iv）所有者或承租人向本公司咨詢的內容及其他所有者或承租人與本公司之間的交換的內容等（但並非僅限於此等。）。</li"
+">\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第4條 （使用者信息的取得方法）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>所有使用者在首次起動本應用軟件時，自行登錄前條第1款第(1)項規定的使用者信息。</li>\n"
+"  <li>使用者系所有者或承租人的，在其首次起動本應用軟件後，自行或通過本公司登錄使用本應用軟件所需要的使用者信息。</li>\n"
+"  <li>本公司提供本應用軟件及本服務時，通過本應用軟件自動取得前條第1款第(2)"
+"項規定的信息。另外，本公司提供本服務時，可能使用Cookie。</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第5條 （使用者信息的使用目的）</h2>\n"
+"  <p>本公司為了以下目的使用使用者信息:</p>\n"
+"  <ul class=\"number\">\n"
+"  <li>為了提供本應用軟件及本服務;</li>\n"
+"  <li>為了實施根據資產管理合同受托的業務;</li>\n"
+"  <li>為了在進行本應用軟件及本服務的改善時實施問卷調查及分析;</li>\n"
+"  <li>為了制作與使用本應用軟件及本服務有關的統計數據;</li>\n"
+"  <li>為了提供與本應用軟件所登錄的不動產有關的信息;</li>\n"
+"  <li>為了提供不動產市場的市場信息及其他消息;</li>\n"
+"  <li>為了編制市場營銷數據的調查、統計、分析、調查報告;</li>\n"
+"  <li>為了按照使用者的屬性，對所提供的廣告等進行客制化;</li>\n"
+"  <li>為了應對使用者提出的咨詢;</li>\n"
+"  <li>為了進行其他所需要的聯繫，如與本應用軟件及本服務有關的重要通知等;</li>\n"
+"  <li>為了進行其他本公司服務的告知。</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第6條 （使用者信息對第三方的提供）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>本公司提供本應用軟件及本服務時，進行以下規定的使用者信息的對第三方的提供:\n"
+"  <ul class=\"inside-number\">\n"
+"  <li>將承租人的使用者信息提供給向該承租人出租不動產的所有者;</li>\n"
+"  <li>將所有者的使用者信息中的名稱、所在地及其他與所有者擁有的不動產有關的信息提供給使用者。</li>\n"
+"  </ul>\n"
+"  </li>\n"
+"  <li>本公司有時會在本公司集團內部共享使用者信息。內部共享的具體內容可參考如下鏈接。<br>\n"
+"  <a href=\"https://wealth-park.com/corporate/privacy-policy/info-sharing/\">"
+"https://wealth-park.com/corporate/privacy-policy/info-sharing/</a>\n"
+"  </li>\n"
+"  <li>"
+"除前兩款的情況外，本公司未經使用者同意不在第5條規定的使用目的所需範圍外向第三方提供在本應用軟件及本服務中從使用者處取得的使用者信息。但以下情況除外：\n"
+"  <ul class=\"inside-number\">\n"
+"  <li>向第三方提供不能識別特定個人的匿名化的使用者信息時；</li>\n"
+"  <li>依法提供時；</li>\n"
+"  <li>為了保護人的生命、身體或財產而需要，但無法征得本人的同意時；</li>\n"
+"  <li>為了改善公眾衛生或促進兒童的健康成長而特別需要，但無法征得本人的同意時；</li>\n"
+"  <li>需要對國家機關或者地方公共團體或接受其委托者實行法令規定的事務提供協助，但經本人同意可能對實行該事務帶來障礙時。</li>\n"
+"  </ul>\n"
+"  </li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第7條 （外部發送）</h2>\n"
+"  <p>本應用軟件所登錄的使用者信息將轉送至第三方設置的服務器，在第５條的目的範圍內使用。</p>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第8條 （日本國外的使用）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>在日本國外使用本應用軟件的使用者在本應用軟件上登錄的使用者信息將轉送至設在日本的服務器，在日本國內進行處理。</li>\n"
+"  <li>使用者應確認並同意，使用者信息的取得、使用、提供等事宜均僅適用日本的法令。</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第9條 （使用者的參與方法）</h2>\n"
+"  <p>針對本服務，使用者可向本公司提出委托，請求停止取得全部或部分使用者信息、對其進行變更、刪除、或停止使用。</p>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第10條（服務終止和信息處理相關事宜）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>使用者將本應用軟件削除（卸載）時或2年（24個月）以上未使用時，本公司視此情況為使用者已終止本應用軟件及本服務的使用。</li>\n"
+"  <li>在前款所述情況下，對從使用者處取得的使用者信息，本公司將妥善進行管理，並在定期維護時將其從本服務的服務器中銷毀。</li>\n"
+"  <li>"
+"盡管有前款的規定，本公司仍可按照法令以及資產管理合同或不動產租賃合同規定的條件繼續持有根據該等合同從所有者或承租人處取得的使用者信息。</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第11條（與個人信息保護方針的鏈接）</h2>\n"
+"  <p>"
+"本公司的個人信息保護方針與本個人隱私保護對策如有不一致，本個人隱私保護對策優先予以適用。請通過以下鏈接確認最新的個人信息保護方針及本個人隱私保護對策。</p"
+">\n"
+"  <ul>\n"
+"  <li>本個人隱私保護對策：<br>\n"
+"  <a href=\"https://wealth-park.com/corporate/privacy-policy\">https:"
+"//wealth-park.com/corporate/privacy-policy</a></li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第12條（咨詢窗口）</h2>\n"
+"  <p>有關本應用軟件及本服務的使用者信息相關事宜的咨詢，由以下窗口受理。</p>\n"
+"  <ul>\n"
+"  <li>郵箱地址 : <a href=\"mailto:app@wealth-park.com\">app@wealth-park.com</a>"
+"&nbsp;(株式會社WealthPark 客服負責人)</li>\n"
+"  <li>所在地 : 東京都澀谷區惠比壽1-20-18　三富大樓3F</li>\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第13條（變更）</h2>\n"
+"  <ul class=\"number\">\n"
+"  <li>本個人隱私保護對策可能修改。</li>\n"
+"  <li>"
+"本應用軟件升級時，對所取得的使用者信息如有變更或追加以及使用目的的變更，本公司將在安裝之前通知使用者，重要的變更將在安裝之前或安裝時重新取得同意。</li"
+">\n"
+"  <li>"
+"關於所取得的使用者信息的變更或追加、使用目的的變更以及對第三方提供等如有其他變更，將通過留言功能及登錄的郵件進行通知，同時，重要的變更將重新取得同意。</li"
+">\n"
+"  </ul>\n"
+"  </section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">第14條（語言）</h2>\n"
+"  <p>本個人隱私保護對策以日文、英文及中文制作。日文、英文及中文如有不一致，日文內容優先予以適用。</p>\n"
+"  <p style=\"text-align: right;\">最終更新日：2021年9月1日</p>\n"
+"  </section>\n"
+"</div>\n"
+"</section>"
+
+msgid "corporate.privacy-policy.info-sharing.content"
+msgstr ""
+"<section class=\"container\">\n"
+"  <div class=\"container__inner\">\n"
+"  <section class=\"section-container\">\n"
+"<p> "
+"WealthPark株式會社以及屬於其子公司或關聯公司的企業（以下稱“WealthPark集團公司”）為了通過強化集團內部合作，提供更具有附加價值的服務並實施集團整體經營和風險管理，會在集團內部共享客戶的個人信息。"
+"  </p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">1. 被共享的個人信息項目</h2>\n"
+"<ul class=\"number\">\n"
+"<li> 接受及使用WealthPark集團公司提供的服務和產品（以下稱“本服務”）的不動產及另類投資資產的業主之相關信息； </li>\n"
+"<li> 使用本服務的客戶之相關信息； </li>\n"
+"<li> 您就本服務提供的包括不動產在內的另類投資資產的信息； </li>\n"
+"<li> 您就本服務提供的包括不動產在內的另類投資資產的投資信息和收支信息； </li>\n"
+"<li> 本服務相關的客戶行程信息、使用情況、咨詢內容以及和WealthPark集團公司之間的溝通內容； </li>\n"
+"<li> 與本服務的使用者相關的其他信息； </li>\n"
+"<li> WealthPark集團公司持有的不動產、債權以及另類投資資產相關的信息。 </li>\n"
+"</ul>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">2. 信息共享的範圍 </h2>\n"
+"  <p>WealthPark集團公司<br>\n"
+"   <a href=\"https://wealth-park.com/corporate/company/\">https://wealth-"
+"park.com/corporate/company/</a>\n"
+"  </p>\n"
+"</section>\n"
+"  <section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">3. 信息共享的目的 </h2>\n"
+"<ul class=\"number\">\n"
+"<li> 提供並管理本服務； </li>\n"
+"<li> 開發及改善本服務； </li>\n"
+"<li> 掌握客戶使用服務的情況； </li>\n"
+"<li> 咨詢問答； </li>\n"
+"<li> 實施問卷調查； </li>\n"
+"<li> 提供符合客戶要求的定製化服務； </li>\n"
+"<li> 以無法識別個人或特定使用者的形式製作、使用、披露或提供WealthPark集團公司有關服務使用情況的統計信息； </li>\n"
+"<li> 製作、使用、披露或提供經特殊加工（使其無法識別個人或特定使用者）後的市場資料； </li>\n"
+"<li> 提供WealthPark集團公司系統登錄的不動產及其他另類投資資產相關的信息； </li>\n"
+"<li> 提供不動產市場及交易信息等新聞； </li>\n"
+"<li> 確認系使用者本人； </li>\n"
+"<li> 必要時進行聯繫，如服務相關的重要通知等； </li>\n"
+"<li> 上述各項附帶或相關的事項。</li>\n"
+"</ul>\n"
+"</section>\n"
+"<section class=\"section-container\">\n"
+"  <h2 class=\"section-title\">4. 負責管理個人信息的責任人 </h2>\n"
+"  <p> 名稱：WealthPark株式會社 <br>\n"
+"地址：東京都澀谷區惠比壽1-20-18　三富大樓3F <br>\n"
+"法定代表人：代表取締役      川田  隆太\n"
+"  </p>\n"
+"</section>\n"
+"</div>\n"
+"</section>"
+
+#: page_corporate_security_policy.php:55
+msgid "corporate.security-policy.content"
+msgstr ""
+"  <section class=\"container\">\n"
+"    <div class=\"container__inner\">\n"
+"        <section class=\"section-container\">\n"
+"          <h2 class=\"section-title\">Information Security Guidelines</h2>\n"
+"          <p> 通過WealthPark Business(面向企業的SaaS軟體即服務)和WealthPark Asset "
+"Management(面向不動產投資者的資產管理服務)"
+"，WealthPark將為客戶提供輕鬆盈利的不動產管理和更好的投資體驗。我們的目標不僅是讓客戶滿意，更要讓每一個參與我們產品和服務的人滿意，做一個值得信賴的企業。<br"
+"><br>\n"
+"          "
+"我們認識到客戶和員工委託給我們的信息資產有可能發生洩漏、損壞、丟失等風險，為此我們將開展維護信息安全的活動，包括信息資產的保密性、完整性和可用性。 "
+"</p>\n"
+"        </section>\n"
+"        <section class=\"section-container\">\n"
+"          <h2 class=\"section-title\">行動指南</h2>\n"
+"          <ul class=\"number\">\n"
+"            <li> "
+"我們將採取適當的組織和技術措施，以確保我們的信息資產的保密性、完整性和可用性，並應對不斷變化的信息技術和新的威脅。</li>\n"
+"            <li> 對所有員工進行信息安全培訓，確保所有員工都了解本公司的政策，以提高並維持每位員工的意識。</li>\n"
+"            <li> 制定管理體制和信息安全的目標，並定期審查、實施並做持續的改善。</li>\n"
+"            <li> 通過設計、開發和提供雲服務，構建安全處理客戶信息的管理系統，保護客戶信息不受雲端威脅，實現降低風險。 </li>\n"
+"            <li> 我們將使用符合組織信息和其他資產的信息安全風險可接受水平的雲服務。</li>\n"
+"          </ul>\n"
+"          <p style=\"text-align: right;\">2018年5月1日　制定</p>\n"
+"          <p style=\"text-align: right;\"> 2021年3月16日　改訂 </p>\n"
+"          <p> WealthPark株式会社 <br /> 代表董事社长 川田隆太 </p>\n"
+"        </section>\n"
+"    </div>\n"
+"  </section>"
+
+#: page_corporate_term_of_use.php:48
+msgid "corporate.terms-of-use.content"
+msgstr ""
+"<section class=\"container\">\n"
+"    <div class=\"container__inner\">\n"
+"      <div class=\"lead\">\n"
+"        <p>本WealthPark應用軟件使用條款（以下稱“本條款”。）是就WealthPark株式會社 （地址：東京都澀谷區惠比壽1-20-"
+"18　三富大樓新館3F）（以下稱“本公司”。）所提供的智能手機應用軟件“WealthPark”（以下稱“本應用軟件”。）及本應用軟件有關服務（以下稱“本服務”。）的使用相關條件，在使用本服務的使用者與本公司之間所作的規定。使用者只有同意本條款的內容，方可使用本應用軟件。</p"
+">\n"
+"      </div>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第1條 （定義）</h2>\n"
+"      <p>本條款中使用的用語，具有以下各項所規定的含義。</p>\n"
+"      <ul class=\"number\">\n"
+"      <li>“使用者”是指本應用軟件及本服務的使用者。</li>\n"
+"      <li>“使用者信息”是指本公司根據本隱私保護對策從使用者取得的信息以及其他與使用者相關的信息。</li>\n"
+"      <li>“本隱私保護對策”是指在<a href=\"https://wealth-park.com/corporate/privacy-"
+"policy\">https://wealth-park.com/corporate/privacy-policy</a>"
+"上登載的與本應用軟件相關的隱私保護對策。</li>\n"
+"      <li>“內容”是指文章、圖像、視頻、軟件、程序、代碼以及其他信息。</li>\n"
+"      <li>“本內容”是指能夠通過本服務所獲取的內容。</li>\n"
+"      <li>“提供內容”是指使用者向本服務提供、發信或上傳的內容。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第2條 （同意本條款的規定）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>使用者可根據本條款的規定使用本服務。使用者對本條款不作出有效且不可取消的同意時，無法使用本服務。</li>\n"
+"      <li>使用者系未成年人時，得到親權人等法定代理人的同意後方可使用本服務。</li>\n"
+"      <li>使用者實際使用本服務的行為可視為對本條款作出了有效且不可取消的同意。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第3條 （本條款的變更）</h2>\n"
+"      <p>"
+"本公司認為必要時，可在不事先通知使用者的情況下隨時變更本條款。此時，本公司將在本應用軟件或本公司網站上刊登變更後的本條款內容及生效日，或通過本公司確定的方式通知用戶，以供客戶周知。變更後的本條款自生效日起生效。</p"
+">\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第4條 （賬號）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>"
+"使用者在使用本服務之際註冊使用者信息時應當提供真實、正確且完整的信息，並且隨時修改最新的信息。因使用者本人或本公司填寫的使用者信息的內容存在虛假或錯誤而導致使用者發生損害時，除承擔第11條第2款項下責任的情形外，本公司不承擔任何責任。</li"
+">\n"
+"      <li>"
+"為了避免在使用本服務之際本公司發行的密碼被不正當使用，使用者應負責進行慎重的管理。本公司可以將利用已註冊密碼進行的所有行為視為使用者本人的行為。</li>"
+"\n"
+"      <li>註冊本服務的使用者，可以委託本公司刪除賬號且退會。</li>\n"
+"      <li>使用者違反本條款或被認為有違反的可能性時，本公司可以不事先通知使用者而停止或刪除賬號。</li>\n"
+"      <li>不論任何理由，本服務中使用者的所有使用權，在賬號被取消時消滅。</li>\n"
+"      <li>使用者不得使第三方使用本服務的賬號，也不得作出出借、轉讓、變更名義、買賣本服務賬號的行為。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第5條 （隱私）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>本公司根據本隱私保護對策適當地管理使用者的個人信息。</li>\n"
+"      <li>"
+"就本服務的個人信息的管理，使用者應確認本隱私保護對策。本隱私保護對策作為本條款的一部分納入本條款。使用者對本條款的同意可視為對本隱私保護對策的同意。</li"
+">\n"
+"      <li>本公司有時會根據本隱私保護對策在本公司集團內部共享使用者信息。使用者對此無異議，同意該信息共享。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第6條 （提供服務）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>使用者在使用本服務時，應以使用者的費用和責任準備必要的機器及通訊手段。</li>\n"
+"      <li>本公司認為必要時，可在不事先通知使用者的情況下隨時變更本服務的全部或一部分內容，亦可停止提供其服務。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第7條 （本應用軟件的利用）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>本應用軟件用戶僅可用於個人使用的目的，不可用於個人使用以外的目的，如銷售、配發或開發等。</li>\n"
+"      <li>使用者僅在本公司提供的狀態下使用本應用軟件，不得進行本應用軟件的複製、修改、變更、改變、改編或其它任何行為。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第8條 （內容）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>關於本公司提供的本內容，本公司賦予使用者以使用本服務為唯一目的的、禁止轉讓、禁止再許可及非獨占的使用權。</li>\n"
+"      <li>使用者不得超過本服務預定的使用形態使用本內容（包括複製、發信、轉載、改變等行為）。</li>\n"
+"      <li>"
+"使用者對本公司聲明保證：（i）對（a）使用者自行或（該使用者向本公司提供後）由本公司向本服務提供、發送或上傳提供內容或使用者信息，及（b）根據本條款將該提供內容或使用者信息作為本服務的對象予以使用，擁有合法權利（包括若進行該（a）和（b）的行為需要第三方同意時，已取得該同意的情形。），以及（ii）該提供內容或使用者信息不侵犯第三方的知識產權及其他第三方的權利。</li"
+">\n"
+"      <li>"
+"使用者提供的提供內容的相關著作權由進行該提供的使用者保留，本公司不取得該提供內容的相關著作權。但是，該使用者應無償、無期限、無地域限制地許可本公司在（i）本服務的提供、維持、改善，或（ii）廣告、宣傳或其他推銷活動（無論是否與本服務有關）所需的範圍內使用該提供內容。</li"
+">\n"
+"      <li>"
+"使用者就該使用者提供的提供內容不得對本公司或本公司指定的第三方行使著作者人格權，也不得使擁有該提供內容的著作者人格權的第三方行使著作者人格權。</li>"
+"\n"
+"      <li>使用者自行負責對自己所提供的提供內容進行備份，本公司對該提供內容的備份不負有任何責任。</li>\n"
+"      <li>"
+"違反與提供內容相關的法律法規或本條款，或被認為有違反的可能性時，或有其他業務上的必要時，本公司可以不事先通知使用者，通過刪除該提供內容等方法限制本服務中的提供內容的使用。</li"
+">\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第9條 （禁止事項）</h2>\n"
+"      <p>使用者在使用本服务之际，不得作出以下行为。</p>\n"
+"      <ul class=\"number\">\n"
+"      <li>違反法律法規、法院的判決、決定或命令、或法律法規上具有拘束力的行政措施的行為；</li>\n"
+"      <li>可能妨害公序良俗的行為；</li>\n"
+"      <li>侵害本公司或第三方的著作權、商標權、專利權等知識產權、名譽權、隱私權及其他法律法規或合同規定的權利的行為；</li>\n"
+"      <li>"
+"投稿或發送過度的暴力表現、露骨的性的表現、基於人種、國籍、信條、性別、社會身份、門第等的歧視表現、誘發或助長自殺、自殘行為、藥物亂用的表現及其他包含反社會的內容使他人感到不快的表現的行為；</li"
+">\n"
+"      <li>冒充本公司或第三方的行為或故意散發虛假信息的行為；</li>\n"
+"      <li>"
+"營業、宣傳、廣告、勸誘及其他以營利為目的的行為（本公司認可的行為除外）、以搔擾或誹謗其他使用者為目的的行為、其他不同於本服務預定利用目的的利用本服務的行為；</li"
+">\n"
+"      <li>對反社會勢力提供利益及其他協助行為；</li>\n"
+"      <li>參加宗教活動或宗教團體的勸誘行為；</li>\n"
+"      <li>不正當地收集、披露或提供他人的個人信息、註冊信息、使用履歷信息等的行為；</li>\n"
+"      <li>對本服務的服務器或網絡系統造成障礙的行為、利用BOT、Cheat "
+"Tool及其他技術手段不正當操作本服務的行為、故意利用本服務缺陷的行為及其他妨害本公司對本服務的運營或其他使用者對本服務的使用或對其造成障礙的行為；</li"
+">\n"
+"      <li>對本應用軟件進行反匯編、反編譯或逆向工程的行為；</li>\n"
+"      <li>幫助或助長上述（1）至（11）中任何行為的行為；</li>\n"
+"      <li>本公司認為不恰當的其他行為。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第10條 （使用者的責任）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>使用者對本服務的使用自行承擔責任，並對本服務中進行的所有行為及其後果承擔一切責任。</li>\n"
+"      <li>"
+"本公司認為使用者違反本條款使用本服務時，採取停止賬號、刪除提供內容或其它本公司認為必要且恰當的措施。但本公司不負責防止或糾正該違反。</li>\n"
+"      <li>"
+"起因於使用本服務（包括本公司因該使用受到第三方索賠的情形），對本公司產生任何直接或間接的損害（包括律師費的負擔）時，使用者應依據本公司的請求立即進行賠償。</li"
+">\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第11條 （本公司的免責）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>"
+"無論以明示或者暗示方式，本公司不保證本服務（包括本內容）不存在事實上或法律上的瑕疵（包括安全性、信賴性、正確性、完全性、有效性、特定目的的適合性、保密性等相關的缺陷、錯誤或程序錯誤、權利侵害等）。本公司對使用者不負有除去該瑕疵後提供本服務的義務。</li"
+">\n"
+"      <li>"
+"對使用者起因於本服務而產生的任何損害，本公司不承擔任何責任。即使有本款及其他免除本公司損害賠償責任的條款，如本公司仍因某種事由（包括適用消費者合同法的情況）對使用者承擔損害賠償責任，本公司賠償責任的範圍亦僅限於因可歸責於本公司的事由而實際產生的直接且通常的損失，並且僅限於該損失的事由發生之時最近一年内從該使用者實際收取的本服务費用總額為上限（適用消費者合同法且本公司、本公司的法定代表人或員工對本公司的違約或侵權行為存在故意或重大過失時除外）。</li"
+">\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第12條 （聯繫方式）</h2>\n"
+"      <ul class=\"number\">\n"
+"      <li>與本服務相關的本公司對使用者的聯繫，會在本公司運營的網站或本應用軟件內的恰當位置進行告示，或以本公司認為適當的方式進行。</li>\n"
+"      <li>"
+"與本服務相關的使用者對本公司的聯繫，應向設置在本公司運營的網站或本應用軟件內恰當位置的諮詢窗口發信，或以本公司指定的方式進行。</li>\n"
+"      </ul>\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第13條 （可分離性）</h2>\n"
+"      <p>"
+"即使本條款的一部分基於所適用的強行法規而無效，亦不影響本條款其他部分的有效性，除無效的該部分外，本條款依舊有效存續。當本公司查明本條款的一部分為無效時，本公司可立即以有效的條款取代無效的條款。</p"
+">\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第14條 （適用法律與管轄法院）</h2>\n"
+"      <p>本條款適用法律為日本法。起因於本服務或與本服務有關而產生的使用者與本公司之間的糾紛，以東京地方法院為第一審的專屬合意管轄法院。</p>"
+"\n"
+"      </section>\n"
+"      <section class=\"section-container\">\n"
+"      <h2 class=\"section-title\">第15條（語言）</h2>\n"
+"      <p>本條款以日文、英文及中文制作。日文、英文及中文如有不一致，日文內容優先予以適用。</p>\n"
+"      <p style=\"text-align: right;\">最終更新日：2021年9月1日</p>\n"
+"      </section>\n"
+"    </div>\n"
+"  </section>\n"
+
+#: index.php:66
+msgid "corporate.v1.video"
+msgstr ""
+"<section id=\"section-video\">\n"
+"  <h4 class=\"section-name\">EVENT</h4>\n"
+"  <h2 class=\"section-title\">WealthPark NYC 2018</span></h2>\n"
+"  <h3>以WealthPark株式會社以「Connect Value」為主題，在紐約舉辦了「WealthPark NYC "
+"2018」交流會。提供日本與美國各不動產科技企業進行交流與創造新商機的機會。</h3>\n"
+"  <video controls class=\"top-video\" poster=\"https://wealth-park."
+"com/wp-content/themes/wp-next-landing-page/video/top-video-thumnail."
+"jpg\">\n"
+"    <source src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/video/wpny_2018.mp4\" />\n"
+"  </video>\n"
+"  <h3>参会者感言</h3>\n"
+"  <ul class=\"testimonials\">\n"
+"    <li>\n"
+"      <p class=\"testimonial-content\">我認為這是日本與不動產科技交匯的絕佳機會！</p>\n"
+"      <div class=\"clearfix\">\n"
+"      <span class=\"testimonial-author\">三菱地所株式會社</span>\n"
+"      </div>\n"
+"    </li>\n"
+"    <li>\n"
+"      <p class=\"testimonial-content\">"
+"WealthPark聚集了經歷廣泛的演講者，今天學習體驗到了諸多寶貴經驗。</p>\n"
+"      <div class=\"clearfix\">\n"
+"        <span class=\"testimonial-author\">Compass 战略发展部高级经理</span>\n"
+"      </div>\n"
+"    </li>\n"
+"  </ul>\n"
+"</section>"
+
+msgid "corporate.vision.description"
+msgstr "ー 創造一個可以自由選擇的世界 ー"
+
+#: page_corporate_contact.php:74
+msgid "department.description.wp-am"
+msgstr "諮詢有關專為投資者提供的海外房地產資產管理服務"
+
+#: page_corporate_contact.php:61
+msgid "department.description.wp-business"
+msgstr "諮詢有關專為房地產管理公司提供的「WealthPark Business」"
+
+#: page_corporate_contact.php:87
+msgid "department.description.wp-pm"
+msgstr "諮詢有關WealthPark管理的房地產"
+
+#: page_corporate_contact.php:113
+msgid "department.description.wp-pr"
+msgstr "Public Relations, Interview, Media-Related."
+
+#: page_corporate_contact.php:100
+msgid "department.description.wp-recruit"
+msgstr "Online Job Enquiry Form."
+
+#: page_corporate_contact.php:112
+msgid "department.pr"
+msgstr "媒體採訪聯繫"
+
+#: page_corporate_contact.php:99
+msgid "department.recruit"
+msgstr "招聘聯繫"
+
+#: page_corporate_contact.php:73
+msgid "department.wp-am"
+msgstr "WealthPark Asset Management"
+
+#: page_corporate_contact.php:60
+msgid "department.wp-business"
+msgstr "WealthPark Business"
+
+#: page_corporate_contact.php:86
+msgid "department.wp-pm"
+msgstr "WealthPark 房產管理"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: page_app_event.php:50
+msgid "event.all-events"
+msgstr "活動列表"
+
+#: page_app_event.php:88
+msgid "event.description-2018"
+msgstr ""
+"《WealthPark NYC 2018》峰會在紐約成功舉辦。以“Connect "
+"Value為主題，目的在於促進日美房地產科技公司的交流，並提供新的商務合作機會。"
+
+#: page_app_event.php:75
+msgid "event.description-2019"
+msgstr ""
+"在房地產科技公司投資業界引領世界的Metaprop NYC主辦，“紐約房地產科技週”。 WealthPark NYC從今年開始也被認定為官方活動之一"
+
+#: page_app_event.php:62
+msgid "event.description-2020"
+msgstr "日本最大型、世界的“房地產×科技”峰會。邀請海外演說家，傳達傳達國內外的趨勢與熱點"
+
+#: page_app_event.php:65 page_app_event.php:78 page_app_event.php:91
+msgid "event.learn-more"
+msgstr "了解更多"
+
+#: page_app_event.php:61
+msgid "event.where-2020"
+msgstr "大手町Place會議中心"
+
+#: template-parts/footer-sub-app.php:23
+#: template-parts/footer-sub-business.php:23
+#: template-parts/footer-sub-corporate.php:23
+#: template-parts/footer-sub-wpam.php:23 template-parts/footer-main.php:74
+msgid "footer.facebook-link"
+msgstr "https://www.facebook.com/WealthParkTaiwan"
+
+msgid "footer.menu-lab"
+msgstr "WealthPark Lab"
+
+#: template-parts/footer-main.php:34
+msgid "footer.menu-owner-app"
+msgstr "投資者的資產管理APP"
+
+msgid "footer.menu-web-app"
+msgstr "WealthPark Web"
+
+msgid "footer.menu-wpam"
+msgstr "WealthPark Asset Management"
+
+msgid "footer.menu-wpb"
+msgstr "WealthPark Business"
+
+#: footer-main.php:25 template-parts/footer-main.php:52
+msgid "footer.menu.company"
+msgstr "Company"
+
+#: page_app_dev.php:261 drawer-wp_business.php:11
+msgid "footer.menu.company_profile"
+msgstr "公司簡介"
+
+#: footer-main.php:32 page_app_dev.php:262 drawer-wp_business.php:12
+#: template-parts/footer-main.php:58
+msgid "footer.menu.contact"
+msgstr "聯絡我們"
+
+#: footer-main.php:21 template-parts/footer-main.php:48
+msgid "footer.menu.demo"
+msgstr "想要體驗"
+
+#: page_corporate_old.php:539
+msgid "footer.menu.information"
+msgstr "信息安全政策"
+
+#: page_app_dev.php:241 template-parts/footer-sub-app.php:51
+msgid "footer.menu.language"
+msgstr "Language"
+
+#: page_app_dev.php:257 drawer-wp_business.php:10
+msgid "footer.menu.news"
+msgstr "最新消息"
+
+#: page_corporate_old.php:538
+msgid "footer.menu.privacy"
+msgstr "隱私權政策"
+
+#: footer-main.php:16 template-parts/footer-main.php:43
+msgid "footer.menu.product"
+msgstr "Product"
+
+#: footer-main.php:8 template-parts/footer-main.php:32
+msgid "footer.menu.service"
+msgstr "Service"
+
+#: page_corporate_old.php:537
+msgid "footer.menu.terms"
+msgstr "使用政策"
+
+#: page_app.php:153
+msgid "function.001.content"
+msgstr ""
+"<ul class=\"bullet-list tc\">\n"
+"    <li>通過清晰易懂的每月現金流表，了解您的投資財務資料</li>\n"
+"    <li>輕輕一點，自動生成可用email分享的財務報告</li>\n"
+"</ul>"
+
+#: page_app.php:152
+msgid "function.001.title"
+msgstr "<span class=\"tc\">即時、清晰的投資財務報告</span>"
+
+#: page_app.php:165
+msgid "function.002.content"
+msgstr ""
+"<ul class=\"bullet-list tc\">\n"
+"    <li>中英日多種語言溝通無障礙</li>\n"
+"    <li>高效率快速解決問題</li>\n"
+"</ul>"
+
+#: page_app.php:164
+msgid "function.002.title"
+msgstr "<span class=\"tc\">與您的私人物業管理專家聊天</span>"
+
+#: page_app.php:177
+msgid "function.003.content"
+msgstr ""
+"<ul class=\"bullet-list tc\">\n"
+"    <li>將您的買賣合約、租約、貸款合約、稅務文件分類歸檔，易於檢索</li>\n"
+"    <li>房地產的繁瑣文書管理從此輕而易舉</li>\n"
+"</ul>"
+
+#: page_app.php:176
+msgid "function.003.title"
+msgstr "<span class=\"tc\">保留所有物業有關文件</span>"
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-parts/partnerships-parts.php:14
+msgid "logo.media"
+msgstr ""
+"\n"
+"<ul class=\"logos--4column\">\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/app/media_logo_thebridge.png\" alt=\"THE BRIDGE\">\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/app/commercial_observer_jp.png\" alt=\"commercial "
+"observer\">\n"
+"      </li>\n"
+"       <li class=\"logos__logo\">\n"
+"        <a href=\"https://signal.diamond.jp/\" target=\"_blanc\">\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/app/media_logo_signal.png\" alt=\"signal\">\n"
+"        </a>\n"
+"      </li>\n"
+"      <li class=\"logos__logo\">\n"
+"        <a href=\"https://techcrunch.com/\" target=\"_blanc\">\n"
+"           <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/app/media_logo_tc.png\" alt=\"techcrunch\">\n"
+"         </a>\n"
+"      </li>\n"
+" <!-- <li class=\"logos__logo\">\n"
+"        <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/app/media_logo_tokyomx.png\" alt=\"TOKYO MX\">\n"
+"      </li> -->\n"
+"    </ul>\n"
+
+#: index.php:59 page_corporate_old.php:162
+msgid "Manage your investment with ease."
+msgstr "投資盡在您掌握之中"
+
+#: header-top-with-news.php:91 header-top-with-news.php:116
+#: header-top-with-news.php:191
+msgid "menu.blog"
+msgstr "網誌"
+
+#: footer-main.php:30 drawer-nav-corporate.php:7 header-top-with-news.php:96
+#: header-top-with-news.php:196 template-parts/footer-main.php:57
+msgid "menu.careers"
+msgstr "加入我們"
+
+#: header.php:69 business-header-menu.php:20 header-top-with-news.php:63
+#: header-top-with-news.php:67 header-top-with-news.php:75
+#: header-top-with-news.php:169
+msgid "menu.company"
+msgstr "公司簡介"
+
+#: footer-main.php:27 drawer-nav-corporate.php:8 header-top-with-news.php:86
+#: header-top-with-news.php:175 header-top-with-news.php:186
+#: template-parts/footer-main.php:54
+msgid "menu.company-profile"
+msgstr "關於我們"
+
+#: drawer-nav-corporate.php:10 page_corporate_old.php:112
+#: header-top-with-news.php:101 header-top-with-news.php:201
+#: header-top-with-news.php:216
+msgid "menu.contact"
+msgstr "聯絡我們"
+
+#: page_corporate_old.php:114
+msgid "menu.demo_request"
+msgstr "想要體驗"
+
+#: business-header-menu.php:9 drawer-wp_business.php:6
+msgid "menu.download"
+msgstr "Download"
+
+#: footer-main.php:29 drawer-nav-corporate.php:6 header-top-with-news.php:113
+#: header-top-with-news.php:213 template-parts/footer-main.php:56
+msgid "menu.event"
+msgstr "活動"
+
+msgid "menu.event-report"
+msgstr "活動"
+
+#: business-header-menu.php:6 drawer-wp_business.php:5
+msgid "menu.faq"
+msgstr "FAQ"
+
+msgid "menu.japan"
+msgstr "日本"
+
+#: template-parts/footer-sub-business.php:51
+#: template-parts/footer-sub-corporate.php:51
+#: template-parts/footer-sub-wpam.php:51
+msgid "menu.language"
+msgstr "Language"
+
+#: header.php:63 footer-main.php:28 business-header-menu.php:23
+#: drawer-nav-corporate.php:4 header-top-with-news.php:81
+#: header-top-with-news.php:110 header-top-with-news.php:181
+#: header-top-with-news.php:210 template-parts/footer-main.php:55
+msgid "menu.news"
+msgstr "最新消息"
+
+#: footer-main.php:10 page_app_dev.php:258 business-header-menu.php:14
+#: drawer-wp_business.php:7 page_corporate_old.php:92
+msgid "menu.owner-app"
+msgstr "Owner App"
+
+msgid "menu.press-release"
+msgstr "公司新聞"
+
+#: page_app_dev.php:237 template-parts/footer-sub-app.php:11
+#: template-parts/footer-sub-business.php:11
+#: template-parts/footer-sub-corporate.php:11
+#: template-parts/footer-sub-wpam.php:11 template-parts/footer-main.php:60
+msgid "menu.privacy"
+msgstr "私隱政策"
+
+#: business-header-menu.php:12
+msgid "menu.product"
+msgstr "Service"
+
+msgid "menu.region"
+msgstr "地區"
+
+msgid "menu.release-notes"
+msgstr "新增功能"
+
+#: page_app_dev.php:238 template-parts/footer-sub-app.php:16
+#: template-parts/footer-sub-business.php:16
+#: template-parts/footer-sub-corporate.php:16
+#: template-parts/footer-sub-wpam.php:16 template-parts/footer-main.php:61
+msgid "menu.security"
+msgstr "信息安全政策"
+
+#: header.php:66 drawer-nav-corporate.php:5 header-top-with-news.php:17
+#: header-top-with-news.php:21 header-top-with-news.php:28
+#: header-top-with-news.php:143 header-top-with-news.php:148
+msgid "menu.service"
+msgstr "服務"
+
+#: header-top-with-news.php:120
+msgid "menu.sign-in"
+msgstr "登入"
+
+msgid "menu.support"
+msgstr "支援中心"
+
+#: page_app_dev.php:236 template-parts/footer-sub-app.php:6
+#: template-parts/footer-sub-business.php:6
+#: template-parts/footer-sub-corporate.php:6
+#: template-parts/footer-sub-wpam.php:6 template-parts/footer-main.php:59
+msgid "menu.terms"
+msgstr "網站使用條款"
+
+msgid "menu.united_kingdom"
+msgstr "英國"
+
+#: footer-main.php:12 page_app_dev.php:260 business-header-menu.php:16
+#: drawer-wp_business.php:9 header-top-with-news.php:48
+#: header-top-with-news.php:51 header-top-with-news.php:159
+#: template-parts/footer-main.php:39
+msgid "menu.wp-am"
+msgstr "WealthPark Asset Management"
+
+msgid "menu.wp-am.description.japan"
+msgstr ""
+"Leader in Japan Inbound Real Estate Asset and Property Management for "
+"Foreign Investors."
+
+msgid "menu.wp-am.description.united_kingdom"
+msgstr "Manage your United Kingdom properties with ease."
+
+msgid "menu.wp-am.web-app-login"
+msgstr "登入"
+
+#: footer-main.php:11 page_app_dev.php:259 business-header-menu.php:15
+#: drawer-wp_business.php:8 page_corporate_old.php:93
+#: header-top-with-news.php:35 header-top-with-news.php:38
+#: header-top-with-news.php:153 template-parts/footer-main.php:38
+msgid "menu.wp-business"
+msgstr "WealthPark Business"
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: page_corporate_old.php:91
+msgid "News"
+msgstr "新聞"
+
+#: archive-news.php:54
+msgid "news.all-news"
+msgstr "全部新聞"
+
+msgid "news.read_other_articles"
+msgstr "READ MORE"
+
+#: index.php:49 index.php:407 page_corporate_old.php:152
+#: page_corporate_old.php:509
+msgid "news_list"
+msgstr ""
+
+#: news-summary.php:32 template-parts/content-page-news.php:57
+msgid "news_list_title"
+msgstr "新聞列表"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: page_corporate_old.php:731
+msgid "option.placeholder"
+msgstr "請選擇"
+
+msgid "owner-help.article-list-headline"
+msgstr "WealthPark Asset Management 支援內容列表"
+
+msgid "owner-help.find-topics"
+msgstr "主題搜尋"
+
+msgid "owner-help.footer.topic-variation-list-1"
+msgstr ""
+"<p class=\"help-footer__box-title\">新手上路</p>\n"
+"<p class=\"help-footer__box-detail\">WealthPark提供什麼服務?初次如何登入?等基礎介紹</p>"
+
+msgid "owner-help.footer.topic-variation-list-2"
+msgstr ""
+"<p class=\"help-footer__box-title\">便利功能</p>\n"
+"<p class=\"help-footer__box-detail\">AI估價功能等，便利技巧介紹 &emsp; &emsp; &emsp; "
+"&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</p>"
+
+msgid "owner-help.footer.topic-variation-list-3"
+msgstr ""
+"<p class=\"help-footer__box-title\">常見問題</p>\n"
+"<p class=\"help-footer__box-detail\">無法登入、聊天室使用不順利等請看這裡 &emsp;  &emsp; &emsp;"
+" &emsp; &emsp; &emsp;</p>"
+
+msgid "owner-help.footer.topic-variation-list-4"
+msgstr ""
+"<p class=\"help-footer__box-title\">操作方法(手機版)</p>\n"
+"<p class=\"help-footer__box-detail\">智慧型手機上顯示的各畫面的說明，收支表確認等功能</p>"
+
+msgid "owner-help.footer.topic-variation-list-5"
+msgstr ""
+"<p class=\"help-footer__box-title\">操作方法(網頁版)</p>\n"
+"<p class=\"help-footer__box-detail\">電腦網頁版各種畫面的說明，收支表確認等功能</p>"
+
+msgid "owner-help.help-list__description.former"
+msgstr "以下是WealthPark Asset Management 主題"
+
+msgid "owner-help.help-list__description.latter"
+msgstr "相關的內容列表。"
+
+msgid "owner-help.topic-variation-link"
+msgstr "詳細"
+
+msgid "owner-help.topic-variation-list-1"
+msgstr ""
+"<dt class=\"topic__variationName\">新手上路</dt>\n"
+"<dd class=\"topic__variationDetail\">WealthPark提供什麼服務?初次如何登入?等基礎介紹</dd>"
+
+msgid "owner-help.topic-variation-list-2"
+msgstr ""
+"<dt class=\"topic__variationName\">便利功能</dt>\n"
+"<dd class=\"topic__variationDetail\">AI估價功能等，便利技巧介紹<br>&nbsp;</dd>"
+
+msgid "owner-help.topic-variation-list-3"
+msgstr ""
+"<dt class=\"topic__variationName\">常見問題</dt>\n"
+"<dd class=\"topic__variationDetail\">無法登入、聊天室使用不順利等請看這裡</dd>"
+
+msgid "owner-help.topic-variation-list-4"
+msgstr ""
+"<dt class=\"topic__variationName\">操作方法(手機版)</dt>\n"
+"<dd class=\"topic__variationDetail\">智慧型手機上顯示的各畫面的說明，收支表確認等功能</dd>"
+
+msgid "owner-help.topic-variation-list-5"
+msgstr ""
+"<dt class=\"topic__variationName\">操作方法(網頁版)</dt>\n"
+"<dd class=\"topic__variationDetail\">電腦網頁版各種畫面的說明，收支表確認等功能</dd>"
+
+#: page_corporate_contact.php:49
+msgid "page-caption.contact"
+msgstr "若有任何問題，歡迎您通過選擇以下選項進行諮詢。"
+
+#: page_corporate_contact_pr.php:44 page_corporate_contact_pr.php:52
+msgid "page-caption.contact-pr"
+msgstr "媒體採訪聯繫"
+
+#: page_corporate_corporate.php:52
+msgid "page-caption.corporate"
+msgstr "關於我們"
+
+#: page_corporate_privacy_policy.php:52
+msgid "page-caption.privacy-policy"
+msgstr "私隱政策"
+
+#: page_corporate_contact_recruit.php:44 page_corporate_contact_recruit.php:52
+msgid "page-caption.recruit"
+msgstr "招聘聯繫"
+
+#: page_corporate_security_policy.php:46
+msgid "page-caption.security-policy"
+msgstr "信息安全政策"
+
+#: page_corporate_service.php:49
+msgid "page-caption.service"
+msgstr "Our services"
+
+#: page_corporate_term_of_use.php:45
+msgid "page-caption.terms-of-use"
+msgstr "網站使用條款"
+
+#: page_corporate_contact_wp-am.php:45 page_corporate_contact_wp-am.php:53
+msgid "page-caption.wp-am"
+msgstr "關於WealthPark for Japan Property Management"
+
+#: page_corporate_contact_wp-business.php:52
+msgid "page-caption.wp-business"
+msgstr "關於WealthPark for Business"
+
+#: page_corporate_contact_wp-pm.php:47
+msgid "page-caption.wp-pm"
+msgstr ""
+
+msgid "page-subtitle.privacy-policy.info-sharing"
+msgstr "關於WealthPark集團內部的個人信息共享"
+
+#: page_corporate_old.php:652
+msgid "page.information_security_guidelines"
+msgstr "信息安全政策"
+
+#: page_corporate_old.php:642
+msgid "page.privacy_policy"
+msgstr "隱私權政策"
+
+#: page_corporate_old.php:632
+msgid "page.term_of_use"
+msgstr "使用政策"
+
+#: template-parts/content-news.php:51 template-parts/content-page-news.php:50
+#: template-parts/content-page.php:22 template-parts/content.php:38
+#: template-parts/content-page-careers.php:34
+#: template-parts/content-page-blog-wealthpark.php:34
+#: template-parts/content-page-help_owner.php:39
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - cv2020"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - App - Event - nyc2019"
+msgstr ""
+
+#. Name of the template
+msgid "Product Page - LP"
+msgstr ""
+
+#: archive-wealthpark.php:100
+msgid "readmore"
+msgstr "READ MORE"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: index.php:350 page_corporate_old.php:452
+msgid "section.about.message"
+msgstr ""
+"WealthPark公司總部設立于東京惠比壽。WealthPark持有日本不動產全項行業牌照，團隊成員擁有超過百年物業管理經驗，能說5種不同母語。WealthPark致力於結合不動產和IT科技，為亞洲以及其他地區投資者提供智慧型不動產資產管理體驗。"
+
+#: index.php:355 page_corporate_corporate.php:66 page_corporate_old.php:457
+msgid "section.about.table.tr-1.td"
+msgstr "WealthPark株式會社"
+
+#: index.php:354 page_corporate_corporate.php:63 page_corporate_old.php:456
+msgid "section.about.table.tr-1.th"
+msgstr "公司名"
+
+#: index.php:359 page_corporate_corporate.php:74 page_corporate_old.php:461
+msgid "section.about.table.tr-2.td"
+msgstr "100百萬日幣（截至2021年9月1日）"
+
+#: index.php:358 page_corporate_corporate.php:71 page_corporate_old.php:460
+msgid "section.about.table.tr-2.th"
+msgstr "資金"
+
+#: index.php:363 page_corporate_corporate.php:82 page_corporate_old.php:465
+msgid "section.about.table.tr-3.td"
+msgstr "代表董事社長 川田 隆太"
+
+#: index.php:362 page_corporate_corporate.php:79 page_corporate_old.php:464
+msgid "section.about.table.tr-3.th"
+msgstr "董事"
+
+#: index.php:367 page_corporate_corporate.php:90 page_corporate_old.php:469
+msgid "section.about.table.tr-4.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>Nagashima Ohno & Tsunematsu</li>\n"
+"    <li>Anderson Mori & Tomotsune</li>\n"
+"</ul>"
+
+#: index.php:366 page_corporate_corporate.php:87 page_corporate_old.php:468
+msgid "section.about.table.tr-4.th"
+msgstr "法律顧問"
+
+#: index.php:371 page_corporate_corporate.php:98 page_corporate_old.php:473
+msgid "section.about.table.tr-5.td"
+msgstr ""
+"135名（截至2022年2月）\n"
+"\n"
+"\n"
+
+#: index.php:370 page_corporate_corporate.php:95 page_corporate_old.php:472
+msgid "section.about.table.tr-5.th"
+msgstr "員工人數"
+
+#: index.php:375 page_corporate_corporate.php:106 page_corporate_old.php:477
+msgid "section.about.table.tr-6.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>宅地建物取引業者 東京都知事(2)第95844號</li>\n"
+"    <li>公寓管理業者 國土交通大臣(2)第033999號</li>\n"
+"    <li>租賃住宅管理業者 國土交通大臣(2)第2933號</li>\n"
+"</ul>\n"
+
+#: index.php:374 page_corporate_corporate.php:103 page_corporate_old.php:476
+msgid "section.about.table.tr-6.th"
+msgstr "牌照"
+
+#: index.php:379 page_corporate_corporate.php:114 page_corporate_old.php:481
+msgid "section.about.table.tr-7.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>〒150-0013 東京都涉谷區惠比壽1-20-18 三富樓新館3F<br><a href=\"https://goo."
+"gl/maps/oDVKfxnXK5k\" target=\"_blank\">View Map</a></li>\n"
+"</ul>"
+
+#: index.php:378 page_corporate_corporate.php:111 page_corporate_old.php:480
+msgid "section.about.table.tr-7.th"
+msgstr "公司總部"
+
+msgid "section.about.table.tr-8.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>Hong Kong / New York / Taipei</li>\n"
+"</ul>"
+
+msgid "section.about.table.tr-8.th"
+msgstr "分公司"
+
+#: page_corporate_corporate.php:122
+msgid "section.about.table.tr-9.td"
+msgstr ""
+"<ul class=\"bullet-list\">\n"
+"    <li>WealthPark RealEstate Technologies, Inc.</li>\n"
+"    <li>WealthPark Capital, Inc.</li>\n"
+"    <li>WealthPark, Inc.　[US subsidiary]</li>\n"
+"    <li>WealthPark (HONG KONG) LIMITED　[Hong Kong subsidiary]</li>\n"
+"    <li><a href=\"https://www.crowd-realty.com/\" target=\"_blank\">Crowd "
+"Realty, Inc.</a></li>\n"
+"</ul>"
+
+#: page_corporate_corporate.php:119
+msgid "section.about.table.tr-9.th"
+msgstr "集團公司"
+
+#: index.php:349 page_corporate_old.php:451
+msgid "section.about.title.h2"
+msgstr "擁有多元化背景的專業團隊"
+
+#: index.php:348 page_corporate_old.php:450
+msgid "section.about.type_name"
+msgstr "公司簡介"
+
+#: page_corporate_old.php:550 page_corporate_old.php:566
+msgid "section.contact.title.h2"
+msgstr "聯絡我們"
+
+#: page_corporate_old.php:551 page_corporate_old.php:567
+msgid "section.contact.title.h3"
+msgstr "若有任何問題，歡迎您通過選擇以下選項進行諮詢。"
+
+#: page_corporate_old.php:555 page_corporate_old.php:600
+msgid "section.contact_success.title.h2"
+msgstr "謝謝您的聯絡"
+
+#: page_corporate_old.php:556 page_corporate_old.php:601
+msgid "section.contact_success.title.h3"
+msgstr "您的信息已成功發送。我們的團隊會盡快與妳聯絡。"
+
+#: page_corporate_old.php:611
+msgid "section.demo.title.h2"
+msgstr "想要體驗"
+
+#: page_corporate_old.php:612
+msgid "section.demo.title.h3"
+msgstr "請輸入您的聯絡信息來立即體驗WealthPark"
+
+#: page_corporate_old.php:616
+msgid "section.demo_success.title.h2"
+msgstr "謝謝您的聯絡信息"
+
+#: page_corporate_old.php:617
+msgid "section.demo_success.title.h3"
+msgstr "請從以下鏈接下載WealthPark手機程式和使用已經發送給您的帳號信息來登入以及體驗WealthPark。"
+
+#: page_app.php:190
+msgid "section.device.content"
+msgstr ""
+"<ul class=\"bullet-list tc\">\n"
+"  <li>WealthPark手機版，讓您不受時間、空間限制，隨時與管理公司保持聯絡。一機在手，即時掌握資產現況。</li>\n"
+"  <li>"
+"WealthPark桌面版，於大螢幕上確認、輸出年次或月次收支表，提供您更舒適的使用體驗。當您因稅金申告等原因需要長時間使用時，推薦使用桌面版。</li>"
+"\n"
+"</ul>"
+
+#: page_app.php:196
+msgid "section.device.demo"
+msgstr "想要體驗"
+
+#: page_app.php:189
+msgid "section.device.title2"
+msgstr "<span class=\"tc\">物業管理，盡在彈指之間</span>"
+
+#: index.php:84 page_corporate_old.php:186
+msgid "section.feature.title.h2"
+msgstr "WealthPark如何與眾不同"
+
+#: index.php:86 page_corporate_old.php:188
+msgid "section.feature.title.h3"
+msgstr ""
+"房地產專家藉助IT科技，帶來專業知識和透明化管理，使您投資更明智\n"
+
+#: index.php:83 page_corporate_old.php:185
+msgid "section.feature.type_name"
+msgstr "特色"
+
+#: index.php:91 page_corporate_old.php:193
+msgid "section.feature_point.f1.items"
+msgstr ""
+"<li>調查最優租金，以最大化收益</li>\n"
+"<li>租金回收與催收</li>\n"
+"<li>節稅與稅務咨詢</li>\n"
+"<li>童叟無欺的價格</li>\n"
+
+#: index.php:89 page_corporate_old.php:191
+msgid "section.feature_point.f1.title"
+msgstr "提高收益"
+
+#: index.php:97 page_corporate_old.php:199
+msgid "section.feature_point.f2.items"
+msgstr ""
+"<li>租客篩查</li>\n"
+"<li>及時與有求必應的修繕服務</li>\n"
+"<li>處理租客投訴與糾紛</li>\n"
+
+#: index.php:95 page_corporate_old.php:197
+msgid "section.feature_point.f2.title"
+msgstr "避免風險"
+
+#: index.php:103 page_corporate_old.php:205
+msgid "section.feature_point.f3.items"
+msgstr ""
+"<li>定期推送房地產市場報告</li>\n"
+"<li>分享日本宏觀經濟趨勢</li>\n"
+"<li>房地產專家的深入洞察</li>\n"
+
+#: index.php:101 page_corporate_old.php:203
+msgid "section.feature_point.f3.title"
+msgstr "市場情報"
+
+#: index.php:111 page_corporate_old.php:213
+msgid "section.feature_point.f4.items"
+msgstr ""
+"<li>透過App處理一切投資管理事宜</li>\n"
+"<li>隨時隨地查閱投資組合狀態</li>\n"
+"<li>透過App解決房屋修繕需求</li>\n"
+
+#: index.php:109 page_corporate_old.php:211
+msgid "section.feature_point.f4.title"
+msgstr "節省時間"
+
+#: index.php:117 page_corporate_old.php:219
+msgid "section.feature_point.f5.items"
+msgstr ""
+"<li>私人物業管理專家</li>\n"
+"<li>中英日多種語言溝通無障礙</li>\n"
+
+#: index.php:115 page_corporate_old.php:217
+msgid "section.feature_point.f5.title"
+msgstr "優質客戶服務"
+
+#: page_corporate_old.php:557 page_corporate_old.php:602
+msgid "section.form.button.back"
+msgstr "返回首頁"
+
+#: index.php:154 page_corporate_old.php:256
+msgid "section.how.f1.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>即時管理投資組合、資產管理全透明化</li>\n"
+"    <li>第一時間了解您的房地產招租進度</li>\n"
+"</ul>\n"
+
+#: index.php:153 page_corporate_old.php:255
+msgid "section.how.f1.title"
+msgstr "房地產投資組合一目了然"
+
+#: index.php:130 page_corporate_old.php:232
+msgid "section.how.f1.track_title"
+msgstr "房地產投資組合"
+
+#: index.php:166 page_corporate_old.php:268
+msgid "section.how.f2.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>通過清晰易懂的每月現金流表，了解您的投資財務資料</li>\n"
+"    <li>輕輕一點，自動生成可用email分享的財務報告</li>\n"
+"</ul>\n"
+
+#: index.php:165 page_corporate_old.php:267
+msgid "section.how.f2.title"
+msgstr "及時、清晰的投資財務報告"
+
+#: index.php:134 page_corporate_old.php:236
+msgid "section.how.f2.track_title"
+msgstr "財務報告"
+
+#: index.php:178 page_corporate_old.php:280
+msgid "section.how.f3.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>中英日多種語言溝通無障礙</li>\n"
+"    <li>高效率快速解決問題</li>\n"
+"</ul>\n"
+
+#: index.php:177 page_corporate_old.php:279
+msgid "section.how.f3.title"
+msgstr "與您的私人物業管理專家聊天"
+
+#: index.php:138 page_corporate_old.php:240
+msgid "section.how.f3.track_title"
+msgstr "聊天室"
+
+#: index.php:190 page_corporate_old.php:292
+msgid "section.how.f4.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>豐富的市場報告與新聞速遞，帶給您房產市場洞察力</li>\n"
+"    <li>最前線房地產投資訊息</li>\n"
+"</ul>\n"
+
+#: index.php:189 page_corporate_old.php:291
+msgid "section.how.f4.title"
+msgstr "及時了解房產市場行情"
+
+#: index.php:142 page_corporate_old.php:244
+msgid "section.how.f4.track_title"
+msgstr "房產市場行情"
+
+#: index.php:202 page_corporate_old.php:304
+msgid "section.how.f5.content"
+msgstr ""
+"<ul class='bullet-list'>\n"
+"    <li>將您的買賣合約、租約、貸款合約、稅務文件分類歸檔，易於檢索</li>\n"
+"    <li>房地產的繁瑣文書管理從此輕而易舉</li>\n"
+"</ul>\n"
+
+#: index.php:201 page_corporate_old.php:303
+msgid "section.how.f5.title"
+msgstr "保留所有物業有關文件"
+
+#: index.php:146 page_corporate_old.php:248
+msgid "section.how.f5.track_title"
+msgstr "物業有關文件"
+
+#: index.php:124 page_corporate_old.php:226
+msgid "section.how.title.h2"
+msgstr "WealthPark如何運作？"
+
+#: index.php:125 page_corporate_old.php:227
+msgid "section.how.title.h3"
+msgstr "通過手機軟體提供優質、及時的服務"
+
+#: index.php:73 page_corporate_old.php:175
+msgid "section.service.list_items.f1"
+msgstr ""
+"<li>擁有100年以上豐富經驗的房地產專家為您帶來物業管理專業秘訣</li>\n"
+"<li>與房地產開發商、仲介公司、大廈管理、銀行與保險公司建立廣泛網絡，共同為您的房地產投資護航</li>\n"
+"<li>為您匹配最優質的供應商，與高性價比的服務</li>\n"
+
+#: index.php:78 page_corporate_old.php:180
+msgid "section.service.list_items.f2"
+msgstr ""
+"<li>隨時隨地密切管理您的房地產投資組合</li>\n"
+"<li>能說中英日語的專業人士解答各種投資難題</li>\n"
+"<li>一手｢掌握｣最新市場趨勢</li>\n"
+
+#: index.php:69 page_corporate_old.php:171
+msgid "section.service.title.h2"
+msgstr "房地產×科技"
+
+#: index.php:71 page_corporate_old.php:173
+msgid "section.service.title.h3.f1"
+msgstr "提供租賃管理專業服務的本地房地產專家"
+
+#: index.php:76 page_corporate_old.php:178
+msgid "section.service.title.h3.f2"
+msgstr ""
+"重新定義越洋房地產投資管理\n"
+
+#: index.php:68 page_corporate_old.php:170
+msgid "section.service.type_name"
+msgstr "服務"
+
+#: index.php:308 page_corporate_old.php:410
+msgid "section.team.button.more"
+msgstr "顯示更多"
+
+#: index.php:221 page_corporate_old.php:323
+msgid "section.team.title.h2"
+msgstr "WealthPark團隊集合了各種經驗及背景的人才"
+
+#: index.php:223 page_corporate_old.php:325
+msgid "section.team.title.h3"
+msgstr "多樣化的團隊有效讓我們邁進一個共同的目標 ── 使WealthPark成為全球投資者最佳的財富管理工具。"
+
+#: index.php:220 page_corporate_old.php:322
+msgid "section.team.type_name"
+msgstr "團隊"
+
+#: index.php:318 page_corporate_old.php:420
+msgid "section.testimonials.title.h2"
+msgstr "我們有一群信任我們的忠實客戶。"
+
+#: index.php:320 page_corporate_old.php:422
+msgid "section.testimonials.title.h3"
+msgstr "您也可以成為其中一員"
+
+#: index.php:317 page_corporate_old.php:419
+msgid "section.testimonials.type_name"
+msgstr "客戶評價"
+
+#. Name of the template
+msgid "Service Page - Asset Management"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - Dev"
+msgstr ""
+
+#. Name of the template
+msgid ""
+"Service Page - Asset Management - LP - Digital Alternative Asset Platform"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management - LP - Taiwan B2C"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Asset Management UK"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Contact 002 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - customer-success"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Contact 001 - Completed"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Download - Form Template"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FAQ"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - AI quotation"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - cashflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - chat"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - document-storage"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - Multiple Language"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - security"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - FeaturesPrice - workflow"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - Promise"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Business - Lp - road-to-dx"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page - Corporate - Dev"
+msgstr ""
+
+#. Name of the template
+msgid "Service Page-  Asset Management Contact WP AM"
+msgstr ""
+
+#: page_corporate_service.php:59 page_corporate.php:103
+msgid "service-description.app"
+msgstr "投資盡在您掌握之中<br />指尖上的物业管理，改变传统房地产理财方式！海外房地产投资从未如此轻松!"
+
+#: page_corporate_service.php:89 page_corporate.php:127
+#: header-top-with-news.php:52 header-top-with-news.php:160
+msgid "service-description.wp-am"
+msgstr "助海外投資者輕鬆投資及管理日本房地產, 持續領先行業"
+
+#: page_corporate_service.php:74 page_corporate.php:115
+#: header-top-with-news.php:39 header-top-with-news.php:154
+msgid "service-description.wp-business"
+msgstr "聯繫房地產管理公司與投資者的數位平台(此內容只適用於日文)"
+
+#: page_corporate.php:102
+msgid "service-name.app"
+msgstr "App<br />for Owner"
+
+#: page_corporate.php:126
+msgid "service-name.wp-am"
+msgstr "WealthPark<br />Asset Management"
+
+#: page_corporate.php:114
+msgid "service-name.wp-business"
+msgstr "WealthPark<br />Business"
+
+#: page_corporate_service.php:58
+msgid "service.tagline.app"
+msgstr "投資盡在您掌握之中"
+
+#: page_corporate_service.php:88
+msgid "service.tagline.wp-am"
+msgstr "Real Estate × Tech"
+
+#: page_corporate_service.php:73
+msgid "service.tagline.wp-business"
+msgstr "帶給房地產業主<br />全新的使用體驗"
+
+#: functions.php:96
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: functions.php:442
+msgid "TOC_TITLE"
+msgstr "目錄"
+
+#: page_app.php:80
+msgid "top.message.app"
+msgstr "<span class=\"tc\">投資盡在您掌握之中</span>"
+
+#: page_app.php:81
+msgid "top.message2.app"
+msgstr "<span class=\"tc\">只需動動您的手指，竟可越洋管理物業。<br>海外房地產投資從未如此輕鬆!</span>"
+
+#: page_asset_management_uk.php:125
+msgid "uk.feature.category"
+msgstr "FEATURES"
+
+#: page_asset_management_uk.php:127
+msgid "uk.feature.description"
+msgstr "房地產專家藉助IT科技，帶來專業知識和透明化管理，使您投資更明智"
+
+#: page_asset_management_uk.php:129
+msgid "uk.feature.features"
+msgstr ""
+"<ul class=\"feature-section__features\">\n"
+"  <li class=\"feature-section__feature\">\n"
+"    <h3 class=\"feature-section__feature-title\">提高收益</h3>\n"
+"    <figure class=\"feature-section__feature-image\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_001.png\" alt=\"\" />\n"
+"    </figure>\n"
+"    <ul class=\"feature-section__feature-description\">\n"
+"      <li>調查最優租金，以最大化收益</li>\n"
+"      <li>租金回收與催收</li>\n"
+"      <li>節稅與稅務咨詢</li>\n"
+"      <li>童叟無欺的價格</li>\n"
+"    </ul>\n"
+"  </li>\n"
+"  <li class=\"feature-section__feature\">\n"
+"    <h3 class=\"feature-section__feature-title\">避免風險</h3>\n"
+"    <figure class=\"feature-section__feature-image\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_002.png\" alt=\"\" />\n"
+"    </figure>\n"
+"    <ul class=\"feature-section__feature-description\">\n"
+"      <li>租客篩查</li>\n"
+"      <li>及時與有求必應的修繕服務</li>\n"
+"      <li>處理租客投訴與糾紛</li>\n"
+"    </ul>\n"
+"  </li>\n"
+"  <li class=\"feature-section__feature\">\n"
+"    <h3 class=\"feature-section__feature-title\">市場情報</h3>\n"
+"    <figure class=\"feature-section__feature-image\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_003.png\" alt=\"\" />\n"
+"    </figure>\n"
+"    <ul class=\"feature-section__feature-description\">\n"
+"      <li>定期推送房地產市場報告</li>\n"
+"      <li>分享日本宏觀經濟趨勢</li>\n"
+"      <li>房地產專家的深入洞察</li>\n"
+"    </ul>\n"
+"  </li>\n"
+"  <li class=\"feature-section__feature\">\n"
+"    <h3 class=\"feature-section__feature-title\">節省時間</h3>\n"
+"    <figure class=\"feature-section__feature-image\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_004.png\" alt=\"\" />\n"
+"    </figure>\n"
+"    <ul class=\"feature-section__feature-description\">\n"
+"      <li>透過App處理一切投資管理事宜</li>\n"
+"      <li>隨時隨地查閱投資組合狀態</li>\n"
+"      <li>透過App解決房屋修繕需求</li>\n"
+"    </ul>\n"
+"  </li>\n"
+"  <li class=\"feature-section__feature\">\n"
+"    <h3 class=\"feature-section__feature-title\">優質客戶服務</h3>\n"
+"    <figure class=\"feature-section__feature-image\">\n"
+"      <img src=\"https://wealth-park.com/wp-content/themes/wp-next-"
+"landing-page/img/wpam/feature_005.png\" alt=\"\" />\n"
+"    </figure>\n"
+"    <ul class=\"feature-section__feature-description\">\n"
+"      <li>私人物業管理專家</li>\n"
+"      <li>中英日多種語言溝通無障礙</li>\n"
+"    </ul>\n"
+"  </li>\n"
+"</ul>"
+
+#: page_asset_management_uk.php:126
+msgid "uk.feature.title"
+msgstr ""
+"WealthPark如何與眾不同\n"
+
+#: page_asset_management_uk.php:58
+msgid "uk.hero-message"
+msgstr ""
+"英國房產管理 <br>\n"
+"從未如此輕鬆"
+
+#: page_asset_management_uk.php:61
+msgid "uk.hero-message-txt"
+msgstr "您最喜歡的日本物業管理APP。 在英國。"
+
+#: page_asset_management_uk.php:86
+msgid "uk.launch.category"
+msgstr "全方位物業管理服務"
+
+#: page_asset_management_uk.php:89
+msgid "uk.launch.copy.txt"
+msgstr ""
+"      <p class=\"launch-section__copy\">\n"
+"        <span>7% + VAT*</span>\n"
+"        价格需缴纳增值税（日本增值税3%，英国增值税4%）\n"
+"      </p>\n"
+"      <p class=\"launch-section__txt\">\n"
+"          - 用同一個業主APP管理您英國房產 <br>\n"
+"          - 與WealthPark的多語英國資產管理精英聊天。 <br>\n"
+"          - 選擇用您的日本租金收入抵消您的管理費\n"
+"      </p>\n"
+
+#: page_asset_management_uk.php:87
+msgid "uk.launch.title"
+msgstr ""
+"Full-Service Asset and <br>\n"
+"Property Management Service"
+
+#: page_asset_management_uk.php:103
+msgid "uk.service.001.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">遠端虛擬賞屋!</li>\n"
+"  <li class=\"\">空室優質租客查找</li>\n"
+"  <li class=\"\">租案在地化行銷以及網路上架</li>\n"
+"  <li class=\"\">社區關懷租客搜尋</li>\n"
+"</ul>"
+
+#: page_asset_management_uk.php:102
+msgid "uk.service.001.title"
+msgstr "精選招租"
+
+#: page_asset_management_uk.php:112
+msgid "uk.service.002.description"
+msgstr ""
+"<ul class=\"type-1__body-description bullet-list\">\n"
+"  <li class=\"\">幫手收樓</li>\n"
+"  <li class=\"\">物業保障方案: 完善的租客審查, 押金擔保,租金&法務保障,物業損壞保障</li>\n"
+"  <li class=\"\">HMO 管理服務</li>\n"
+"</ul>"
+
+#: page_asset_management_uk.php:111
+msgid "uk.service.002.title"
+msgstr "其他服务"
+
+#: page_asset_management_uk.php:96
+msgid "uk.service.category"
+msgstr "Additional Services"
+
+#: page_asset_management_uk.php:97
+msgid "uk.service.title"
+msgstr ""
+
+#: page_app.php:142
+msgid "video.nyc2019.content"
+msgstr ""
+"<div class=\"message__text\">\n"
+"<span class=\"tc\">\"在房地產科技類創投業界引領世界的Metaprop NYC。 <br/>\n"
+"WealthPark NYC被認定為在其主辦的「NYC Real Estate Tech Week」的官方活動。\"</span>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">"
+"\"切實感受到獨具創意的美國、亞洲、歐洲企業跨國展開商業合作的機會。\"</p>\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>K.C. Cleary / Fifth Wall (Partner)</span>\n"
+"    </div>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">\"在跨國商業合作裡，尋找在其國家能生根的商業夥伴尤為重要。\"</p>"
+"\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>Curren McKay / AskPorter (CCO)</span>\n"
+"    </div>\n"
+"</div>\n"
+"<div class=\"video-section__comment\">\n"
+"    <p class=\"video-section__message\">\"我能感覺到日本和美國企業之間開展多種多樣的合作的可能性。\"</p>"
+"\n"
+"    <div class=\"video-section__name\">\n"
+"      <span>Andrea Jang / JJL Spark (Growth Lead)</span>\n"
+"    </div>\n"
+"</div>"
+
+#: index.php:58 page_corporate_old.php:85 page_corporate_old.php:87
+#: page_corporate_old.php:161
+msgid "WealthPark"
+msgstr ""
+
+#. Name of the template
+msgid "WealthPark Blog Archive"
+msgstr ""
+
+msgid "wp-am.about"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      關於我們\n"
+"    </h2>\n"
+"    <p class=\"about__copy\">不一樣的日本房產管理體驗</p>\n"
+"    <p class=\"about__txt\">\n"
+"      WealthPark是由擁有豐富經驗的房地產專家創立和經營, 提供房地產科技行業領先的資產管理平台, "
+"讓海外投資者通過手機或網頁直接管理日本房產, 有效掌握房地產投資組合相關資訊, 隨時聯繫專屬線上秘書。<br><br>\n"
+"      "
+"目前WealthPark的服務已得到香港、台灣、中國、新加坡、美國等3萬以上的房東廣泛使用。WealthPark與多間日本大手房地產開發商、仲介、大樓管理公司、銀行與保險公司等建立廣泛網絡，致力於提供海外投資者房產管理、租金保證、稅務咨詢以及買賣等下一站式相關服務。\n"
+"    </p>"
+
+msgid "wp-am.estate-title"
+msgstr "關於日本房地產的文章"
+
+#: page_asset_management.php:128
+msgid "wp-am.features"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      服務特色\n"
+"    </h2>\n"
+"    <ul class=\"feature__list\">\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">與我們直接溝通<br>無需翻譯</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic1.png\" "
+"alt=\"與我們直接溝通無需翻\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>通過App, 精通中英粵的線上秘書即時為您解答所有疑問 </p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">房地產投資組合<br>一目了然</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic2.png\" "
+"alt=\"房地產投資組合一目了然\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>隨時隨地查看投資組合及資產價值、投資回報、招租和維修狀況</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">清晰的財務報告<br>全數位化</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic3.png\" "
+"alt=\"清晰的財務報告全數位化\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>每月更新現金流和收支表; 相關文件全電子化永久保存</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"feature__listTit\">AI房屋估價功能<br>掌握市況</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/feature_pic4.png\" "
+"alt=\"AI房屋估價功能掌握市況\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>查詢房產的即時預估市場價格和租金*, 制定投資策略優化收益</p>\n"
+"            <ul>\n"
+"              <li>*服務範圍依地區而異</li>\n"
+"              <li>*由PriceHubble AG提供</li>\n"
+"            </ul>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"    </ul>"
+
+msgid "wp-am.hero-image"
+msgstr ""
+"<img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/hero_image.png\" alt=\"例画像\" />"
+
+msgid "wp-am.hero-message"
+msgstr ""
+"<h1 class=\"hero__massage-title\">數位科技 x 日本房屋代管</h1>\n"
+"<p class=\"hero__massage-copy\">房東使用人數突破<span>3萬人</span>以上*</p>\n"
+"<ul class=\"hero__massage-teams\">\n"
+"  <li>・利用免費App輕鬆了解收支, 聯繫線上秘書, 保管電子文件</li>\n"
+"  <li>・精通中粵英語即時為您貼心服務</li>\n"
+"  <li>・管理服務覆蓋日本各大城市</li>\n"
+"</ul>\n"
+"<div class=\"hero__massage-button button\">\n"
+"  <a href=\"#hsforms\">線上留言</a>\n"
+"</div>\n"
+"<p class=\"hero__massage-txt\">馬上下載體驗 App試用版</p>"
+
+msgid "wp-am.hero-message-landlords"
+msgstr "*包括日本及海外房東"
+
+msgid "wp-am.hosting"
+msgstr ""
+"    <h2 class=\"hosting__tit section-name\">\n"
+"      您的日本房產管理首選\n"
+"    </h2>\n"
+"    <dl class=\"hosting__list\">\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/wpam/hosting_pic1.svg\" alt=\"我想找會說中文的人幫我管理日本房產, "
+"方便溝通\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“我想找會說中文的人幫我管理日本房產, 方便溝通”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/wpam/hosting_pic2.svg\" alt=\"投資房產有太多繁雜文件, "
+"我想利用雲端平台集中管理\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“投資房產有太多繁雜文件, 我想利用雲端平台集中管理”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/wpam/hosting_pic3.svg\" alt=\"我無法聯絡現時的管理公司了, "
+"需要盡快找新的管理公司接手\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“我無法聯絡現時的管理公司了, 需要盡快找新的管理公司接手”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"      <div class=\"hosting__listInner\">\n"
+"        <dt>\n"
+"          <img src=\"https://wealth-park.com/wp-content/themes/wp-"
+"next-landing-page/img/wpam/hosting_pic4.svg\" alt=\"我想有一個平台讓我不在日本都可以即時掌握收支, "
+"評估投報率\">\n"
+"        </dt>\n"
+"        <dd>\n"
+"          <p>“我想有一個平台讓我不在日本都可以即時掌握收支, 評估投報率”</p>\n"
+"        </dd>\n"
+"      </div>\n"
+"    <dl>\n"
+
+msgid "wp-am.hsforms"
+msgstr ""
+"<section class=\"hsforms container\" id=\"hsforms\">\n"
+"  <div class=\"hsforms__inner container__inner\">\n"
+"    <h2 class=\"hsforms__tit section-name\">\n"
+"      了解更多關於WealthPark的<br class=\"section-name__brSp\">日本房產管理服務\n"
+"    </h2>\n"
+"    <p class=\"hsforms__copy\">歡迎留下資料給我們</p>\n"
+"    <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms."
+"net/forms/shell.js\"></script>\n"
+"    <script>\n"
+"      hbspt.forms.create({\n"
+"      region: \"na1\",\n"
+"      portalId: \"4797615\",\n"
+"      formId: \"e408c7c3-4cbe-41b0-89c3-6db750bb3779\"\n"
+"    });\n"
+"    </script>\n"
+"  </div>\n"
+"</section>"
+
+msgid "wp-am.movie-link"
+msgstr ""
+"<iframe width=\"100%\" height=\"270\" src=\"https://www.youtube."
+"com/embed/pmqadi093EA\" title=\"YouTube video player\" frameborder=\"0\" "
+"allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-"
+"picture\" allowfullscreen></iframe>"
+
+msgid "wp-am.movie-message"
+msgstr ""
+"        <h2 class=\"movie__listTit\">Video | Real Estate x Technology</h2>\n"
+"        <p>\n"
+"          WealthPark是一間房地產科技公司, 注力為海外房產投資者提供線上和線下一站式日本、英國房產招租代管服務。<br>\n"
+"          房東使用人數已突破3萬人!\n"
+"        </p>"
+
+msgid "wp-am.owner-help.hero-message"
+msgstr ""
+"<h1 class=\"help__understandTxt\">\n"
+"\tWealthPark Asset Management 支援中心\n"
+"</h1>\n"
+"<p class=\"help__understandDetail\">\n"
+"\t本頁面為資產管理客戶支援中心，初次登入iOS/Android應用程式或電腦網頁版本時，如果有任何問題，請先參考此頁面。\n"
+"</p>"
+
+msgid "wp-am.page-links"
+msgstr ""
+"      <li>\n"
+"        <a href=\"#troubles\">招租管理的煩惱</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#feature\">服務特色</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#hosting\">您的代管首選</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#hsforms\">線上留言</a>\n"
+"      </li>\n"
+"      <li>\n"
+"        <a href=\"#estate\">了解日本房地產</a>\n"
+"      </li>"
+
+msgid "wp-am.partnership"
+msgstr ""
+"    <h2 class=\"partnership__tit section-name\">\n"
+"      合作伙伴\n"
+"    </h2>"
+
+msgid "wp-am.troubles"
+msgstr ""
+"    <h2 class=\"section-name\">\n"
+"      日本房產招租管理、是否還有這些煩惱?\n"
+"    </h2>\n"
+"    <ul class=\"troubles__list\">\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">不懂日文<br>無法直接查詢</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic1.png\" "
+"alt=\"不懂日文無法直接查詢\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>想確認招租情況</p>\n"
+"            <p>想知道維修報價</p>\n"
+"            <p>想確認收支狀況</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">無法掌握<br>每個月的收支</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic2.png\" "
+"alt=\"無法掌握每個月的收支\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>想確認應收與實收帳款</p>\n"
+"            <p>想確認各房產收支狀況</p>\n"
+"            <p>想集中管理所有收支表</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">太多繁雜<br>的文件難保管</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic3.png\" "
+"alt=\"太多繁雜的文件難保管\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>想集中保管買賣合約</p>\n"
+"            <p>想集中保管管理合約</p>\n"
+"            <p>想集中保管租約</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"      <li>\n"
+"        <p class=\"troubles__listTit\">無法得知<br>目前的市價</p>\n"
+"        <dl>\n"
+"          <dt>\n"
+"            <img loading='lazy' src=\"https://wealth-park.com/wp-"
+"content/themes/wp-next-landing-page/img/wpam/troubles_pic4.png\" "
+"alt=\"無法得知目前的市價\" />\n"
+"          </dt>\n"
+"          <dd>\n"
+"            <p>想判斷出售時機</p>\n"
+"            <p>想掌握升值潛能</p>\n"
+"            <p>想評估投報率</p>\n"
+"          </dd>\n"
+"        </dl>\n"
+"      </li>\n"
+"    </ul>"

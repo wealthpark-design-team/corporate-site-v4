@@ -85,10 +85,10 @@
                                 </div>
                                 <div class="flex-1 min-w-0">
                                     <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
-                                        ビジネス事業
+                                        WealthParkビジネス
                                     </h3>
                                     <p class="text-sm md:text-base text-gray-600">
-                                        不動産管理会社向けサービス
+                                        不動産管理会社とオーナーをアプリでつなぐ
                                     </p>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -115,7 +115,7 @@
                                         アセットマネジメント事業
                                     </h3>
                                     <p class="text-sm md:text-base text-gray-600">
-                                        不動産資産管理サービス
+                                        日本の不動産への投資を支援する
                                     </p>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -149,10 +149,10 @@
                                 </div>
                                 <div class="flex-1 min-w-0">
                                     <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
-                                        Investment事業
+                                        WealthPark Investment
                                     </h3>
                                     <p class="text-sm md:text-base text-gray-600">
-                                        クラウドファンディングサービス
+                                        短期×固定利回りで手堅く運用
                                     </p>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -213,10 +213,10 @@
                                 </div>
                                 <div class="flex-1 min-w-0">
                                     <h3 class="text-lg md:text-xl font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
-                                        WealthPark研究所
+                                        WealthPark Lab
                                     </h3>
                                     <p class="text-sm md:text-base text-gray-600">
-                                        不動産テックの研究・情報発信
+                                        すべての人へ、投資の新しい扉をひらく
                                     </p>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -260,11 +260,11 @@
                     while ($news_query->have_posts()) : $news_query->the_post();
                         $is_first = ($index === 0);
                         ?>
-                        <div class="md:py-8 <?php echo $is_first ? 'first:md:pt-0' : ''; ?>">
+                        <div class="<?php echo $is_first ? 'md:pb-8' : 'md:py-8'; ?>">
                             <a href="<?php the_permalink(); ?>" class="group block">
-                                <div class="flex <?php echo $is_first ? 'flex-col md:flex-row md:gap-8 md:w-4/5 md:mx-auto' : 'flex-row md:gap-8 gap-4 md:w-4/5 md:mx-auto'; ?>">
+                                <div class="<?php echo $is_first ? 'flex flex-col md:flex-row md:gap-8 md:w-4/5 md:mx-auto' : 'flex flex-row md:gap-8 gap-4 md:w-4/5 md:mx-auto'; ?>">
                                     <!-- 画像 -->
-                                    <div class="<?php echo $is_first ? 'overflow-hidden mb-4 md:mb-0 md:w-56 md:flex-shrink-0' : 'overflow-hidden mb-0 w-32 md:w-56 flex-shrink-0'; ?>">
+                                    <div class="overflow-hidden <?php echo $is_first ? 'mb-4 md:mb-0 md:w-56 md:flex-shrink-0' : 'mb-0 w-32 md:w-56 flex-shrink-0'; ?>">
                                         <?php if (has_post_thumbnail()) : ?>
                                             <?php the_post_thumbnail('medium', array('class' => 'w-full h-auto object-contain rounded-lg border border-gray-200')); ?>
                                         <?php endif; ?>
@@ -345,7 +345,7 @@
                         <div>
                             <a href="<?php the_permalink(); ?>" class="group block">
                                 <?php if ($is_first) : ?>
-                                    <!-- 最新記事：NEWバッジ付きカード -->
+                                    <!-- 最新記事：NEWバッジ付きカード（モバイル・PC共通） -->
                                     <div class="bg-white overflow-visible shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col relative">
                                         <!-- NEWバッジ -->
                                         <div class="absolute -top-6 -left-6 w-12 h-12 rounded-full bg-red-500 flex items-center justify-center z-10 shadow-lg">
@@ -402,7 +402,7 @@
                                             </h3>
                                         </div>
                                     </div>
-                                    <!-- PC：カード -->
+                                    <!-- PC：カード（常に表示） -->
                                     <div class="hidden md:block bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 h-full">
                                         <div class="flex flex-col h-full">
                                             <div class="overflow-hidden">
@@ -452,7 +452,7 @@
 
             <!-- 全記事を見るリンク -->
             <div class="text-center mt-12">
-                <a href="<?php echo esc_url(home_url('/blog/')); ?>" class="inline-block text-sm text-gray-700 hover:text-gray-900 transition-colors font-medium">
+                <a href="<?php echo esc_url(home_url('/blog/')); ?>" class="inline-block text-sm text-gray-700 hover:text-black transition-colors font-medium">
                     すべての記事を見る
                 </a>
             </div>

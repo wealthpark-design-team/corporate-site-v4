@@ -1,0 +1,907 @@
+#careers-page .font-helvetica,
+#careers-page .font-helvetica * {
+  font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto, sans-serif !important;
+}
+.section-block {
+  margin-bottom: 80px;
+}
+.careers-top__hero {
+  position: relative;
+}
+.careers-top__hero--img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.careers-top__hero--txt {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.careers-top__hero--txt h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 940px;
+}
+.careers-top__hero--txt h1 span {
+  font-size: 30px;
+}
+.careers-top__hero--txt-wide h1 {
+  max-width: 1000px;
+}
+.page-title__inner {
+  padding: 0;
+  text-align: center;
+}
+.page-title__inner h2.page-title__name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page-title__inner h3.page-title__name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.page-title__inner h3.page-title__name--withlink {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;  
+}
+.page-title__inner h3.page-title__name--withlink a {
+  color: #1b1b1b;
+  font-size: 14px;
+  font-weight: normal;
+}
+.container__inner {
+  padding-bottom: 80px;
+}
+.career-profile__inner,
+.career-mission__inner,
+.career-vision__inner {
+  padding-bottom: 0;
+}
+.container__inner--careers {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+h4.container__inner--title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h4.container__inner--title-sub {
+  margin-bottom: 50px;
+}
+h4.container__inner--title-sub span {
+  font-size: 16px;
+}
+.career-mission__title {
+  margin-bottom: 30px;
+}
+.wealthpark-departments__main {
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-bottom: 60px;
+  position: relative;
+}
+.wealthpark-departments__main-sub {
+  font-weight: bold;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 12px;
+  position: relative;
+}
+.wealthpark-departments__main::before,
+.layer-1-heading a::after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 1px;
+  background: #ccc;
+  z-index: 1;
+  bottom: -31px;
+  left: 50%;
+  margin-left: -1px;
+}
+.wealthpark-departments__main-sub-only {
+  margin-bottom: 0;
+}
+.wealthpark-departments__main-sub-only::before {
+  display: none;
+}
+.wealthpark-departments__main img {
+  width: 128px;
+}
+.wealthpark-departments__subs {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.wealthpark-departments__subs-layer-1 {
+  margin-bottom: 55px;
+}
+.wealthpark-departments__subs-layer-2 {
+  justify-content: left;
+  margin-left: 20.5px;
+}
+.wealthpark-departments__subs-layer-2 .wealthpark-departments__sub {
+  width: 137px;
+}
+.wealthpark-departments__sub {
+  height: 60px;
+  width: 139px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+}
+.wealthpark-departments__sub::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  z-index: 1;
+  top: -30px;
+}
+.wealthpark-departments__sub::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: #ccc;
+  z-index: 1;
+  top: -30px;
+  left: 50%;
+  margin-left: -1px;
+}
+.wealthpark-departments__sub--saas::after,
+.wealthpark-departments__sub--first::after {
+  width: 50%;
+  left: 50%;
+}
+.wealthpark-departments__sub--ret::after,
+.wealthpark-departments__sub--last::after {
+  width: 50%;
+  right: 50%;
+}
+.wealthpark-departments__sub--no-sub a::after{
+  display: none;
+}
+.no-horizontal-lines::after {
+  display: none;
+}
+.no-horizontal-lines::before {
+  left: calc(50% - 2px);
+}
+.wealthpark-departments__sub a {
+  background: #fff;
+  display: flex;
+  width: calc(100% - 10px);
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: underline;
+  color: #1b1b1b;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 4px 0px #cccccc;
+  transition: all .5s ease-in-out;
+  position: relative;
+}
+.wealthpark-departments__sub a:hover {
+  box-shadow: 0px 0px 0px #cccccc;
+}
+.wealthpark-departments__subs-sub a {
+  cursor: default;
+  box-shadow: none;
+  border-radius: 0;
+  text-decoration: none;
+}
+.wealthpark-departments__subs-sub a:active {
+  pointer-events: none;
+}
+.custom-margin-left {
+  margin-left: 14px;
+}
+.careers-infos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 50px;
+}
+.careers-info {
+  width: 300px;
+  /* background: pink; */
+  color: #1b1b1b;
+}
+.careers-info img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.careers-info__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.careers-info__name span {
+  font-size: 12px;
+}
+.careers-info__desc {
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+.container__inner--careers-about a {
+ display: block; 
+ position: relative;
+ margin: 50px 0;
+}
+.container__inner--careers-about a.our_culture {
+  margin-bottom: 0;
+}
+.container__inner--careers-about img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.container__inner--careers-about p {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+}
+.container__inner--careers-about p span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.career-identity-image {
+  margin-bottom: 0px;
+}
+.career-identity-image img {
+  width: 100%;
+}
+.career-banner__fourTeams {
+ margin-top: 0; 
+}
+.career-banner__fourTeams--center {
+  justify-content: center;
+  gap: 5px;
+}
+.career-banner__inner {
+  padding-top: 30px;
+}
+#beAlternative {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+.grey-background {
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-bottom: 1px;
+  margin-bottom: 50px;
+}
+.grey-background .page-title {
+  display: none;
+}
+h3.post-summary__hd--jobtype {
+  font-size: 22px;
+  margin: 50px 0 0;
+  font-weight: bold;
+}
+h3.post-summary__hd--jobtype:first-child {
+  margin: 0;
+}
+p.no-joblisting {
+  text-align: center;
+  font-size: 16px;
+}
+#careers-page strong {
+  font-weight: bold;
+}
+.tree img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.tree img.tree-pc--narrow {
+  max-width: 681px;
+}
+.tree img.tree-sp {
+  display: none !important;
+}
+.sns-banners-container {
+  padding: 40px 0;
+}
+.blog-articles__list--careers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
+  justify-content: left;
+}
+.blog-articles__list--careers .blog-recommend__item {
+  margin-bottom: 10px;
+}
+.visible-sp {
+  display: none;
+}
+@media only screen and (max-width: 1000px){
+  .container__inner--careers {
+    padding: 0 15px 0;
+  }
+  .wealthpark-departments__subs-layer-2 {
+    margin-left: 0;
+  }
+  .wealthpark-departments__subs-layer-2 .wealthpark-departments__sub {
+    width: 135px;
+  }
+}
+@media only screen and (min-width: 959px) and (max-width: 1015px) {
+  .wealthpark-departments--multilevel--hr {
+    width: 938px;
+    margin: 0 auto;
+  }
+  .custom-margin-left {
+    margin-left: 0;
+  }
+  .corporate_hr_pr {
+    margin-left: 6px !important;
+  }
+  .corporate_hr_pr .wealthpark-departments__sub{
+    width: 85px !important;
+  }
+}
+@media only screen and (min-width: 959px) and (max-width: 1000px) {
+  .careers-infos {
+    gap: 30px 30px;
+    justify-content: center;
+  }
+  
+}
+@media only screen and (max-width: 959px) {
+  .section-block {
+    margin-bottom: 60px;
+  }
+  .careers-top__hero--txt {
+    top: 56px;
+  }
+  .careers-top__hero--txt h1 {
+    font-size: 16px;
+  }
+  .careers-top__hero--txt h1 span,
+  h4.container__inner--title-sub span {
+    font-size: 14px;
+  }
+  .page-title__inner h2.page-title__name {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .page-title__inner h3.page-title__name {
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .container__inner--careers {
+    padding-bottom: 0;
+  }
+  h4.container__inner--title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .wealthpark-departments__main {
+    margin-bottom: 25px;
+  }
+  .wealthpark-departments__subs {
+    flex-wrap: wrap;
+  }
+  .wealthpark-departments__sub {
+    margin-bottom: 25px;
+  }
+  .wealthpark-departments__sub {
+    width: 157px;
+  }
+  .wealthpark-departments__sub a {
+    width: 139px;
+  }
+  .wealthpark-departments__main::before,
+  .wealthpark-departments__sub::after,
+  .wealthpark-departments__sub::before {
+    /* display: none; */
+  }
+  .careers-infos {
+    justify-content: center;
+  }
+  .container__inner--careers-about p {
+    font-size: 30px;
+  }
+  .career-identity-image {
+    margin-bottom: 0px;
+  }
+  #beAlternative {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+  .page-title__inner h3.page-title__name--withlink {
+    flex-direction: column;
+  }
+  .page-title__inner h3.page-title__name--withlink span {
+    margin-bottom: 10px;
+  }
+  .page-title__inner h3.page-title__name--withlink span,
+  .page-title__inner h3.page-title__name--withlink a {
+    text-align: center;
+    width: 100%;
+  }
+  .career-mission__title {
+    margin-bottom: 20px;
+  }
+  .career-mission__txt,
+  .container__inner--description {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .container__inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .career-banner .container__inner {
+    padding-bottom: 50px;
+  }
+  .sns-banners-container {
+    padding: 0 0;
+  }
+  .hidden-sp {
+    display: none!important;
+  }
+  .visible-sp {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .careers-info {
+    width: 100%;
+  }
+}
+
+
+/* utils */
+.reset-mb {
+  margin-bottom: 0 !important;
+}
+.reset-pb {
+  padding-bottom: 0 !important;
+}
+
+/* DIAGRAM SP */
+@media only screen and (max-width: 959px) {
+  .wealthpark-departments {
+    width: 345px;
+    margin: 0 auto;
+  }
+  .wealthpark-departments--btnLinks {
+    height: 520px;
+  }
+  .wealthpark-departments__main-sub {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 6px;
+  }
+  .wealthpark-departments__subs {
+    display: block;
+    width: 290px;
+    margin-left: 55px
+  }
+  .wealthpark-departments__subs::before {
+    content: "";
+    position: absolute;
+    height: calc(100% + 7px);
+    width: 1px;
+    background: #ccc;
+    z-index: 1;
+    top: -26px;
+    left: -30px;
+  }
+  .wealthpark-departments__sub {
+    display: block;
+    width: 100% !important;
+    position: relative;
+    height: 40px;
+  }
+  .wealthpark-departments__sub a {
+    width: 100% !important;
+    height: 40px;
+  }
+  .wealthpark-departments__sub::before {
+    left: -29px;
+    height: 1px;
+    width: 30px;
+    top: 20.5px;
+  }
+  .wealthpark-departments__main::before {
+    display: none;
+  }
+  
+  .wealthpark-departments__sub::after {
+    display: none;
+  }
+  .wealthpark-departments--multilevel {
+    position: relative;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__subs,
+  .wealthpark-departments--multilevel .wealthpark-departments__sub {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line0 {
+    top: 0;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line1 {
+    top: 65px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line2 {
+    top: 130px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line3 {
+    top: 195px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line4 {
+    top: 260px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line5 {
+    top: 325px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line6 {
+    top: 390px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line7 {
+    top: 455px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line8 {
+    top: 520px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line9 {
+    top: 585px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line10 {
+    top: 650px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line11 {
+    top: 715px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line12 {
+    top: 780px;
+  }
+  .wealthpark-departments--multilevel .wealthpark-departments__sub.line13 {
+    top: 845px;
+  }
+  .wealthpark-departments--multilevel--saas {
+    height: 650px;
+  }
+  .wealthpark-departments__subs-layer-2 .wealthpark-departments__sub {
+    width: 240px !important;
+  }
+  .layer-1-heading.line1 a::after,
+  .layer-1-heading.line4 a::after {
+    height: 112px;
+    top: 38px;
+    left: 20px;
+  }
+  .layer-1-heading.line4 a::after {
+    height: 177px;
+  }
+  .wealthpark-departments--multilevel--saas .wealthpark-departments__subs-layer-1.wealthpark-departments__subs::before {
+    top: 40px;
+    height: 566px;
+  }
+  .wealthpark-departments--multilevel--product-design {
+    height: 455px;
+  }
+  .wealthpark-departments--multilevel--hr {
+    height: 895px;
+  }
+  .wealthpark-departments--multilevel-nohead .wealthpark-departments__sub {
+    width: 290px !important;
+  }
+  .wealthpark-departments--multilevel-nohead .wealthpark-departments__subs-layer-1,
+  .wealthpark-departments--multilevel-nohead .layer-1-heading {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .wealthpark-departments--multilevel-nohead .layer-1-heading::before,
+  .wealthpark-departments--multilevel-nohead .wealthpark-departments__subs::before {
+    display: none !important;
+  }
+  .wealthpark-departments--multilevel-nohead .layer-1-heading a::after {
+    left: 25px;
+    top: 38px;
+  }
+  .wealthpark-departments--multilevel--product-design .layer-1-heading.line0 a::after {
+    height: 112px;
+  }
+  .wealthpark-departments--multilevel--product-design .layer-1-heading.line3 a::after {
+    height: 177px;
+  }
+  .wealthpark-departments--multilevel--hr .layer-1-heading.line0 a::after {
+    height: 307px;
+  }
+  .wealthpark-departments--multilevel--hr .layer-1-heading.line6 a::after {
+    height: 242px;
+  }
+  .wealthpark-departments--multilevel--hr .layer-1-heading.line11 a::after {
+    height: 47px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .tree img.tree-pc {
+    display: none !important;
+  }
+  .tree img.tree-sp {
+    display: block !important;
+    max-width: 335px;
+  }
+}
+
+
+
+
+
+/* CAREER JOB LIST */
+.jobs {
+  display: flex;
+  width: 100%;
+  background: #FFFFFF;
+  align-items: stretch;
+}
+.jobs ul.job-primary {
+  background: #CCCCCC;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 180px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.jobs ul.job-primary li {
+  flex-grow: 1;
+}
+.jobs ul.job-primary li a {
+  display: flex;
+  align-items: center;
+  padding: 45px 0 45px 40px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  transition: all .3s;
+  height: 100%;
+  position: relative;
+}
+.jobs ul.job-primary li a:hover,
+.jobs ul.job-primary li a.active {
+  background: #2b2b2b;
+  color: #fff;
+  opacity: 1;
+}
+
+.jobs ul.job-primary li a span::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 5px);
+  right: 20px;
+  background: url(../img/caret-right-white.svg) no-repeat center;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.jobs ul.job-primary li a.active span::after,
+.jobs ul.job-primary li a:hover span::after {
+  opacity: 1;
+}
+
+
+.job-tertiary {
+  flex-grow: 2;
+  display: none;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  align-items: center;
+  
+}
+.job-tertiary.active {
+  display: flex;
+}
+
+.job-tertiary__tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: stretch;
+}
+.job-tertiary__tags a {
+  display: inline-block;
+  background: #fff;
+  width: calc(50% - 20px);
+  border-radius: 60px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 18px 30px;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+  transition: color .3s;
+  opacity: 1;
+  border: 1px solid #000000;
+}
+
+.job-tertiary__tags a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #2b2b2b;
+  z-index: 0;
+  width: 0;
+  transition: width .3s;
+}
+
+.job-tertiary__tags a span {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+.job-tertiary__tags a span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: calc(50% - 5px);
+  background: url(../img/caret-right-black.svg) no-repeat center;
+  transition: all .3s;
+}
+
+.job-tertiary__tags a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.job-tertiary__tags a:hover::after {
+  right: 0;
+  width: 100%;
+}
+.job-tertiary__tags a:hover span::after {
+  background: url(../img/caret-right-white.svg) no-repeat center;
+  right: -5px;
+}
+
+
+.current-recruiting-mobile {
+  display: none;
+}
+
+.accordion-career-btn {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #eee;
+}
+.accordion-career-btn.active {
+  border-bottom: 1px solid #000000;
+}
+.accordion-career-btn .icon {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  right: 20px;
+  top: calc(50% - 5px);
+  
+}
+
+.accordion-career-btn .icon {
+  background: url(../img/plus.svg) no-repeat center;
+}
+.accordion-career-btn .icon.active {
+  background: url(../img/minus.svg) no-repeat center;
+}
+
+.accordion-career-content {
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+.accordion-career-content a {
+  display: block;
+  width: 100%;
+  padding: 30px 20px;
+  background: #f5f5f5 url(../img/caret-right-black.svg) no-repeat center right 20px;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* INNER PAGE */
+.blog-articles__item-body--inner a {
+  color: #2b2b2b;
+}
+
+@media screen and (max-width: 959px) {
+  .jobs ul.job-primary li a {
+    padding: 45px 0 45px 15px;
+  }
+  .jobs ul.job-primary {
+    flex-basis: 140px;
+  }
+  .job-tertiary {
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .jobs ul.job-primary {
+    display: none;
+  }
+  .current-recruiting-desktop {
+    display: none;
+  }
+  .current-recruiting-mobile {
+    display: block;
+  }
+
+
+}

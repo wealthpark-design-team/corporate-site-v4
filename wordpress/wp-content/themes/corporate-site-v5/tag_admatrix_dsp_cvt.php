@@ -1,0 +1,27 @@
+<!-- ■CVタグ※直貼り、YTM用（GTM以外） -->
+<script type="text/javascript">
+(function(){
+    var fn = function () {
+        var price = 0;
+        var p = (("https:" == document.location.protocol) ? "https://" : "http://"), r = Math.round(Math.random() * 10000000), rf = window.top.location.href, prf = window.top.document.referrer, i = (window.AdMatrix && window.AdMatrix.CookieUtil) ? window.AdMatrix.CookieUtil.sharedId() : '';
+        var span = document.createElement('span');
+        span.innerHTML = unescape('%3Cimg')+ ' src="'+ p + 'acq-3pas.admatrix.jp/cv/7/01/d414d09ad3c0f69278570f9c0a633dec.fs?price=' + encodeURIComponent(price) + '&cb=' + encodeURIComponent(r) + '&rf=' + encodeURIComponent(rf) +'&prf=' + encodeURIComponent(prf) + '&i=' + encodeURIComponent(i) + '" alt="" style="display:block; margin:0; padding:0; border:0; outline:0; width:0; height:0; line-height:0;"' + unescape('%2F%3E');
+        (document.body && document.body.appendChild) ? document.body.appendChild(span) : document.write(span.innerHTML);
+    };
+
+    if (window.addEventListener) { window.addEventListener('load', fn, false); } else { fn(); }
+})();
+</script>
+<noscript><img src="//acq-3pas.admatrix.jp/cv/8/01/d414d09ad3c0f69278570f9c0a633dec.fs?price=0" alt="" style="display:block; margin:0; padding:0; border:0; outline:0; width:0; height:0; line-height:0;" /></noscript>
+
+<!-- ■CVタグ※GTM用 -->
+<script type="text/javascript">
+(function(){
+    var price = 0;
+    var p = (("https:" == document.location.protocol) ? "https://" : "http://"), r = Math.round(Math.random() * 10000000), rf = window.top.location.href, prf = window.top.document.referrer, i = (window.AdMatrix && window.AdMatrix.CookieUtil) ? window.AdMatrix.CookieUtil.sharedId() : '';
+    var span = document.createElement('span');
+    span.innerHTML = unescape('%3Cimg')+ ' src="'+ p + 'acq-3pas.admatrix.jp/cv/7/01/d414d09ad3c0f69278570f9c0a633dec.fs?price=' + encodeURIComponent(price) + '&cb=' + encodeURIComponent(r) + '&rf=' + encodeURIComponent(rf) +'&prf=' + encodeURIComponent(prf) + '&i=' + encodeURIComponent(i) + '" alt="" style="display:block; margin:0; padding:0; border:0; outline:0; width:0; height:0; line-height:0;"' + unescape('%2F%3E');
+    (document.body && document.body.appendChild) ? document.body.appendChild(span) : document.write(span.innerHTML);
+})();
+</script>
+<noscript><img src="//acq-3pas.admatrix.jp/cv/8/01/d414d09ad3c0f69278570f9c0a633dec.fs?price=0" alt="" style="display:block; margin:0; padding:0; border:0; outline:0; width:0; height:0; line-height:0;" /></noscript>

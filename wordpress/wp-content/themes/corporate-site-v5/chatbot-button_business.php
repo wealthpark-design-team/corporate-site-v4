@@ -1,0 +1,1 @@
+<img src="https://app.chatplus.jp/image/button/21a7370b/1/6139807d51ac6" class="chatplus-button" alt="チャットbotはこちら" onclick='window.open("https://app.chatplus.jp/chat/visitor/21a7370b_1?t=btn&bg=%23000000", "chat_plus_jp_window", "width=410, height=520, menubar=no, toolbar=no, scrollbars=no, location=no");'>
