@@ -1,5 +1,5 @@
 # WordPress
-wp-config.php
+# wp-config.php は開発環境用として共有（本番とは異なる設定）
 wp-content/uploads/
 wp-content/cache/
 wp-content/backups/

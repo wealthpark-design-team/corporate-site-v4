@@ -83,9 +83,44 @@ Next.js版で作成したデザインをWordPressテーマとして再現して�
 
 - Docker Desktop
 
-### セットアップ
+### 🚀 初回セットアップ（新規メンバー向け）
 
-すでにセットアップ済みです。以下のコマンドで起動できます：
+#### ステップ1: リポジトリをクローン
+
+```bash
+git clone git@github.com-wealthpark:wealthpark/corporate-site-v4.git
+cd corporate-site-v4
+```
+
+#### ステップ2: データベースダンプをダウンロード
+
+以下のリンクから `wealthparkincltd.sql` をダウンロードし、プロジェクトルートに配置してください：
+
+**📥 ダウンロードリンク:** [Google Drive - wealthparkincltd.sql](https://drive.google.com/file/d/1X5NSWYlyE1yCHhc8e08YJCbOaOP8Ain8/view?usp=drive_link)
+
+```bash
+# プロジェクトルートに配置
+# corporate-site-v4/wealthparkincltd.sql
+```
+
+#### ステップ3: セットアップスクリプトを実行
+
+```bash
+./setup.sh
+```
+
+このスクリプトが自動的に以下を実行します：
+- Docker環境の確認
+- データベースダンプの確認
+- Dockerコンテナの起動
+- データベースのインポート
+- セットアップの検証
+
+**完了！** http://localhost:8080 にアクセスできます。
+
+---
+
+### 日常的な使い方（セットアップ済みの場合）
 
 ```bash
 # コンテナ起動
