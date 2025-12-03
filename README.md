@@ -199,10 +199,51 @@ WealthParkのDXコンサルティング事業を紹介する新規ページ。v4
 
 ## テーマ開発
 
-### 現在のテーマ
+### 現在のテーマ状況
 
-- `wordpress/wp-content/themes/wp-next-landing-page/` - 本番で稼働中のテーマ
-- `wordpress/wp-content/themes/corporate-site-v5/` - 開発中の新テーマ（v4→v5にリネーム）
+| テーマ名 | 状態 | 説明 |
+|---------|------|------|
+| `wp-next-landing-page` | 本番で稼働中 | 現在のコーポレートサイト（旧テーマ） |
+| `corporate-site-v5` | 開発中 | 新デザインのテーマ（v4→v5にリネーム済み） |
+| `corporate-site-v4` | 未使用 | 初期テーマ（現在は使用していない） |
+
+### ⚠️ 重要：デプロイとテーマ切り替えの流れ
+
+**このプロジェクトでは、テーマファイルを本番環境にアップロードしても、即座には反映されません。**
+
+#### デプロイの仕組み
+
+```
+1. ローカル開発
+   └── corporate-site-v5 テーマを編集
+
+2. dev環境にアップロード
+   └── テーマファイルをKinstaのdev環境にコピー
+
+3. dev環境でテーマ切り替え（テスト）
+   └── 管理画面 → 外観 → テーマ → corporate-site-v5 を有効化
+
+4. Live環境にアップロード
+   └── テーマファイルをKinstaのLive環境にコピー
+   └── ⚠️ この時点では旧テーマ（wp-next-landing-page）のまま表示される
+
+5. 本番でテーマ切り替え（公開）
+   └── 管理画面 → 外観 → テーマ → corporate-site-v5 を有効化
+   └── ✅ この瞬間に新デザインが公開される
+```
+
+#### メリット
+
+- ✅ 本番環境に影響を与えずにテーマファイルをアップロード可能
+- ✅ テーマ切り替えは管理画面でボタン1つ（即座に反映）
+- ✅ 問題があれば即座に旧テーマに切り戻し可能（1秒で完了）
+- ✅ 新旧テーマが共存するため、段階的なリリースが可能
+
+#### 注意点
+
+- データベースは新旧テーマで共通（投稿データ、ユーザー、設定は変わらない）
+- 完全にテストしてから本番切り替えを推奨
+- 旧テーマ（wp-next-landing-page）は切り替え後も1ヶ月程度残しておく（切り戻し用）
 
 ### 新テーマ作成
 
@@ -421,13 +462,13 @@ git push
 ```bash
 # Kinstaの接続情報を使用（ポート8822を指定）
 rsync -avz -e "ssh -p 8822" \
-  ./wordpress/wp-content/themes/corporate-site-v4/ \
-  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
+  ./wordpress/wp-content/themes/corporate-site-v5/ \
+  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v5/
 
 # 例:
 rsync -avz -e "ssh -p 8822" \
-  ./wordpress/wp-content/themes/corporate-site-v4/ \
-  wealthpark@xxx.kinsta.cloud:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
+  ./wordpress/wp-content/themes/corporate-site-v5/ \
+  wealthpark@xxx.kinsta.cloud:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v5/
 ```
 
 ---
@@ -440,7 +481,7 @@ rsync -avz -e "ssh -p 8822" \
 
 2. **テーマを有効化**
    - 管理画面 → **外観** → **テーマ**
-   - `corporate-site-v4` を見つけて **有効化**
+   - `corporate-site-v5` を見つけて **有効化**
 
 3. **フロントエンドで確認**
    - dev環境のURLにアクセス
@@ -493,34 +534,58 @@ dev環境と同じ手順で、Live環境のSFTP/SSH情報を使ってアップ�
 
 # rsync経由
 rsync -avz -e "ssh -p 8822" \
-  ./wordpress/wp-content/themes/corporate-site-v4/ \
-  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v4/
+  ./wordpress/wp-content/themes/corporate-site-v5/ \
+  ユーザー名@ホスト名:/www/wealthparkincltd_xxx/public/wp-content/themes/corporate-site-v5/
 ```
 
 ---
 
-### ステップ6: 本番環境で動作確認
+### ステップ6: 本番環境でテーマ切り替え（公開）
+
+⚠️ **重要：この時点でテーマファイルは本番環境にアップロード済みですが、まだ旧テーマ（wp-next-landing-page）が表示されています。**
+
+#### テーマ切り替え手順
 
 1. **本番環境のWordPress管理画面にアクセス**
-   - https://wealth-park.com/wp-admin
+   - https://wealth-park.com/ja/amaterasu18/（カスタムログインURL）
 
-2. **テーマを有効化**
+2. **現在のテーマを確認**
    - 管理画面 → **外観** → **テーマ**
-   - `corporate-site-v4` を **有効化**
+   - 現在：`wp-next-landing-page` が有効（旧テーマ）
+   - 確認：`corporate-site-v5` が表示されている（アップロード済み）
 
-3. **フロントエンドで最終確認**
+3. **新テーマに切り替え**
+   - `corporate-site-v5` の **有効化** ボタンをクリック
+   - ✅ **この瞬間に新デザインが本番サイトに公開されます**
+
+4. **フロントエンドで最終確認**
    - https://wealth-park.com にアクセス
    - 以下を確認：
      - ✅ トップページが正常に表示される
      - ✅ 全ページのレイアウトが正しい
      - ✅ 画像が表示される（本番のuploadsから読み込み）
-     - ✅ フォームが動作する
-     - ✅ 多言語切り替えが動作する
+     - ✅ フォームが動作する（Contact Form）
+     - ✅ 多言語切り替えが動作する（/ja, /en）
+     - ✅ DXコンサルティングページが表示される（/ja/dx/）
 
-4. **問題がある場合の切り戻し**
+5. **問題がある場合の切り戻し（即座に可能）**
    - 管理画面 → **外観** → **テーマ**
-   - 旧テーマ（`wp-next-landing-page`）を **有効化**
-   - 即座に元の状態に戻ります
+   - 旧テーマ（`wp-next-landing-page`）の **有効化** ボタンをクリック
+   - ✅ **1秒で元の状態に戻ります**
+
+6. **旧テーマの保管**
+   - 切り替え成功後も、`wp-next-landing-page` は削除しない
+   - 1ヶ月程度は残しておく（緊急時の切り戻し用）
+   - 問題なければ、後日削除
+
+---
+
+### ⚠️ デプロイ完了後の注意事項
+
+- **テーマ切り替えは慎重に行う**：平日の日中、アクセスが少ない時間帯を推奨
+- **切り替え後は即座に確認**：主要ページを全てチェック
+- **問題があれば即切り戻し**：管理画面でボタン1つで戻せます
+- **旧テーマは保管**：1ヶ月程度は削除しない
 
 ---
 
