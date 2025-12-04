@@ -23,9 +23,11 @@ Template Name: DX Consulting Service Page
   <meta name="twitter:card" content="summary_large_image" />
   <?php include "external-css-js-common.php" ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/corporate/css/style.css?<?php echo date('Ymd-Hi'); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=1">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=5">
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-3.3.1.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/modal-multi.js?<?php echo date('Ymd-Hi'); ?>"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/three.r134.min.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/vanta.waves.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
@@ -40,7 +42,7 @@ Template Name: DX Consulting Service Page
   <?php include "header-common.php" ?>
 
   <!-- Hero Section -->
-  <section class="dx-hero">
+  <section class="dx-hero" id="dx-hero-vanta">
     <div class="dx-hero__background"></div>
     <div class="dx-hero__inner">
       <h1 class="dx-hero__title">
@@ -54,45 +56,57 @@ Template Name: DX Consulting Service Page
         <a href="<?php echo esc_url(home_url('/')); ?>careers/" class="dx-button dx-button--secondary">採用情報</a>
       </div>
     </div>
+    <!-- Scroll Indicator -->
+    <div class="dx-hero__scroll">
+      <span class="dx-hero__scroll-text">SCROLL</span>
+      <div class="dx-hero__scroll-icon"></div>
+    </div>
   </section>
 
   <!-- Features Section -->
   <section class="dx-features">
     <div class="dx-container">
+      <p class="dx-section-label">3 features of WealthPark</p>
       <h2 class="dx-section-title">WealthParkが選ばれる3つの特徴</h2>
 
-      <div class="dx-features__grid">
+      <div class="dx-features__list">
         <!-- Feature 1 -->
-        <div class="dx-feature">
-          <div class="dx-feature__image">
-            <img loading='lazy' src="<?php echo get_template_directory_uri() ?>/business/img/point_001.png" alt="成長を続ける不動産業界に特化したコンサルティング" />
+        <div class="dx-feature dx-feature--right">
+          <div class="dx-feature__content">
+            <h3 class="dx-feature__title">進化を続ける不動産業界に<br>特化したコンサルティング</h3>
+            <p class="dx-feature__description">
+              私たちは不動産業界に特化することで培った深い専門知識と、業界動向を先読みする洞察力を武器に、クライアントの成長を加速させます。
+            </p>
           </div>
-          <h3 class="dx-feature__title">成長を続ける不動産業界に特化したコンサルティング</h3>
-          <p class="dx-feature__description">
-            私たちは不動産業界に特化することで培った深い専門知識と、業界動向を先読みする洞察力を武器に、クライアントの成長を加速させます。
-          </p>
+          <div class="dx-feature__image">
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_001.jpg" alt="進化を続ける不動産業界に特化したコンサルティング" />
+          </div>
         </div>
 
         <!-- Feature 2 -->
-        <div class="dx-feature">
-          <div class="dx-feature__image">
-            <img loading='lazy' src="<?php echo get_template_directory_uri() ?>/business/img/business_top_point2.png" alt="不動産ビジネスの最上流からプロジェクトデリバリー" />
+        <div class="dx-feature dx-feature--left">
+          <div class="dx-feature__content">
+            <h3 class="dx-feature__title">不動産ビジネスの最上流から<br>プロジェクトデリバリー</h3>
+            <p class="dx-feature__description">
+              豊富な実績と技術力を活用し、市場調査や事業展開といった最上流の段階からプロジェクトデリバリーします。
+            </p>
           </div>
-          <h3 class="dx-feature__title">不動産ビジネスの最上流からプロジェクトデリバリー</h3>
-          <p class="dx-feature__description">
-            豊富な実績と技術力を活用し、市場調査や事業展開といった最上流の段階からプロジェクトデリバリーします。
-          </p>
+          <div class="dx-feature__image">
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_002.png" alt="不動産ビジネスの最上流からプロジェクトデリバリー" />
+          </div>
         </div>
 
         <!-- Feature 3 -->
-        <div class="dx-feature">
-          <div class="dx-feature__image">
-            <img loading='lazy' src="<?php echo get_template_directory_uri() ?>/business/img/business_top_point3.png" alt="ビジネス・BPR・ITなど幅広いコンサルティングメニュー提供" />
+        <div class="dx-feature dx-feature--right">
+          <div class="dx-feature__content">
+            <h3 class="dx-feature__title">ビジネス・BPR・ITなど幅広い<br>コンサルティングメニュー提供</h3>
+            <p class="dx-feature__description">
+              ビジネス戦略コンサルティングを軸としながら、BPR（業務改革）、IT、組織・人材開発など、多様なコンサルティングメニューを提供しています。
+            </p>
           </div>
-          <h3 class="dx-feature__title">ビジネス・BPR・ITなど幅広いコンサルティングメニュー提供</h3>
-          <p class="dx-feature__description">
-            ビジネス戦略コンサルティングを軸としながら、BPR（業務改革）、IT、組織・人材開発など、多様なコンサルティングメニューを提供しています。
-          </p>
+          <div class="dx-feature__image">
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_003.jpg" alt="ビジネス・BPR・ITなど幅広いコンサルティングメニュー提供" />
+          </div>
         </div>
       </div>
     </div>
@@ -269,6 +283,27 @@ Template Name: DX Consulting Service Page
 
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
   <?php include_once("tag_ptengine.php") ?>
+
+  <script>
+  // Vanta.js WAVES background effect for hero section
+  if (typeof VANTA !== 'undefined' && typeof THREE !== 'undefined') {
+    VANTA.WAVES({
+      el: "#dx-hero-vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0,
+      shininess: 26.00,
+      waveHeight: 15.50,
+      waveSpeed: 0.60,
+      zoom: 1.10
+    });
+  }
+  </script>
 </body>
 
 </html>
