@@ -283,12 +283,7 @@ function forceWriteThumbnailUrl($id = 0)
     $id = $id === 0 ? $post->ID : $id;
 
     if (has_post_thumbnail($id)) {
-        $thumbnail_url = get_the_post_thumbnail_url($id);
-        if (!empty($thumbnail_url)) {
-            return $thumbnail_url;
-        }
-
-        // localhost環境でattachmentが見つからない場合、本番環境のURLを直接構築
+        // localhost環境では常に本番環境のURLを構築
         if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
             $thumbnail_id = get_post_thumbnail_id($id);
             if ($thumbnail_id) {
@@ -302,6 +297,17 @@ function forceWriteThumbnailUrl($id = 0)
                 }
             }
         }
+
+        // 本番環境では通常のWordPress関数を使用
+        $thumbnail_url = get_the_post_thumbnail_url($id);
+        if (!empty($thumbnail_url)) {
+            return $thumbnail_url;
+        }
+    }
+
+    // localhost環境では本番のno-imageを使用
+    if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+        return 'https://wealth-park.com/wp-content/themes/wp-next-landing-page/img/no-image.jpg';
     }
 
     return get_template_directory_uri()."/img/no-image.jpg";

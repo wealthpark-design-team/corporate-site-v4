@@ -2,6 +2,368 @@
    DX Consulting Page Styles
    =================================== */
 
+/* DX Page Header Styles */
+.header--dx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+}
+
+.menu__navbar--dx-pc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(1400 / 1440 * 100%);
+  width: 100%;
+  margin: 1px auto;
+  min-height: 70px;
+}
+
+.menu__navbar__logo--dx {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.menu__navbar__logo--dx img {
+  width: 100%;
+}
+
+.menu__list--dx {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.menu__list-item--dx {
+  position: relative;
+}
+
+.menu__list-link--dx {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu__list-link--dx:hover {
+  color: #000;
+}
+
+.menu__dropdown-toggle--dx::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  vertical-align: middle;
+  border-top: 4px solid #1a1a1a;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.menu__dropdown--dx {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 280px;
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px 0;
+  margin-top: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  list-style: none;
+  z-index: 1001;
+}
+
+.menu__dropdown--edge--dx {
+  right: 0;
+  left: auto;
+  min-width: 320px;
+}
+
+.menu__parent-dropdown--dx:hover .menu__dropdown--dx {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu__dropdown-list-item--dx {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__dropdown-list-link--dx {
+  display: block;
+  padding: 12px 20px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.6;
+  transition: background-color 0.2s ease;
+}
+
+.menu__dropdown-list-link--dx:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
+}
+
+.menu__dropdown-list-link--dx small {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.menu__dropdown-heading--dx {
+  padding: 8px 20px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.menu__dropdown-heading--dx:first-child {
+  margin-top: 0;
+}
+
+.menu__dropdown__divider--dx {
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 8px 0;
+}
+
+.menu__list-item-btn--dx {
+  margin-left: 10px;
+}
+
+.menu__list-link-btn--dx {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.menu__list-link-btn--black--dx {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 2px solid #1a1a1a;
+}
+
+.menu__list-link-btn--black--dx:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.menu__list-link-btn--outline--dx {
+  background-color: transparent;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+}
+
+.menu__list-link-btn--outline--dx:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Mobile Navigation */
+.menu__navbar--dx-sp {
+  display: none;
+}
+
+.menu__navbar--mobile--dx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.menu__burger--dx {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu__burger--dx span {
+  width: 25px;
+  height: 2px;
+  background-color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.menu__list-container--dx {
+  position: fixed;
+  top: 57px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+  overflow-y: auto;
+}
+
+.menu__list-container--dx.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu__list--mobile--dx {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.menu__sns--list--dx {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.menu__sns--list--dx img {
+  width: 24px;
+  height: 24px;
+}
+
+/* DX Page Breadcrumbs */
+.breadcrumbs--dx {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 999;
+}
+
+.breadcrumbs--dx ul {
+  display: flex;
+  overflow: auto;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  padding: 0 15px;
+  list-style: none;
+  margin: 0;
+}
+
+.breadcrumbs--dx ul li {
+  font-size: 14px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  line-height: 1;
+  position: relative;
+}
+
+.breadcrumbs--dx ul li img {
+  margin-right: 7px;
+}
+
+.breadcrumbs--dx ul li::after {
+  content: '\e315';
+  font-family: 'Material Icons';
+  position: absolute;
+  right: -18px;
+  top: 8px;
+}
+
+.breadcrumbs--dx ul li:first-child:after {
+  content: '';
+  right: -10px;
+  width: 1px;
+  height: 14px;
+  background: #2b2b2b;
+}
+
+.breadcrumbs--dx ul li:last-child::after {
+  display: none;
+}
+
+.breadcrumbs--dx ul li a {
+  color: #2b2b2b;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 959px) {
+  .breadcrumbs--dx {
+    top: 57px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu__navbar--dx-pc {
+    display: none;
+  }
+
+  .menu__navbar--dx-sp {
+    display: block;
+  }
+}
+
+/* Scroll Animation */
+.dx-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.dx-animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger animation for child elements */
+.dx-features .dx-feature {
+  transition-delay: 0.2s;
+}
+
+.dx-features .dx-feature:nth-child(2) {
+  transition-delay: 0.4s;
+}
+
+.dx-features .dx-feature:nth-child(3) {
+  transition-delay: 0.6s;
+}
+
+.dx-cases .dx-case {
+  transition-delay: calc(0.1s * var(--item-index, 0));
+}
+
 /* Common */
 .dx-container {
   max-width: 1200px;
@@ -20,7 +382,7 @@
 }
 
 .dx-section-title {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 20px;
@@ -29,10 +391,10 @@
 }
 
 .dx-section-subtitle {
-  font-size: 16px;
-  text-align: center;
+  font-size: 18px;
   margin-bottom: 60px;
-  color: #666;
+  color: #1a1a1a;
+  font-weight: 700;
   line-height: 1.8;
 }
 
@@ -43,7 +405,7 @@
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 50px;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
@@ -51,23 +413,25 @@
 
 .dx-button--primary {
   background-color: #fff;
-  color: #000;
-  border-color: #fff;
+  color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 .dx-button--primary:hover {
-  background-color: #f5f5f5;
-  border-color: #f5f5f5;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-color: #1a1a1a;
 }
 
 .dx-button--secondary {
   background-color: transparent;
-  color: #fff;
-  border-color: #fff;
+  color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 .dx-button--secondary:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 .dx-button--outline {
@@ -86,13 +450,14 @@
 /* Hero Section */
 .dx-hero {
   position: relative;
-  min-height: calc(100vh - 100px);
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #000;
-  padding: 100px 20px;
+  background: #f5f5f5;
+  padding: 100px 20px 80px;
   overflow: hidden;
+  margin-top: 0;
 }
 
 .dx-hero__background {
@@ -109,7 +474,7 @@
   position: relative;
   z-index: 2;
   text-align: left;
-  color: #fff;
+  color: #1a1a1a;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
@@ -121,14 +486,29 @@
   font-weight: 800;
   margin-bottom: 20px;
   line-height: 1.4;
-  color: #fff;
+  color: #1a1a1a;
+  min-height: 98px;
+}
+
+/* Typewriter cursor blink animation */
+@keyframes blink-cursor {
+  0%, 49% {
+    border-color: #1a1a1a;
+  }
+  50%, 100% {
+    border-color: transparent;
+  }
+}
+
+.dx-hero__title {
+  animation: blink-cursor 1s step-end infinite;
 }
 
 .dx-hero__subtitle {
   font-size: 20px;
   margin-bottom: 40px;
   line-height: 1.6;
-  color: #fff;
+  color: #1a1a1a;
 }
 
 .dx-hero__buttons {
@@ -155,7 +535,7 @@
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #fff;
+  color: #1a1a1a;
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
@@ -163,7 +543,7 @@
 .dx-hero__scroll-icon {
   width: 24px;
   height: 40px;
-  border: 2px solid #fff;
+  border: 2px solid #1a1a1a;
   border-radius: 12px;
   position: relative;
 }
@@ -176,7 +556,7 @@
   transform: translateX(-50%);
   width: 4px;
   height: 8px;
-  background-color: #fff;
+  background-color: #1a1a1a;
   border-radius: 2px;
   animation: scrollWheel 2s ease-in-out infinite;
 }
@@ -234,17 +614,17 @@
 }
 
 .dx-features .dx-feature__title {
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 24px;
   color: #333;
 }
 
 .dx-features .dx-feature__description {
-  font-size: 16px;
+  color: #1a1a1a;
+  font-size: 18px;
   line-height: 1.8;
-  color: #666;
 }
 
 .dx-features .dx-feature__image {
@@ -348,6 +728,10 @@
   background-color: #fff;
 }
 
+.dx-consultants-team .container__inner {
+  max-width: 1200px;
+}
+
 .dx-consultants-team .dx-section-title {
   margin-bottom: 20px;
 }
@@ -430,6 +814,30 @@
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.dx-job__apply {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+}
+
+.dx-button--apply {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 2px solid #1a1a1a;
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.dx-button--apply:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 /* Responsive Design */

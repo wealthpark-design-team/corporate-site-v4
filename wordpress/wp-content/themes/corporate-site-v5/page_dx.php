@@ -27,7 +27,7 @@ Template Name: DX Consulting Service Page
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-3.3.1.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/modal-multi.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <script src="<?php echo get_template_directory_uri() ?>/js/three.r134.min.js"></script>
-  <script src="<?php echo get_template_directory_uri() ?>/js/vanta.waves.min.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/vanta.dots.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
@@ -39,7 +39,7 @@ Template Name: DX Consulting Service Page
 <body>
   <?php include "tag-manager-body.php" ?>
 
-  <?php include "header-common.php" ?>
+  <?php include "template-parts/header-dx.php" ?>
 
   <!-- Hero Section -->
   <section class="dx-hero" id="dx-hero-vanta">
@@ -250,6 +250,9 @@ Template Name: DX Consulting Service Page
             <a href="#" class="dx-button dx-button--outline">ポリシー記事</a>
             <a href="#" class="dx-button dx-button--outline">キャリア座談会</a>
           </div>
+          <div class="dx-job__apply">
+            <a href="https://herp.careers/v1/wealthpark/w9GoJAM7W46X/apply" class="dx-button dx-button--apply" target="_blank" rel="noopener">応募する</a>
+          </div>
         </div>
 
         <!-- Job 2 -->
@@ -271,6 +274,9 @@ Template Name: DX Consulting Service Page
             <a href="#" class="dx-button dx-button--outline">ポリシー記事</a>
             <a href="#" class="dx-button dx-button--outline">キャリア座談会</a>
           </div>
+          <div class="dx-job__apply">
+            <a href="https://herp.careers/v1/wealthpark/w9GoJAM7W46X/apply" class="dx-button dx-button--apply" target="_blank" rel="noopener">応募する</a>
+          </div>
         </div>
       </div>
     </div>
@@ -285,9 +291,9 @@ Template Name: DX Consulting Service Page
   <?php include_once("tag_ptengine.php") ?>
 
   <script>
-  // Vanta.js WAVES background effect for hero section
+  // Vanta.js DOTS background effect for hero section
   if (typeof VANTA !== 'undefined' && typeof THREE !== 'undefined') {
-    VANTA.WAVES({
+    VANTA.DOTS({
       el: "#dx-hero-vanta",
       mouseControls: true,
       touchControls: true,
@@ -296,13 +302,66 @@ Template Name: DX Consulting Service Page
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
-      color: 0x0,
-      shininess: 26.00,
-      waveHeight: 15.50,
-      waveSpeed: 0.60,
-      zoom: 1.10
+      color: 0x555555,
+      color2: 0x0,
+      backgroundColor: 0xf5f5f5,
+      size: 3.40,
+      spacing: 32.00,
+      showLines: false
     });
   }
+
+  // Typewriter effect for hero title
+  document.addEventListener('DOMContentLoaded', function() {
+    const titleElement = document.querySelector('.dx-hero__title');
+    const text = titleElement.textContent.trim();
+    titleElement.textContent = '';
+    titleElement.style.borderRight = '2px solid #1a1a1a';
+    titleElement.style.paddingRight = '5px';
+    titleElement.style.display = 'inline-block';
+
+    let index = 0;
+    const speed = 100; // typing speed in milliseconds
+
+    function typeWriter() {
+      if (index < text.length) {
+        titleElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, speed);
+      } else {
+        // Remove cursor after typing is complete
+        setTimeout(function() {
+          titleElement.style.borderRight = 'none';
+        }, 500);
+      }
+    }
+
+    // Start typing after a short delay
+    setTimeout(typeWriter, 300);
+
+    // Scroll Animation (Intersection Observer)
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('dx-animate-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Observe all sections and elements
+    const animateElements = document.querySelectorAll('.dx-features, .dx-cases, .dx-consultants-team, .dx-recruitment, .dx-feature, .dx-case, .dx-job');
+    animateElements.forEach(function(element) {
+      element.classList.add('dx-animate');
+      observer.observe(element);
+    });
+  });
   </script>
 </body>
 
