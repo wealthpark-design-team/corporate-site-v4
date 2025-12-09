@@ -23,11 +23,12 @@ Template Name: DX Consulting Service Page
   <meta name="twitter:card" content="summary_large_image" />
   <?php include "external-css-js-common.php" ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/corporate/css/style.css?<?php echo date('Ymd-Hi'); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=5">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=6">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-3.3.1.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/modal-multi.js?<?php echo date('Ymd-Hi'); ?>"></script>
-  <script src="<?php echo get_template_directory_uri() ?>/js/three.r134.min.js"></script>
-  <script src="<?php echo get_template_directory_uri() ?>/js/vanta.dots.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
@@ -42,8 +43,8 @@ Template Name: DX Consulting Service Page
   <?php include "template-parts/header-dx.php" ?>
 
   <!-- Hero Section -->
-  <section class="dx-hero" id="dx-hero-vanta">
-    <div class="dx-hero__background"></div>
+  <section class="dx-hero">
+    <div id="particles-js" class="dx-hero__background"></div>
     <div class="dx-hero__inner">
       <h1 class="dx-hero__title">
         不動産市場で、戦略を描く
@@ -169,7 +170,8 @@ Template Name: DX Consulting Service Page
       <p class="dx-section-subtitle">大手事業会社、コンサルティングファーム出身者など幅広い人材が活躍中です。</p>
 
       <div class="team">
-        <ul class="team-lists">
+        <!-- Desktop: Grid Layout -->
+        <ul class="team-lists team-lists--desktop">
           <li class="team-lists__person modal-syncer" data-target="modal-content-dx-01">
             <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
             <p class="team-lists__person-name">村上 朝一</p>
@@ -191,6 +193,47 @@ Template Name: DX Consulting Service Page
             <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
           </li>
         </ul>
+
+        <!-- Mobile: Swiper Carousel -->
+        <div class="team-swiper-container team-lists--mobile">
+          <div class="swiper consultants-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-01">
+                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
+                  <p class="team-lists__person-name">村上 朝一</p>
+                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-02">
+                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
+                  <p class="team-lists__person-name">村上 朝一</p>
+                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-03">
+                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
+                  <p class="team-lists__person-name">村上 朝一</p>
+                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-04">
+                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
+                  <p class="team-lists__person-name">村上 朝一</p>
+                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -291,23 +334,109 @@ Template Name: DX Consulting Service Page
   <?php include_once("tag_ptengine.php") ?>
 
   <script>
-  // Vanta.js DOTS background effect for hero section
-  if (typeof VANTA !== 'undefined' && typeof THREE !== 'undefined') {
-    VANTA.DOTS({
-      el: "#dx-hero-vanta",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x555555,
-      color2: 0x0,
-      backgroundColor: 0xf5f5f5,
-      size: 3.40,
-      spacing: 32.00,
-      showLines: false
+  // Particles.js background effect for hero section
+  if (typeof particlesJS !== 'undefined') {
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 428,
+          "density": {
+            "enable": true,
+            "value_area": 1202.559045649142
+          }
+        },
+        "color": {
+          "value": "#b9b9b9"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 160.3412060865523,
+          "color": "#a7a7a7",
+          "opacity": 0.561194221302933,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1042.21783956259
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": false,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
     });
   }
 
@@ -361,6 +490,27 @@ Template Name: DX Consulting Service Page
       element.classList.add('dx-animate');
       observer.observe(element);
     });
+
+    // Initialize Swiper for consultants carousel (mobile only)
+    if (typeof Swiper !== 'undefined') {
+      const consultantsSwiper = new Swiper('.consultants-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        // Enable touch/swipe
+        touchRatio: 1,
+        grabCursor: true,
+      });
+    }
   });
   </script>
 </body>
