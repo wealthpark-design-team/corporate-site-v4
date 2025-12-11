@@ -55,17 +55,46 @@ corporate-site-v4/
 
 ---
 
+### ステップ4: テーマを有効化
+
+**重要：DXページなどの新機能を表示するには、テーマの切り替えが必要です。**
+
+```bash
+# corporate-site-v5 テーマを有効化
+docker exec corporate-v4-wpcli wp theme activate corporate-site-v5 --allow-root
+```
+
+実行結果：
+```
+Success: Switched to 'corporate-site-v5' theme.
+```
+
+---
+
 ## ✅ 完了！
 
 以下のURLにアクセスできます：
 
 - **フロントエンド**: http://localhost:8080
+- **DXページ**: http://localhost:8080/ja/dx/
 - **管理画面**: http://localhost:8080/ja/amaterasu18/
   - ログイン情報：本番環境と同じアカウント
 
 ---
 
 ## 🛠️ トラブルシューティング
+
+### DXページ（/ja/dx/）が表示されない
+
+**原因：テーマが切り替わっていない**
+
+```bash
+# 現在のテーマを確認
+docker exec corporate-v4-wpcli wp theme list --allow-root
+
+# corporate-site-v5 が active になっていない場合、有効化する
+docker exec corporate-v4-wpcli wp theme activate corporate-site-v5 --allow-root
+```
 
 ### Dockerが起動していない
 

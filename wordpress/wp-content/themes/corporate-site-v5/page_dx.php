@@ -23,11 +23,12 @@ Template Name: DX Consulting Service Page
   <meta name="twitter:card" content="summary_large_image" />
   <?php include "external-css-js-common.php" ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/corporate/css/style.css?<?php echo date('Ymd-Hi'); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=6">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dx/css/dx-style.css?v=7">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-3.3.1.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/modal-multi.js?<?php echo date('Ymd-Hi'); ?>"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/three.r134.min.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/vanta.dots.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
   <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri() ?>/app/img/icon.png">
@@ -43,8 +44,8 @@ Template Name: DX Consulting Service Page
   <?php include "template-parts/header-dx.php" ?>
 
   <!-- Hero Section -->
-  <section class="dx-hero">
-    <div id="particles-js" class="dx-hero__background"></div>
+  <section class="dx-hero" id="dx-hero-vanta">
+    <div class="dx-hero__background"></div>
     <div class="dx-hero__inner">
       <h1 class="dx-hero__title">
         不動産市場で、戦略を描く
@@ -54,7 +55,7 @@ Template Name: DX Consulting Service Page
       </p>
       <div class="dx-hero__buttons">
         <a href="<?php echo esc_url(home_url('/')); ?>corporate/contact/" class="dx-button dx-button--primary">お問い合わせ</a>
-        <a href="<?php echo esc_url(home_url('/')); ?>careers/" class="dx-button dx-button--secondary">採用情報</a>
+        <a href="#recruitment" class="dx-button dx-button--secondary">採用情報</a>
       </div>
     </div>
     <!-- Scroll Indicator -->
@@ -67,46 +68,52 @@ Template Name: DX Consulting Service Page
   <!-- Features Section -->
   <section class="dx-features">
     <div class="dx-container">
-      <p class="dx-section-label">3 features of WealthPark</p>
-      <h2 class="dx-section-title">WealthParkが選ばれる3つの特徴</h2>
+      <p class="dx-section-label">Three Key Strengths</p>
+      <div class="dx-title-with-border">
+        <h2 class="dx-section-title">WealthParkが選ばれる3つの特徴</h2>
+        <div class="dx-title-border"></div>
+      </div>
 
       <div class="dx-features__list">
         <!-- Feature 1 -->
         <div class="dx-feature dx-feature--right">
           <div class="dx-feature__content">
+            <span class="dx-feature__number">01</span>
             <h3 class="dx-feature__title">進化を続ける不動産業界に<br>特化したコンサルティング</h3>
             <p class="dx-feature__description">
               私たちは不動産業界に特化することで培った深い専門知識と、業界動向を先読みする洞察力を武器に、クライアントの成長を加速させます。
             </p>
           </div>
           <div class="dx-feature__image">
-            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_001.jpg" alt="進化を続ける不動産業界に特化したコンサルティング" />
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/001.jpg" alt="進化を続ける不動産業界に特化したコンサルティング" />
           </div>
         </div>
 
         <!-- Feature 2 -->
         <div class="dx-feature dx-feature--left">
           <div class="dx-feature__content">
+            <span class="dx-feature__number">02</span>
             <h3 class="dx-feature__title">不動産ビジネスの最上流から<br>プロジェクトデリバリー</h3>
             <p class="dx-feature__description">
               豊富な実績と技術力を活用し、市場調査や事業展開といった最上流の段階からプロジェクトデリバリーします。
             </p>
           </div>
           <div class="dx-feature__image">
-            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_002.png" alt="不動産ビジネスの最上流からプロジェクトデリバリー" />
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/002.jpg" alt="不動産ビジネスの最上流からプロジェクトデリバリー" />
           </div>
         </div>
 
         <!-- Feature 3 -->
         <div class="dx-feature dx-feature--right">
           <div class="dx-feature__content">
+            <span class="dx-feature__number">03</span>
             <h3 class="dx-feature__title">ビジネス・BPR・ITなど幅広い<br>コンサルティングメニュー提供</h3>
             <p class="dx-feature__description">
               ビジネス戦略コンサルティングを軸としながら、BPR（業務改革）、IT、組織・人材開発など、多様なコンサルティングメニューを提供しています。
             </p>
           </div>
           <div class="dx-feature__image">
-            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/service_003.jpg" alt="ビジネス・BPR・ITなど幅広いコンサルティングメニュー提供" />
+            <img loading='lazy' src="https://wealth-park.com/wp-content/uploads/2025/12/003.jpg" alt="ビジネス・BPR・ITなど幅広いコンサルティングメニュー提供" />
           </div>
         </div>
       </div>
@@ -116,7 +123,11 @@ Template Name: DX Consulting Service Page
   <!-- Project Case Studies Section -->
   <section class="dx-cases">
     <div class="dx-container">
-      <h2 class="dx-section-title">プロジェクト事例</h2>
+      <p class="dx-section-label">Project Case Studies</p>
+      <div class="dx-title-with-border">
+        <h2 class="dx-section-title">プロジェクト事例</h2>
+        <div class="dx-title-border"></div>
+      </div>
       <p class="dx-section-subtitle">経営課題の最上流からプロジェクト導出し、ビジネス、BPR、ITなど幅広いテーマで顧問契約に従事しています。</p>
 
       <div class="dx-cases__grid">
@@ -164,75 +175,116 @@ Template Name: DX Consulting Service Page
   </section>
 
   <!-- Consultants Section -->
-  <section class="container team dx-consultants-team">
-    <div class="container__inner team__inner">
-      <h2 class="dx-section-title">コンサルタント紹介</h2>
+  <section class="dx-consultants">
+    <div class="dx-container">
+      <p class="dx-section-label">Our Consultants</p>
+      <div class="dx-title-with-border">
+        <h2 class="dx-section-title">コンサルタント紹介</h2>
+        <div class="dx-title-border"></div>
+      </div>
       <p class="dx-section-subtitle">大手事業会社、コンサルティングファーム出身者など幅広い人材が活躍中です。</p>
 
-      <div class="team">
-        <!-- Desktop: Grid Layout -->
-        <ul class="team-lists team-lists--desktop">
-          <li class="team-lists__person modal-syncer" data-target="modal-content-dx-01">
-            <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-            <p class="team-lists__person-name">村上 朝一</p>
-            <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-          </li>
-          <li class="team-lists__person modal-syncer" data-target="modal-content-dx-02">
-            <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-            <p class="team-lists__person-name">村上 朝一</p>
-            <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-          </li>
-          <li class="team-lists__person modal-syncer" data-target="modal-content-dx-03">
-            <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-            <p class="team-lists__person-name">村上 朝一</p>
-            <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-          </li>
-          <li class="team-lists__person modal-syncer" data-target="modal-content-dx-04">
-            <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-            <p class="team-lists__person-name">村上 朝一</p>
-            <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-          </li>
-        </ul>
+      <!-- Desktop: Grid -->
+      <div class="dx-consultants__grid dx-consultants__grid--desktop">
+        <!-- Consultant 1 -->
+        <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-01">
+          <div class="dx-consultant-card__photo">
+            <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+          </div>
+          <h3 class="dx-consultant-card__name">村上 朝一</h3>
+          <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+          <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+          <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+        </div>
 
-        <!-- Mobile: Swiper Carousel -->
-        <div class="team-swiper-container team-lists--mobile">
-          <div class="swiper consultants-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-01">
-                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-                  <p class="team-lists__person-name">村上 朝一</p>
-                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
+        <!-- Consultant 2 -->
+        <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-02">
+          <div class="dx-consultant-card__photo">
+            <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+          </div>
+          <h3 class="dx-consultant-card__name">村上 朝一</h3>
+          <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+          <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+          <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+        </div>
+
+        <!-- Consultant 3 -->
+        <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-03">
+          <div class="dx-consultant-card__photo">
+            <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+          </div>
+          <h3 class="dx-consultant-card__name">村上 朝一</h3>
+          <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+          <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+          <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+        </div>
+
+        <!-- Consultant 4 -->
+        <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-04">
+          <div class="dx-consultant-card__photo">
+            <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+          </div>
+          <h3 class="dx-consultant-card__name">村上 朝一</h3>
+          <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+          <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+          <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+        </div>
+      </div>
+
+      <!-- Mobile: Swiper Carousel -->
+      <div class="dx-consultants__swiper dx-consultants__grid--mobile">
+        <div class="swiper consultants-swiper-v2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-01">
+                <div class="dx-consultant-card__photo">
+                  <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-02">
-                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-                  <p class="team-lists__person-name">村上 朝一</p>
-                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-03">
-                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-                  <p class="team-lists__person-name">村上 朝一</p>
-                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="team-lists__person modal-syncer" data-target="modal-content-dx-04">
-                  <p class="team-lists__person-photo"><img class="" src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一"></p>
-                  <p class="team-lists__person-name">村上 朝一</p>
-                  <p class="team-lists__person-role">WealthPark株式会社<br>執行役員<br>DXコンサルティング事業部<br>事業部長</p>
-                </div>
+                <h3 class="dx-consultant-card__name">村上 朝一</h3>
+                <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+                <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+                <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
               </div>
             </div>
-            <!-- Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Navigation Arrows -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-slide">
+              <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-02">
+                <div class="dx-consultant-card__photo">
+                  <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+                </div>
+                <h3 class="dx-consultant-card__name">村上 朝一</h3>
+                <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+                <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+                <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-03">
+                <div class="dx-consultant-card__photo">
+                  <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+                </div>
+                <h3 class="dx-consultant-card__name">村上 朝一</h3>
+                <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+                <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+                <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="dx-consultant-card modal-syncer" data-target="modal-content-dx-04">
+                <div class="dx-consultant-card__photo">
+                  <img src="https://wealth-park.com/wp-content/themes/wp-next-landing-page/app/img/team_ph_murakami.png" alt="村上 朝一">
+                </div>
+                <h3 class="dx-consultant-card__name">村上 朝一</h3>
+                <p class="dx-consultant-card__title">執行役員<br>ディレクター</p>
+                <p class="dx-consultant-card__education">慶応義塾大学 政策・メディア研究科 修了</p>
+                <p class="dx-consultant-card__description">アクセンチュア、グラクソ・スミスクライン、ソフトバンクロボティクスにて、事業戦略、ビジネス・インテリジェンス（BI）、業務企画、システム企画/運用などに従事</p>
+              </div>
+            </div>
           </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Navigation Arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </div>
@@ -269,9 +321,14 @@ Template Name: DX Consulting Service Page
   </div>
 
   <!-- Recruitment Section -->
-  <section class="dx-recruitment">
+  <section class="dx-recruitment" id="recruitment">
     <div class="dx-container">
-      <h2 class="dx-section-title">採用情報</h2>
+      <p class="dx-section-label">Join Our Team</p>
+      <div class="dx-title-with-border">
+        <h2 class="dx-section-title">採用情報</h2>
+        <div class="dx-title-border"></div>
+      </div>
+      <p class="dx-section-subtitle">DXコンサルティングチームでは、以下の職種を募集しております。</p>
 
       <div class="dx-recruitment__grid">
         <!-- Job 1 -->
@@ -288,14 +345,6 @@ Template Name: DX Consulting Service Page
             <li>業務改革（BPR）プロジェクトのリード、プロジェクトマネジメント</li>
             <li>IT戦略策定、システム導入支援、デジタル化推進</li>
           </ul>
-          <div class="dx-job__buttons">
-            <a href="#" class="dx-button dx-button--outline">技術記事</a>
-            <a href="#" class="dx-button dx-button--outline">ポリシー記事</a>
-            <a href="#" class="dx-button dx-button--outline">キャリア座談会</a>
-          </div>
-          <div class="dx-job__apply">
-            <a href="https://herp.careers/v1/wealthpark/w9GoJAM7W46X/apply" class="dx-button dx-button--apply" target="_blank" rel="noopener">応募する</a>
-          </div>
         </div>
 
         <!-- Job 2 -->
@@ -312,15 +361,12 @@ Template Name: DX Consulting Service Page
             <li>クライアント企業のシステム全体最適化、モダナイゼーション支援</li>
             <li>データ活用基盤の構築、データドリブンな経営支援</li>
           </ul>
-          <div class="dx-job__buttons">
-            <a href="#" class="dx-button dx-button--outline">技術記事</a>
-            <a href="#" class="dx-button dx-button--outline">ポリシー記事</a>
-            <a href="#" class="dx-button dx-button--outline">キャリア座談会</a>
-          </div>
-          <div class="dx-job__apply">
-            <a href="https://herp.careers/v1/wealthpark/w9GoJAM7W46X/apply" class="dx-button dx-button--apply" target="_blank" rel="noopener">応募する</a>
-          </div>
         </div>
+      </div>
+
+      <!-- Apply Button -->
+      <div class="dx-recruitment__apply">
+        <a href="https://herp.careers/v1/wealthpark/requisition-groups/14d8a86f-60b1-4319-bc3a-b019bac74522" class="dx-button dx-button--apply" target="_blank" rel="noopener">応募する</a>
       </div>
     </div>
   </section>
@@ -334,114 +380,42 @@ Template Name: DX Consulting Service Page
   <?php include_once("tag_ptengine.php") ?>
 
   <script>
-  // Particles.js background effect for hero section
-  if (typeof particlesJS !== 'undefined') {
-    particlesJS('particles-js', {
-      "particles": {
-        "number": {
-          "value": 428,
-          "density": {
-            "enable": true,
-            "value_area": 1202.559045649142
-          }
-        },
-        "color": {
-          "value": "#b9b9b9"
-        },
-        "shape": {
-          "type": "circle",
-          "stroke": {
-            "width": 0,
-            "color": "#000000"
-          }
-        },
-        "opacity": {
-          "value": 0.5,
-          "random": false,
-          "anim": {
-            "enable": false,
-            "speed": 1,
-            "opacity_min": 0.1,
-            "sync": false
-          }
-        },
-        "size": {
-          "value": 3,
-          "random": true,
-          "anim": {
-            "enable": false,
-            "speed": 40,
-            "size_min": 0.1,
-            "sync": false
-          }
-        },
-        "line_linked": {
-          "enable": true,
-          "distance": 160.3412060865523,
-          "color": "#a7a7a7",
-          "opacity": 0.561194221302933,
-          "width": 1
-        },
-        "move": {
-          "enable": true,
-          "speed": 1,
-          "direction": "none",
-          "random": false,
-          "straight": false,
-          "out_mode": "out",
-          "bounce": false,
-          "attract": {
-            "enable": false,
-            "rotateX": 600,
-            "rotateY": 1042.21783956259
-          }
-        }
-      },
-      "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-          "onhover": {
-            "enable": false,
-            "mode": "repulse"
-          },
-          "onclick": {
-            "enable": true,
-            "mode": "push"
-          },
-          "resize": true
-        },
-        "modes": {
-          "grab": {
-            "distance": 400,
-            "line_linked": {
-              "opacity": 1
-            }
-          },
-          "bubble": {
-            "distance": 400,
-            "size": 40,
-            "duration": 2,
-            "opacity": 8,
-            "speed": 3
-          },
-          "repulse": {
-            "distance": 200,
-            "duration": 0.4
-          },
-          "push": {
-            "particles_nb": 4
-          },
-          "remove": {
-            "particles_nb": 2
-          }
-        }
-      },
-      "retina_detect": true
+  // Vanta.js DOTS background effect for hero section
+  if (typeof VANTA !== 'undefined' && typeof THREE !== 'undefined') {
+    VANTA.DOTS({
+      el: "#dx-hero-vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0,
+      color2: 0x0,
+      backgroundColor: 0xffffff,
+      showLines: false
     });
   }
 
-  // Typewriter effect for hero title
+  // Smooth scroll for anchor links
   document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scroll for recruitment section link
+    const recruitmentLink = document.querySelector('a[href="#recruitment"]');
+    if (recruitmentLink) {
+      recruitmentLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetSection = document.getElementById('recruitment');
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    }
+
+    // Typewriter effect for hero title
     const titleElement = document.querySelector('.dx-hero__title');
     const text = titleElement.textContent.trim();
     titleElement.textContent = '';
@@ -493,7 +467,7 @@ Template Name: DX Consulting Service Page
 
     // Initialize Swiper for consultants carousel (mobile only)
     if (typeof Swiper !== 'undefined') {
-      const consultantsSwiper = new Swiper('.consultants-swiper', {
+      const consultantsSwiper = new Swiper('.consultants-swiper-v2', {
         slidesPerView: 1,
         spaceBetween: 20,
         centeredSlides: true,
@@ -506,7 +480,6 @@ Template Name: DX Consulting Service Page
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-        // Enable touch/swipe
         touchRatio: 1,
         grabCursor: true,
       });
